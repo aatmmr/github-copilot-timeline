@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "scraped_at": "2026-03-23T22:01:00.918Z",
+    "total_entries": 2,
+    "year_filter": 2022,
+    "keyword_filter": "Copilot",
+    "date_range": {
+      "earliest": "2022-06-21",
+      "latest": "2022-12-07"
+    }
+  },
+  "entries": [
+    {
+      "date": "2022-12-07",
+      "title": "GitHub Copilot is now available for invoiced GitHub Enterprise customers",
+      "url": "https://github.blog/changelog/2022-12-07-github-copilot-is-now-available-for-invoiced-github-enterprise-customers",
+      "source": "Month 12",
+      "year": 2022,
+      "preview": {
+        "excerpt": "Starting today, GitHub Copilot is officially available to invoiced GitHub Enterprise customers with our new Copilot for Business offering which joins Copilot for Individuals. This new add-on means enterprise users…",
+        "html": "<p>Starting today, GitHub Copilot is officially available to invoiced GitHub Enterprise customers with our new Copilot for Business offering which joins Copilot for Individuals. This new add-on means enterprise users can now leverage GitHub Copilot’s powerful AI to write code and even entire functions with a simple editor extension. Copilot for Business will also provide additional capabilities including license management, centralized policy controls, and industry-leading privacy. Each license will cost $19 USD/month and will be billed directly to existing Enterprise accounts.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2022-06-21",
+      "title": "GitHub Copilot is now available to individual developers",
+      "url": "https://github.blog/changelog/2022-06-21-github-copilot-is-now-available-to-individual-developers",
+      "source": "Month 6",
+      "year": 2022,
+      "preview": {
+        "excerpt": "Today, we’re officially releasing GitHub Copilot, an AI pair programmer that suggests code in your editor, to all developers for $10 USD/month or $100 USD/year.",
+        "html": "<p>Today, we’re officially releasing GitHub Copilot, an AI pair programmer that suggests code in your editor, to all developers for $10 USD/month or $100 USD/year.</p><p>To show our appreciation to the Open Source and Learning communities, it will also be free to use for verified students and maintainers for popular open source project on GitHub.</p><p>Also thanks to users who are already in the technical preview program. You can continue enjoy free access until August 22nd.</p>",
+        "hasContent": true
+      }
+    }
+  ]
+}

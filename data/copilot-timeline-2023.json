@@ -1,0 +1,194 @@
+{
+  "metadata": {
+    "scraped_at": "2026-03-23T21:58:58.167Z",
+    "total_entries": 15,
+    "year_filter": 2023,
+    "keyword_filter": "Copilot",
+    "date_range": {
+      "earliest": "2023-02-14",
+      "latest": "2023-11-30"
+    }
+  },
+  "entries": [
+    {
+      "date": "2023-11-30",
+      "title": "GitHub Copilot – November 30th Update",
+      "url": "https://github.blog/changelog/2023-11-30-github-copilot-november-30th-update",
+      "source": "Month 11",
+      "year": 2023,
+      "preview": {
+        "excerpt": "This month, we made some big improvements to GitHub Copilot! Copilot Chat is now powered by GPT-4 and we updated the model used to detect off-topic chat queries. In VS…",
+        "html": "<p>This month, we made some big improvements to GitHub Copilot! Copilot Chat is now powered by GPT-4 and we updated the model used to detect off-topic chat queries. In VS Code, we are announcing the public beta of code referencing. We also introduced “agents” and the ability to generate commit messages with Copilot. In addition, we improved the context for explaining code and updated the Copilot menu UI. In JetBrains IDEs, we introduced partial acceptance of code suggestions.</p><p>We upgraded the Copilot Chat experience, bringing more accurate and useful code suggestions with OpenAI‘s GPT–4 model.</p><p>As part of our safety features, we‘ve improved our off-topic model to detect chat queries which do not relate to programming. This should result in significantly fewer filtered responses.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2023-11-20",
+      "title": "Copilot content exclusions – Temporary rollback and upcoming fix",
+      "url": "https://github.blog/changelog/2023-11-20-copilot-content-exclusions-temporary-rollback-and-upcoming-fix",
+      "source": "Month 11",
+      "year": 2023,
+      "preview": {
+        "excerpt": "Shortly after releasing Copilot content exclusions on November 8, 2023, our team observed that the feature was causing clients to be incorrectly blocked from using Copilot. This necessitated an immediate…",
+        "html": "<p>Shortly after releasing Copilot content exclusions on November 8, 2023, our team observed that the feature was causing clients to be incorrectly blocked from using Copilot. This necessitated an immediate rollback of this feature.</p><p>What Happened? Once the feature was enabled for all Copilot Business customers, we observed a spike in errors and some end-users being completely blocked from using Copilot. The problem was related to the way content exclusions policies are fetched from the client.</p><p>Current Actions and Next Steps: Our engineering team is engaged in deploying the necessary fixes. We have identified the faulty code in the client and are also deploying more verifications both server and client side to ensure this does not happen again. However, we want to approach the reintroduction of this feature with caution. Customers who had previously setup a content exclusions configuration are not affected by the rollback.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2023-11-08",
+      "title": "GitHub Copilot in the CLI now in public beta",
+      "url": "https://github.blog/changelog/2023-11-08-github-copilot-in-the-cli-now-in-public-beta",
+      "source": "Month 11",
+      "year": 2023,
+      "preview": {
+        "excerpt": "Learn your way around the command line with GitHub Copilot by your side! We’re excited to announce the launch of a brand new GitHub CLI extension that’s now available as…",
+        "html": "<p>Learn your way around the command line with GitHub Copilot by your side!</p><p>We’re excited to announce the launch of a brand new GitHub CLI extension that’s now available as public beta — GitHub Copilot in the CLI.</p><p>GitHub Copilot in the CLI brings GitHub Copilot right to your terminal, where you can ask it to do things like explain how a command works or suggest a command for a task you want to perform. Learn more about the extension in our docs and provide us your feedback on our repo.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2023-11-08",
+      "title": "Copilot Content Exclusion is now available in Public Beta",
+      "url": "https://github.blog/changelog/2023-11-08-copilot-content-exclusion-is-now-available-in-public-beta",
+      "source": "Month 11",
+      "year": 2023,
+      "preview": {
+        "excerpt": "Copilot Content Exclusion is now available in Public Beta Starting now and over the next few days GitHub Copilot Business customers will be able to prevent specified files or repositories…",
+        "html": "<p>Starting now and over the next few days GitHub Copilot Business customers will be able to prevent specified files or repositories from being used to inform code completion suggestions made by GitHub Copilot. GitHub Copilot will not be available in excluded files. Organization administrators or repository owners can choose which files or repositories are excluded. During the beta program the feature is limited to Copilot Code Completion and VSCode only. Copilot Chat and the other IDEs will shortly follow.</p><p>You can learn more about Copilot Content Exclusion or join the discussion in the GitHub Community.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2023-11-08",
+      "title": "Copilot in JetBrains IDEs – Chat is now available in private beta + New welcome guide",
+      "url": "https://github.blog/changelog/2023-11-08-copilot-in-jetbrains-ides-chat-is-now-available-in-private-beta-new-welcome-guide",
+      "source": "Month 11",
+      "year": 2023,
+      "preview": {
+        "excerpt": "Copilot Chat in JetBrains IDEs is now available in Private Beta We are happy to announce that a private beta of GitHub Copilot Chat is now available for users of…",
+        "html": "<p>We are happy to announce that a private beta of GitHub Copilot Chat is now available for users of JetBrains IDEs, including IntelliJ, PyCharm, WebStorm, Android Studio, and more. GitHub Copilot Chat is a powerful AI-assistant capable of helping every developer build at the speed of their minds in the natural language of their choice.</p><p>This private beta is available to Copilot Business customers and Copilot Individual users.</p><p>To get access to the private beta, sign up for this waitlist.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2023-10-31",
+      "title": "Copilot in GitHub Support (Beta)",
+      "url": "https://github.blog/changelog/2023-10-31-copilot-in-github-support-beta",
+      "source": "Month 10",
+      "year": 2023,
+      "preview": {
+        "excerpt": "We are excited to announce the beta release of Copilot in GitHub Support, a faster way to find answers to your GitHub related questions! In August, we launched the Alpha…",
+        "html": "<p>We are excited to announce the beta release of Copilot in GitHub Support, a faster way to find answers to your GitHub related questions! In August, we launched the Alpha to a limited number of randomly selected GitHub Enterprise Cloud customers. We have made lots of improvements to the experience since and are excited to welcome more customers into the new experience. Copilot in GitHub Support is now trained on the latest GitHub Enterprise Server documentation in addition to GitHub Enterprise Cloud documentation it was previously trained on.</p><p>Initially, we’re offering the Copilot experience to a limited number of randomly selected GitHub Enterprise customers. We hope to continue rolling out the experience to a wider audience over the coming months.</p><p>During the beta, GitHub will be reviewing answers provided and collecting feedback from participating customers to improve the accuracy.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2023-10-23",
+      "title": "GitHub Copilot – October 23rd Update",
+      "url": "https://github.blog/changelog/2023-10-23-copilot-october-23rd-update",
+      "source": "Month 10",
+      "year": 2023,
+      "preview": {
+        "excerpt": "Visual Studio 🤖 ARM Support Version 1.116.0.0 of the Visual Studio extension now supports ARM. 🔒 Support for Proxies That Use Basic Authentication Version 1.116.0.0 of the Visual Studio extension…",
+        "html": "<p>Version 1.116.0.0 of the Visual Studio extension now supports ARM.</p><p>Version 1.116.0.0 of the Visual Studio extension now support proxies that use a Basic Authentication scheme through an environment variable.</p><p>The /test slash command is now better at detecting the testing framework you are using and will generate new tests in the same style, available with the GitHub Copilot Chat extension for Visual Studio, now in beta.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2023-09-25",
+      "title": "Breaking change to GitHub Copilot service endpoints",
+      "url": "https://github.blog/changelog/2023-09-25-breaking-change-to-github-copilot-service-endpoints",
+      "source": "Month 9",
+      "year": 2023,
+      "preview": {
+        "excerpt": "Starting tomorrow Tuesday, September 26, 2023 we are updating the service endpoints for organizations with GitHub Copilot Chat beta enabled. If your organization uses a firewall to restrict network traffic,…",
+        "html": "<p>Starting tomorrow Tuesday, September 26, 2023 we are updating the service endpoints for organizations with GitHub Copilot Chat beta enabled. If your organization uses a firewall to restrict network traffic, we recommend updating your allowlist to include *.githubcopilot.com if you haven’t done so already. This endpoint is required to deliver Copilot Chat messages.</p><p>If you are not ready to upgrade to this new endpoint, you can pin your GitHub Copilot Chat version to 0.7.1 or earlier.</p><p>If your organization doesn’t use a firewall to restrict network traffic, then no change is necessary. For a complete list of GitHub Copilot service endpoints, see our docs.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2023-09-07",
+      "title": "GitHub Copilot – September 7th Update",
+      "url": "https://github.blog/changelog/2023-09-07-github-copilot-september-7th-update",
+      "source": "Month 9",
+      "year": 2023,
+      "preview": {
+        "excerpt": "In today’s update, we’re showing some love to our Copilot for Business admins with the release of the Copilot settings redesign and audit log integration! 💅🏻 Copilot for Business settings…",
+        "html": "<p>In today’s update, we’re showing some love to our Copilot for Business admins with the release of the Copilot settings redesign and audit log integration!</p><p>We’ve updated the Copilot for Business admin experience to provide an overview of important information and streamline the seat purchasing flow for Copilot. Quickly review the Copilot seats assigned and estimated charges at the top of the page, update your assignment settings without having to remember to hit a Save button, and verify the update to your bill when adding or removing users and teams.</p><p>Tracing updates to settings or seat assignments is key to help admins troubleshoot unexpected behavior within their organizations. Until now, admins had to contact support to help understand changes but as of today, they can now review Copilot events by using the GitHub Audit Log. To ensure administrators can quickly review Copilot updates, we included a new filter titled “Copilot Activity”. Understand settings changes, policy updates, and seat addition/removals right from the Audit Log UI in your organization settings.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2023-08-28",
+      "title": "GitHub Copilot – August 28th Update",
+      "url": "https://github.blog/changelog/2023-08-28-github-copilot-august-28th-update",
+      "source": "Month 8",
+      "year": 2023,
+      "preview": {
+        "excerpt": "This week, GitHub Copilot brings you a new interactive experience with chat in Visual Studio, several updates to the chat experience in Visual Studio Code, and the arrival of an…",
+        "html": "<p>This week, GitHub Copilot brings you a new interactive experience with chat in Visual Studio, several updates to the chat experience in Visual Studio Code, and the arrival of an expanded context window.</p><p>With the Interactive Code Assistant view, you can now refine code with Copilot Chat directly within your editor window – no need to switch to a chat window! Simply use “Ask Copilot” in your code to ask questions and view inline answers. Copilot’s code suggestions appear side by side with your code, following the Visual Studio diff view pattern. This lets you review, correct, and refine suggestions at your own pace before applying changes. Throughout the process, you remain in control. To learn more about chat in Visual Studio, head to the latest blog.</p><p>Forget deleting commands one letter at a time. With the latest update, commands now render as blocks and can be deleted with a single backspace! We’ll also automatically execute slash commands like /clear and /help when they’re selected from the suggestion list, removing the need to explicitly submit the chat request after accepting a completion.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2023-08-11",
+      "title": "GitHub Copilot – August 11th Update",
+      "url": "https://github.blog/changelog/2023-08-11-github-copilot-august-10th-update",
+      "source": "Month 8",
+      "year": 2023,
+      "preview": {
+        "excerpt": "Today's update brings the ability to set an allowlist for languages within the IntelliJ extension, quickly switch to an annual GitHub Copilot for Individuals plan, and the private preview of…",
+        "html": "<p>Today&#39;s update brings the ability to set an allowlist for languages within the IntelliJ extension, quickly switch to an annual GitHub Copilot for Individuals plan, and the private preview of code referencing.</p><p>The previous disabledLanguages configuration is replaced with a new, more flexible languageAllowList configuration. This change allows enabling or disabling all languages at once using the * wildcard.</p><p>The github-copilot.xml file is located at</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2023-08-04",
+      "title": "Copilot in GitHub Support (Alpha)",
+      "url": "https://github.blog/changelog/2023-08-04-copilot-in-github-support-alpha",
+      "source": "Month 8",
+      "year": 2023,
+      "preview": {
+        "excerpt": "We are excited to announce the alpha release of Copilot in GitHub Support, a faster way to find answers to your GitHub related questions! Copilot in GitHub Support is an…",
+        "html": "<p>We are excited to announce the alpha release of Copilot in GitHub Support, a faster way to find answers to your GitHub related questions! Copilot in GitHub Support is an AI-powered assistant that answers questions based on our official GitHub Enterprise Cloud documentation.</p><p>Initially, we’re offering the Copilot experience to a limited number of randomly selected GitHub Enterprise Cloud customers. We hope to continue rolling out the experience to a wider audience over the coming months.</p><p>If your ticket is selected, you’ll be provided with an option to opt-in while creating your support ticket. During the alpha, GitHub will be reviewing answers provided and collecting feedback from participating customers to improve the accuracy.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2023-07-14",
+      "title": "GitHub Copilot – July 14th Update",
+      "url": "https://github.blog/changelog/2023-07-14-github-copilot-july-14th-update",
+      "source": "Month 7",
+      "year": 2023,
+      "preview": {
+        "excerpt": "We continue our momentum with new capabilities for administrators and many improvements to Chat in our Visual Studio Code and Visual Studio extensions. 🤖 Automate GitHub Copilot access for your…",
+        "html": "<p>We continue our momentum with new capabilities for administrators and many improvements to Chat in our Visual Studio Code and Visual Studio extensions.</p><p>Note: This API is in Beta and is subject to change based on feedback.</p><p>Since the availability of GitHub Copilot for Business, we’ve heard feedback that assigning GitHub Copilot licenses to large sets of users through the UI can be tedious and time-consuming, particularly if you need to leverage Teams for your permissions management. Additionally, there has yet to be a way to routinely collect a list of stale users and revoke their access – forcing admins to spend precious time reviewing page after page of users’ last activity date and individually pruning access.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2023-06-29",
+      "title": "GitHub Copilot – June 29th Update",
+      "url": "https://github.blog/changelog/2023-06-29-copilot-june-2023-update",
+      "source": "Month 6",
+      "year": 2023,
+      "preview": {
+        "excerpt": "With GitHub Copilot being used by over 20K organizations 🎉 and the increased momentum of our Chat functionality, we wanted to take this opportunity to highlight recent updates and ships.…",
+        "html": "<p>With GitHub Copilot being used by over 20K organizations 🎉 and the increased momentum of our Chat functionality, we wanted to take this opportunity to highlight recent updates and ships.</p><p>Note: To get access to the new chat-based GitHub Copilot features, you’ll need to sign up for the GitHub Copilot chat waitlist.</p><p>The GitHub Copilot Chat extension graduated from Insiders into Stable with the release of Visual Studio Code v1.79. Highlights include: – Improvements to editor chat, most notably we have changed its default mode to be “livePreview”. In this mode, changes are applied directly to the document and shown with an embedded diff view. – When using Copilot in a notebook document, Copilot can use the notebook context to provide more relevant suggestions. – When running notebook cells, Copilot provides suggestions for cell execution failures. – When viewing a review thread, it is now possible to directly apply a review comment using Copilot. – An experiment using chat to ask quick programming questions without leaving context. – You can now delete a chat request/response pair by clicking the X icon in the chat request. – Added the ability to move chat sessions back and forth between the sidebar and editor.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2023-02-14",
+      "title": "GitHub Copilot for Business is now widely available",
+      "url": "https://github.blog/changelog/2023-02-14-github-copilot-for-business-is-now-widely-available",
+      "source": "Month 2",
+      "year": 2023,
+      "preview": {
+        "excerpt": "GitHub Copilot for Business is now available to Free, Team, and GitHub Enterprise Cloud customers. This update allows more organizations to give their developers access to GitHub Copilot’s powerful AI…",
+        "html": "<p>GitHub Copilot for Business is now available to Free, Team, and GitHub Enterprise Cloud customers. This update allows more organizations to give their developers access to GitHub Copilot’s powerful AI while providing administrators with license management and centralized policy controls on top of industry-leading privacy.</p><p>With this announcement, we’re also excited to share that we’ve made enhancements to: – security vulnerability filtering – improved Codex model – VPN proxy support via self-signed certs</p><p>These improvement mean that GitHub Copilot’s code suggestions are more secure, better utilized, and work in more environments.</p>",
+        "hasContent": true
+      }
+    }
+  ]
+}

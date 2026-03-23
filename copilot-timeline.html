@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Copilot Timeline</title>
+    <link rel="stylesheet" href="assets/timeline.css">
+</head>
+<body>
+    <main class="page">
+        <section class="hero">
+            <h1>GitHub Copilot Timeline</h1>
+            <p>
+                Explore GitHub Copilot changelog activity across years, months, or a custom date range.
+                Click any day in the heatmap to inspect the exact changes and preview the linked changelog entry.
+            </p>
+        </section>
+
+        <section class="controls" aria-label="Timeline controls">
+            <div class="field">
+                <label for="view-mode">View</label>
+                <select id="view-mode">
+                    <option value="year">Year</option>
+                    <option value="month">Month</option>
+                    <option value="custom">Custom period</option>
+                </select>
+            </div>
+
+            <div class="field">
+                <label for="year-select">Year</label>
+                <select id="year-select"></select>
+            </div>
+
+            <div class="field" id="month-field">
+                <label for="month-select">Month</label>
+                <select id="month-select"></select>
+            </div>
+
+            <div class="field" id="custom-start-field">
+                <label for="custom-start">Start date</label>
+                <input id="custom-start" type="date">
+            </div>
+
+            <div class="field" id="custom-end-field">
+                <label for="custom-end">End date</label>
+                <input id="custom-end" type="date">
+            </div>
+
+            <div class="field">
+                <label for="search-input">Search</label>
+                <input id="search-input" type="search" placeholder="Filter by keyword...">
+            </div>
+        </section>
+
+        <div class="period-nav" aria-label="Period navigation">
+            <button class="nav-btn" id="nav-prev" aria-label="Previous period">&#8592; Previous</button>
+            <button class="nav-btn" id="nav-next" aria-label="Next period">Next &#8594;</button>
+        </div>
+
+        <section class="summary">
+            <div class="summary-title">
+                <h2 id="timeline-title">GitHub Copilot Changes</h2>
+                <p id="timeline-subtitle">Loading timeline data...</p>
+            </div>
+            <div class="legend" aria-label="Heatmap legend">
+                <span>Less</span>
+                <div class="legend-scale">
+                    <div class="legend-square" data-level="0"></div>
+                    <div class="legend-square" data-level="1"></div>
+                    <div class="legend-square" data-level="2"></div>
+                    <div class="legend-square" data-level="3"></div>
+                    <div class="legend-square" data-level="4"></div>
+                </div>
+                <span>More</span>
+            </div>
+        </section>
+
+        <section class="stats-grid" aria-label="Selected period statistics">
+            <article class="stat-card">
+                <div class="stat-label">Total entries</div>
+                <div class="stat-value" id="stat-total-entries">0</div>
+            </article>
+            <article class="stat-card">
+                <div class="stat-label">Active days</div>
+                <div class="stat-value" id="stat-active-days">0</div>
+            </article>
+            <article class="stat-card">
+                <div class="stat-label">Average per week</div>
+                <div class="stat-value" id="stat-average-week">0</div>
+            </article>
+            <article class="stat-card">
+                <div class="stat-label">Busiest day</div>
+                <div class="stat-value" id="stat-busiest-day">None</div>
+            </article>
+        </section>
+
+        <section class="timeline-panel">
+            <div class="timeline-panel-header">
+                <p id="timeline-hint">Hover for counts. Click a day to inspect entries and preview the source post.</p>
+            </div>
+            <div class="heatmap-scroll">
+                <div class="heatmap-shell">
+                    <div class="month-labels" id="month-labels"></div>
+                    <div class="heatmap-row">
+                        <div class="day-labels" aria-hidden="true">
+                            <div class="day-label">Mon</div>
+                            <div class="day-label">Tue</div>
+                            <div class="day-label">Wed</div>
+                            <div class="day-label">Thu</div>
+                            <div class="day-label">Fri</div>
+                            <div class="day-label">Sat</div>
+                            <div class="day-label">Sun</div>
+                        </div>
+                        <div class="heatmap" id="heatmap"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="tooltip" id="tooltip"></div>
+
+    <div class="modal" id="day-modal" aria-hidden="true">
+        <div class="modal-backdrop" data-close-modal="true"></div>
+        <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+            <div class="modal-header">
+                <div>
+                    <h3 id="modal-title">Changes</h3>
+                    <p id="modal-subtitle">Select a day to inspect entries.</p>
+                </div>
+                <button class="close-button" id="modal-close" aria-label="Close">×</button>
+            </div>
+            <div class="modal-body">
+                <div class="entry-list-panel">
+                    <ul class="entry-list" id="day-entry-list"></ul>
+                    <div class="empty-state" id="day-empty-state" hidden>
+                        No Copilot changelog entries were recorded for this date.
+                    </div>
+                </div>
+                <div class="preview-panel">
+                    <h4 id="preview-title">Select an entry</h4>
+                    <div class="preview-meta" id="preview-meta">Pick an item from the list to inspect its changelog source.</div>
+                    <div class="preview-actions">
+                        <a class="button-link primary" id="preview-open-link" href="#" target="_blank" rel="noreferrer noopener">Open original entry</a>
+                    </div>
+                    <p class="preview-status" id="preview-status">The live preview below loads the selected changelog URL directly when the browser allows it.</p>
+                                        <div class="preview-content" id="preview-content">Select an entry to see its preview content.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/timeline-data.js"></script>
+    <script src="assets/timeline.js"></script>
+</body>
+</html>
