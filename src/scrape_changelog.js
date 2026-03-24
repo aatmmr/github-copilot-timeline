@@ -205,86 +205,83 @@ async function tryUrl(url, context = '') {
 }
 
 async function exploreArchives() {
-  console.log('Starting comprehensive archive exploration...\n');
-  
-  // 1. Try the main page first
-  await tryUrl(BASE_URL, 'Main page');
-  
-  // 2. Try date-based URLs for each month of 2025
-  console.log('\n--- Trying monthly archives ---');
-  for (let month = 1; month <= 12; month++) {
-    await tryUrl(`${BASE_URL}${YEAR}/${month.toString().padStart(2, '0')}/`, `Month ${month}`);
-    await new Promise(resolve => setTimeout(resolve, 500));
+  console.log('Starting archive exploration (current month only)...\n');
+
+  // Get current month
+  const currentMonth = new Date().getMonth() + 1;
+  const currentYear = new Date().getFullYear();
+  const isCurrentYear = YEAR === currentYear;
+
+  if (isCurrentYear) {
+    console.log(`Fetching data for current month only: ${currentMonth}/${YEAR}\n`);
+    // Only fetch the current month
+    console.log('--- Trying current month archive ---');
+    await tryUrl(`${BASE_URL}${YEAR}/${currentMonth.toString().padStart(2, '0')}/`, `Month ${currentMonth}`);
+  } else {
+    console.log(`Year ${YEAR} is not the current year. Skipping fetch.\n`);
   }
-  
-  // 3. Try yearly archive
-  console.log('\n--- Trying yearly archives ---');
-  await tryUrl(`${BASE_URL}${YEAR}/`, `Year ${YEAR}`);
-  
-  // 4. Try different pagination formats
-  console.log('\n--- Trying different pagination formats ---');
-  for (let page = 2; page <= 5; page++) {
-    await tryUrl(`${BASE_URL}page/${page}/`, `Page ${page}`);
-    await tryUrl(`${BASE_URL}?page=${page}`, `Query Page ${page}`);
-    await new Promise(resolve => setTimeout(resolve, 500));
-  }
-  
-  // 5. Try sitemap or feed endpoints
-  console.log('\n--- Trying alternative endpoints ---');
-  const altEndpoints = [
-    `${BASE_URL}feed/`,
-    `${BASE_URL}sitemap.xml`,
-    `${BASE_URL}archive/`,
-    `${BASE_URL}all/`,
-    'https://github.blog/feed/',
-    'https://github.blog/changelog/feed.xml',
-    'https://github.blog/changelog/atom.xml',
-  ];
-  
-  for (const endpoint of altEndpoints) {
-    await tryUrl(endpoint, `Alt endpoint`);
-    await new Promise(resolve => setTimeout(resolve, 500));
-  }
-  
-  // 6. Try searching for older entries using GitHub's search
-  console.log('\n--- Trying search endpoints ---');
-  const searchUrls = [
-    `https://github.blog/search?q=copilot+changelog`,
-    `https://github.blog/changelog/?q=copilot`,
-    `https://github.blog/changelog/search?q=copilot`,
-  ];
-  
-  for (const searchUrl of searchUrls) {
-    await tryUrl(searchUrl, 'Search');
-    await new Promise(resolve => setTimeout(resolve, 500));
-  }
-  
+
   console.log(`\nExploration complete. Found ${foundEntries.size} unique entries total.`);
   
   // Sort entries by date (newest first)
   entriesData.sort((a, b) => new Date(b.date) - new Date(a.date));
-  
+
+  // Load existing data and merge with newly scraped entries
+  const filename = `copilot-timeline-${YEAR}.json`;
+  const outputPath = path.join(__dirname, '..', 'data', filename);
+  let allEntries = entriesData;
+
+  if (fs.existsSync(outputPath)) {
+    try {
+      const existingData = JSON.parse(fs.readFileSync(outputPath, 'utf8'));
+      const existingEntries = existingData.entries || [];
+
+      // Create a set of new entry keys for quick lookup
+      const newEntryKeys = new Set(entriesData.map(e => `${e.date}-${e.title}`));
+
+      // Add existing entries that are not in the newly scraped data
+      // (keep existing entries for past months)
+      const pastMonthThreshold = new Date();
+      pastMonthThreshold.setDate(1); // First day of current month
+
+      for (const existingEntry of existingEntries) {
+        const entryKey = `${existingEntry.date}-${existingEntry.title}`;
+        if (!newEntryKeys.has(entryKey)) {
+          // Only keep existing entries from past months
+          if (new Date(existingEntry.date) < pastMonthThreshold) {
+            allEntries.push(existingEntry);
+          }
+        }
+      }
+
+      console.log(`\n📦 Merged with existing data. Kept ${existingEntries.length - newEntryKeys.size} past month entries.`);
+    } catch (err) {
+      console.log(`\n⚠️  Could not read existing data, starting fresh: ${err.message}`);
+    }
+  }
+
+  // Re-sort all entries by date (newest first)
+  allEntries.sort((a, b) => new Date(b.date) - new Date(a.date));
+
   // Create structured JSON output
   const output = {
     metadata: {
       scraped_at: new Date().toISOString(),
-      total_entries: entriesData.length,
+      total_entries: allEntries.length,
       year_filter: YEAR,
       keyword_filter: KEYWORD,
       date_range: {
-        earliest: entriesData.length > 0 ? entriesData[entriesData.length - 1].date : null,
-        latest: entriesData.length > 0 ? entriesData[0].date : null
+        earliest: allEntries.length > 0 ? allEntries[allEntries.length - 1].date : null,
+        latest: allEntries.length > 0 ? allEntries[0].date : null
       }
     },
-    entries: entriesData
+    entries: allEntries
   };
-  
+
   // Save to JSON file
-  const filename = `copilot-timeline-${YEAR}.json`;
-  const outputPath = path.join(__dirname, '..', 'data', filename);
   fs.writeFileSync(outputPath, JSON.stringify(output, null, 2));
   console.log(`\n✅ Data saved to ${outputPath}`);
-  console.log(`📊 Summary: ${entriesData.length} Copilot-related entries from ${YEAR}`);
+  console.log(`📊 Summary: ${allEntries.length} total Copilot-related entries from ${YEAR}`);
 }
 
 console.log(`Scraping GitHub changelog for year: ${YEAR}`);
