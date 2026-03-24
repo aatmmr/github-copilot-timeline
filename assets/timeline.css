@@ -566,6 +566,61 @@ input {
     margin-bottom: 0;
 }
 
+.site-footer {
+    margin-top: 22px;
+    padding: 14px 16px;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    background: rgba(17, 24, 39, 0.65);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.creator {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--text);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.creator:hover {
+    color: #c9d1d9;
+}
+
+.creator-avatar {
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 999px;
+    border: 0;
+    object-fit: cover;
+    box-shadow: none;
+    vertical-align: -0.35em;
+}
+
+.contribute-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 36px;
+    padding: 0 12px;
+    border-radius: 9px;
+    border: 1px solid var(--border);
+    background: var(--panel-2);
+    color: var(--text);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.contribute-link:hover {
+    background: var(--panel-3);
+}
+
 .sr-only {
     position: absolute;
     width: 1px;
@@ -619,6 +674,15 @@ input {
 
     .timeline-panel {
         padding: 16px;
+    }
+
+    .site-footer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .creator {
+        font-size: 14px;
     }
 
     .day-label {
