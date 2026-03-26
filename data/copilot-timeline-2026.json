@@ -1,24 +1,48 @@
 {
   "metadata": {
-    "scraped_at": "2026-03-25T03:34:32.937Z",
-    "total_entries": 30,
+    "scraped_at": "2026-03-26T03:44:49.011Z",
+    "total_entries": 32,
     "year_filter": 2026,
     "keyword_filter": "Copilot",
     "date_range": {
       "earliest": "2026-03-02",
-      "latest": "2026-03-24"
+      "latest": "2026-03-25"
     }
   },
   "entries": [
     {
+      "date": "2026-03-25",
+      "title": "GitHub Copilot for Jira — Public preview enhancements",
+      "url": "https://github.blog/changelog/2026-03-25-github-copilot-for-jira-public-preview-enhancements",
+      "source": "Month 3",
+      "year": 2026,
+      "preview": {
+        "excerpt": "Since launching the public preview of GitHub Copilot coding agent for Jira, we’ve been listening closely to customer feedback. Thank you to everyone who has taken the time to try…",
+        "html": "<p>Since launching the public preview of GitHub Copilot coding agent for Jira, we’ve been listening closely to customer feedback. Thank you to everyone who has taken the time to try the integration, report issues, and share suggestions—your input has directly shaped the improvements we have shipped.</p><p>Based on feedback from early adopters, the integration now provides better guidance, including clearer error messages and steps to resolve common configuration issues. We’ve also extended our documentation to more comprehensively cover integration prerequisites.</p><p>You can now choose which AI model Copilot coding agent uses for your task, directly from Jira. Simply indicate the model you wish to use in your comment when mentioning @GitHub Copilot. For more information on available models, see Supported AI models in Copilot.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-03-25",
+      "title": "Copilot usage metrics now identify active Copilot coding agent users",
+      "url": "https://github.blog/changelog/2026-03-25-copilot-usage-metrics-now-identify-active-copilot-coding-agent-users",
+      "source": "Month 3",
+      "year": 2026,
+      "preview": {
+        "excerpt": "Copilot usage metrics now indicate which users have Copilot coding agent (CCA) activity. Enterprise and organization admins can identify which users are actively using Copilot coding agent on daily and…",
+        "html": "<p>Copilot usage metrics now indicate which users have Copilot coding agent (CCA) activity. Enterprise and organization admins can identify which users are actively using Copilot coding agent on daily and 28-day reports, enabling a more complete picture of Copilot adoption across surfaces beyond the IDE.</p><p>Within the API response, CCA usage is denoted by the used_copilot_coding_agent field at the user level. You can learn more in our documentation about Copilot usage metrics.</p><p>This includes whether a user triggered a Copilot coding agent session by assigning Copilot to an issue or by tagging @copilot in a pull request comment.</p>",
+        "hasContent": true
+      }
+    },
+    {
       "date": "2026-03-24",
-      "title": "Ask @copilot to make changes to any pull request",
+      "title": "Ask @copilot to make changes to a pull request",
       "url": "https://github.blog/changelog/2026-03-24-ask-copilot-to-make-changes-to-any-pull-request",
       "source": "Month 3",
       "year": 2026,
       "preview": {
-        "excerpt": "You can now mention @copilot in any pull request to ask Copilot to make changes. You can ask @copilot to: Fix failing GitHub Actions workflows: @copilot Fix the failing tests…",
-        "html": "<p>You can now mention @copilot in any pull request to ask Copilot to make changes. You can ask @copilot to:</p><p>Copilot coding agent works in its own cloud-based development environment where it can make changes, validate its work with your tests and linter, and then push.</p><p>Previously, Copilot would open a new pull request on top of your existing pull request, using the existing pull request’s branch as its base branch. If you still want this behavior, you can ask Copilot in natural language: @copilot open a PR to fix the failing tests</p>",
+        "excerpt": "You can now mention @copilot in pull requests to ask Copilot to make changes. You can ask @copilot to: Fix failing GitHub Actions workflows: @copilot Fix the failing tests Address…",
+        "html": "<p>You can now mention @copilot in pull requests to ask Copilot to make changes. You can ask @copilot to:</p><p>Copilot coding agent works in its own cloud-based development environment where it can make changes, validate its work with your tests and linter, and then push.</p><p>Previously, Copilot would open a new pull request on top of your existing pull request, using the existing pull request’s branch as its base branch. If you still want this behavior, you can ask Copilot in natural language: @copilot open a PR to fix the failing tests.</p>",
         "hasContent": true
       }
     },
