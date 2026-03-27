@@ -1,15 +1,27 @@
 {
   "metadata": {
-    "scraped_at": "2026-03-26T03:44:49.011Z",
-    "total_entries": 32,
+    "scraped_at": "2026-03-27T03:46:36.983Z",
+    "total_entries": 33,
     "year_filter": 2026,
     "keyword_filter": "Copilot",
     "date_range": {
       "earliest": "2026-03-02",
-      "latest": "2026-03-25"
+      "latest": "2026-03-26"
     }
   },
   "entries": [
+    {
+      "date": "2026-03-26",
+      "title": "Ask @copilot to resolve merge conflicts on pull requests",
+      "url": "https://github.blog/changelog/2026-03-26-ask-copilot-to-resolve-merge-conflicts-on-pull-requests",
+      "source": "Month 3",
+      "year": 2026,
+      "preview": {
+        "excerpt": "Copilot coding agent can now resolve merge conflicts on pull requests. To ask Copilot to resolve merge conflicts, mention @copilot in a comment and tell it what to do: @copilot…",
+        "html": "<p>Copilot coding agent can now resolve merge conflicts on pull requests.</p><p>To ask Copilot to resolve merge conflicts, mention @copilot in a comment and tell it what to do: @copilot Merge in main and resolve the conflicts.</p><p>The agent works in its own cloud-based development environment where it can make the changes, check that the build and tests still pass, and then push.</p>",
+        "hasContent": true
+      }
+    },
     {
       "date": "2026-03-25",
       "title": "GitHub Copilot for Jira — Public preview enhancements",
