@@ -213,12 +213,17 @@ async function exploreArchives() {
   const isCurrentYear = YEAR === currentYear;
 
   if (isCurrentYear) {
-    console.log(`Fetching data for current month only: ${currentMonth}/${YEAR}\n`);
-    // Only fetch the current month
-    console.log('--- Trying current month archive ---');
-    await tryUrl(`${BASE_URL}${YEAR}/${currentMonth.toString().padStart(2, '0')}/`, `Month ${currentMonth}`);
+    console.log(`Fetching data for months 1–${currentMonth} of ${YEAR}\n`);
+    for (let month = 1; month <= currentMonth; month++) {
+      console.log(`--- Trying month ${month}/${YEAR} ---`);
+      await tryUrl(`${BASE_URL}${YEAR}/${month.toString().padStart(2, '0')}/`, `Month ${month}`);
+    }
   } else {
-    console.log(`Year ${YEAR} is not the current year. Skipping fetch.\n`);
+    console.log(`Fetching all months for year ${YEAR}...\n`);
+    for (let month = 1; month <= 12; month++) {
+      console.log(`--- Trying month ${month}/${YEAR} ---`);
+      await tryUrl(`${BASE_URL}${YEAR}/${month.toString().padStart(2, '0')}/`, `Month ${month}`);
+    }
   }
 
   console.log(`\nExploration complete. Found ${foundEntries.size} unique entries total.`);
@@ -240,21 +245,16 @@ async function exploreArchives() {
       const newEntryKeys = new Set(entriesData.map(e => `${e.date}-${e.title}`));
 
       // Add existing entries that are not in the newly scraped data
-      // (keep existing entries for past months)
-      const pastMonthThreshold = new Date();
-      pastMonthThreshold.setDate(1); // First day of current month
-
+      let kept = 0;
       for (const existingEntry of existingEntries) {
         const entryKey = `${existingEntry.date}-${existingEntry.title}`;
         if (!newEntryKeys.has(entryKey)) {
-          // Only keep existing entries from past months
-          if (new Date(existingEntry.date) < pastMonthThreshold) {
-            allEntries.push(existingEntry);
-          }
+          allEntries.push(existingEntry);
+          kept++;
         }
       }
 
-      console.log(`\n📦 Merged with existing data. Kept ${existingEntries.length - newEntryKeys.size} past month entries.`);
+      console.log(`\n📦 Merged with existing data. Kept ${kept} existing entries not found in this scrape.`);
     } catch (err) {
       console.log(`\n⚠️  Could not read existing data, starting fresh: ${err.message}`);
     }

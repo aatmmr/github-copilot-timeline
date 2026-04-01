@@ -3,8 +3,7 @@
     "scrape": "node src/scrape_changelog.js",
     "scrape:year": "node src/scrape_changelog.js",
     "verify": "node src/verify_data.js",
-    "embed": "node src/embed_data.js",
-    "build": "node src/create_working_html.js"
+    "embed": "node src/embed_data.js"
   },
   "dependencies": {
     "axios": "^1.12.2",

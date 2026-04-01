@@ -16,7 +16,7 @@ GitHub Actions (weekly cron) → Scrapers (Node.js) → JSON data file → HTML 
 |-------|-------|---------|
 | **Scraping** | `src/scrape_changelog*.js`, `src/fetch_copilot_rss.js` | Fetch entries from GitHub changelog via Puppeteer, Axios+Cheerio, or RSS |
 | **Data** | `data/copilot-timeline-YYYY.json` | Canonical data store — one file per year, entries with metadata |
-| **Processing** | `src/embed_data.js`, `src/create_working_html.js`, `src/verify_data.js` | Merge + embed JSON into HTML, generate HTML, validate data |
+| **Processing** | `src/embed_data.js`, `src/create_site.js`, `src/verify_data.js` | Merge + embed JSON into HTML, generate HTML, validate data |
 | **Styles** | `assets/timeline.css` | All page styles (dark theme, heatmap, modal, responsive) |
 | **App logic** | `assets/timeline.js` | Client-side filtering, rendering, events, and modal interactions |
 | **Data file** | `assets/timeline-data.js` | Generated JS file containing the merged `embeddedTimelineData` global (built by `npm run embed`) |
@@ -72,7 +72,7 @@ All scripts live in `src/` and can also be invoked directly, e.g. `node src/veri
 
 - **Hardcoded year filter**: Scripts filter for `2025` — change manually for other years
 - **Hardcoded filename**: All scripts reference `data/copilot-timeline-2025.json` — renaming breaks the pipeline
-- **No backups**: `src/embed_data.js` and `src/create_working_html.js` overwrite output files in place
+- **No backups**: `src/embed_data.js` and `src/create_site.js` overwrite output files in place
 - **Data file is generated**: `assets/timeline-data.js` is built by `npm run embed` from the `data/*.json` files — do not edit it manually
 - **Asset paths are relative**: `assets/timeline.css` and `assets/timeline.js` are referenced with relative paths — serving from a subdirectory without a base tag will break them
 - **Scraping fragility**: GitHub changelog HTML structure can change; selectors may need updating

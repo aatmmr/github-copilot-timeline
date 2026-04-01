@@ -60,7 +60,6 @@ function loadTimelineData() {
 
     return {
         manifest: {
-            generatedAt: new Date().toISOString(),
             currentYear: selectedYear,
             years,
             totalEntries: entries.length,

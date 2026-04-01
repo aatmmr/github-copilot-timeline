@@ -12,8 +12,10 @@ if (dataFiles.length === 0) {
     throw new Error('No timeline data files found in data/.');
 }
 
+const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 const overallByDate = {};
 let overallEntries = 0;
+let hasErrors = false;
 
 console.log('📊 JSON Data Summary (all years):');
 console.log(`- Files: ${dataFiles.join(', ')}`);
@@ -30,7 +32,24 @@ dataFiles.forEach((fileName) => {
     console.log(`  Year filter: ${metadata.year_filter ?? 'n/a'}`);
     console.log(`  Keyword filter: ${metadata.keyword_filter ?? 'n/a'}`);
 
-    entries.forEach((entry) => {
+    entries.forEach((entry, index) => {
+        const ref = `${fileName}[${index}]`;
+        if (!entry.date) {
+            console.error(`  ❌ Missing 'date' in ${ref}`);
+            hasErrors = true;
+        } else if (!DATE_RE.test(entry.date)) {
+            console.error(`  ❌ Invalid date format '${entry.date}' in ${ref} (expected YYYY-MM-DD)`);
+            hasErrors = true;
+        }
+        if (!entry.title) {
+            console.error(`  ❌ Missing 'title' in ${ref}`);
+            hasErrors = true;
+        }
+        if (!entry.url) {
+            console.error(`  ❌ Missing 'url' in ${ref}`);
+            hasErrors = true;
+        }
+
         const date = entry.date;
         overallByDate[date] = (overallByDate[date] || 0) + 1;
     });
@@ -58,5 +77,15 @@ console.log('\n📅 Monthly distribution (all years):');
 Object.entries(monthlyData).sort().forEach(([month, count]) => {
     console.log(`  ${month}: ${count} entries`);
 });
+
+if (overallEntries === 0) {
+    console.error('\n❌ Verification failed: no entries found across all data files.');
+    process.exit(1);
+}
+
+if (hasErrors) {
+    console.error('\n❌ Verification failed: one or more entries have invalid or missing fields.');
+    process.exit(1);
+}
 
 console.log('\n✅ Verification complete for all timeline data files.');
