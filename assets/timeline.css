@@ -21,6 +21,7 @@
     --square-hover-shadow: rgba(240, 246, 252, 0.12);
     --square-count-color: #f0f6fc;
     --square-count-shadow: 0 1px 1px rgba(0, 0, 0, 0.35);
+    --square-count-color-intense: #ffffff;
     --square-selected-color: rgba(88, 166, 255, 0.95);
     --body-gradient-1: rgba(46, 160, 67, 0.14);
     --body-gradient-2: rgba(56, 139, 253, 0.12);
@@ -66,6 +67,7 @@
     --square-hover-shadow: rgba(31, 35, 40, 0.12);
     --square-count-color: #1f2328;
     --square-count-shadow: none;
+    --square-count-color-intense: #ffffff;
     --square-selected-color: rgba(9, 105, 218, 0.85);
     --body-gradient-1: rgba(26, 127, 55, 0.07);
     --body-gradient-2: rgba(9, 105, 218, 0.06);
@@ -422,7 +424,7 @@ input {
 .heatmap-square[data-level="2"] { background: var(--cell-2); }
 .heatmap-square[data-level="3"] { background: var(--cell-3); }
 .heatmap-square[data-level="4"] { background: var(--cell-4); }
-.heatmap-square[data-level="4"] { color: var(--bg); text-shadow: none; }
+.heatmap-square[data-level="4"] { color: var(--square-count-color-intense); text-shadow: none; }
 
 .tooltip {
     position: fixed;
