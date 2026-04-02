@@ -1,15 +1,51 @@
 {
   "metadata": {
-    "scraped_at": "2026-04-01T14:32:05.638Z",
-    "total_entries": 76,
+    "scraped_at": "2026-04-02T03:40:38.432Z",
+    "total_entries": 79,
     "year_filter": 2026,
     "keyword_filter": "Copilot",
     "date_range": {
       "earliest": "2026-01-13",
-      "latest": "2026-03-31"
+      "latest": "2026-04-01"
     }
   },
   "entries": [
+    {
+      "date": "2026-04-01",
+      "title": "Research, plan, and code with Copilot cloud agent",
+      "url": "https://github.blog/changelog/2026-04-01-research-plan-and-code-with-copilot-cloud-agent",
+      "source": "Month 4",
+      "year": 2026,
+      "preview": {
+        "excerpt": "Copilot cloud agent (formerly known as Copilot coding agent) is no longer limited to pull-request workflows, unlocking a broader range of ways to put Copilot to work. More control over…",
+        "html": "<p>Copilot cloud agent (formerly known as Copilot coding agent) is no longer limited to pull-request workflows, unlocking a broader range of ways to put Copilot to work.</p><p>Up until now, working with Copilot cloud agent meant opening a pull request. Now Copilot can work on a branch without creating one, giving you more flexibility over how and when you move your work forward.</p><p>Ask Copilot to produce an implementation plan and review the approach before Copilot writes any code.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-04-01",
+      "title": "GPT-5.4 mini is now available in Copilot Student auto model selection",
+      "url": "https://github.blog/changelog/2026-04-01-gpt-5-4-mini-is-now-available-in-copilot-student-auto-model-selection",
+      "source": "Month 4",
+      "year": 2026,
+      "preview": {
+        "excerpt": "GPT-5.4 mini is now generally available to Copilot Student plan via Copilot auto model selection. This model is part of Auto in GitHub Copilot Chat on Visual Studio Code, Visual…",
+        "html": "<p>GPT-5.4 mini is now generally available to Copilot Student plan via Copilot auto model selection.</p><p>This model is part of Auto in GitHub Copilot Chat on Visual Studio Code, Visual Studio, JetBrains IDEs, Xcode, and Eclipse.</p><p>To learn more about the models available in Copilot, see our documentation on models and get started with Copilot today.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-04-01",
+      "title": "GitHub Mobile: Stay in flow with a refreshed Copilot tab and native session logs",
+      "url": "https://github.blog/changelog/2026-04-01-github-mobile-stay-in-flow-with-a-refreshed-copilot-tab-and-native-session-logs",
+      "source": "Month 4",
+      "year": 2026,
+      "preview": {
+        "excerpt": "GitHub Mobile now makes it easier to manage agentic workflows on the go with a refreshed Copilot tab, native session logs, and more in-app controls for agent sessions. On Android,…",
+        "html": "<p>GitHub Mobile now makes it easier to manage agentic workflows on the go with a refreshed Copilot tab, native session logs, and more in-app controls for agent sessions.</p><p>On Android, Copilot has moved to the navigation bar as the Copilot tab, making it faster to jump into your sessions and chat history. Inside the Copilot tab, a new Home experience gives you a clearer overview of your agent sessions and chat history so you can quickly find what you need.</p><p>A new session list view includes filters to sort tasks by state, with real-time updates as new sessions are kicked off. You can also do more with agent sessions directly in the app:</p>",
+        "hasContent": true
+      }
+    },
     {
       "date": "2026-03-31",
       "title": "Upcoming deprecation of Claude Sonnet 4 in GitHub Copilot",
@@ -73,13 +109,10 @@
     {
       "date": "2026-03-24",
       "title": "Ask @copilot to make changes to a pull request",
-      "title": "Ask @copilot to make changes to a pull request",
       "url": "https://github.blog/changelog/2026-03-24-ask-copilot-to-make-changes-to-any-pull-request",
       "source": "Month 3",
       "year": 2026,
       "preview": {
-        "excerpt": "You can now mention @copilot in pull requests to ask Copilot to make changes. You can ask @copilot to: Fix failing GitHub Actions workflows: @copilot Fix the failing tests Address…",
-        "html": "<p>You can now mention @copilot in pull requests to ask Copilot to make changes. You can ask @copilot to:</p><p>Copilot coding agent works in its own cloud-based development environment where it can make changes, validate its work with your tests and linter, and then push.</p><p>Previously, Copilot would open a new pull request on top of your existing pull request, using the existing pull request’s branch as its base branch. If you still want this behavior, you can ask Copilot in natural language: @copilot open a PR to fix the failing tests.</p>",
         "excerpt": "You can now mention @copilot in pull requests to ask Copilot to make changes. You can ask @copilot to: Fix failing GitHub Actions workflows: @copilot Fix the failing tests Address…",
         "html": "<p>You can now mention @copilot in pull requests to ask Copilot to make changes. You can ask @copilot to:</p><p>Copilot coding agent works in its own cloud-based development environment where it can make changes, validate its work with your tests and linter, and then push.</p><p>Previously, Copilot would open a new pull request on top of your existing pull request, using the existing pull request’s branch as its base branch. If you still want this behavior, you can ask Copilot in natural language: @copilot open a PR to fix the failing tests.</p>",
         "hasContent": true
