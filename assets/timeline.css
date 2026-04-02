@@ -23,9 +23,9 @@
     --square-count-shadow: 0 1px 1px rgba(0, 0, 0, 0.35);
     --square-count-color-intense: #ffffff;
     --square-selected-color: rgba(88, 166, 255, 0.95);
-    --body-gradient-1: rgba(46, 160, 67, 0.14);
-    --body-gradient-2: rgba(56, 139, 253, 0.12);
-    --body-gradient-end: #0b1220;
+    --body-gradient-1: rgba(46, 160, 67, 0.04);
+    --body-gradient-2: rgba(56, 139, 253, 0.03);
+    --body-gradient-end: #0d1117;
     --controls-bg: rgba(17, 24, 39, 0.82);
     --stat-bg: rgba(17, 24, 39, 0.82);
     --timeline-bg: rgba(17, 24, 39, 0.88);
