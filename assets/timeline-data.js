@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 442,
+        "totalEntries": 463,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-04-01"
+                "latest": "2026-04-15"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-04-02T03:40:38.432Z",
-            "total_entries": 79,
+            "scraped_at": "2026-04-15T19:26:42.043Z",
+            "total_entries": 100,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-04-01"
+                "latest": "2026-04-15"
             }
         }
     },
@@ -5387,6 +5387,258 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "Copilot cloud agent (formerly known as Copilot coding agent) is no longer limited to pull-request workflows, unlocking a broader range of ways to put Copilot to work. More control over…",
                 "html": "<p>Copilot cloud agent (formerly known as Copilot coding agent) is no longer limited to pull-request workflows, unlocking a broader range of ways to put Copilot to work.</p><p>Up until now, working with Copilot cloud agent meant opening a pull request. Now Copilot can work on a branch without creating one, giving you more flexibility over how and when you move your work forward.</p><p>Ask Copilot to produce an implementation plan and review the approach before Copilot writes any code.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-04-02",
+            "title": "Copilot organization custom instructions are generally available",
+            "url": "https://github.blog/changelog/2026-04-02-copilot-organization-custom-instructions-are-generally-available",
+            "source": "Month 4",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Organization custom instructions for GitHub Copilot, first introduced in April 2025, are now generally available. With organization custom instructions, Copilot Business and Copilot Enterprise organization administrators can set default instructions…",
+                "html": "<p>Organization custom instructions for GitHub Copilot, first introduced in April 2025, are now generally available.</p><p>With organization custom instructions, Copilot Business and Copilot Enterprise organization administrators can set default instructions that guide Copilot’s behavior across all repositories in their organization.</p><p>Organization custom instructions are applied across:</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-04-02",
+            "title": "Copilot SDK in public preview",
+            "url": "https://github.blog/changelog/2026-04-02-copilot-sdk-in-public-preview",
+            "source": "Month 4",
+            "year": 2026,
+            "preview": {
+                "excerpt": "The GitHub Copilot SDK is now available in public preview. This gives you the building blocks to embed Copilot’s agentic capabilities directly into your own applications, workflows, and platform services.…",
+                "html": "<p>The GitHub Copilot SDK is now available in public preview. This gives you the building blocks to embed Copilot’s agentic capabilities directly into your own applications, workflows, and platform services.</p><p>The Copilot SDK exposes the same production-tested agent runtime that powers GitHub Copilot cloud agent and Copilot CLI. Instead of building your own AI orchestration layer, you get tool invocation, streaming, file operations, and multi-turn sessions out of the box.</p><p>Build with the SDK in your language of choice:</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-04-02",
+            "title": "Copilot usage metrics now includes per-user GitHub Copilot CLI activity in organization reports",
+            "url": "https://github.blog/changelog/2026-04-02-copilot-usage-metrics-now-includes-per-user-github-copilot-cli-activity-in-organization-reports",
+            "source": "Month 4",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Following our enterprise-level, user-level, and organization-level CLI metrics releases, we’re completing coverage with per-user CLI breakdowns in organization reports. Organization admins can now see which individual users are active on…",
+                "html": "<p>Following our enterprise-level, user-level, and organization-level CLI metrics releases, we’re completing coverage with per-user CLI breakdowns in organization reports.</p><p>Organization admins can now see which individual users are active on the CLI and view their usage details in both 1-day and 28-day reports. This includes:</p><p>Visit our API documentation to learn more. Join the discussion within GitHub Community.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-04-02",
+            "title": "GitHub Copilot in Visual Studio — March update",
+            "url": "https://github.blog/changelog/2026-04-02-github-copilot-in-visual-studio-march-update",
+            "source": "Month 4",
+            "year": 2026,
+            "preview": {
+                "excerpt": "March 2026 brought a major step forward for GitHub Copilot extensibility in Visual Studio, with custom agents, agent skills, and new tools that make the agent smarter and more capable.…",
+                "html": "<p>March 2026 brought a major step forward for GitHub Copilot extensibility in Visual Studio, with custom agents, agent skills, and new tools that make the agent smarter and more capable.</p><p>Here’s what’s new with GitHub Copilot in the March update of Visual Studio 2026:</p><p>To learn more about what’s new, check out the Visual Studio blog and release notes.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-04-03",
+            "title": "Copilot cloud agent signs its commits",
+            "url": "https://github.blog/changelog/2026-04-03-copilot-cloud-agent-signs-its-commits",
+            "source": "Month 4",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Copilot cloud agent now signs every commit it makes. Signed commits appear as Verified on GitHub, giving you confidence that the commit was genuinely made by the agent and hasn’t…",
+                "html": "<p>Copilot cloud agent now signs every commit it makes. Signed commits appear as Verified on GitHub, giving you confidence that the commit was genuinely made by the agent and hasn’t been tampered with.</p><p>This means that Copilot cloud agent now works in repositories with the “Require signed commits” branch protection rule or ruleset enabled. Previously, this was one of the rules that the agent couldn’t comply with, which blocked it entirely from being used in those repositories.</p><p>To learn more about Copilot cloud agent, head to “About Copilot cloud agent” in the documentation.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-04-03",
+            "title": "Organization firewall settings for Copilot cloud agent",
+            "url": "https://github.blog/changelog/2026-04-03-organization-firewall-settings-for-copilot-cloud-agent",
+            "source": "Month 4",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Copilot cloud agent includes a built-in agent firewall to control Copilot’s internet access and help protect against prompt injection and data exfiltration. Until now, the firewall was configured at the…",
+                "html": "<p>Copilot cloud agent includes a built-in agent firewall to control Copilot’s internet access and help protect against prompt injection and data exfiltration. Until now, the firewall was configured at the repository level by repository admins.</p><p>Organization admins can now manage the agent firewall across all repositories in their organization. This makes it easier to roll out Copilot cloud agent at scale with the right defaults and guardrails for your needs. Organization admins can:</p><p>By default, all settings allow each repository to decide, preserving existing behavior.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-04-03",
+            "title": "Organization runner controls for Copilot cloud agent",
+            "url": "https://github.blog/changelog/2026-04-03-organization-runner-controls-for-copilot-cloud-agent",
+            "source": "Month 4",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Each time Copilot cloud agent works on a task, it starts a new development environment powered by GitHub Actions. By default, this runs on a standard GitHub-hosted runner, but teams…",
+                "html": "<p>Each time Copilot cloud agent works on a task, it starts a new development environment powered by GitHub Actions.</p><p>By default, this runs on a standard GitHub-hosted runner, but teams can also customize the agent environment to use large runners or self-hosted runners for faster performance, access to internal resources, and more.</p><p>Until now, the runner was configured at the repository level with a copilot-setup-steps.yml file. This made it difficult to roll out consistent defaults or enforce guardrails across an organization.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-04-06",
+            "title": "Copilot usage metrics now identify active and passive Copilot code review users",
+            "url": "https://github.blog/changelog/2026-04-06-copilot-usage-metrics-now-identify-active-and-passive-copilot-code-review-users",
+            "source": "Month 4",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Copilot usage metrics now indicate which users have Copilot code review (CCR) activity, and whether that activity was active or passive. Enterprise and organization admins can see how users engage…",
+                "html": "<p>Copilot usage metrics now indicate which users have Copilot code review (CCR) activity, and whether that activity was active or passive. Enterprise and organization admins can see how users engage with Copilot code review on daily and 28-day user-level reports, enabling a clearer picture of CCR adoption and engagement.</p><p>Within the API response, CCR usage is represented by two fields at the user level:</p><p>If a user has both active and passive CCR events on the same day, the active signal takes precedence.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-04-07",
+            "title": "Copilot CLI now supports BYOK and local models",
+            "url": "https://github.blog/changelog/2026-04-07-copilot-cli-now-supports-byok-and-local-models",
+            "source": "Month 4",
+            "year": 2026,
+            "preview": {
+                "excerpt": "GitHub Copilot CLI now lets you connect your own model provider or run fully local models instead of using GitHub-hosted model routing. This means you can use the models and…",
+                "html": "<p>GitHub Copilot CLI now lets you connect your own model provider or run fully local models instead of using GitHub-hosted model routing. This means you can use the models and providers you’re already paying for, operate in air-gapped environments, and maintain direct control over your LLM spend, all while keeping the same agentic terminal experience.</p><p>Configure Copilot CLI to use Azure OpenAI, Anthropic, or any OpenAI-compatible endpoint by setting a few environment variables before launching the CLI. This works with remote services like OpenAI and Azure OpenAI, as well as locally running models like Ollama, vLLM, and Foundry Local. See Using your own LLM models in GitHub Copilot CLI for setup instructions.</p><p>Set COPILOT_OFFLINE=true to prevent Copilot CLI from contacting GitHub’s servers. In offline mode, all telemetry is disabled and the CLI only communicates with your configured provider. Combined with a local model, this enables fully air-gapped development workflows. See Running in offline mode for details.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-04-08",
+            "title": "Copilot-reviewed pull request merge metrics now in the usage metrics API",
+            "url": "https://github.blog/changelog/2026-04-08-copilot-reviewed-pull-request-merge-metrics-now-in-the-usage-metrics-api",
+            "source": "Month 4",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Building on the pull request throughput and cycle-time metrics shipped in February, which track Copilot-created pull requests from the coding agent, the Copilot usage metrics API now includes two new…",
+                "html": "<p>Building on the pull request throughput and cycle-time metrics shipped in February, which track Copilot-created pull requests from the coding agent, the Copilot usage metrics API now includes two new metrics focused on Copilot code review activity:</p><p>The earlier release captured how Copilot helps author pull requests (i.e., coding agent–created pull requests that were merged and their time to merge).</p><p>These new metrics capture how Copilot helps review pull requests, letting you compare merge rates and cycle times for pull requests that received a Copilot code review against your baseline.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-04-08",
+            "title": "GitHub Copilot in Visual Studio Code, March Releases",
+            "url": "https://github.blog/changelog/2026-04-08-github-copilot-in-visual-studio-code-march-releases",
+            "source": "Month 4",
+            "year": 2026,
+            "preview": {
+                "excerpt": "VS Code moved to weekly stable releases. This changelog covers releases v1.111 through v1.115, the releases we shipped throughout March and early April 2026. The highlights include Autopilot for fully…",
+                "html": "<p>VS Code moved to weekly stable releases. This changelog covers releases v1.111 through v1.115, the releases we shipped throughout March and early April 2026. The highlights include Autopilot for fully autonomous agent sessions (in public preview), integrated browser debugging, image and video support in chat, and a new unified editor for managing chat customizations.</p><p>Learn more at the VS Code release notes and join the discussion within GitHub Community.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-04-08",
+            "title": "GitHub Mobile: Research and code with Copilot cloud agent anywhere",
+            "url": "https://github.blog/changelog/2026-04-08-github-mobile-research-and-code-with-copilot-cloud-agent-anywhere",
+            "source": "Month 4",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Copilot cloud agent now supports more than pull request workflows on GitHub Mobile, so you can keep work moving even when you’re away from your desk. Ask Copilot to research…",
+                "html": "<p>Copilot cloud agent now supports more than pull request workflows on GitHub Mobile, so you can keep work moving even when you’re away from your desk. Ask Copilot to research your codebase, generate an implementation plan before writing code, and make code changes on a branch without immediately opening a pull request. Review the diff, iterate until you’re ready, and create a pull request when the time is right, all from your mobile device.</p><p>If you already know you want to open a pull request, just say so in your prompt, and Copilot will create one automatically when the session completes.</p><p>Download or update GitHub Mobile today from the Apple App Store or Google Play Store to get started.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-04-09",
+            "title": "Ask Copilot in security assessments now available",
+            "url": "https://github.blog/changelog/2026-04-09-ask-copilot-in-security-assessments-now-available",
+            "source": "Month 4",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Organization admins and security managers can now jump into a Copilot experience directly from secret risk assessment or Code Security risk assessment results to get contextual explanations and guided next…",
+                "html": "<p>Organization admins and security managers can now jump into a Copilot experience directly from secret risk assessment or Code Security risk assessment results to get contextual explanations and guided next steps.</p><p>To learn more, visit our docs about running a Code Security risk assessment or secret risk assessment.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-04-10",
+            "title": "Copilot CLI activity now included in usage metrics totals and feature breakdowns",
+            "url": "https://github.blog/changelog/2026-04-10-copilot-cli-activity-now-included-in-usage-metrics-totals-and-feature-breakdowns",
+            "source": "Month 4",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Previous CLI metrics releases added a standalone totals_by_cli section to the Copilot usage metrics API with session counts, request counts, and token usage. That section reported CLI activity separately from…",
+                "html": "<p>Previous CLI metrics releases added a standalone totals_by_cli section to the Copilot usage metrics API with session counts, request counts, and token usage. That section reported CLI activity separately from the rest of the report—top-level totals and dimensional breakdowns reflected IDE activity only.</p><p>With this update, CLI activity is now integrated into the metrics you already use.</p><p>Top-level totals now include CLI contributions. The following fields now represent IDE + CLI combined:</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-04-10",
+            "title": "Copilot cloud agent’s validation tools are now 20% faster",
+            "url": "https://github.blog/changelog/2026-04-10-copilot-cloud-agents-validation-tools-are-now-20-faster",
+            "source": "Month 4",
+            "year": 2026,
+            "preview": {
+                "excerpt": "When Copilot cloud agent writes code, it automatically runs GitHub’s security and quality validation tools, including CodeQL, the GitHub Advisory Database, secret scanning, and Copilot code review. If any problems…",
+                "html": "<p>When Copilot cloud agent writes code, it automatically runs GitHub’s security and quality validation tools, including CodeQL, the GitHub Advisory Database, secret scanning, and Copilot code review. If any problems are found, Copilot attempts to resolve them before finishing work and requesting review.</p><p>These validation tools now run in parallel rather than sequentially, reducing validation time by 20%. This means Copilot works faster while still maintaining the same quality.</p><p>You can configure which validation tools the cloud agent runs from the Copilot -&gt; Cloud agent section in repository settings.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-04-10",
+            "title": "Copilot usage metrics now aggregate Copilot cloud agent active user counts",
+            "url": "https://github.blog/changelog/2026-04-10-copilot-usage-metrics-now-aggregate-copilot-cloud-agent-active-user-counts",
+            "source": "Month 4",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Note: We’ve recently renamed Copilot coding agent to Copilot cloud agent. We will be updating our data schema for all existing coding agent fields to reflect this change in the…",
+                "html": "<p>Note: We’ve recently renamed Copilot coding agent to Copilot cloud agent. We will be updating our data schema for all existing coding agent fields to reflect this change in the coming weeks, and new fields from now forward will reflect the name change.</p><p>Following the launch of cloud agent active user identification, enterprise and organization usage reports in the Copilot usage metrics API now include aggregated active user counts for the Copilot coding agent.</p><p>Three new fields are available in both 1-day and 28-day reports at the enterprise and organization levels:</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-04-10",
+            "title": "Enforcing new limits and retiring Opus 4.6 Fast from Copilot Pro+",
+            "url": "https://github.blog/changelog/2026-04-10-enforcing-new-limits-and-retiring-opus-4-6-fast-from-copilot-pro",
+            "source": "Month 4",
+            "year": 2026,
+            "preview": {
+                "excerpt": "As GitHub Copilot continues to rapidly grow, we continue to observe an increase in patterns of high concurrency and intense usage. While we understand this can be driven by legitimate…",
+                "html": "<p>As GitHub Copilot continues to rapidly grow, we continue to observe an increase in patterns of high concurrency and intense usage. While we understand this can be driven by legitimate workflows, this type of usage places significant strain on our shared infrastructure and operating resources.</p><p>To ensure every user gets a fast, reliable Copilot experience, we’re updating limits to better balance capacity. These will roll out over the next few weeks. There will be two types of limits that users may see. Both are meant to balance capacity and protect the system for everyone.</p><p>We recommend distributing requests more evenly over time when possible, rather than sending them in large, concentrated waves. You can also upgrade your plan for higher limits.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-04-10",
+            "title": "Pausing new GitHub Copilot Pro trials",
+            "url": "https://github.blog/changelog/2026-04-10-pausing-new-github-copilot-pro-trials",
+            "source": "Month 4",
+            "year": 2026,
+            "preview": {
+                "excerpt": "April 13, 2026 update: All GitHub Copilot Pro trials, including existing trials, have been paused while our investigation continues. In the meantime, if you were on a Copilot trial, you…",
+                "html": "<p>April 13, 2026 update: All GitHub Copilot Pro trials, including existing trials, have been paused while our investigation continues. In the meantime, if you were on a Copilot trial, you can change your plan to Copilot Free or upgrade to either a Copilot Pro or Pro+ subscription.</p><p>As GitHub Copilot continues to grow, we’ve seen a significant rise in abuse of our free trial system. To protect the experience and integrity of the platform for legitimate developers, we are pausing new GitHub Copilot Pro trials while we investigate and strengthen our protection mechanisms.</p><p>This is a temporary pause. We are actively working on improved safeguards to prevent misuse of the trial system, and we will reopen trials once those protections are in place. We’ll share an update as soon as new trials are available again.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-04-13",
+            "title": "Copilot data residency in US + EU and FedRAMP compliance now available",
+            "url": "https://github.blog/changelog/2026-04-13-copilot-data-residency-in-us-eu-and-fedramp-compliance-now-available",
+            "source": "Month 4",
+            "year": 2026,
+            "preview": {
+                "excerpt": "GitHub Copilot now supports data residency for US and EU regions, ensuring all inference processing and associated data stay within your designated geography. For US government customers, all model hosts…",
+                "html": "<p>GitHub Copilot now supports data residency for US and EU regions, ensuring all inference processing and associated data stay within your designated geography. For US government customers, all model hosts and infrastructure also meet FedRAMP Moderate authorization standards.</p><p>All generally available Copilot features are supported: agent mode, inline suggestions, chat, Copilot cloud agent, code review, pull request summaries, and Copilot CLI. Every feature uses only data-resident, compliance-certified model endpoints within your designated region.</p><p>A broad set of models is available at launch across both OpenAI and Anthropic, including GPT-5.4, Claude Sonnet 4.6, Claude Opus 4.6, and more. The full model-by-region matrix is available in our documentation for data residency and our FedRAMP docs. Gemini models are not yet supported, as GCP does not currently offer data-resident inference endpoints. We’ll bring them in once they become available. Recently released models may take additional time to appear in data-resident regions.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-04-13",
+            "title": "Fix merge conflicts in three clicks with Copilot cloud agent",
+            "url": "https://github.blog/changelog/2026-04-13-fix-merge-conflicts-in-three-clicks-with-copilot-cloud-agent",
+            "source": "Month 4",
+            "year": 2026,
+            "preview": {
+                "excerpt": "You can now fix merge conflicts in three clicks with the new Fix with Copilot button on github.com, powered by Copilot cloud agent. Click the button, and a comment is…",
+                "html": "<p>You can now fix merge conflicts in three clicks with the new Fix with Copilot button on github.com, powered by Copilot cloud agent.</p><p>Click the button, and a comment is prepopulated in the comment box asking Copilot to resolve conflicts.</p><p>When you submit the comment, Copilot fixes the conflicts, checks that the build and tests still pass, and pushes. And it does all this from its own cloud-based development environment.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-04-15",
+            "title": "Enable Copilot cloud agent via custom properties",
+            "url": "https://github.blog/changelog/2026-04-15-enable-copilot-cloud-agent-via-custom-properties",
+            "source": "Month 4",
+            "year": 2026,
+            "preview": {
+                "excerpt": "You can now selectively enable GitHub Copilot cloud agent (CCA) access on a per-organization basis. Previously, enterprise admins and AI managers could only enable the agent everywhere, disable it everywhere,…",
+                "html": "<p>You can now selectively enable GitHub Copilot cloud agent (CCA) access on a per-organization basis. Previously, enterprise admins and AI managers could only enable the agent everywhere, disable it everywhere, or let each organization decide. With this release, you can selectively enable CCA for specific organizations, individually or by using organization custom properties. You can manage this policy setting using the new API endpoints or directly in the AI Controls page.</p><p>Please note that using custom properties to enable CCA is evaluated once at the time of configuration. Organizations will not be automatically enabled or disabled for CCA if the custom property is added, removed, or modified later.</p><p>This new capability provides the flexibility to pilot CCA with select teams, progressively expand access, and manage adoption at your own pace.</p>",
                 "hasContent": true
             }
         }
