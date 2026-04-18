@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 463,
+        "totalEntries": 464,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-04-15"
+                "latest": "2026-04-17"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-04-17T04:09:53.386Z",
-            "total_entries": 100,
+            "scraped_at": "2026-04-18T03:45:24.364Z",
+            "total_entries": 101,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-04-15"
+                "latest": "2026-04-17"
             }
         }
     },
@@ -5639,6 +5639,18 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "You can now selectively enable GitHub Copilot cloud agent (CCA) access on a per-organization basis. Previously, enterprise admins and AI managers could only enable the agent everywhere, disable it everywhere,…",
                 "html": "<p>You can now selectively enable GitHub Copilot cloud agent (CCA) access on a per-organization basis. Previously, enterprise admins and AI managers could only enable the agent everywhere, disable it everywhere, or let each organization decide. With this release, you can selectively enable CCA for specific organizations, individually or by using organization custom properties. You can manage this policy setting using the new API endpoints or directly in the AI Controls page.</p><p>Please note that using custom properties to enable CCA is evaluated once at the time of configuration. Organizations will not be automatically enabled or disabled for CCA if the custom property is added, removed, or modified later.</p><p>This new capability provides the flexibility to pilot CCA with select teams, progressively expand access, and manage adoption at your own pace.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-04-17",
+            "title": "GitHub Copilot CLI now supports Copilot auto model selection",
+            "url": "https://github.blog/changelog/2026-04-17-github-copilot-cli-now-supports-copilot-auto-model-selection",
+            "source": "Month 4",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Copilot auto model selection is now generally available in GitHub Copilot CLI for all Copilot plans. With auto, Copilot chooses the most efficient model on your behalf. How it works…",
+                "html": "<p>Copilot auto model selection is now generally available in GitHub Copilot CLI for all Copilot plans. With auto, Copilot chooses the most efficient model on your behalf.</p><p>Auto is dynamic, giving you reliable access to your favorite models while mitigating rate limits. It routes to models like GPT-5.4, GPT-5.3-Codex, Sonnet 4.6, and Haiku 4.5 based on your plan and policies. The models auto will route to will change over time.</p><p>Premium request use for auto is billed based on the model it selects, which is currently limited to models with 0x to 1x multipliers like those listed above. All paid subscribers get a 10% discount on the model multiplier when using auto. For example, when auto uses a model that has a 1x multiplier, you’ll draw down 0.9 premium requests instead of 1.</p>",
                 "hasContent": true
             }
         }
