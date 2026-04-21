@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 464,
+        "totalEntries": 465,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-04-17"
+                "latest": "2026-04-20"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-04-20T04:17:19.528Z",
-            "total_entries": 101,
+            "scraped_at": "2026-04-21T04:09:33.351Z",
+            "total_entries": 102,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-04-17"
+                "latest": "2026-04-20"
             }
         }
     },
@@ -5651,6 +5651,18 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "Copilot auto model selection is now generally available in GitHub Copilot CLI for all Copilot plans. With auto, Copilot chooses the most efficient model on your behalf. How it works…",
                 "html": "<p>Copilot auto model selection is now generally available in GitHub Copilot CLI for all Copilot plans. With auto, Copilot chooses the most efficient model on your behalf.</p><p>Auto is dynamic, giving you reliable access to your favorite models while mitigating rate limits. It routes to models like GPT-5.4, GPT-5.3-Codex, Sonnet 4.6, and Haiku 4.5 based on your plan and policies. The models auto will route to will change over time.</p><p>Premium request use for auto is billed based on the model it selects, which is currently limited to models with 0x to 1x multipliers like those listed above. All paid subscribers get a 10% discount on the model multiplier when using auto. For example, when auto uses a model that has a 1x multiplier, you’ll draw down 0.9 premium requests instead of 1.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-04-20",
+            "title": "Changes to GitHub Copilot plans for individuals",
+            "url": "https://github.blog/changelog/2026-04-20-changes-to-github-copilot-plans-for-individuals",
+            "source": "Month 4",
+            "year": 2026,
+            "preview": {
+                "excerpt": "As shared in our recent blog post, we’re making the following changes to Copilot plans for individuals as part of our ongoing efforts to ensure service reliability and a sustainable…",
+                "html": "<p>As shared in our recent blog post, we’re making the following changes to Copilot plans for individuals as part of our ongoing efforts to ensure service reliability and a sustainable Copilot experience for all users.</p><p>To prioritize service quality for existing paying customers, we will be pausing new signups for our Student, Pro, and Pro+ plans. Copilot Free remains open for new signups, and existing users can still upgrade between plans.</p><p>Pro+ plans offer more than 5X the limits of Pro. Users on the Pro plan who need higher limits can upgrade to Pro+. Users will see warning notifications in VS Code and Copilot CLI as they approach their limit, and usage progress tracking is coming soon. For more details on how usage limits work, see our documentation on rate limits.</p>",
                 "hasContent": true
             }
         }
