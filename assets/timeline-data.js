@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 465,
+        "totalEntries": 466,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-04-20"
+                "latest": "2026-04-22"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-04-22T03:57:23.774Z",
-            "total_entries": 102,
+            "scraped_at": "2026-04-23T04:10:59.594Z",
+            "total_entries": 103,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-04-20"
+                "latest": "2026-04-22"
             }
         }
     },
@@ -5663,6 +5663,18 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "As shared in our recent blog post, we’re making the following changes to Copilot plans for individuals as part of our ongoing efforts to ensure service reliability and a sustainable…",
                 "html": "<p>As shared in our recent blog post, we’re making the following changes to Copilot plans for individuals as part of our ongoing efforts to ensure service reliability and a sustainable Copilot experience for all users.</p><p>To prioritize service quality for existing paying customers, we will be pausing new signups for our Student, Pro, and Pro+ plans. Copilot Free remains open for new signups, and existing users can still upgrade between plans.</p><p>Pro+ plans offer more than 5X the limits of Pro. Users on the Pro plan who need higher limits can upgrade to Pro+. Users will see warning notifications in VS Code and Copilot CLI as they approach their limit, and usage progress tracking is coming soon. For more details on how usage limits work, see our documentation on rate limits.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-04-22",
+            "title": "C++ code intelligence for GitHub Copilot CLI in public preview",
+            "url": "https://github.blog/changelog/2026-04-22-c-code-intelligence-for-github-copilot-cli-in-public-preview",
+            "source": "Month 4",
+            "year": 2026,
+            "preview": {
+                "excerpt": "The Microsoft C++ Language Server is now available in public preview for the Copilot CLI. Powered by the same IntelliSense engine used in Visual Studio and VS Code, it extends…",
+                "html": "<p>The Microsoft C++ Language Server is now available in public preview for the Copilot CLI. Powered by the same IntelliSense engine used in Visual Studio and VS Code, it extends precise, semantic C++ code intelligence beyond the IDE to the command line.</p><p>C++ is uniquely difficult for tools to reason about. Complex include hierarchies, macros, templates, and build-system-dependent configurations mean text search alone gives incomplete results. The C++ Language Server provides Copilot with precise semantic data (i.e., symbol definitions, references, call hierarchies, and type information) to complement grep-style search.</p><p>For example, with the language server, Copilot uses workspace symbol search and go-to-definition to find and understand relevant code directly. Without it, Copilot falls back to iterative grep searches, which can return irrelevant results across the codebase.</p>",
                 "hasContent": true
             }
         }

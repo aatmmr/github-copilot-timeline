@@ -1,15 +1,27 @@
 {
   "metadata": {
-    "scraped_at": "2026-04-22T03:57:23.774Z",
-    "total_entries": 102,
+    "scraped_at": "2026-04-23T04:10:59.594Z",
+    "total_entries": 103,
     "year_filter": 2026,
     "keyword_filter": "Copilot",
     "date_range": {
       "earliest": "2026-01-13",
-      "latest": "2026-04-20"
+      "latest": "2026-04-22"
     }
   },
   "entries": [
+    {
+      "date": "2026-04-22",
+      "title": "C++ code intelligence for GitHub Copilot CLI in public preview",
+      "url": "https://github.blog/changelog/2026-04-22-c-code-intelligence-for-github-copilot-cli-in-public-preview",
+      "source": "Month 4",
+      "year": 2026,
+      "preview": {
+        "excerpt": "The Microsoft C++ Language Server is now available in public preview for the Copilot CLI. Powered by the same IntelliSense engine used in Visual Studio and VS Code, it extends…",
+        "html": "<p>The Microsoft C++ Language Server is now available in public preview for the Copilot CLI. Powered by the same IntelliSense engine used in Visual Studio and VS Code, it extends precise, semantic C++ code intelligence beyond the IDE to the command line.</p><p>C++ is uniquely difficult for tools to reason about. Complex include hierarchies, macros, templates, and build-system-dependent configurations mean text search alone gives incomplete results. The C++ Language Server provides Copilot with precise semantic data (i.e., symbol definitions, references, call hierarchies, and type information) to complement grep-style search.</p><p>For example, with the language server, Copilot uses workspace symbol search and go-to-definition to find and understand relevant code directly. Without it, Copilot falls back to iterative grep searches, which can return irrelevant results across the codebase.</p>",
+        "hasContent": true
+      }
+    },
     {
       "date": "2026-04-20",
       "title": "Changes to GitHub Copilot plans for individuals",
