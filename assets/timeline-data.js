@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 466,
+        "totalEntries": 473,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-04-22"
+                "latest": "2026-04-23"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-04-23T04:10:59.594Z",
-            "total_entries": 103,
+            "scraped_at": "2026-04-24T04:15:23.261Z",
+            "total_entries": 110,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-04-22"
+                "latest": "2026-04-23"
             }
         }
     },
@@ -5038,7 +5038,7 @@ const embeddedTimelineData = {
             "year": 2026,
             "preview": {
                 "excerpt": "You can now assign Jira issues to GitHub Copilot coding agent, our asynchronous, autonomous agent, and get AI-generated draft pull requests created in your GitHub repository. When you assign a…",
-                "html": "<p>You can now assign Jira issues to GitHub Copilot coding agent, our asynchronous, autonomous agent, and get AI-generated draft pull requests created in your GitHub repository.</p><p>When you assign a Jira issue to Copilot, it will:</p><p>This integration is available for GitHub Data Residency customers in any supported region. For more information, see our intergration documentation.</p>",
+                "html": "<p>You can now assign Jira issues to GitHub Copilot coding agent, our asynchronous, autonomous agent, and get AI-generated draft pull requests created in your GitHub repository.</p><p>When you assign a Jira issue to Copilot, it will:</p><p>Editor’s note (April 23, 2026): Updated the survey link.</p>",
                 "hasContent": true
             }
         },
@@ -5675,6 +5675,90 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "The Microsoft C++ Language Server is now available in public preview for the Copilot CLI. Powered by the same IntelliSense engine used in Visual Studio and VS Code, it extends…",
                 "html": "<p>The Microsoft C++ Language Server is now available in public preview for the Copilot CLI. Powered by the same IntelliSense engine used in Visual Studio and VS Code, it extends precise, semantic C++ code intelligence beyond the IDE to the command line.</p><p>C++ is uniquely difficult for tools to reason about. Complex include hierarchies, macros, templates, and build-system-dependent configurations mean text search alone gives incomplete results. The C++ Language Server provides Copilot with precise semantic data (i.e., symbol definitions, references, call hierarchies, and type information) to complement grep-style search.</p><p>For example, with the language server, Copilot uses workspace symbol search and go-to-definition to find and understand relevant code directly. Without it, Copilot falls back to iterative grep searches, which can return irrelevant results across the codebase.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-04-22",
+            "title": "Copilot code review user counts now aggregate in usage metrics API",
+            "url": "https://github.blog/changelog/2026-04-22-copilot-code-review-user-counts-now-aggregate-in-usage-metrics-api",
+            "source": "Month 4",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Following the launch of Copilot code review active and passive user identification, enterprise and organization usage reports in the Copilot usage metrics API now include aggregated active and passive user…",
+                "html": "<p>Following the launch of Copilot code review active and passive user identification, enterprise and organization usage reports in the Copilot usage metrics API now include aggregated active and passive user counts for Copilot code review.</p><p>Six new fields are available in both 1-day and 28-day reports at the enterprise and organization levels:</p><p>Active users are those who manually requested a Copilot code review or applied a Copilot suggestion. Passive users are those whose reviews were auto-triggered by a repository or organization policy, with no active signal in the same period. When a user has both active and passive signals, they are counted as active only—active always trumps passive.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-04-22",
+            "title": "GitHub Copilot for Jira: Our latest enhancements",
+            "url": "https://github.blog/changelog/2026-04-22-github-copilot-for-jira-our-latest-enhancements",
+            "source": "Month 4",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Since our last update, we’ve continued to invest in making the GitHub Copilot cloud agent for Jira integration more powerful and customizable. These improvements give teams greater control over how…",
+                "html": "<p>Since our last update, we’ve continued to invest in making the GitHub Copilot cloud agent for Jira integration more powerful and customizable. These improvements give teams greater control over how Copilot works within their existing Jira workflows.</p><p>You can now specify in the Jira ticket a custom agent from your GitHub repository to be used when fulfilling the task. This allows teams to tailor Copilot cloud agent’s behavior to their specific needs, directly from the Jira ticket. For more information on custom agents, see Customizing Copilot cloud agent.</p><p>Copilot cloud agent can now read the content of Atlassian custom fields—such as acceptance criteria—and include that context when working on your issue. This means the agent receives richer, more structured context.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-04-22",
+            "title": "Pausing new self-serve signups for GitHub Copilot Business",
+            "url": "https://github.blog/changelog/2026-04-22-pausing-new-self-serve-signups-for-github-copilot-business",
+            "source": "Month 4",
+            "year": 2026,
+            "preview": {
+                "excerpt": "As part of our ongoing efforts to ensure a reliable and sustainable Copilot experience for all users, we are pausing new self-serve signups for GitHub Copilot Business for organizations on…",
+                "html": "<p>As part of our ongoing efforts to ensure a reliable and sustainable Copilot experience for all users, we are pausing new self-serve signups for GitHub Copilot Business for organizations on GitHub Free and GitHub Team plans. Existing Copilot Business customers are not affected and can continue adding seats and using the service as they normally would.</p><p>We will share an update as soon as self-serve signups are available again.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-04-22",
+            "title": "Upcoming change to Copilot usage metrics report download URLs",
+            "url": "https://github.blog/changelog/2026-04-22-upcoming-change-to-copilot-usage-metrics-report-download-urls",
+            "source": "Month 4",
+            "year": 2026,
+            "preview": {
+                "excerpt": "We are migrating the download URLs for Copilot usage metrics reports from Azure Front Door domains to a stable, GitHub-owned custom domain. This change will improve URL stability and make…",
+                "html": "<p>We are migrating the download URLs for Copilot usage metrics reports from Azure Front Door domains to a stable, GitHub-owned custom domain. This change will improve URL stability and make firewall and proxy allowlist management easier for enterprise customers.</p><p>Starting May 20, 2026, Copilot usage metrics report download links—returned by the Copilot Usage Metrics API—will use the new domain copilot-reports.github.com instead of the current copilot-reports-*.b01.azurefd.net pattern.</p><p>If your organization uses a firewall or proxy allowlist, add the following domain before May 20, 2026:</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-04-23",
+            "title": "Better debugging with GitHub Copilot on the web",
+            "url": "https://github.blog/changelog/2026-04-23-better-debugging-with-github-copilot-on-the-web",
+            "source": "Month 4",
+            "year": 2026,
+            "preview": {
+                "excerpt": "GitHub Copilot Chat in github.com helps you get to the root cause of an error faster when you paste a stack trace. Copilot recognizes stack traces more reliably and will guide you through a structured root-cause analysis using the stack trace plus your repository’s code context, helping you move from “where it crashed” to “why it happened”.",
+                "html": "<p>GitHub Copilot Chat in github.com helps you get to the root cause of an error faster when you paste a stack trace. Copilot recognizes stack traces more reliably and will guide you through a structured root-cause analysis using the stack trace plus your repository’s code context, helping you move from “where it crashed” to “why it happened”.</p><p>So that you can act faster, Copilot’s responses are now more structured in the following ways:</p><p>Paste a stack trace into GitHub Copilot Chat on the web and include the relevant repository or file context. If you have a repro step or input that triggers the error, add it for even faster root-cause analysis. This is available now to anyone using Copilot in github.com.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-04-23",
+            "title": "Copilot Chat improvements for pull requests",
+            "url": "https://github.blog/changelog/2026-04-23-copilot-chat-improvements-for-pull-requests",
+            "source": "Month 4",
+            "year": 2026,
+            "preview": {
+                "excerpt": "GitHub Copilot Chat now provides richer context and new capabilities when you’re working with diffs and pull requests. You can access this functionality by asking a question about a pull…",
+                "html": "<p>GitHub Copilot Chat now provides richer context and new capabilities when you’re working with diffs and pull requests.</p><p>You can access this functionality by asking a question about a pull request in github.com/copilot, or via the global Copilot navigation, which allows you to open chat over any GitHub surface.</p><p>Public-preview-enabled users can also click the Copilot button on a diff to ask a series of questions to better understand the changes or the related pull request.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-04-23",
+            "title": "Copilot cloud agent fields added to usage metrics",
+            "url": "https://github.blog/changelog/2026-04-23-copilot-cloud-agent-fields-added-to-usage-metrics",
+            "source": "Month 4",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Following the Copilot coding agent to Copilot cloud agent rename, the Copilot usage metrics API now includes a new used_copilot_cloud_agent field in user-level reports. This boolean field mirrors the existing…",
+                "html": "<p>Following the Copilot coding agent to Copilot cloud agent rename, the Copilot usage metrics API now includes a new used_copilot_cloud_agent field in user-level reports. This boolean field mirrors the existing used_copilot_coding_agent flag under the updated product name.</p><p>The field is available in single-day and 28-day rolling window reports at both the enterprise and organization user levels. It returns the same value as the existing used_copilot_coding_agent field, which will be preserved for backward compatibility until August 1, 2026.</p><p>Join the discussion within GitHub Community.</p>",
                 "hasContent": true
             }
         }
