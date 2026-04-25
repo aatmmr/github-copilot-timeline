@@ -1,15 +1,39 @@
 {
   "metadata": {
-    "scraped_at": "2026-04-24T04:15:23.261Z",
-    "total_entries": 110,
+    "scraped_at": "2026-04-25T03:49:44.282Z",
+    "total_entries": 114,
     "year_filter": 2026,
     "keyword_filter": "Copilot",
     "date_range": {
       "earliest": "2026-01-13",
-      "latest": "2026-04-23"
+      "latest": "2026-04-24"
     }
   },
   "entries": [
+    {
+      "date": "2026-04-24",
+      "title": "GPT-5.5 is generally available for GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-04-24-gpt-5-5-is-generally-available-for-github-copilot",
+      "source": "Month 4",
+      "year": 2026,
+      "preview": {
+        "excerpt": "GPT-5.5, OpenAI’s latest GPT model, is now rolling out on GitHub Copilot. In our early testing, GPT-5.5 delivers its strongest performance on complex, multi-step agentic coding task and resolves real-world…",
+        "html": "<p>GPT-5.5, OpenAI’s latest GPT model, is now rolling out on GitHub Copilot. In our early testing, GPT-5.5 delivers its strongest performance on complex, multi-step agentic coding task and resolves real-world coding challenges previous GPT models couldn’t.</p><p>Note that this model is launching with a 7.5× premium request multiplier as part of promotional pricing.</p><p>GPT-5.5 will be available to Copilot Pro+, Copilot Business, and Copilot Enterprise users.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-04-24",
+      "title": "Inline agent mode in preview and more in GitHub Copilot for JetBrains IDEs",
+      "url": "https://github.blog/changelog/2026-04-24-inline-agent-mode-in-preview-and-more-in-github-copilot-for-jetbrains-ides",
+      "source": "Month 4",
+      "year": 2026,
+      "preview": {
+        "excerpt": "This update introduces inline agent mode in preview, enhancements to Next Edit Suggestions, global auto approve, and more flexible controls for terminal commands and file edits. It also includes several…",
+        "html": "<p>This update introduces inline agent mode in preview, enhancements to Next Edit Suggestions, global auto approve, and more flexible controls for terminal commands and file edits. It also includes several user experience refinements and quality improvements across GitHub Copilot for JetBrains IDEs.</p><p>Inline agent mode is now available in public preview. This brings agent mode capabilities into the existing inline chat experience, making it possible to invoke more powerful, in-context assistance directly from the editor without switching over to the chat panel.</p><p>To access inline agent mode, first open Inline Chat. You can use the default shortcuts Shift+Ctrl+I (Windows) or Shift+Cmd+I (Mac). Alternatively, right-click in the editor and select Open Inline Chat, or click the gutter icon and choose Inline Chat. Then switch to agent mode in the Inline Chat panel.</p>",
+        "hasContent": true
+      }
+    },
     {
       "date": "2026-04-23",
       "title": "Copilot Chat improvements for pull requests",
@@ -131,6 +155,18 @@
       }
     },
     {
+      "date": "2026-04-16",
+      "title": "Copilot CLI supports custom registry based MCP allowlists",
+      "url": "https://github.blog/changelog/2026-04-16-copilot-cli-supports-custom-registry-based-mcp-allowlists",
+      "source": "Month 4",
+      "year": 2026,
+      "preview": {
+        "excerpt": "Enterprise and organization administrators can now bring their own MCP registry and enforce allowlist policies in Copilot CLI. This feature is in public preview and brings MCP governance controls to…",
+        "html": "<p>Enterprise and organization administrators can now bring their own MCP registry and enforce allowlist policies in Copilot CLI. This feature is in public preview and brings MCP governance controls to developers working directly from the CLI.</p><p>Bring your own registry (BYOR) lets GitHub administrators use the URL of an internally managed MCP registry to their enterprise or organization’s Copilot policies page. Once configured, it prevents any usage of MCP servers (at runtime) that are not defined in your registry.</p><p>This feature is available for Copilot Business and Copilot Enterprise customers. With bring your own registry support in Copilot CLI, you can now extend MCP governance controls to your terminal-based developer workflows.</p>",
+        "hasContent": true
+      }
+    },
+    {
       "date": "2026-04-15",
       "title": "Enable Copilot cloud agent via custom properties",
       "url": "https://github.blog/changelog/2026-04-15-enable-copilot-cloud-agent-via-custom-properties",
@@ -144,13 +180,13 @@
     },
     {
       "date": "2026-04-13",
-      "title": "Copilot data residency in US + EU and FedRAMP compliance now available",
+      "title": "Data residency (US + EU) and FedRAMP-authorized models now available in Copilot",
       "url": "https://github.blog/changelog/2026-04-13-copilot-data-residency-in-us-eu-and-fedramp-compliance-now-available",
       "source": "Month 4",
       "year": 2026,
       "preview": {
-        "excerpt": "GitHub Copilot now supports data residency for US and EU regions, ensuring all inference processing and associated data stay within your designated geography. For US government customers, all model hosts…",
-        "html": "<p>GitHub Copilot now supports data residency for US and EU regions, ensuring all inference processing and associated data stay within your designated geography. For US government customers, all model hosts and infrastructure also meet FedRAMP Moderate authorization standards.</p><p>All generally available Copilot features are supported: agent mode, inline suggestions, chat, Copilot cloud agent, code review, pull request summaries, and Copilot CLI. Every feature uses only data-resident, compliance-certified model endpoints within your designated region.</p><p>A broad set of models is available at launch across both OpenAI and Anthropic, including GPT-5.4, Claude Sonnet 4.6, Claude Opus 4.6, and more. The full model-by-region matrix is available in our documentation for data residency and our FedRAMP docs. Gemini models are not yet supported, as GCP does not currently offer data-resident inference endpoints. We’ll bring them in once they become available. Recently released models may take additional time to appear in data-resident regions.</p>",
+        "excerpt": "Editor’s note (April 24, 2026): Updated this post to include more detailed and specific information about these offerings. We also added links for reference. These changes were made in an…",
+        "html": "<p>Editor’s note (April 24, 2026): Updated this post to include more detailed and specific information about these offerings. We also added links for reference. These changes were made in an effort to add some clarity about what has changed.</p><p>GitHub Copilot now supports data residency for US and EU regions, ensuring all inference processing and associated data stay within your designated geography. EU aligns with Microsoft’s EU Data Boundary, which covers EU member states plus EFTA countries (i.e., Iceland, Liechtenstein, Norway, and Switzerland) as of May 1, 2026. For US government customers, the underlying model hosts and infrastructure are FedRAMP Moderate authorized. Copilot itself will become FedRAMP authorized as part of GHEC-DR’s authorization path.</p><p>All generally available Copilot features are supported: agent mode, inline suggestions, chat, Copilot cloud agent, code review, pull request summaries, and Copilot CLI. Every feature routes exclusively through data-resident model endpoints, and for US government customers, through FedRAMP Moderate–authorized model infrastructure within your designated region.</p>",
         "hasContent": true
       }
     },
@@ -163,6 +199,18 @@
       "preview": {
         "excerpt": "You can now fix merge conflicts in three clicks with the new Fix with Copilot button on github.com, powered by Copilot cloud agent. Click the button, and a comment is…",
         "html": "<p>You can now fix merge conflicts in three clicks with the new Fix with Copilot button on github.com, powered by Copilot cloud agent.</p><p>Click the button, and a comment is prepopulated in the comment box asking Copilot to resolve conflicts.</p><p>When you submit the comment, Copilot fixes the conflicts, checks that the build and tests still pass, and pushes. And it does all this from its own cloud-based development environment.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-04-13",
+      "title": "Copilot data residency in US + EU and FedRAMP compliance now available",
+      "url": "https://github.blog/changelog/2026-04-13-copilot-data-residency-in-us-eu-and-fedramp-compliance-now-available",
+      "source": "Month 4",
+      "year": 2026,
+      "preview": {
+        "excerpt": "GitHub Copilot now supports data residency for US and EU regions, ensuring all inference processing and associated data stay within your designated geography. For US government customers, all model hosts…",
+        "html": "<p>GitHub Copilot now supports data residency for US and EU regions, ensuring all inference processing and associated data stay within your designated geography. For US government customers, all model hosts and infrastructure also meet FedRAMP Moderate authorization standards.</p><p>All generally available Copilot features are supported: agent mode, inline suggestions, chat, Copilot cloud agent, code review, pull request summaries, and Copilot CLI. Every feature uses only data-resident, compliance-certified model endpoints within your designated region.</p><p>A broad set of models is available at launch across both OpenAI and Anthropic, including GPT-5.4, Claude Sonnet 4.6, Claude Opus 4.6, and more. The full model-by-region matrix is available in our documentation for data residency and our FedRAMP docs. Gemini models are not yet supported, as GCP does not currently offer data-resident inference endpoints. We’ll bring them in once they become available. Recently released models may take additional time to appear in data-resident regions.</p>",
         "hasContent": true
       }
     },

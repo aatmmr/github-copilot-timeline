@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 473,
+        "totalEntries": 477,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-04-23"
+                "latest": "2026-04-24"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-04-24T04:15:23.261Z",
-            "total_entries": 110,
+            "scraped_at": "2026-04-25T03:49:44.282Z",
+            "total_entries": 114,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-04-23"
+                "latest": "2026-04-24"
             }
         }
     },
@@ -5620,6 +5620,18 @@ const embeddedTimelineData = {
         },
         {
             "date": "2026-04-13",
+            "title": "Data residency (US + EU) and FedRAMP-authorized models now available in Copilot",
+            "url": "https://github.blog/changelog/2026-04-13-copilot-data-residency-in-us-eu-and-fedramp-compliance-now-available",
+            "source": "Month 4",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Editor’s note (April 24, 2026): Updated this post to include more detailed and specific information about these offerings. We also added links for reference. These changes were made in an…",
+                "html": "<p>Editor’s note (April 24, 2026): Updated this post to include more detailed and specific information about these offerings. We also added links for reference. These changes were made in an effort to add some clarity about what has changed.</p><p>GitHub Copilot now supports data residency for US and EU regions, ensuring all inference processing and associated data stay within your designated geography. EU aligns with Microsoft’s EU Data Boundary, which covers EU member states plus EFTA countries (i.e., Iceland, Liechtenstein, Norway, and Switzerland) as of May 1, 2026. For US government customers, the underlying model hosts and infrastructure are FedRAMP Moderate authorized. Copilot itself will become FedRAMP authorized as part of GHEC-DR’s authorization path.</p><p>All generally available Copilot features are supported: agent mode, inline suggestions, chat, Copilot cloud agent, code review, pull request summaries, and Copilot CLI. Every feature routes exclusively through data-resident model endpoints, and for US government customers, through FedRAMP Moderate–authorized model infrastructure within your designated region.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-04-13",
             "title": "Fix merge conflicts in three clicks with Copilot cloud agent",
             "url": "https://github.blog/changelog/2026-04-13-fix-merge-conflicts-in-three-clicks-with-copilot-cloud-agent",
             "source": "Month 4",
@@ -5639,6 +5651,18 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "You can now selectively enable GitHub Copilot cloud agent (CCA) access on a per-organization basis. Previously, enterprise admins and AI managers could only enable the agent everywhere, disable it everywhere,…",
                 "html": "<p>You can now selectively enable GitHub Copilot cloud agent (CCA) access on a per-organization basis. Previously, enterprise admins and AI managers could only enable the agent everywhere, disable it everywhere, or let each organization decide. With this release, you can selectively enable CCA for specific organizations, individually or by using organization custom properties. You can manage this policy setting using the new API endpoints or directly in the AI Controls page.</p><p>Please note that using custom properties to enable CCA is evaluated once at the time of configuration. Organizations will not be automatically enabled or disabled for CCA if the custom property is added, removed, or modified later.</p><p>This new capability provides the flexibility to pilot CCA with select teams, progressively expand access, and manage adoption at your own pace.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-04-16",
+            "title": "Copilot CLI supports custom registry based MCP allowlists",
+            "url": "https://github.blog/changelog/2026-04-16-copilot-cli-supports-custom-registry-based-mcp-allowlists",
+            "source": "Month 4",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Enterprise and organization administrators can now bring their own MCP registry and enforce allowlist policies in Copilot CLI. This feature is in public preview and brings MCP governance controls to…",
+                "html": "<p>Enterprise and organization administrators can now bring their own MCP registry and enforce allowlist policies in Copilot CLI. This feature is in public preview and brings MCP governance controls to developers working directly from the CLI.</p><p>Bring your own registry (BYOR) lets GitHub administrators use the URL of an internally managed MCP registry to their enterprise or organization’s Copilot policies page. Once configured, it prevents any usage of MCP servers (at runtime) that are not defined in your registry.</p><p>This feature is available for Copilot Business and Copilot Enterprise customers. With bring your own registry support in Copilot CLI, you can now extend MCP governance controls to your terminal-based developer workflows.</p>",
                 "hasContent": true
             }
         },
@@ -5759,6 +5783,30 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "Following the Copilot coding agent to Copilot cloud agent rename, the Copilot usage metrics API now includes a new used_copilot_cloud_agent field in user-level reports. This boolean field mirrors the existing…",
                 "html": "<p>Following the Copilot coding agent to Copilot cloud agent rename, the Copilot usage metrics API now includes a new used_copilot_cloud_agent field in user-level reports. This boolean field mirrors the existing used_copilot_coding_agent flag under the updated product name.</p><p>The field is available in single-day and 28-day rolling window reports at both the enterprise and organization user levels. It returns the same value as the existing used_copilot_coding_agent field, which will be preserved for backward compatibility until August 1, 2026.</p><p>Join the discussion within GitHub Community.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-04-24",
+            "title": "GPT-5.5 is generally available for GitHub Copilot",
+            "url": "https://github.blog/changelog/2026-04-24-gpt-5-5-is-generally-available-for-github-copilot",
+            "source": "Month 4",
+            "year": 2026,
+            "preview": {
+                "excerpt": "GPT-5.5, OpenAI’s latest GPT model, is now rolling out on GitHub Copilot. In our early testing, GPT-5.5 delivers its strongest performance on complex, multi-step agentic coding task and resolves real-world…",
+                "html": "<p>GPT-5.5, OpenAI’s latest GPT model, is now rolling out on GitHub Copilot. In our early testing, GPT-5.5 delivers its strongest performance on complex, multi-step agentic coding task and resolves real-world coding challenges previous GPT models couldn’t.</p><p>Note that this model is launching with a 7.5× premium request multiplier as part of promotional pricing.</p><p>GPT-5.5 will be available to Copilot Pro+, Copilot Business, and Copilot Enterprise users.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-04-24",
+            "title": "Inline agent mode in preview and more in GitHub Copilot for JetBrains IDEs",
+            "url": "https://github.blog/changelog/2026-04-24-inline-agent-mode-in-preview-and-more-in-github-copilot-for-jetbrains-ides",
+            "source": "Month 4",
+            "year": 2026,
+            "preview": {
+                "excerpt": "This update introduces inline agent mode in preview, enhancements to Next Edit Suggestions, global auto approve, and more flexible controls for terminal commands and file edits. It also includes several…",
+                "html": "<p>This update introduces inline agent mode in preview, enhancements to Next Edit Suggestions, global auto approve, and more flexible controls for terminal commands and file edits. It also includes several user experience refinements and quality improvements across GitHub Copilot for JetBrains IDEs.</p><p>Inline agent mode is now available in public preview. This brings agent mode capabilities into the existing inline chat experience, making it possible to invoke more powerful, in-context assistance directly from the editor without switching over to the chat panel.</p><p>To access inline agent mode, first open Inline Chat. You can use the default shortcuts Shift+Ctrl+I (Windows) or Shift+Cmd+I (Mac). Alternatively, right-click in the editor and select Open Inline Chat, or click the gutter icon and choose Inline Chat. Then switch to agent mode in the Inline Chat panel.</p>",
                 "hasContent": true
             }
         }
