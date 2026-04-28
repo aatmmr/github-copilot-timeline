@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 477,
+        "totalEntries": 480,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-04-24"
+                "latest": "2026-04-27"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-04-27T04:27:48.195Z",
-            "total_entries": 114,
+            "scraped_at": "2026-04-28T04:31:37.430Z",
+            "total_entries": 117,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-04-24"
+                "latest": "2026-04-27"
             }
         }
     },
@@ -5807,6 +5807,42 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "This update introduces inline agent mode in preview, enhancements to Next Edit Suggestions, global auto approve, and more flexible controls for terminal commands and file edits. It also includes several…",
                 "html": "<p>This update introduces inline agent mode in preview, enhancements to Next Edit Suggestions, global auto approve, and more flexible controls for terminal commands and file edits. It also includes several user experience refinements and quality improvements across GitHub Copilot for JetBrains IDEs.</p><p>Inline agent mode is now available in public preview. This brings agent mode capabilities into the existing inline chat experience, making it possible to invoke more powerful, in-context assistance directly from the editor without switching over to the chat panel.</p><p>To access inline agent mode, first open Inline Chat. You can use the default shortcuts Shift+Ctrl+I (Windows) or Shift+Cmd+I (Mac). Alternatively, right-click in the editor and select Open Inline Chat, or click the gutter icon and choose Inline Chat. Then switch to agent mode in the Inline Chat panel.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-04-27",
+            "title": "Copilot cloud agent starts 20% faster with Actions custom images",
+            "url": "https://github.blog/changelog/2026-04-27-copilot-cloud-agent-starts-20-faster-with-actions-custom-images",
+            "source": "Month 4",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Copilot cloud agent now starts up over 20% faster, thanks to optimized runner environments built with GitHub Actions custom images. When you assign an issue to Copilot, start a task…",
+                "html": "<p>Copilot cloud agent now starts up over 20% faster, thanks to optimized runner environments built with GitHub Actions custom images.</p><p>When you assign an issue to Copilot, start a task from the Agents tab, or mention @copilot in a pull request, the agent spins up a cloud-based environment to do its work. By prebuilding that environment with a custom Actions image, startup overhead has been significantly reduced, getting Copilot to work on your code faster than before.</p><p>This builds on the 50% startup improvement shipped in March, continuing to shorten the feedback loop when you work with Copilot cloud agent.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-04-27",
+            "title": "Copilot Student GPT-5.3-Codex removal from model picker",
+            "url": "https://github.blog/changelog/2026-04-27-copilot-student-gpt-5-3-codex-removal-from-model-picker",
+            "source": "Month 4",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Starting today, in our Copilot Student plan, we are removing GPT-5.3-Codex from the model picker. It remains available through auto model selection. Auto model selection is built to match each…",
+                "html": "<p>Starting today, in our Copilot Student plan, we are removing GPT-5.3-Codex from the model picker. It remains available through auto model selection.</p><p>Auto model selection is built to match each request with the strongest model for the job, which means less time toggling settings and more time coding. It’s also how we keep the Student plan performant and free for learners around the world.</p><p>This change is part of the temporary reliability and performance measures we recently rolled out across Copilot Individual plans (Free, Pro, Pro+, and Student) as we prepare for the broader transition to usage-based billing.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-04-27",
+            "title": "GitHub Copilot code review will start consuming GitHub Actions minutes on June 1, 2026",
+            "url": "https://github.blog/changelog/2026-04-27-github-copilot-code-review-will-start-consuming-github-actions-minutes-on-june-1-2026",
+            "source": "Month 4",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Developers and engineering teams worldwide use GitHub Copilot for high-quality, agent-powered code reviews on every pull request. We understand that any change is significant to our customers, especially when it…",
+                "html": "<p>Developers and engineering teams worldwide use GitHub Copilot for high-quality, agent-powered code reviews on every pull request. We understand that any change is significant to our customers, especially when it relates to billing, so we are sharing this update early to help you plan and prepare. The sections below outline what is changing, why, and how to plan accordingly.</p><p>Last month, we shared how GitHub Copilot code review runs on agentic tool-calling architecture, allowing the code review agent to pull in broader repository context and produce more relevant feedback on each pull request. That agentic architecture runs on GitHub Actions using GitHub-hosted runners (Note: GitHub Copilot code review also supports self-hosted runners and GitHub-hosted larger runners which are billed at different rates than standard GitHub-hosted runners.)</p><p>Starting June 1, 2026, each Copilot code review will be billed in two ways:</p>",
                 "hasContent": true
             }
         }
