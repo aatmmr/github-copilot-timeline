@@ -1,15 +1,27 @@
 {
   "metadata": {
-    "scraped_at": "2026-04-30T04:29:08.988Z",
-    "total_entries": 117,
+    "scraped_at": "2026-05-01T04:44:55.483Z",
+    "total_entries": 118,
     "year_filter": 2026,
     "keyword_filter": "Copilot",
     "date_range": {
       "earliest": "2026-01-13",
-      "latest": "2026-04-27"
+      "latest": "2026-04-30"
     }
   },
   "entries": [
+    {
+      "date": "2026-04-30",
+      "title": "GitHub Copilot in Visual Studio — April update",
+      "url": "https://github.blog/changelog/2026-04-30-github-copilot-in-visual-studio-april-update",
+      "source": "Month 4",
+      "year": 2026,
+      "preview": {
+        "excerpt": "The April 2026 update to Visual Studio centers on agentic workflows: cloud agent sessions launch directly from the IDE, custom agents gain user-level support, and a new Debugger agent validates…",
+        "html": "<p>The April 2026 update to Visual Studio centers on agentic workflows: cloud agent sessions launch directly from the IDE, custom agents gain user-level support, and a new Debugger agent validates fixes against live runtime behavior.</p><p>Here’s what’s new with GitHub Copilot in Visual Studio 2026. Check the Insiders channel for the latest:</p><p>Download Visual Studio 2026 to experience all the new Copilot features today. To learn more about what’s new, check out the Visual Studio blog and release notes.</p>",
+        "hasContent": true
+      }
+    },
     {
       "date": "2026-04-27",
       "title": "Copilot Student GPT-5.3-Codex removal from model picker",

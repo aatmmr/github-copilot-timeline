@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 480,
+        "totalEntries": 481,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-04-27"
+                "latest": "2026-04-30"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-04-30T04:29:08.988Z",
-            "total_entries": 117,
+            "scraped_at": "2026-05-01T04:44:55.483Z",
+            "total_entries": 118,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-04-27"
+                "latest": "2026-04-30"
             }
         }
     },
@@ -5843,6 +5843,18 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "Developers and engineering teams worldwide use GitHub Copilot for high-quality, agent-powered code reviews on every pull request. We understand that any change is significant to our customers, especially when it…",
                 "html": "<p>Developers and engineering teams worldwide use GitHub Copilot for high-quality, agent-powered code reviews on every pull request. We understand that any change is significant to our customers, especially when it relates to billing, so we are sharing this update early to help you plan and prepare. The sections below outline what is changing, why, and how to plan accordingly.</p><p>Last month, we shared how GitHub Copilot code review runs on agentic tool-calling architecture, allowing the code review agent to pull in broader repository context and produce more relevant feedback on each pull request. That agentic architecture runs on GitHub Actions using GitHub-hosted runners (Note: GitHub Copilot code review also supports self-hosted runners and GitHub-hosted larger runners which are billed at different rates than standard GitHub-hosted runners.)</p><p>Starting June 1, 2026, each Copilot code review will be billed in two ways:</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-04-30",
+            "title": "GitHub Copilot in Visual Studio — April update",
+            "url": "https://github.blog/changelog/2026-04-30-github-copilot-in-visual-studio-april-update",
+            "source": "Month 4",
+            "year": 2026,
+            "preview": {
+                "excerpt": "The April 2026 update to Visual Studio centers on agentic workflows: cloud agent sessions launch directly from the IDE, custom agents gain user-level support, and a new Debugger agent validates…",
+                "html": "<p>The April 2026 update to Visual Studio centers on agentic workflows: cloud agent sessions launch directly from the IDE, custom agents gain user-level support, and a new Debugger agent validates fixes against live runtime behavior.</p><p>Here’s what’s new with GitHub Copilot in Visual Studio 2026. Check the Insiders channel for the latest:</p><p>Download Visual Studio 2026 to experience all the new Copilot features today. To learn more about what’s new, check out the Visual Studio blog and release notes.</p>",
                 "hasContent": true
             }
         }
