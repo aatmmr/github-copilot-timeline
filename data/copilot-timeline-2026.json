@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "scraped_at": "2026-05-02T04:16:05.331Z",
+    "scraped_at": "2026-05-03T04:37:31.111Z",
     "total_entries": 118,
     "year_filter": 2026,
     "keyword_filter": "Copilot",
@@ -521,8 +521,8 @@
       "source": "Month 3",
       "year": 2026,
       "preview": {
-        "excerpt": "We will deprecate the following model across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on 5/1/2026: Model Deprecation date Suggested alternative…",
-        "html": "<p>We will deprecate the following model across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on 5/1/2026:</p><p>Please update your workflows and integrations to use supported models before this date. Copilot Enterprise administrators may need to enable access to alternative models through their model policies in Copilot settings. As an administrator, you can verify availability by checking your individual Copilot settings and confirming that the policy is enabled for the specific model. Once enabled, you’ll see the model in the Copilot Chat model selector in VS Code and on github.com. No action is required to remove the models once they have been deprecated.</p><p>GitHub Enterprise customers with questions or concerns are encouraged to reach out to their account manager for further assistance.</p>",
+        "excerpt": "Editor’s note (May 1, 2026): Updated the deprecation date to May 6, 2026 from May 1, 2026. We will deprecate the following model across all GitHub Copilot experiences (including Copilot…",
+        "html": "<p>Editor’s note (May 1, 2026): Updated the deprecation date to May 6, 2026 from May 1, 2026.</p><p>We will deprecate the following model across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on 5/6/2026:</p><p>Please update your workflows and integrations to use supported models before this date. Copilot Enterprise administrators may need to enable access to alternative models through their model policies in Copilot settings. As an administrator, you can verify availability by checking your individual Copilot settings and confirming that the policy is enabled for the specific model. Once enabled, you’ll see the model in the Copilot Chat model selector in VS Code and on github.com. No action is required to remove the models once they have been deprecated.</p>",
         "hasContent": true
       }
     },
