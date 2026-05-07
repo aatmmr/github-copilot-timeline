@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 481,
+        "totalEntries": 483,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-04-30"
+                "latest": "2026-05-06"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-05-06T04:31:17.477Z",
-            "total_entries": 118,
+            "scraped_at": "2026-05-07T04:31:31.823Z",
+            "total_entries": 120,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-04-30"
+                "latest": "2026-05-06"
             }
         }
     },
@@ -5855,6 +5855,30 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "The April 2026 update to Visual Studio centers on agentic workflows: cloud agent sessions launch directly from the IDE, custom agents gain user-level support, and a new Debugger agent validates…",
                 "html": "<p>The April 2026 update to Visual Studio centers on agentic workflows: cloud agent sessions launch directly from the IDE, custom agents gain user-level support, and a new Debugger agent validates fixes against live runtime behavior.</p><p>Here’s what’s new with GitHub Copilot in Visual Studio 2026. Check the Insiders channel for the latest:</p><p>Download Visual Studio 2026 to experience all the new Copilot features today. To learn more about what’s new, check out the Visual Studio blog and release notes.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-05-06",
+            "title": "Enterprise-managed plugins in GitHub Copilot CLI are now in public preview",
+            "url": "https://github.blog/changelog/2026-05-06-enterprise-managed-plugins-in-github-copilot-cli-are-now-in-public-preview",
+            "source": "Month 5",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Enterprise administrators can now configure and distribute plugins to GitHub Copilot CLI users across their enterprise. Set baseline standards for your enterprise and make them available in every user’s Copilot…",
+                "html": "<p>Enterprise administrators can now configure and distribute plugins to GitHub Copilot CLI users across their enterprise. Set baseline standards for your enterprise and make them available in every user’s Copilot CLI client. Plugins support many extensibility types and can be installed automatically, helping improve developer onboarding and reduce setup time by broadly sharing custom agents and skills. You can also strengthen your governance strategy by defining hooks and MCP configurations that are always enabled across your enterprise.</p><p>With this update, you can define plugin marketplaces in a settings.json file located at .github-private/.github/copilot/settings.json. GitHub Copilot CLI automatically pulls and applies these settings for users licensed through your enterprise account with Copilot Business or Copilot Enterprise. You can also specify plugins to be installed automatically whenever users authenticate with Copilot CLI.</p><p>If you’ve already configured a source organization for custom agents, your plugin settings will use that same .github-private repository. You can confirm if your configuration is active on the Agents page under AI controls in your enterprise settings.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-05-06",
+            "title": "GitHub Copilot in Visual Studio Code, April releases",
+            "url": "https://github.blog/changelog/2026-05-06-github-copilot-in-visual-studio-code-april-releases",
+            "source": "Month 5",
+            "year": 2026,
+            "preview": {
+                "excerpt": "VS Code moved to weekly stable releases. This changelog covers releases v1.116 through v1.119, the releases we shipped throughout April and early May 2026. Copilot can now search by meaning…",
+                "html": "<p>VS Code moved to weekly stable releases. This changelog covers releases v1.116 through v1.119, the releases we shipped throughout April and early May 2026.</p><p>Copilot can now search by meaning in any workspace and run grep-style queries across GitHub repos and orgs. An experimental /chronicle feature lets you query your own chat history to recall what you worked on, which files you touched, and which PRs you referenced. Smarter prompt caching, deferred tool loading, and purpose-built agentic tools reduce token usage without changing agent behavior.</p><p>Agents gain inline diffs in chat, browser tab sharing, and read/write access to any open terminal. Bring-your-own-key support extends to Copilot Business and Enterprise, letting teams connect their own model providers directly in VS Code. Admins get new group policies for controlling which domains agents can reach.</p>",
                 "hasContent": true
             }
         }
