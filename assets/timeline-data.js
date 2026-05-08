@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 483,
+        "totalEntries": 484,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-05-06"
+                "latest": "2026-05-07"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-05-07T04:31:31.823Z",
-            "total_entries": 120,
+            "scraped_at": "2026-05-08T04:13:55.053Z",
+            "total_entries": 121,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-05-06"
+                "latest": "2026-05-07"
             }
         }
     },
@@ -5879,6 +5879,18 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "VS Code moved to weekly stable releases. This changelog covers releases v1.116 through v1.119, the releases we shipped throughout April and early May 2026. Copilot can now search by meaning…",
                 "html": "<p>VS Code moved to weekly stable releases. This changelog covers releases v1.116 through v1.119, the releases we shipped throughout April and early May 2026.</p><p>Copilot can now search by meaning in any workspace and run grep-style queries across GitHub repos and orgs. An experimental /chronicle feature lets you query your own chat history to recall what you worked on, which files you touched, and which PRs you referenced. Smarter prompt caching, deferred tool loading, and purpose-built agentic tools reduce token usage without changing agent behavior.</p><p>Agents gain inline diffs in chat, browser tab sharing, and read/write access to any open terminal. Bring-your-own-key support extends to Copilot Business and Enterprise, letting teams connect their own model providers directly in VS Code. Admins get new group policies for controlling which domains agents can reach.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-05-07",
+            "title": "Rubber Duck in GitHub Copilot CLI now supports more models",
+            "url": "https://github.blog/changelog/2026-05-07-rubber-duck-in-github-copilot-cli-now-supports-more-models",
+            "source": "Month 5",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Rubber Duck, the cross-family review agent in GitHub Copilot CLI, is now available using a Claude-powered critic agent when your session is using a GPT model. For sessions using Claude…",
+                "html": "<p>Rubber Duck, the cross-family review agent in GitHub Copilot CLI, is now available using a Claude-powered critic agent when your session is using a GPT model. For sessions using Claude as their orchestrator, we’ve upgraded the GPT model used to seek a second opinion.</p><p>To try it, run copilot and ensure /experimental on is toggled. To learn more about how Rubber Duck combines model families to improve Copilot CLI’s performance, read our recent blog post.</p>",
                 "hasContent": true
             }
         }
