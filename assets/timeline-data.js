@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 486,
+        "totalEntries": 487,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-05-08"
+                "latest": "2026-05-12"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-05-12T04:32:54.907Z",
-            "total_entries": 123,
+            "scraped_at": "2026-05-13T04:39:32.986Z",
+            "total_entries": 124,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-05-08"
+                "latest": "2026-05-12"
             }
         }
     },
@@ -5915,6 +5915,18 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "When you delegate a task to Copilot cloud agent, it works in the background in its own development environment powered by GitHub Actions. You can pass secrets and variables to…",
                 "html": "<p>When you delegate a task to Copilot cloud agent, it works in the background in its own development environment powered by GitHub Actions. You can pass secrets and variables to the agent to give it access to private resources or to configure MCP servers.</p><p>Until now, these had to be configured one repository at a time, in a copilot environment under the repository’s Actions settings. That made it painful to roll out shared configuration (e.g., an internal package registry token or a common MCP server) across many repositories.</p><p>Today, Copilot cloud agent gets its own dedicated “Agents” secrets and variables, sitting alongside the existing “Actions”, “Codespaces”, and “Dependabot” types. This means you can:</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-05-12",
+            "title": "Copilot code review: Comment experience improvements",
+            "url": "https://github.blog/changelog/2026-05-12-copilot-code-review-comment-experience-improvements",
+            "source": "Month 5",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Copilot code review comments are now easier to scan and act on. Available to all users opted into the new pull requests experience, grouped suggestions, severity levels, and an updated…",
+                "html": "<p>Copilot code review comments are now easier to scan and act on. Available to all users opted into the new pull requests experience, grouped suggestions, severity levels, and an updated suggested changeset UI will reduce noise and help you prioritize suggestions from Copilot.</p><p>Comments now include severity labels, so you can prioritize which suggestions to address and when. You can find severity labels on the top-right corner of Copilot code review comments. Comments will be categorized as High, Medium, or Low severity.</p><p>Copilot code review now groups like comments together, so feedback is easier to review and less repetitive, especially on larger pull requests. For example, if Copilot has a suggestion for a better variable name for all of its occurrences in the pull request, Copilot will only point this out once.</p>",
                 "hasContent": true
             }
         }
