@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 487,
+        "totalEntries": 488,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-05-12"
+                "latest": "2026-05-13"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-05-13T04:39:32.986Z",
-            "total_entries": 124,
+            "scraped_at": "2026-05-14T04:39:01.313Z",
+            "total_entries": 125,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-05-12"
+                "latest": "2026-05-13"
             }
         }
     },
@@ -5927,6 +5927,18 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "Copilot code review comments are now easier to scan and act on. Available to all users opted into the new pull requests experience, grouped suggestions, severity levels, and an updated…",
                 "html": "<p>Copilot code review comments are now easier to scan and act on. Available to all users opted into the new pull requests experience, grouped suggestions, severity levels, and an updated suggested changeset UI will reduce noise and help you prioritize suggestions from Copilot.</p><p>Comments now include severity labels, so you can prioritize which suggestions to address and when. You can find severity labels on the top-right corner of Copilot code review comments. Comments will be categorized as High, Medium, or Low severity.</p><p>Copilot code review now groups like comments together, so feedback is easier to review and less repetitive, especially on larger pull requests. For example, if Copilot has a suggestion for a better variable name for all of its occurrences in the pull request, Copilot will only point this out once.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-05-13",
+            "title": "Start Copilot cloud agent tasks via the REST API",
+            "url": "https://github.blog/changelog/2026-05-13-start-copilot-cloud-agent-tasks-via-the-rest-api",
+            "source": "Month 5",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Copilot Business and Copilot Enterprise users can programmatically start Copilot cloud agent tasks with the new Agent tasks REST API, available in public preview. Copilot cloud agent works in the…",
+                "html": "<p>Copilot Business and Copilot Enterprise users can programmatically start Copilot cloud agent tasks with the new Agent tasks REST API, available in public preview.</p><p>Copilot cloud agent works in the background in its own development environment, where it can make and validate code changes, then open a pull request.</p><p>The new API makes it easy to weave Copilot cloud agent into custom automations. For example, you could:</p>",
                 "hasContent": true
             }
         }
