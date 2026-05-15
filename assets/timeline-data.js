@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 488,
+        "totalEntries": 492,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-05-13"
+                "latest": "2026-05-14"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-05-14T04:39:01.313Z",
-            "total_entries": 125,
+            "scraped_at": "2026-05-15T04:44:39.505Z",
+            "total_entries": 129,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-05-13"
+                "latest": "2026-05-14"
             }
         }
     },
@@ -5932,6 +5932,18 @@ const embeddedTimelineData = {
         },
         {
             "date": "2026-05-13",
+            "title": "Introducing Copilot CLI agent and unified sessions view in GitHub Copilot for JetBrains IDEs",
+            "url": "https://github.blog/changelog/2026-05-13-introducing-copilot-cli-agent-and-unified-sessions-view-in-github-copilot-for-jetbrains-ides",
+            "source": "Month 5",
+            "year": 2026,
+            "preview": {
+                "excerpt": "This update brings the Copilot CLI agent into JetBrains IDEs, along with a unified sessions view that shows live status for running and queued sessions. It also adds the ask…",
+                "html": "<p>This update brings the Copilot CLI agent into JetBrains IDEs, along with a unified sessions view that shows live status for running and queued sessions. It also adds the ask question tool in agent mode, improves sign-in for GitHub Enterprise Server (GHES), adds global .agent.md support, and delivers several user experience improvements.</p><p>You can now delegate tasks from JetBrains IDEs to a locally running GitHub Copilot CLI agent in public preview. This brings the same long-running, terminal-based agent into the IDE, with editor context already connected.</p><p>The agent supports multiple isolation modes to control how changes are applied:</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-05-13",
             "title": "Start Copilot cloud agent tasks via the REST API",
             "url": "https://github.blog/changelog/2026-05-13-start-copilot-cloud-agent-tasks-via-the-rest-api",
             "source": "Month 5",
@@ -5939,6 +5951,42 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "Copilot Business and Copilot Enterprise users can programmatically start Copilot cloud agent tasks with the new Agent tasks REST API, available in public preview. Copilot cloud agent works in the…",
                 "html": "<p>Copilot Business and Copilot Enterprise users can programmatically start Copilot cloud agent tasks with the new Agent tasks REST API, available in public preview.</p><p>Copilot cloud agent works in the background in its own development environment, where it can make and validate code changes, then open a pull request.</p><p>The new API makes it easy to weave Copilot cloud agent into custom automations. For example, you could:</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-05-14",
+            "title": "Copilot cloud agent supports auto model selection",
+            "url": "https://github.blog/changelog/2026-05-14-copilot-cloud-agent-supports-auto-model-selection",
+            "source": "Month 5",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Copilot cloud agent now supports Copilot auto model selection. When you select Auto in the model picker, Copilot intelligently selects the best available model based on system health and model…",
+                "html": "<p>Copilot cloud agent now supports Copilot auto model selection.</p><p>When you select Auto in the model picker, Copilot intelligently selects the best available model based on system health and model performance. You’ll get a 10% discount on the normal model multiplier, and you won’t be impacted by weekly rate limits.</p><p>To learn more about auto model selection, see our documentation on auto model selection.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-05-14",
+            "title": "GitHub Copilot app is now available in technical preview",
+            "url": "https://github.blog/changelog/2026-05-14-github-copilot-app-is-now-available-in-technical-preview",
+            "source": "Month 5",
+            "year": 2026,
+            "preview": {
+                "excerpt": "The GitHub Copilot app is now in technical preview. It’s a GitHub-native desktop experience to start agentic development from the work in front of you, keep it isolated, steer it…",
+                "html": "<p>The GitHub Copilot app is now in technical preview. It’s a GitHub-native desktop experience to start agentic development from the work in front of you, keep it isolated, steer it as it goes, and land the change through pull request review.</p><p>Your work already lives in GitHub. Sessions start from those artifacts too.</p><p>Each session has its own space: branch, files, conversation, and task state. Work stays separated, even when you have more than one thing in motion.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-05-14",
+            "title": "Team-level Copilot usage metrics now available via API",
+            "url": "https://github.blog/changelog/2026-05-14-team-level-copilot-usage-metrics-now-available-via-api",
+            "source": "Month 5",
+            "year": 2026,
+            "preview": {
+                "excerpt": "The Copilot usage metrics API now exposes a new user-teams report that maps each Copilot-licensed user to the teams they belong to. By joining the user-teams report with the existing…",
+                "html": "<p>The Copilot usage metrics API now exposes a new user-teams report that maps each Copilot-licensed user to the teams they belong to. By joining the user-teams report with the existing per-user usage report, enterprise administrators and organization owners can produce team-level Copilot usage metrics for any team in their organization or enterprise. This includes elements such as active users, completions, chats, as well as breakdowns by language, IDE, feature, and model.</p><p>Two new endpoints return signed download URLs to NDJSON reports:</p><p>Each row in the user-teams report represents a team membership for a given day, including the team’s enterprise or organization id, team slug, and the user’s ID and login. To produce team-level metrics, join the user-teams report to the per-user usage report on user_id and day, then aggregate.</p>",
                 "hasContent": true
             }
         }
