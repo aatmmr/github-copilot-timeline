@@ -1,15 +1,27 @@
 {
   "metadata": {
-    "scraped_at": "2026-05-15T04:44:39.505Z",
-    "total_entries": 129,
+    "scraped_at": "2026-05-16T04:25:57.342Z",
+    "total_entries": 130,
     "year_filter": 2026,
     "keyword_filter": "Copilot",
     "date_range": {
       "earliest": "2026-01-13",
-      "latest": "2026-05-14"
+      "latest": "2026-05-15"
     }
   },
   "entries": [
+    {
+      "date": "2026-05-15",
+      "title": "Copilot Memory supports user preferences for Pro, Pro+ users",
+      "url": "https://github.blog/changelog/2026-05-15-copilot-memory-supports-user-preferences-for-pro-pro-users",
+      "source": "Month 5",
+      "year": 2026,
+      "preview": {
+        "excerpt": "Copilot Memory now supports user-level preferences in early access for Copilot Pro and Copilot Pro+ users. Copilot can now store stated or inferred personal preferences about how you like to…",
+        "html": "<p>Copilot Memory now supports user-level preferences in early access for Copilot Pro and Copilot Pro+ users.</p><p>Copilot can now store stated or inferred personal preferences about how you like to interact with it. These preferences are available for use in future Copilot interactions across Copilot experiences. Over time, Copilot adapts to the way you work, automatically delivering results that fit your style and standards.</p><p>Previously, Copilot Memory only stored information at the repository level. Today, Copilot Memory can also capture personal preferences that apply to you rather than the repository.</p>",
+        "hasContent": true
+      }
+    },
     {
       "date": "2026-05-14",
       "title": "Team-level Copilot usage metrics now available via API",

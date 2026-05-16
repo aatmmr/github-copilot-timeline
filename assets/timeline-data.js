@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 492,
+        "totalEntries": 493,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-05-14"
+                "latest": "2026-05-15"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-05-15T04:44:39.505Z",
-            "total_entries": 129,
+            "scraped_at": "2026-05-16T04:25:57.342Z",
+            "total_entries": 130,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-05-14"
+                "latest": "2026-05-15"
             }
         }
     },
@@ -5987,6 +5987,18 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "The Copilot usage metrics API now exposes a new user-teams report that maps each Copilot-licensed user to the teams they belong to. By joining the user-teams report with the existing…",
                 "html": "<p>The Copilot usage metrics API now exposes a new user-teams report that maps each Copilot-licensed user to the teams they belong to. By joining the user-teams report with the existing per-user usage report, enterprise administrators and organization owners can produce team-level Copilot usage metrics for any team in their organization or enterprise. This includes elements such as active users, completions, chats, as well as breakdowns by language, IDE, feature, and model.</p><p>Two new endpoints return signed download URLs to NDJSON reports:</p><p>Each row in the user-teams report represents a team membership for a given day, including the team’s enterprise or organization id, team slug, and the user’s ID and login. To produce team-level metrics, join the user-teams report to the per-user usage report on user_id and day, then aggregate.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-05-15",
+            "title": "Copilot Memory supports user preferences for Pro, Pro+ users",
+            "url": "https://github.blog/changelog/2026-05-15-copilot-memory-supports-user-preferences-for-pro-pro-users",
+            "source": "Month 5",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Copilot Memory now supports user-level preferences in early access for Copilot Pro and Copilot Pro+ users. Copilot can now store stated or inferred personal preferences about how you like to…",
+                "html": "<p>Copilot Memory now supports user-level preferences in early access for Copilot Pro and Copilot Pro+ users.</p><p>Copilot can now store stated or inferred personal preferences about how you like to interact with it. These preferences are available for use in future Copilot interactions across Copilot experiences. Over time, Copilot adapts to the way you work, automatically delivering results that fit your style and standards.</p><p>Previously, Copilot Memory only stored information at the repository level. Today, Copilot Memory can also capture personal preferences that apply to you rather than the repository.</p>",
                 "hasContent": true
             }
         }
