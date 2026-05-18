@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 493,
+        "totalEntries": 494,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-05-15"
+                "latest": "2026-05-17"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-05-17T04:50:15.570Z",
-            "total_entries": 130,
+            "scraped_at": "2026-05-18T05:03:05.710Z",
+            "total_entries": 131,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-05-15"
+                "latest": "2026-05-17"
             }
         }
     },
@@ -5999,6 +5999,18 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "Copilot Memory now supports user-level preferences in early access for Copilot Pro and Copilot Pro+ users. Copilot can now store stated or inferred personal preferences about how you like to…",
                 "html": "<p>Copilot Memory now supports user-level preferences in early access for Copilot Pro and Copilot Pro+ users.</p><p>Copilot can now store stated or inferred personal preferences about how you like to interact with it. These preferences are available for use in future Copilot interactions across Copilot experiences. Over time, Copilot adapts to the way you work, automatically delivering results that fit your style and standards.</p><p>Previously, Copilot Memory only stored information at the repository level. Today, Copilot Memory can also capture personal preferences that apply to you rather than the repository.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-05-17",
+            "title": "GPT-5.3-Codex is now the base model for Copilot Business and Enterprise",
+            "url": "https://github.blog/changelog/2026-05-17-gpt-5-3-codex-is-now-the-base-model-for-copilot-business-and-enterprise",
+            "source": "Month 5",
+            "year": 2026,
+            "preview": {
+                "excerpt": "As announced on March 18, 2026, GPT-5.3-Codex is now the base model for all Copilot Business and Copilot Enterprise organizations, replacing GPT-4.1. The base model is used when your organization…",
+                "html": "<p>As announced on March 18, 2026, GPT-5.3-Codex is now the base model for all Copilot Business and Copilot Enterprise organizations, replacing GPT-4.1. The base model is used when your organization hasn’t yet approved other models through its internal review process.</p><p>GPT-5.3-Codex is also our first long-term support (LTS) model, in partnership with OpenAI. LTS models are guaranteed to be available for a full 12 months from the model’s launch date, giving enterprises the stability they need for internal security and safety reviews. GPT-5.3-Codex launched on February 5, 2026 and will remain available through February 4, 2027 for Copilot Business and Copilot Enterprise users.</p><p>GitHub Copilot data has shown that GPT-5.3-Codex has a significantly high code survival rate among enterprise customers.</p>",
                 "hasContent": true
             }
         }

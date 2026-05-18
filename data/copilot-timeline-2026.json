@@ -1,15 +1,27 @@
 {
   "metadata": {
-    "scraped_at": "2026-05-17T04:50:15.570Z",
-    "total_entries": 130,
+    "scraped_at": "2026-05-18T05:03:05.710Z",
+    "total_entries": 131,
     "year_filter": 2026,
     "keyword_filter": "Copilot",
     "date_range": {
       "earliest": "2026-01-13",
-      "latest": "2026-05-15"
+      "latest": "2026-05-17"
     }
   },
   "entries": [
+    {
+      "date": "2026-05-17",
+      "title": "GPT-5.3-Codex is now the base model for Copilot Business and Enterprise",
+      "url": "https://github.blog/changelog/2026-05-17-gpt-5-3-codex-is-now-the-base-model-for-copilot-business-and-enterprise",
+      "source": "Month 5",
+      "year": 2026,
+      "preview": {
+        "excerpt": "As announced on March 18, 2026, GPT-5.3-Codex is now the base model for all Copilot Business and Copilot Enterprise organizations, replacing GPT-4.1. The base model is used when your organization…",
+        "html": "<p>As announced on March 18, 2026, GPT-5.3-Codex is now the base model for all Copilot Business and Copilot Enterprise organizations, replacing GPT-4.1. The base model is used when your organization hasn’t yet approved other models through its internal review process.</p><p>GPT-5.3-Codex is also our first long-term support (LTS) model, in partnership with OpenAI. LTS models are guaranteed to be available for a full 12 months from the model’s launch date, giving enterprises the stability they need for internal security and safety reviews. GPT-5.3-Codex launched on February 5, 2026 and will remain available through February 4, 2027 for Copilot Business and Copilot Enterprise users.</p><p>GitHub Copilot data has shown that GPT-5.3-Codex has a significantly high code survival rate among enterprise customers.</p>",
+        "hasContent": true
+      }
+    },
     {
       "date": "2026-05-15",
       "title": "Copilot Memory supports user preferences for Pro, Pro+ users",
