@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 494,
+        "totalEntries": 500,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-05-17"
+                "latest": "2026-05-18"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-05-18T05:03:05.710Z",
-            "total_entries": 131,
+            "scraped_at": "2026-05-19T04:55:05.516Z",
+            "total_entries": 137,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-05-17"
+                "latest": "2026-05-18"
             }
         }
     },
@@ -6011,6 +6011,78 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "As announced on March 18, 2026, GPT-5.3-Codex is now the base model for all Copilot Business and Copilot Enterprise organizations, replacing GPT-4.1. The base model is used when your organization…",
                 "html": "<p>As announced on March 18, 2026, GPT-5.3-Codex is now the base model for all Copilot Business and Copilot Enterprise organizations, replacing GPT-4.1. The base model is used when your organization hasn’t yet approved other models through its internal review process.</p><p>GPT-5.3-Codex is also our first long-term support (LTS) model, in partnership with OpenAI. LTS models are guaranteed to be available for a full 12 months from the model’s launch date, giving enterprises the stability they need for internal security and safety reviews. GPT-5.3-Codex launched on February 5, 2026 and will remain available through February 4, 2027 for Copilot Business and Copilot Enterprise users.</p><p>GitHub Copilot data has shown that GPT-5.3-Codex has a significantly high code survival rate among enterprise customers.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-05-18",
+            "title": "Ask questions in context with Copilot on web",
+            "url": "https://github.blog/changelog/2026-05-18-ask-questions-in-context-with-copilot-on-web",
+            "source": "Month 5",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Copilot chat on the web now opens on the page you are viewing. This helps you get fast answers to your questions with reduced context switching.",
+                "html": "<p>Copilot chat on the web now opens on the page you are viewing. This helps you get fast answers to your questions with reduced context switching.</p><p>When you click the Copilot icon in the top navigation, Copilot opens a panel instead of navigating to github.com/copilot.</p><p>You can still navigate to a full-page, immersive chat experience by clicking the More menu next to the Copilot icon and selecting In immersive chat, or by clicking the arrow icon on the contextual chat panel.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-05-18",
+            "title": "Audit repository Copilot cloud agent configuration via the REST API",
+            "url": "https://github.blog/changelog/2026-05-18-audit-repository-copilot-cloud-agent-configuration-via-the-rest-api",
+            "source": "Month 5",
+            "year": 2026,
+            "preview": {
+                "excerpt": "You can now programmatically audit a repository’s Copilot cloud agent configuration with the new Get Copilot cloud agent configuration for a repository REST API, available in public preview. The new…",
+                "html": "<p>You can now programmatically audit a repository’s Copilot cloud agent configuration with the new Get Copilot cloud agent configuration for a repository REST API, available in public preview.</p><p>The new API returns details about a repository’s Copilot cloud agent setup, including its MCP server configuration, enabled tools, GitHub Actions workflow policy, and firewall configuration.</p><p>This makes it easy to understand and audit the security posture of your repositories at scale.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-05-18",
+            "title": "Copilot cloud agent: Fast, cost-efficient models for simple tasks",
+            "url": "https://github.blog/changelog/2026-05-18-copilot-cloud-agent-fast-cost-efficient-models-for-simple-tasks",
+            "source": "Month 5",
+            "year": 2026,
+            "preview": {
+                "excerpt": "When you delegate a task to Copilot cloud agent, you can pick the model it uses to do its work. Today, we’re expanding the list of supported models to include…",
+                "html": "<p>When you delegate a task to Copilot cloud agent, you can pick the model it uses to do its work.</p><p>Today, we’re expanding the list of supported models to include faster, more cost-efficient options. This means you can pick the right model for the job: a smaller, quicker model for straightforward changes, or a more capable model for complex work.</p><p>The following models are now available, in addition to the existing options:</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-05-18",
+            "title": "Copilot Spaces API now generally available",
+            "url": "https://github.blog/changelog/2026-05-18-copilot-spaces-api-now-generally-available",
+            "source": "Month 5",
+            "year": 2026,
+            "preview": {
+                "excerpt": "The GitHub Copilot Spaces API is now generally available. You can programmatically create, read, update, and delete Spaces directly from your own applications, reducing manual overhead for teams managing context at scale.",
+                "html": "<p>The GitHub Copilot Spaces API is now generally available. You can programmatically create, read, update, and delete Spaces directly from your own applications, reducing manual overhead for teams managing context at scale.</p><p>This is especially useful for enterprises that need to manage multiple Spaces without relying on manual workflows in the GitHub UI.</p><p>To get started, see the Spaces API documentation.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-05-18",
+            "title": "One-click fixes for failing Actions with Copilot cloud agent",
+            "url": "https://github.blog/changelog/2026-05-18-one-click-fixes-for-failing-actions-with-copilot-cloud-agent",
+            "source": "Month 5",
+            "year": 2026,
+            "preview": {
+                "excerpt": "When a GitHub Actions job fails, Copilot Business and Copilot Enterprise subscribers can now ask Copilot cloud agent to fix it in one click. Click the Fix with Copilot button…",
+                "html": "<p>When a GitHub Actions job fails, Copilot Business and Copilot Enterprise subscribers can now ask Copilot cloud agent to fix it in one click.</p><p>Click the Fix with Copilot button on the workflow run logs page, and Copilot will investigate the failure, push a fix to your branch, and tag you for review when it’s done. It does all this from its own cloud-based development environment.</p><p>This means you can hand off simple but time-consuming work to Copilot (e.g., fixing tests or correcting linter failures) and stay focused on what you actually want to build.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-05-18",
+            "title": "Remote control for Copilot CLI sessions now generally available on mobile, web, and VS Code",
+            "url": "https://github.blog/changelog/2026-05-18-remote-control-for-copilot-cli-sessions-now-generally-available-on-mobile-web-and-vs-code",
+            "source": "Month 5",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Remote control for Copilot CLI sessions is now generally available on GitHub Mobile and github.com, so you can start work in your terminal and keep it moving from anywhere. With…",
+                "html": "<p>Remote control for Copilot CLI sessions is now generally available on GitHub Mobile and github.com, so you can start work in your terminal and keep it moving from anywhere.</p><p>With this release, remote control now supports non-GitHub repositories and directories not associated with a repository.</p><p>We’re also introducing remote control in VS Code and JetBrains, making GitHub Copilot truly multi-surface and available across any device.</p>",
                 "hasContent": true
             }
         }
