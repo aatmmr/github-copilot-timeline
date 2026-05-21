@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 502,
+        "totalEntries": 505,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-05-19"
+                "latest": "2026-05-20"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-05-20T04:59:00.086Z",
-            "total_entries": 139,
+            "scraped_at": "2026-05-21T05:05:02.976Z",
+            "total_entries": 142,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-05-19"
+                "latest": "2026-05-20"
             }
         }
     },
@@ -6107,6 +6107,42 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "Gemini 3.5 Flash, Google’s latest Flash-tier model, is now rolling out on GitHub Copilot. In our early testing, Gemini 3.5 Flash delivers near-Pro coding quality at Flash-tier speed and cost…",
                 "html": "<p>Gemini 3.5 Flash, Google’s latest Flash-tier model, is now rolling out on GitHub Copilot. In our early testing, Gemini 3.5 Flash delivers near-Pro coding quality at Flash-tier speed and cost with strong tool use, fast response times, and high cache efficiency that make it well-suited for fast, iterative agentic coding workflows.</p><p>Note, that while this model is launching with a 14X premium request multiplier, pricing is tentative and subject to change.</p><p>Gemini 3.5 Flash will be available to Copilot Pro, Copilot Pro+, Copilot Business, and Copilot Enterprise users.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-05-20",
+            "title": "Copilot usage metrics reports now use GitHub-owned download URLs",
+            "url": "https://github.blog/changelog/2026-05-20-copilot-usage-metrics-reports-now-use-github-owned-download-urls",
+            "source": "Month 5",
+            "year": 2026,
+            "preview": {
+                "excerpt": "As previously announced, the download URLs for Copilot usage metrics reports have migrated from Azure Front Door domains to a stable, GitHub-owned custom domain. This change improves URL stability and…",
+                "html": "<p>As previously announced, the download URLs for Copilot usage metrics reports have migrated from Azure Front Door domains to a stable, GitHub-owned custom domain. This change improves URL stability and makes firewall and proxy allowlist management easier for enterprise customers.</p><p>Starting today, Copilot usage metrics report download links, which are returned by the Copilot Usage Metrics API, use the new domain copilot-reports.github.com instead of the previous copilot-reports-*.b01.azurefd.net pattern.</p><p>If your organization uses a firewall or proxy allowlist, add the following domain:</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-05-20",
+            "title": "Semantic issue search in Copilot Chat",
+            "url": "https://github.blog/changelog/2026-05-20-semantic-issue-search-in-copilot-chat",
+            "source": "Month 5",
+            "year": 2026,
+            "preview": {
+                "excerpt": "You can use natural language in GitHub Copilot Chat on web to quickly find, group, and analyze issues, with context-aware results powered by a new semantic issues index. What’s new…",
+                "html": "<p>You can use natural language in GitHub Copilot Chat on web to quickly find, group, and analyze issues, with context-aware results powered by a new semantic issues index.</p><p>Instead of relying only on exact matches and manual filters, Copilot Chat can now understand the intent of your query and surface issues that are semantically related even when they are worded differently.</p><p>You can use this capability to help you find an issue in a repository using natural language when you don’t remember the exact title or keywords, or to quickly filter issues related to a specific platform or environment.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-05-20",
+            "title": "Updates to available models in Copilot on web",
+            "url": "https://github.blog/changelog/2026-05-20-updates-to-available-models-in-copilot-on-web",
+            "source": "Month 5",
+            "year": 2026,
+            "preview": {
+                "excerpt": "We have updated our available model selection for Copilot Chat on the web to deliver more consistent, high-quality responses. What’s changed While model choice is valuable, we are limiting the…",
+                "html": "<p>We have updated our available model selection for Copilot Chat on the web to deliver more consistent, high-quality responses.</p><p>While model choice is valuable, we are limiting the list of available models on github.com so that we can consistently ensure reliable responses.</p><p>All Gemini models and several other models (e.g., GPT-5.2 Codex and GPT-5.4 nano) have been removed from Copilot Chat on the web.</p>",
                 "hasContent": true
             }
         }
