@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 505,
+        "totalEntries": 506,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-05-20"
+                "latest": "2026-05-21"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-05-21T05:05:02.976Z",
-            "total_entries": 142,
+            "scraped_at": "2026-05-22T04:57:02.092Z",
+            "total_entries": 143,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-05-20"
+                "latest": "2026-05-21"
             }
         }
     },
@@ -6143,6 +6143,18 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "We have updated our available model selection for Copilot Chat on the web to deliver more consistent, high-quality responses. What’s changed While model choice is valuable, we are limiting the…",
                 "html": "<p>We have updated our available model selection for Copilot Chat on the web to deliver more consistent, high-quality responses.</p><p>While model choice is valuable, we are limiting the list of available models on github.com so that we can consistently ensure reliable responses.</p><p>All Gemini models and several other models (e.g., GPT-5.2 Codex and GPT-5.4 nano) have been removed from Copilot Chat on the web.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-05-21",
+            "title": "GitHub Copilot for Eclipse is open source",
+            "url": "https://github.blog/changelog/2026-05-21-github-copilot-for-eclipse-is-open-source",
+            "source": "Month 5",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Following our previous updates, GitHub Copilot for Eclipse is open source, with the code available on GitHub under the MIT license. This marks an important milestone for GitHub Copilot in…",
+                "html": "<p>Following our previous updates, GitHub Copilot for Eclipse is open source, with the code available on GitHub under the MIT license.</p><p>This marks an important milestone for GitHub Copilot in the Eclipse ecosystem. By open sourcing the plugin, we’re inviting the community to explore, learn from, and contribute to how AI-powered developer experiences are built inside Eclipse.</p><p>Our primary motivation is community-driven innovation and increased transparency. Eclipse has thrived for decades thanks to its open ecosystem, and we believe AI tooling should be developed in that same spirit (i.e., openly and alongside the IDE itself). Putting the Copilot for Eclipse source in the open lets developers see exactly how the plugin works, reason about what it does, and help shape where it goes next.</p>",
                 "hasContent": true
             }
         }
