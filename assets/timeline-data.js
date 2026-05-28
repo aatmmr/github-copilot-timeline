@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 506,
+        "totalEntries": 508,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-05-21"
+                "latest": "2026-05-26"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-05-27T05:11:35.637Z",
-            "total_entries": 143,
+            "scraped_at": "2026-05-28T05:05:24.757Z",
+            "total_entries": 145,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-05-21"
+                "latest": "2026-05-26"
             }
         }
     },
@@ -6155,6 +6155,30 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "Following our previous updates, GitHub Copilot for Eclipse is open source, with the code available on GitHub under the MIT license. This marks an important milestone for GitHub Copilot in…",
                 "html": "<p>Following our previous updates, GitHub Copilot for Eclipse is open source, with the code available on GitHub under the MIT license.</p><p>This marks an important milestone for GitHub Copilot in the Eclipse ecosystem. By open sourcing the plugin, we’re inviting the community to explore, learn from, and contribute to how AI-powered developer experiences are built inside Eclipse.</p><p>Our primary motivation is community-driven innovation and increased transparency. Eclipse has thrived for decades thanks to its open ecosystem, and we believe AI tooling should be developed in that same spirit (i.e., openly and alongside the IDE itself). Putting the Copilot for Eclipse source in the open lets developers see exactly how the plugin works, reason about what it does, and help shape where it goes next.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-05-26",
+            "title": "Copilot Memory has more controls for deletion, scope, and the Copilot CLI",
+            "url": "https://github.blog/changelog/2026-05-26-copilot-memory-has-more-controls-for-deletion-scope-and-the-copilot-cli",
+            "source": "Month 5",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Copilot Memory now includes improved memory deletion, adds a repository-level off switch, and brings further memory controls into the Copilot CLI. Copilot Memory is in public preview and available to…",
+                "html": "<p>Copilot Memory now includes improved memory deletion, adds a repository-level off switch, and brings further memory controls into the Copilot CLI. Copilot Memory is in public preview and available to all paid Copilot plans.</p><p>Learn more about managing stored memories.</p><p>For more information, see About GitHub Copilot Memory.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-05-26",
+            "title": "Target Copilot models to organizations with model rules",
+            "url": "https://github.blog/changelog/2026-05-26-target-copilot-models-to-organizations-with-model-rules",
+            "source": "Month 5",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Enterprise owners now have granular control over which GitHub Copilot models are available to each organization. With targeted model rules, you can allow specific models for specific organizations instead of…",
+                "html": "<p>Enterprise owners now have granular control over which GitHub Copilot models are available to each organization. With targeted model rules, you can allow specific models for specific organizations instead of relying on a single enterprise-wide setting. This capability is now in public preview.</p><p>We’ve also refreshed the experience for managing default model availability across your enterprise, making it easier to see and configure which models are available to your organizations.</p><p>Targeted model rules let you create rules that allow specific Copilot models for selected organizations, giving you fine-grained control beyond enterprise-wide defaults.</p>",
                 "hasContent": true
             }
         }
