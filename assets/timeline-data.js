@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 508,
+        "totalEntries": 509,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-05-26"
+                "latest": "2026-05-28"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-05-28T05:05:24.757Z",
-            "total_entries": 145,
+            "scraped_at": "2026-05-29T05:09:18.190Z",
+            "total_entries": 146,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-05-26"
+                "latest": "2026-05-28"
             }
         }
     },
@@ -6179,6 +6179,18 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "Enterprise owners now have granular control over which GitHub Copilot models are available to each organization. With targeted model rules, you can allow specific models for specific organizations instead of…",
                 "html": "<p>Enterprise owners now have granular control over which GitHub Copilot models are available to each organization. With targeted model rules, you can allow specific models for specific organizations instead of relying on a single enterprise-wide setting. This capability is now in public preview.</p><p>We’ve also refreshed the experience for managing default model availability across your enterprise, making it easier to see and configure which models are available to your organizations.</p><p>Targeted model rules let you create rules that allow specific Copilot models for selected organizations, giving you fine-grained control beyond enterprise-wide defaults.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-05-28",
+            "title": "Claude Opus 4.8 is generally available for GitHub Copilot",
+            "url": "https://github.blog/changelog/2026-05-28-claude-opus-4-8-is-generally-available-for-github-copilot",
+            "source": "Month 5",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Claude Opus 4.8, Anthropic’s latest Opus model, is now available in GitHub Copilot. In our early testing, Opus 4.8 demonstrates a clear step forward in code understanding and generation across…",
+                "html": "<p>Claude Opus 4.8, Anthropic’s latest Opus model, is now available in GitHub Copilot. In our early testing, Opus 4.8 demonstrates a clear step forward in code understanding and generation across a range of real-world coding tasks. It also handles complex problem-solving and large-codebase navigation with notable improvement to previous versions.</p><p>This model is launching with a 15X premium request multiplier until Usage Based Billing launches on June 1, 2026.</p><p>Claude Opus 4.8 will be available to Copilot Pro+, Business, and Enterprise users.</p>",
                 "hasContent": true
             }
         }
