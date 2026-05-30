@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 509,
+        "totalEntries": 510,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-05-28"
+                "latest": "2026-05-29"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-05-29T05:09:18.190Z",
-            "total_entries": 146,
+            "scraped_at": "2026-05-30T04:46:09.549Z",
+            "total_entries": 147,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-05-28"
+                "latest": "2026-05-29"
             }
         }
     },
@@ -5878,7 +5878,7 @@ const embeddedTimelineData = {
             "year": 2026,
             "preview": {
                 "excerpt": "VS Code moved to weekly stable releases. This changelog covers releases v1.116 through v1.119, the releases we shipped throughout April and early May 2026. Copilot can now search by meaning…",
-                "html": "<p>VS Code moved to weekly stable releases. This changelog covers releases v1.116 through v1.119, the releases we shipped throughout April and early May 2026.</p><p>Copilot can now search by meaning in any workspace and run grep-style queries across GitHub repos and orgs. An experimental /chronicle feature lets you query your own chat history to recall what you worked on, which files you touched, and which PRs you referenced. Smarter prompt caching, deferred tool loading, and purpose-built agentic tools reduce token usage without changing agent behavior.</p><p>Agents gain inline diffs in chat, browser tab sharing, and read/write access to any open terminal. Bring-your-own-key support extends to Copilot Business and Enterprise, letting teams connect their own model providers directly in VS Code. Admins get new group policies for controlling which domains agents can reach.</p>",
+                "html": "<p>VS Code moved to weekly stable releases. This changelog covers releases v1.116 through v1.119, the releases we shipped throughout April and early May 2026.</p><p>Copilot can now search by meaning in any workspace and run grep-style queries across GitHub repositories and orgs. An experimental /chronicle feature lets you query your own chat history to recall what you worked on, which files you touched, and which pull requests you referenced. Smarter prompt caching, deferred tool loading, and purpose-built agentic tools reduce token usage without changing agent behavior.</p><p>Agents gain inline diffs in chat, browser tab sharing, and read/write access to any open terminal. Bring-your-own-key support extends to Copilot Business and Enterprise, letting teams connect their own model providers directly in VS Code. Admins get new group policies for controlling which domains agents can reach.</p>",
                 "hasContent": true
             }
         },
@@ -6191,6 +6191,18 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "Claude Opus 4.8, Anthropic’s latest Opus model, is now available in GitHub Copilot. In our early testing, Opus 4.8 demonstrates a clear step forward in code understanding and generation across…",
                 "html": "<p>Claude Opus 4.8, Anthropic’s latest Opus model, is now available in GitHub Copilot. In our early testing, Opus 4.8 demonstrates a clear step forward in code understanding and generation across a range of real-world coding tasks. It also handles complex problem-solving and large-codebase navigation with notable improvement to previous versions.</p><p>This model is launching with a 15X premium request multiplier until Usage Based Billing launches on June 1, 2026.</p><p>Claude Opus 4.8 will be available to Copilot Pro+, Business, and Enterprise users.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-05-29",
+            "title": "Copilot usage metrics API adds cohorts for AI adoption",
+            "url": "https://github.blog/changelog/2026-05-29-copilot-usage-metrics-api-adds-cohorts-for-ai-adoption",
+            "source": "Month 5",
+            "year": 2026,
+            "preview": {
+                "excerpt": "To help you tell a deeper Copilot adoption story—not just who is active, but how they’re using Copilot—the Copilot usage metrics API now classifies each engaged user into an AI…",
+                "html": "<p>To help you tell a deeper Copilot adoption story—not just who is active, but how they’re using Copilot—the Copilot usage metrics API now classifies each engaged user into an AI adoption phase based on their Copilot product usage over a rolling 28-day window. A new ai_adoption_phase field is available on user-level reports, and a new totals_by_ai_adoption_phase array surfaces per-phase metrics on enterprise- and organization-level reports.</p><p>Each engaged user is assigned to one of four phases based on the Copilot surfaces they’ve used on at least two days in the last 28-day window:</p><p>Each ai_adoption_phase value includes a version field (starting at v1) so the classification logic can evolve as Copilot’s product surface grows, without breaking historical context.</p>",
                 "hasContent": true
             }
         }
