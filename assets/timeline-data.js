@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 510,
+        "totalEntries": 511,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-05-29"
+                "latest": "2026-06-01"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-06-01T05:55:35.386Z",
-            "total_entries": 147,
+            "scraped_at": "2026-06-02T05:26:21.767Z",
+            "total_entries": 148,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-05-29"
+                "latest": "2026-06-01"
             }
         }
     },
@@ -6203,6 +6203,18 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "To help you tell a deeper Copilot adoption story—not just who is active, but how they’re using Copilot—the Copilot usage metrics API now classifies each engaged user into an AI…",
                 "html": "<p>To help you tell a deeper Copilot adoption story—not just who is active, but how they’re using Copilot—the Copilot usage metrics API now classifies each engaged user into an AI adoption phase based on their Copilot product usage over a rolling 28-day window. A new ai_adoption_phase field is available on user-level reports, and a new totals_by_ai_adoption_phase array surfaces per-phase metrics on enterprise- and organization-level reports.</p><p>Each engaged user is assigned to one of four phases based on the Copilot surfaces they’ve used on at least two days in the last 28-day window:</p><p>Each ai_adoption_phase value includes a version field (starting at v1) so the classification logic can evolve as Copilot’s product surface grows, without breaking historical context.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-06-01",
+            "title": "Updates to GitHub Copilot billing and plans",
+            "url": "https://github.blog/changelog/2026-06-01-updates-to-github-copilot-billing-and-plans",
+            "source": "Month 6",
+            "year": 2026,
+            "preview": {
+                "excerpt": "As announced in our recent blog post, usage-based billing for GitHub Copilot is now live for all users and Copilot code review consumes GitHub Actions minutes, in addition to GitHub…",
+                "html": "<p>As announced in our recent blog post, usage-based billing for GitHub Copilot is now live for all users and Copilot code review consumes GitHub Actions minutes, in addition to GitHub AI Credits.</p><p>As part of this release, we’re also launching new user-level budget controls and enabling upgrades to Copilot Max.</p><p>As of June 1, all Copilot plans bill based on GitHub AI Credits consumed. Each plan comes with monthly included usage. To find more details about what’s included in each plan, please review the documentation for usage-based billing for individuals and usage-based billing for organizations and enterprises.</p>",
                 "hasContent": true
             }
         }
