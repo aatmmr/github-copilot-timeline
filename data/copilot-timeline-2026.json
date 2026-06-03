@@ -1,15 +1,159 @@
 {
   "metadata": {
-    "scraped_at": "2026-06-02T05:26:21.767Z",
-    "total_entries": 148,
+    "scraped_at": "2026-06-03T05:58:20.889Z",
+    "total_entries": 160,
     "year_filter": 2026,
     "keyword_filter": "Copilot",
     "date_range": {
       "earliest": "2026-01-13",
-      "latest": "2026-06-01"
+      "latest": "2026-06-02"
     }
   },
   "entries": [
+    {
+      "date": "2026-06-02",
+      "title": "Expanded technical preview availability for the GitHub Copilot app",
+      "url": "https://github.blog/changelog/2026-06-02-expanded-technical-preview-availability-for-the-github-copilot-app",
+      "source": "Month 6",
+      "year": 2026,
+      "preview": {
+        "excerpt": "The GitHub Copilot app technical preview is now available to all existing Copilot Pro, Pro+, Business, and Enterprise customers. Download the Copilot app for Windows, macOS, or Linux to get…",
+        "html": "<p>The GitHub Copilot app technical preview is now available to all existing Copilot Pro, Pro+, Business, and Enterprise customers. Download the Copilot app for Windows, macOS, or Linux to get started.</p><p>Copilot Free users and customers not yet on Copilot can join the waitlist to be notified when broader access becomes available. Existing Pro+ customers can upgrade to the new Copilot Max plan for greater included usage.</p><p>This release is also where the app’s center of gravity shifts. As agents do more per session, the work that falls to you changes into managing their output: reading chat transcripts, hunting for the diff that matters, and repeating yourself to course-correct. The headline addition in this release, canvases, is our answer to that shift. Canvases give agent work a place to take shape, become visible, and get verified. All this happens alongside the chat where you steer it.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-06-02",
+      "title": "Copilot SDK is now generally available",
+      "url": "https://github.blog/changelog/2026-06-02-copilot-sdk-is-now-generally-available",
+      "source": "Month 6",
+      "year": 2026,
+      "preview": {
+        "excerpt": "The GitHub Copilot SDK is now generally available. You can embed GitHub Copilot’s agentic engine into your own applications, services, and developer tools with a stable API and production-ready support.…",
+        "html": "<p>The GitHub Copilot SDK is now generally available. You can embed GitHub Copilot’s agentic engine into your own applications, services, and developer tools with a stable API and production-ready support.</p><p>The Copilot SDK gives you direct, programmatic access to the same agent runtime behind GitHub Copilot—planning, tool invocation, file edits, streaming, and multi-turn sessions, so you don’t have to build your own orchestration layer.</p><p>Since entering public preview, the SDK has been used to build everything from CI/CD assistants and internal developer tools to customer-facing AI features.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-06-02",
+      "title": "Copilot CLI: Improved UI, rubber duck, prompt scheduling, and voice input",
+      "url": "https://github.blog/changelog/2026-06-02-copilot-cli-improved-ui-rubber-duck-prompt-scheduling-and-voice-input",
+      "source": "Month 6",
+      "year": 2026,
+      "preview": {
+        "excerpt": "GitHub Copilot CLI is getting a major refresh at Microsoft Build 2026. Rubber duck, prompt scheduling, and voice input are generally available today, and a new experimental terminal interface—including tabs…",
+        "html": "<p>GitHub Copilot CLI is getting a major refresh at Microsoft Build 2026. Rubber duck, prompt scheduling, and voice input are generally available today, and a new experimental terminal interface—including tabs for working with issues, pull requests, and gists—is available to try via /experimental.</p><p>We’re previewing a redesigned terminal interface for Copilot CLI. You get a cleaner layout, theme-aware semantic colors, and responsive components that adapt to narrow terminals without truncating the things you need to read.</p><p>The biggest visible change is the introduction of tabs. When you use the CLI in a GitHub repository, you can press Tab to switch between the default Session view, tabs for the repository’s Issues and Pull requests, and a tab for your personal Gists. This lets you view issues, pull requests, and gists without leaving Copilot CLI.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-06-02",
+      "title": "Cloud and local sandboxes for GitHub Copilot now in public preview",
+      "url": "https://github.blog/changelog/2026-06-02-cloud-and-local-sandboxes-for-github-copilot-now-in-public-preview",
+      "source": "Month 6",
+      "year": 2026,
+      "preview": {
+        "excerpt": "GitHub Copilot can now run inside secure, isolated sandboxes, both locally on your machine and in the cloud. Sandboxed Copilot experiences provide isolated environments for Copilot’s tool execution locally as…",
+        "html": "<p>GitHub Copilot can now run inside secure, isolated sandboxes, both locally on your machine and in the cloud. Sandboxed Copilot experiences provide isolated environments for Copilot’s tool execution locally as well as fully isolated cloud sandboxes hosted by GitHub.</p><p>This gives Copilot a safe place to interact with your code, tools, filesystem, and network, all within the policies you define, so developers and enterprises can adopt agentic workflows without giving up isolation or control.</p><p>Copilot is evolving from an in-editor assistant into an agentic coding partner that runs tools, executes commands, and modifies files on a developer’s behalf. As Copilot takes more actions, developers and enterprises need stronger guarantees around security, isolation, and control.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-06-02",
+      "title": "Shape Copilot code review around your team",
+      "url": "https://github.blog/changelog/2026-06-02-shape-copilot-code-review-around-your-team",
+      "source": "Month 6",
+      "year": 2026,
+      "preview": {
+        "excerpt": "Copilot code review adapts to your team’s tools and standards and scales its depth to the complexity of each change. Today we’re shipping two public previews: Agent skills and MCP…",
+        "html": "<p>Copilot code review adapts to your team’s tools and standards and scales its depth to the complexity of each change. Today we’re shipping two public previews:</p><p>A lot of what reviewers need to know lives in other tools, not in the diff itself. Agent skills and MCP bring that context into Copilot’s reviews, ensuring that reviews don’t stall on questions already answered elsewhere. This means senior engineers stop being the bottleneck for consistency across repositories.</p><p>Review depth should scale with the complexity of the change. The new Medium tier routes pull requests to a higher-reasoning model purpose-built for deeper analysis of complex logic, security-sensitive code, and cross-service changes. Low remains a fast, cost-efficient default for straightforward work like docs and small repositories. This enables you to invest compute where it matters most and conserve it everywhere else.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-06-02",
+      "title": "GitHub Copilot code review for Azure Repos is now in technical preview",
+      "url": "https://github.blog/changelog/2026-06-02-github-copilot-code-review-for-azure-repos-is-now-in-technical-preview",
+      "source": "Month 6",
+      "year": 2026,
+      "preview": {
+        "excerpt": "GitHub Copilot code review for Azure Repos is now available in technical preview, bringing on demand pull request reviews directly into your Azure DevOps workflow. How it works Once enabled…",
+        "html": "<p>GitHub Copilot code review for Azure Repos is now available in technical preview, bringing on demand pull request reviews directly into your Azure DevOps workflow.</p><p>Once enabled at both the organization and repository level, users can request a Copilot code review directly from a pull request in Azure Repos. Copilot adds review comments inline with the code changes, suggests improvements when appropriate, and helps identify potential issues earlier in the development process—all without leaving Azure DevOps.</p><p>Copilot code review for Azure Repos is available to all Azure DevOps customers who sign up for the technical preview. No GitHub Copilot license is required to use the feature.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-06-02",
+      "title": "Introducing Copilot CLI and agentic capabilities enhancements in JetBrains IDEs",
+      "url": "https://github.blog/changelog/2026-06-02-introducing-copilot-cli-and-agentic-capabilities-enhancements-in-jetbrains-ides",
+      "source": "Month 6",
+      "year": 2026,
+      "preview": {
+        "excerpt": "With Copilot CLI now available in GitHub Copilot for JetBrains IDEs, this update centers on new capabilities for Copilot CLI sessions, while also delivering a broader set of agentic improvements.…",
+        "html": "<p>With Copilot CLI now available in GitHub Copilot for JetBrains IDEs, this update centers on new capabilities for Copilot CLI sessions, while also delivering a broader set of agentic improvements. For Copilot CLI sessions, that includes agent picker support, new slash commands, and the agent debug panel in public preview, along with the beginning of a phased transition to Copilot CLI agent as the default experience.</p><p>In parallel, this release also integrates Coding Agent into the unified sessions view, adds configurable thinking effort for supported models, introduces the agent customizations editor, adds Google and Apple sign-in options, and includes additional user experience and reliability improvements.</p><p>Copilot CLI agent now includes an agent picker that lets you flexibly choose between different operating modes to suit your workflow:</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-06-02",
+      "title": "Gemini models in Copilot CLI, cloud agent, and the Copilot app",
+      "url": "https://github.blog/changelog/2026-06-02-gemini-models-in-copilot-cli-cloud-agent-and-the-copilot-app",
+      "source": "Month 6",
+      "year": 2026,
+      "preview": {
+        "excerpt": "Two Gemini models are now available across additional GitHub Copilot surfaces. Gemini 3.1 Pro (Preview) and Gemini 3.5 Flash can now be used in: Copilot CLI Copilot cloud agent GitHub…",
+        "html": "<p>Two Gemini models are now available across additional GitHub Copilot surfaces. Gemini 3.1 Pro (Preview) and Gemini 3.5 Flash can now be used in:</p><p>Gemini 3.1 Pro (Preview) is available for Copilot Student, Copilot Pro, Copilot Pro+, Copilot Business, and Copilot Enterprise subscribers.</p><p>Gemini 3.5 Flash is available for Copilot Pro, Copilot Pro+, Copilot Business, and Copilot Enterprise subscribers.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-06-02",
+      "title": "Schedule and automate tasks with Copilot cloud agent",
+      "url": "https://github.blog/changelog/2026-06-02-schedule-and-automate-tasks-with-copilot-cloud-agent",
+      "source": "Month 6",
+      "year": 2026,
+      "preview": {
+        "excerpt": "With the new automations feature, Copilot cloud agent can now run automatically, on a schedule or in response to repository events. Automations let you hand off repetitive tasks to the…",
+        "html": "<p>With the new automations feature, Copilot cloud agent can now run automatically, on a schedule or in response to repository events.</p><p>Automations let you hand off repetitive tasks to the agent without any manual input. For example:</p><p>Automations are supported in private and internal repositories, with support for public repositories coming soon.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-06-02",
+      "title": "Copilot Memory supports user preferences for Business, Enterprise",
+      "url": "https://github.blog/changelog/2026-06-02-copilot-memory-supports-user-preferences-for-business-enterprise",
+      "source": "Month 6",
+      "year": 2026,
+      "preview": {
+        "excerpt": "Following the rollout to Copilot Pro and Pro+ users, Copilot Memory is rolling out user-level preferences in public preview for Copilot Business and Copilot Enterprise, with new admin controls for…",
+        "html": "<p>Following the rollout to Copilot Pro and Pro+ users, Copilot Memory is rolling out user-level preferences in public preview for Copilot Business and Copilot Enterprise, with new admin controls for governance.</p><p>Copilot Memory can now capture user-level preferences such as communication style, tool stack, or git conventions, applying them across repositories and Copilot experiences. These user-level preferences complement existing repository-level facts, which are applied to all collaborators but scoped to a single repository.</p><p>User-level preferences are available in public preview across Copilot coding agent and Copilot CLI.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-06-02",
+      "title": "MAI-Code-1-Flash is now available for GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-06-02-mai-code-1-flash-is-now-available-for-github-copilot",
+      "source": "Month 6",
+      "year": 2026,
+      "preview": {
+        "excerpt": "MAI‑Code‑1‑Flash, Microsoft’s latest small‑tier coding model, is now rolling out in GitHub Copilot starting with VS Code. MAI‑Code‑1‑Flash delivers best‑in‑class quality for its size, outperforming other small models in early…",
+        "html": "<p>MAI‑Code‑1‑Flash, Microsoft’s latest small‑tier coding model, is now rolling out in GitHub Copilot starting with VS Code. MAI‑Code‑1‑Flash delivers best‑in‑class quality for its size, outperforming other small models in early testing, making it well‑suited for lightweight coding workflows. Designed and tuned specifically for GitHub Copilot, this marks the first in a new wave of purpose‑built coding models from Microsoft.</p><p>MAI‑Code‑1‑Flash is beginning to roll out to Copilot Free, Pro, Pro+, and Max plans. Availability will start with a limited set of users and expand gradually over the coming weeks.</p><p>You’ll be able to select the model in the model picker in Visual Studio Code.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-06-02",
+      "title": "GitHub Copilot in Eclipse: BYOK, skills, and chat updates",
+      "url": "https://github.blog/changelog/2026-06-02-github-copilot-in-eclipse-byok-skills-and-chat-updates",
+      "source": "Month 6",
+      "year": 2026,
+      "preview": {
+        "excerpt": "This release of GitHub Copilot in Eclipse packs a lot: a refreshed chat experience, deeper visibility into your session context, BYOK for Business and Enterprise, better ABAP support, and brand…",
+        "html": "<p>This release of GitHub Copilot in Eclipse packs a lot: a refreshed chat experience, deeper visibility into your session context, BYOK for Business and Enterprise, better ABAP support, and brand new support for skills and prompt files. Read on for the highlights.</p><p>We’ve refreshed the chat view with a brand new combo picker for selecting chat modes and models, surfacing more information for each model right where you make the choice.</p><p>Ever wonder how much of the conversation’s context window has been consumed? The chat view now shows a context size donut indicator alongside the input area, with a popup that breaks down token usage for the current session.</p>",
+        "hasContent": true
+      }
+    },
     {
       "date": "2026-06-01",
       "title": "Updates to GitHub Copilot billing and plans",
