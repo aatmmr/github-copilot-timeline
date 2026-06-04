@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 523,
+        "totalEntries": 524,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-06-02"
+                "latest": "2026-06-03"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-06-03T05:58:20.889Z",
-            "total_entries": 160,
+            "scraped_at": "2026-06-04T05:51:56.124Z",
+            "total_entries": 161,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-06-02"
+                "latest": "2026-06-03"
             }
         }
     },
@@ -6237,8 +6237,8 @@ const embeddedTimelineData = {
             "source": "Month 6",
             "year": 2026,
             "preview": {
-                "excerpt": "GitHub Copilot CLI is getting a major refresh at Microsoft Build 2026. Rubber duck, prompt scheduling, and voice input are generally available today, and a new experimental terminal interface—including tabs…",
-                "html": "<p>GitHub Copilot CLI is getting a major refresh at Microsoft Build 2026. Rubber duck, prompt scheduling, and voice input are generally available today, and a new experimental terminal interface—including tabs for working with issues, pull requests, and gists—is available to try via /experimental.</p><p>We’re previewing a redesigned terminal interface for Copilot CLI. You get a cleaner layout, theme-aware semantic colors, and responsive components that adapt to narrow terminals without truncating the things you need to read.</p><p>The biggest visible change is the introduction of tabs. When you use the CLI in a GitHub repository, you can press Tab to switch between the default Session view, tabs for the repository’s Issues and Pull requests, and a tab for your personal Gists. This lets you view issues, pull requests, and gists without leaving Copilot CLI.</p>",
+                "excerpt": "GitHub Copilot CLI is getting a major refresh at Microsoft Build 2026. Rubber duck and voice input are generally available today, and both prompt scheduling and a new experimental terminal…",
+                "html": "<p>GitHub Copilot CLI is getting a major refresh at Microsoft Build 2026. Rubber duck and voice input are generally available today, and both prompt scheduling and a new experimental terminal interface—including tabs for working with issues, pull requests, and gists—are available to try via /experimental.</p><p>Editor’s note (June 3, 2026): Updated prompt scheduling to indicate it is part of /experimental, not generally available.</p><p>We’re previewing a redesigned terminal interface for Copilot CLI. You get a cleaner layout, theme-aware semantic colors, and responsive components that adapt to narrow terminals without truncating the things you need to read.</p>",
                 "hasContent": true
             }
         },
@@ -6359,6 +6359,18 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "Copilot code review adapts to your team’s tools and standards and scales its depth to the complexity of each change. Today we’re shipping two public previews: Agent skills and MCP…",
                 "html": "<p>Copilot code review adapts to your team’s tools and standards and scales its depth to the complexity of each change. Today we’re shipping two public previews:</p><p>A lot of what reviewers need to know lives in other tools, not in the diff itself. Agent skills and MCP bring that context into Copilot’s reviews, ensuring that reviews don’t stall on questions already answered elsewhere. This means senior engineers stop being the bottleneck for consistency across repositories.</p><p>Review depth should scale with the complexity of the change. The new Medium tier routes pull requests to a higher-reasoning model purpose-built for deeper analysis of complex logic, security-sensitive code, and cross-service changes. Low remains a fast, cost-efficient default for straightforward work like docs and small repositories. This enables you to invest compute where it matters most and conserve it everywhere else.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-06-03",
+            "title": "GitHub Copilot in Visual Studio Code, May releases",
+            "url": "https://github.blog/changelog/2026-06-03-github-copilot-in-visual-studio-code-may-releases",
+            "source": "Month 6",
+            "year": 2026,
+            "preview": {
+                "excerpt": "VS Code continues with weekly stable releases. This changelog covers releases v1.120 through v1.123, the releases we shipped throughout May and early June 2026. In May, we made the Agents…",
+                "html": "<p>VS Code continues with weekly stable releases. This changelog covers releases v1.120 through v1.123, the releases we shipped throughout May and early June 2026.</p><p>In May, we made the Agents window available in VS Code Stable as a preview, giving users an agent-first experience focused on completing tasks rather than editing code. We also improved support for remotely controlling longer-running, more complex agent sessions.</p><p>VS Code supports bring-your-own-key (BYOK) models, letting you use your own language model API keys. This month, we expanded BYOK to air-gapped environments and added controls to specify which models handle utility tasks like commit message generation.</p>",
                 "hasContent": true
             }
         }
