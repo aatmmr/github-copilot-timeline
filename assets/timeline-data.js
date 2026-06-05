@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 524,
+        "totalEntries": 529,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-06-03"
+                "latest": "2026-06-04"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-06-04T05:51:56.124Z",
-            "total_entries": 161,
+            "scraped_at": "2026-06-05T05:11:47.264Z",
+            "total_entries": 166,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-06-03"
+                "latest": "2026-06-04"
             }
         }
     },
@@ -6371,6 +6371,66 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "VS Code continues with weekly stable releases. This changelog covers releases v1.120 through v1.123, the releases we shipped throughout May and early June 2026. In May, we made the Agents…",
                 "html": "<p>VS Code continues with weekly stable releases. This changelog covers releases v1.120 through v1.123, the releases we shipped throughout May and early June 2026.</p><p>In May, we made the Agents window available in VS Code Stable as a preview, giving users an agent-first experience focused on completing tasks rather than editing code. We also improved support for remotely controlling longer-running, more complex agent sessions.</p><p>VS Code supports bring-your-own-key (BYOK) models, letting you use your own language model API keys. This month, we expanded BYOK to air-gapped environments and added controls to specify which models handle utility tasks like commit message generation.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-06-04",
+            "title": "Agent tasks REST API now available for Copilot Pro, Pro+, and Max",
+            "url": "https://github.blog/changelog/2026-06-04-agent-tasks-rest-api-now-available-for-copilot-pro-pro-and-max",
+            "source": "Month 6",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Copilot Pro, Pro+, and Max users can now programmatically start and track Copilot cloud agent tasks with the Agent tasks REST API, available in public preview. Copilot cloud agent works…",
+                "html": "<p>Copilot Pro, Pro+, and Max users can now programmatically start and track Copilot cloud agent tasks with the Agent tasks REST API, available in public preview.</p><p>Copilot cloud agent works in the background in its own development environment, where it can make and validate code changes, then open a pull request.</p><p>The API makes it easy to weave Copilot cloud agent into custom automations. For example, you could:</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-06-04",
+            "title": "Copilot Chat brings richer context to pull requests",
+            "url": "https://github.blog/changelog/2026-06-04-copilot-chat-brings-richer-context-to-pull-requests",
+            "source": "Month 6",
+            "year": 2026,
+            "preview": {
+                "excerpt": "GitHub Copilot Chat now provides richer context and new capabilities when you’re working with diffs and pull requests on github.com",
+                "html": "<p>GitHub Copilot Chat now provides richer context and new capabilities when you’re working with diffs and pull requests on github.com. This feature was previously in public preview and is now generally available to anyone with a Copilot license.</p><p>You can view your conversation directly alongside your conversation with Copilot. This allows for comments and inline edits without needing to toggle between the pull request and your chat window.</p><p>This experience is powered by new abilities for pull request understanding, review, and summary. These abilities add relevant pull request and repository context to chat any time you ask about a diff or pull request. We’ve improved the performance of this feature so you get quality answers to your questions faster.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-06-04",
+            "title": "Fix with Copilot for failing Actions now in Pro, Pro+, and Max",
+            "url": "https://github.blog/changelog/2026-06-04-fix-with-copilot-for-failing-actions-now-in-pro-pro-and-max",
+            "source": "Month 6",
+            "year": 2026,
+            "preview": {
+                "excerpt": "When a GitHub Actions job fails, Copilot Pro, Pro+, and Max subscribers can now ask Copilot cloud agent to fix it in one click. Click the Fix with Copilot button…",
+                "html": "<p>When a GitHub Actions job fails, Copilot Pro, Pro+, and Max subscribers can now ask Copilot cloud agent to fix it in one click.</p><p>Click the Fix with Copilot button on the workflow run logs page, and Copilot will investigate the failure, push a fix to your branch, and tag you for review when it’s done. It does all this from its own cloud-based development environment.</p><p>This means you can hand off simple but time-consuming work to Copilot (e.g., fixing tests or correcting linter failures) and stay focused on what you actually want to build.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-06-04",
+            "title": "GitHub Copilot in Visual Studio — May update",
+            "url": "https://github.blog/changelog/2026-06-04-github-copilot-in-visual-studio-may-update",
+            "source": "Month 6",
+            "year": 2026,
+            "preview": {
+                "excerpt": "May 2026 brought sharper tooling for planning, reviewing, and managing your work with GitHub Copilot in Visual Studio 2026. Highlights Here’s what’s new for all GitHub Copilot users in Visual…",
+                "html": "<p>May 2026 brought sharper tooling for planning, reviewing, and managing your work with GitHub Copilot in Visual Studio 2026.</p><p>Here’s what’s new for all GitHub Copilot users in Visual Studio 2026. Check the Insiders channel for the latest:</p><p>Download Visual Studio 2026 to experience all the new Copilot features today. To learn more about what’s new, check out the Visual Studio blog and release notes.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-06-04",
+            "title": "Larger context windows and configurable reasoning levels for GitHub Copilot",
+            "url": "https://github.blog/changelog/2026-06-04-larger-context-windows-and-configurable-reasoning-levels-for-github-copilot",
+            "source": "Month 6",
+            "year": 2026,
+            "preview": {
+                "excerpt": "GitHub Copilot now supports larger context windows and configurable reasoning levels to help you tackle deeper, more complex work. Leverage one-million-token context windows A one-million-token context window means users can…",
+                "html": "<p>GitHub Copilot now supports larger context windows and configurable reasoning levels to help you tackle deeper, more complex work.</p><p>A one-million-token context window means users can now work across larger codebases, longer documents, and complex multi-file projects without losing context. This capability is available now in VS Code, Copilot CLI, and the GitHub Copilot app, and is expanding to more surfaces soon.</p><p>Configurable reasoning levels let you dial in the right balance of speed and depth and unlock extended thinking for your hardest architectural and debugging challenges. This capability is available in VS Code, Copilot CLI, and the GitHub Copilot app, and is expanding to more surfaces soon.</p>",
                 "hasContent": true
             }
         }
