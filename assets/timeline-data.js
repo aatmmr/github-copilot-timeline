@@ -75,7 +75,7 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-06-05T05:11:47.264Z",
+            "scraped_at": "2026-06-06T04:50:16.035Z",
             "total_entries": 166,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
@@ -6273,8 +6273,8 @@ const embeddedTimelineData = {
             "source": "Month 6",
             "year": 2026,
             "preview": {
-                "excerpt": "The GitHub Copilot app technical preview is now available to all existing Copilot Pro, Pro+, Business, and Enterprise customers. Download the Copilot app for Windows, macOS, or Linux to get…",
-                "html": "<p>The GitHub Copilot app technical preview is now available to all existing Copilot Pro, Pro+, Business, and Enterprise customers. Download the Copilot app for Windows, macOS, or Linux to get started.</p><p>Copilot Free users and customers not yet on Copilot can join the waitlist to be notified when broader access becomes available. Existing Pro+ customers can upgrade to the new Copilot Max plan for greater included usage.</p><p>This release is also where the app’s center of gravity shifts. As agents do more per session, the work that falls to you changes into managing their output: reading chat transcripts, hunting for the diff that matters, and repeating yourself to course-correct. The headline addition in this release, canvases, is our answer to that shift. Canvases give agent work a place to take shape, become visible, and get verified. All this happens alongside the chat where you steer it.</p>",
+                "excerpt": "Editor’s note (June 5, 2026): Removed the waitlist link and updated the links to the GitHub Copilot app. The GitHub Copilot app technical preview is now available to all existing…",
+                "html": "<p>Editor’s note (June 5, 2026): Removed the waitlist link and updated the links to the GitHub Copilot app.</p><p>The GitHub Copilot app technical preview is now available to all existing Copilot Pro, Pro+, Business, and Enterprise customers. Download the Copilot app for Windows, macOS, or Linux to get started.</p><p>Access for Copilot Free users and new subscribers will be opening soon. Existing Pro+ customers can upgrade to the new Copilot Max plan for greater included usage.</p>",
                 "hasContent": true
             }
         },
@@ -6334,7 +6334,7 @@ const embeddedTimelineData = {
             "year": 2026,
             "preview": {
                 "excerpt": "MAI‑Code‑1‑Flash, Microsoft’s latest small‑tier coding model, is now rolling out in GitHub Copilot starting with VS Code. MAI‑Code‑1‑Flash delivers best‑in‑class quality for its size, outperforming other small models in early…",
-                "html": "<p>MAI‑Code‑1‑Flash, Microsoft’s latest small‑tier coding model, is now rolling out in GitHub Copilot starting with VS Code. MAI‑Code‑1‑Flash delivers best‑in‑class quality for its size, outperforming other small models in early testing, making it well‑suited for lightweight coding workflows. Designed and tuned specifically for GitHub Copilot, this marks the first in a new wave of purpose‑built coding models from Microsoft.</p><p>MAI‑Code‑1‑Flash is beginning to roll out to Copilot Free, Pro, Pro+, and Max plans. Availability will start with a limited set of users and expand gradually over the coming weeks.</p><p>You’ll be able to select the model in the model picker in Visual Studio Code.</p>",
+                "html": "<p>MAI‑Code‑1‑Flash, Microsoft’s latest small‑tier coding model, is now rolling out in GitHub Copilot starting with VS Code. MAI‑Code‑1‑Flash delivers best‑in‑class quality for its size, outperforming other small models in early testing, making it well‑suited for lightweight coding workflows. Designed and tuned specifically for GitHub Copilot, this marks the first in a new wave of purpose‑built coding models from Microsoft.</p><p>MAI‑Code‑1‑Flash is beginning to roll out to Copilot Free, Student, Pro, Pro+, and Max plans. Availability will start with a limited set of users and expand gradually over the coming weeks.</p><p>Editor’s note (June 5th, 2026): Added Copilot Student to the list of tiers that are getting access to MAI-Code-1-Flash.</p>",
                 "hasContent": true
             }
         },
