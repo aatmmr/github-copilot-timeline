@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 529,
+        "totalEntries": 530,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-06-04"
+                "latest": "2026-06-09"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-06-09T04:59:46.317Z",
-            "total_entries": 166,
+            "scraped_at": "2026-06-10T05:12:04.841Z",
+            "total_entries": 167,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-06-04"
+                "latest": "2026-06-09"
             }
         }
     },
@@ -6431,6 +6431,18 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "GitHub Copilot now supports larger context windows and configurable reasoning levels to help you tackle deeper, more complex work. Leverage one-million-token context windows A one-million-token context window means users can…",
                 "html": "<p>GitHub Copilot now supports larger context windows and configurable reasoning levels to help you tackle deeper, more complex work.</p><p>A one-million-token context window means users can now work across larger codebases, longer documents, and complex multi-file projects without losing context. This capability is available now in VS Code, Copilot CLI, and the GitHub Copilot app, and is expanding to more surfaces soon.</p><p>Configurable reasoning levels let you dial in the right balance of speed and depth and unlock extended thinking for your hardest architectural and debugging challenges. This capability is available in VS Code, Copilot CLI, and the GitHub Copilot app, and is expanding to more surfaces soon.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-06-09",
+            "title": "Claude Fable 5 is generally available for GitHub Copilot",
+            "url": "https://github.blog/changelog/2026-06-09-claude-fable-5-is-generally-available-for-github-copilot",
+            "source": "Month 6",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Claude Fable 5 from Anthropic is now available in GitHub Copilot, the first model in Anthropic’s Mythos class, designed for long-horizon, autonomous coding and knowledge-work tasks. Unlike other Claude models…",
+                "html": "<p>Claude Fable 5 from Anthropic is now available in GitHub Copilot, the first model in Anthropic’s Mythos class, designed for long-horizon, autonomous coding and knowledge-work tasks. Unlike other Claude models in GitHub Copilot, Claude Fable 5 requires data retention to operate Anthropic’s safety classifiers. Continue reading for more details. In our internal benchmarks on autonomous coding workflows, Fable 5 completed equivalent work with fewer tool calls and lower token consumption than previous Opus-tier models.</p><p>This model is billed at provider list pricing under Usage Based Billing. See GitHub Copilot’s pricing for models and requests for details.</p><p>Claude Fable 5 will be available to Copilot Pro+, Max, Business, and Enterprise users. You’ll be able to select the model in the model picker in:</p>",
                 "hasContent": true
             }
         }
