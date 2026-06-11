@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 530,
+        "totalEntries": 532,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-06-09"
+                "latest": "2026-06-10"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-06-10T05:12:04.841Z",
-            "total_entries": 167,
+            "scraped_at": "2026-06-11T05:25:06.453Z",
+            "total_entries": 169,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-06-09"
+                "latest": "2026-06-10"
             }
         }
     },
@@ -6443,6 +6443,30 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "Claude Fable 5 from Anthropic is now available in GitHub Copilot, the first model in Anthropic’s Mythos class, designed for long-horizon, autonomous coding and knowledge-work tasks. Unlike other Claude models…",
                 "html": "<p>Claude Fable 5 from Anthropic is now available in GitHub Copilot, the first model in Anthropic’s Mythos class, designed for long-horizon, autonomous coding and knowledge-work tasks. Unlike other Claude models in GitHub Copilot, Claude Fable 5 requires data retention to operate Anthropic’s safety classifiers. Continue reading for more details. In our internal benchmarks on autonomous coding workflows, Fable 5 completed equivalent work with fewer tool calls and lower token consumption than previous Opus-tier models.</p><p>This model is billed at provider list pricing under Usage Based Billing. See GitHub Copilot’s pricing for models and requests for details.</p><p>Claude Fable 5 will be available to Copilot Pro+, Max, Business, and Enterprise users. You’ll be able to select the model in the model picker in:</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-06-10",
+            "title": "Copilot Chat now sees your agent sessions",
+            "url": "https://github.blog/changelog/2026-06-10-copilot-chat-now-sees-your-agent-sessions",
+            "source": "Month 6",
+            "year": 2026,
+            "preview": {
+                "excerpt": "We’ve improved the handoff experience between Copilot Chat and Copilot cloud agent on the web. We’ve also enabled new functionality which allows you to search and query past agent sessions…",
+                "html": "<p>We’ve improved the handoff experience between Copilot Chat and Copilot cloud agent on the web. We’ve also enabled new functionality which allows you to search and query past agent sessions in chat.</p><p>When you kick off an agent session by asking chat to create a session, create a pull request, or do deep research on a repository, chat now reflects the status of your in-progress session. When a session is complete, you can ask follow-up questions on the session or kick off another session from chat.</p><p>Two new tools have been enabled in Copilot Chat:</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-06-10",
+            "title": "Dedicated security review command now available in Copilot CLI",
+            "url": "https://github.blog/changelog/2026-06-10-dedicated-security-review-command-now-available-in-copilot-cli",
+            "source": "Month 6",
+            "year": 2026,
+            "preview": {
+                "excerpt": "You can now run a security review on your code changes directly from GitHub Copilot CLI. The new /security-review slash command is shipping as an experimental feature in public preview,…",
+                "html": "<p>You can now run a security review on your code changes directly from GitHub Copilot CLI. The new /security-review slash command is shipping as an experimental feature in public preview, giving you a fast, AI-driven way to catch security vulnerabilities before they reach production code.</p><p>/security-review analyzes your local code changes and returns:</p><p>The scan is tuned to flag common, high-impact vulnerability classes such as injection flaws, cross-site scripting, insecure data handling, path traversal, and weak cryptography.</p>",
                 "hasContent": true
             }
         }
