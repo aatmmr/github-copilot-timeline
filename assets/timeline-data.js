@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 532,
+        "totalEntries": 533,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-06-10"
+                "latest": "2026-06-11"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-06-11T05:25:06.453Z",
-            "total_entries": 169,
+            "scraped_at": "2026-06-12T05:28:09.140Z",
+            "total_entries": 170,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-06-10"
+                "latest": "2026-06-11"
             }
         }
     },
@@ -6467,6 +6467,18 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "You can now run a security review on your code changes directly from GitHub Copilot CLI. The new /security-review slash command is shipping as an experimental feature in public preview,…",
                 "html": "<p>You can now run a security review on your code changes directly from GitHub Copilot CLI. The new /security-review slash command is shipping as an experimental feature in public preview, giving you a fast, AI-driven way to catch security vulnerabilities before they reach production code.</p><p>/security-review analyzes your local code changes and returns:</p><p>The scan is tuned to flag common, high-impact vulnerability classes such as injection flaws, cross-site scripting, insecure data handling, path traversal, and weak cryptography.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-06-11",
+            "title": "Copilot CLI: Configure everything from one place with /settings",
+            "url": "https://github.blog/changelog/2026-06-11-copilot-cli-configure-everything-from-one-place-with-settings",
+            "source": "Month 6",
+            "year": 2026,
+            "preview": {
+                "excerpt": "GitHub Copilot CLI now has a unified, schema-driven home for configuration. The new /settings slash command combines the scattered commands like /theme, /streamer-mode, and /experimental with options that previously required…",
+                "html": "<p>GitHub Copilot CLI now has a unified, schema-driven home for configuration. The new /settings slash command combines the scattered commands like /theme, /streamer-mode, and /experimental with options that previously required manually editing your settings file into a single, discoverable surface.</p><p>/settings works whether you want a guided UI, a quick one-liner, or a scripted change in a copilot -p invocation:</p><p>Keys are dotted paths into the CLI’s settings schema, and tab completion surfaces every available key — along with the description and the allowed values for booleans, enums, and enum-or-string unions — right next to your prompt. No more guessing key names or types.</p>",
                 "hasContent": true
             }
         }
