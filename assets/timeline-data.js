@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 533,
+        "totalEntries": 534,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-06-11"
+                "latest": "2026-06-12"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-06-12T05:28:09.140Z",
-            "total_entries": 170,
+            "scraped_at": "2026-06-13T05:16:33.972Z",
+            "total_entries": 171,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-06-11"
+                "latest": "2026-06-12"
             }
         }
     },
@@ -6441,8 +6441,8 @@ const embeddedTimelineData = {
             "source": "Month 6",
             "year": 2026,
             "preview": {
-                "excerpt": "Claude Fable 5 from Anthropic is now available in GitHub Copilot, the first model in Anthropic’s Mythos class, designed for long-horizon, autonomous coding and knowledge-work tasks. Unlike other Claude models…",
-                "html": "<p>Claude Fable 5 from Anthropic is now available in GitHub Copilot, the first model in Anthropic’s Mythos class, designed for long-horizon, autonomous coding and knowledge-work tasks. Unlike other Claude models in GitHub Copilot, Claude Fable 5 requires data retention to operate Anthropic’s safety classifiers. Continue reading for more details. In our internal benchmarks on autonomous coding workflows, Fable 5 completed equivalent work with fewer tool calls and lower token consumption than previous Opus-tier models.</p><p>This model is billed at provider list pricing under Usage Based Billing. See GitHub Copilot’s pricing for models and requests for details.</p><p>Claude Fable 5 will be available to Copilot Pro+, Max, Business, and Enterprise users. You’ll be able to select the model in the model picker in:</p>",
+                "excerpt": "Editor’s Note (June 12, 2026): Following Anthropic’s announcement, effective today, access to Claude Fable 5 has been suspended across all GitHub Copilot experiences. All other Claude models including Claude Opus…",
+                "html": "<p>Editor’s Note (June 12, 2026): Following Anthropic’s announcement, effective today, access to Claude Fable 5 has been suspended across all GitHub Copilot experiences. All other Claude models including Claude Opus 4.8, Sonnet 4.6, and Haiku 4.5 remain available and unaffected. We apologize for the disruption. You can read more about Anthropic’s position in their statement.</p><p>Claude Fable 5 from Anthropic is now available in GitHub Copilot, the first model in Anthropic’s Mythos class, designed for long-horizon, autonomous coding and knowledge-work tasks. Unlike other Claude models in GitHub Copilot, Claude Fable 5 requires data retention to operate Anthropic’s safety classifiers. Continue reading for more details. In our internal benchmarks on autonomous coding workflows, Fable 5 completed equivalent work with fewer tool calls and lower token consumption than previous Opus-tier models.</p><p>This model is billed at provider list pricing under Usage Based Billing. See GitHub Copilot’s pricing for models and requests for details.</p>",
                 "hasContent": true
             }
         },
@@ -6479,6 +6479,18 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "GitHub Copilot CLI now has a unified, schema-driven home for configuration. The new /settings slash command combines the scattered commands like /theme, /streamer-mode, and /experimental with options that previously required…",
                 "html": "<p>GitHub Copilot CLI now has a unified, schema-driven home for configuration. The new /settings slash command combines the scattered commands like /theme, /streamer-mode, and /experimental with options that previously required manually editing your settings file into a single, discoverable surface.</p><p>/settings works whether you want a guided UI, a quick one-liner, or a scripted change in a copilot -p invocation:</p><p>Keys are dotted paths into the CLI’s settings schema, and tab completion surfaces every available key — along with the description and the allowed values for booleans, enums, and enum-or-string unions — right next to your prompt. No more guessing key names or types.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-06-12",
+            "title": "Copilot code review: New configurations and controls",
+            "url": "https://github.blog/changelog/2026-06-12-copilot-code-review-new-configurations-and-controls",
+            "source": "Month 6",
+            "year": 2026,
+            "preview": {
+                "excerpt": "With new organization runner controls, Copilot content exclusion support, and the removal of the character limit on repository custom instructions, Copilot code review is now easier to tailor to your…",
+                "html": "<p>With new organization runner controls, Copilot content exclusion support, and the removal of the character limit on repository custom instructions, Copilot code review is now easier to tailor to your needs within your repository and organization.</p><p>With the release of Copilot code review’s agentic architecture, we announced that Copilot code review is powered by GitHub Actions. By default, Copilot code review runs on the standard GitHub-hosted runner, but teams can configure self-hosted or large runners for more control over the runner type. To support ease of setup of custom runners, Copilot code review’s runner type can now be configured at the organization-level, meaning that one configuration can apply to all repositories within the organization.</p><p>To set this up, navigate to your organization, then go to Copilot -&gt; Runner type -&gt; Runner type configuration. Your configuration will apply to both Copilot code review and Copilot cloud agent if both are enabled.</p>",
                 "hasContent": true
             }
         }
