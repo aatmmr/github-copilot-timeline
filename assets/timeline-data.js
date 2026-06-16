@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 534,
+        "totalEntries": 535,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-06-12"
+                "latest": "2026-06-15"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-06-15T06:18:23.945Z",
-            "total_entries": 171,
+            "scraped_at": "2026-06-16T06:28:25.010Z",
+            "total_entries": 172,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-06-12"
+                "latest": "2026-06-15"
             }
         }
     },
@@ -6466,7 +6466,7 @@ const embeddedTimelineData = {
             "year": 2026,
             "preview": {
                 "excerpt": "You can now run a security review on your code changes directly from GitHub Copilot CLI. The new /security-review slash command is shipping as an experimental feature in public preview,…",
-                "html": "<p>You can now run a security review on your code changes directly from GitHub Copilot CLI. The new /security-review slash command is shipping as an experimental feature in public preview, giving you a fast, AI-driven way to catch security vulnerabilities before they reach production code.</p><p>/security-review analyzes your local code changes and returns:</p><p>The scan is tuned to flag common, high-impact vulnerability classes such as injection flaws, cross-site scripting, insecure data handling, path traversal, and weak cryptography.</p>",
+                "html": "<p>You can now run a security review on your code changes directly from GitHub Copilot CLI. The new /security-review slash command is shipping as an experimental feature in public preview, giving you a fast, AI-driven way to catch security vulnerabilities before they reach production code.</p><p>/security-review analyzes your local code changes and returns:</p><p>The scan flags high-impact vulnerabilities across 11 categories, including injection flaws, XSS, broken access control and path traversal, SSRF, insecure deserialization and prototype pollution, weak cryptography, hardcoded credentials, sensitive data leaks, authentication and CORS failures, security misconfigurations, supply-chain risks like unpinned dependencies, and cross-prompt injection (XPIA) against LLM-integrated code</p>",
                 "hasContent": true
             }
         },
@@ -6491,6 +6491,18 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "With new organization runner controls, Copilot content exclusion support, and the removal of the character limit on repository custom instructions, Copilot code review is now easier to tailor to your…",
                 "html": "<p>With new organization runner controls, Copilot content exclusion support, and the removal of the character limit on repository custom instructions, Copilot code review is now easier to tailor to your needs within your repository and organization.</p><p>With the release of Copilot code review’s agentic architecture, we announced that Copilot code review is powered by GitHub Actions. By default, Copilot code review runs on the standard GitHub-hosted runner, but teams can configure self-hosted or large runners for more control over the runner type. To support ease of setup of custom runners, Copilot code review’s runner type can now be configured at the organization-level, meaning that one configuration can apply to all repositories within the organization.</p><p>To set this up, navigate to your organization, then go to Copilot -&gt; Runner type -&gt; Runner type configuration. Your configuration will apply to both Copilot code review and Copilot cloud agent if both are enabled.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-06-15",
+            "title": "Copilot usage metrics now include more of your active users",
+            "url": "https://github.blog/changelog/2026-06-15-copilot-usage-metrics-now-include-more-of-your-active-users",
+            "source": "Month 6",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Copilot usage metrics reports now draw on server-side telemetry in addition to client signals, so more of your active Copilot users show up in reports. Enterprise usage reports returned by…",
+                "html": "<p>Copilot usage metrics reports now draw on server-side telemetry in addition to client signals, so more of your active Copilot users show up in reports. Enterprise usage reports returned by the Copilot usage metrics API now surface active users that client-side telemetry alone would have missed, giving you a more complete and consistent picture of who is using Copilot.</p><p>Copilot usage reports have historically been built from client-side telemetry emitted by IDEs and other clients. That telemetry is the richest source we have, but it does not always reach us. Network conditions, proxy configurations, client settings, and other factors outside of your control or ours can prevent a client from reporting activity. When that happened, an active, billed user could be absent from your reports.</p><p>This update incorporates additional server-side telemetry to identify active users. Any active user we can confirm from the server side who was not already captured from client telemetry is now included in your enterprise single-day and 28-day reports, increasing your daily active user (DAU) coverage.</p>",
                 "hasContent": true
             }
         }
