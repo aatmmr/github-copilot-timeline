@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 535,
+        "totalEntries": 539,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-06-15"
+                "latest": "2026-06-17"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-06-17T06:05:39.255Z",
-            "total_entries": 172,
+            "scraped_at": "2026-06-18T05:51:21.241Z",
+            "total_entries": 176,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-06-15"
+                "latest": "2026-06-17"
             }
         }
     },
@@ -6503,6 +6503,54 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "Copilot usage metrics reports now draw on server-side telemetry in addition to client signals, so more of your active Copilot users show up in reports. Enterprise usage reports returned by…",
                 "html": "<p>Copilot usage metrics reports now draw on server-side telemetry in addition to client signals, so more of your active Copilot users show up in reports. Enterprise usage reports returned by the Copilot usage metrics API now surface active users that client-side telemetry alone would have missed, giving you a more complete and consistent picture of who is using Copilot.</p><p>Copilot usage reports have historically been built from client-side telemetry emitted by IDEs and other clients. That telemetry is the richest source we have, but it does not always reach us. Network conditions, proxy configurations, client settings, and other factors outside of your control or ours can prevent a client from reporting activity. When that happened, an active, billed user could be absent from your reports.</p><p>This update incorporates additional server-side telemetry to identify active users. Any active user we can confirm from the server side who was not already captured from client telemetry is now included in your enterprise single-day and 28-day reports, increasing your daily active user (DAU) coverage.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-06-17",
+            "title": "Agent finder for GitHub Copilot now available",
+            "url": "https://github.blog/changelog/2026-06-17-agent-finder-for-github-copilot-now-available",
+            "source": "Month 6",
+            "year": 2026,
+            "preview": {
+                "excerpt": "GitHub agent finder is now available. Instead of hand-wiring which MCP servers, skills, canvases, agents, and tools each agent should use—and filling your context window in the process—GitHub Copilot can…",
+                "html": "<p>GitHub agent finder is now available. Instead of hand-wiring which MCP servers, skills, canvases, agents, and tools each agent should use—and filling your context window in the process—GitHub Copilot can now discover the right capability for a task on its own.</p><p>Describe a task in plain language and agent finder searches an index of available AI resources, then returns ranked matches Copilot can pull in on demand from any catalog you point it at. Agents load what the work calls for instead of carrying every tool just in case, and the best options are ranked for you to help you decide what to install.</p><p>Agent finder implements the open Agentic Resource Discovery (ARD) specification, developed in collaboration with Google, GoDaddy, Hugging Face, and Microsoft. It launches alongside Microsoft’s announcement of the ARD specification, which features GitHub.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-06-17",
+            "title": "Auto mode in Copilot Chat available for all users",
+            "url": "https://github.blog/changelog/2026-06-17-auto-mode-in-copilot-chat-available-for-all-users",
+            "source": "Month 6",
+            "year": 2026,
+            "preview": {
+                "excerpt": "GitHub Copilot auto model selection is now generally available in Copilot Chat on github.com and the GitHub mobile app for all Copilot plans. With auto, Copilot chooses a model on…",
+                "html": "<p>GitHub Copilot auto model selection is now generally available in Copilot Chat on github.com and the GitHub mobile app for all Copilot plans. With auto, Copilot chooses a model on your behalf based on the complexity of your request and current model availability. Using auto allows you to better optimize for token use while maintaining high quality results.</p><p>Auto model selection is dynamic, routing to models based on real-time availability and the complexity of your request. It provides you with the same access to your favorite models while optimizing for cost and response quality. Auto routes to models like Claude Sonnet 4.6, GPT-5.4 mini, GPT-5.4, and Haiku 4.5 based on your plan and policies. The models auto will route to will change over time.</p><p>Use of auto is billed at a 10% discount for all paid subscribers.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-06-17",
+            "title": "Copilot individual plan sign-ups are reopening",
+            "url": "https://github.blog/changelog/2026-06-17-copilot-individual-plan-sign-ups-are-reopening",
+            "source": "Month 6",
+            "year": 2026,
+            "preview": {
+                "excerpt": "We’re reopening sign-ups for GitHub Copilot Student, Pro, Pro+, and Max plans gradually over the next couple of weeks for new subscribers. If you’ve been waiting to get started with…",
+                "html": "<p>We’re reopening sign-ups for GitHub Copilot Student, Pro, Pro+, and Max plans gradually over the next couple of weeks for new subscribers. If you’ve been waiting to get started with Copilot, select the plan that fits your needs. If your preferred option isn’t available yet, check back soon.</p><p>If you find that you’re using more than what’s included in your current plan, we’ve made some updates to help you get the best experience:</p><p>Pay as you go and stay on your current plan: You don’t need to switch plans to keep going. If you’ve exhausted your included credits and hit your additional spending limit, you can pay for the additional usage you’ve already consumed, giving you continued access without switching plans.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-06-17",
+            "title": "GitHub Copilot app generally available",
+            "url": "https://github.blog/changelog/2026-06-17-github-copilot-app-generally-available",
+            "source": "Month 6",
+            "year": 2026,
+            "preview": {
+                "excerpt": "The GitHub Copilot app is now generally available for macOS, Windows, and Linux. It’s the desktop home for agent-driven development, built natively on GitHub. Download the GitHub Copilot app to…",
+                "html": "<p>The GitHub Copilot app is now generally available for macOS, Windows, and Linux. It’s the desktop home for agent-driven development, built natively on GitHub.</p><p>Download the GitHub Copilot app to start your first session.</p><p>Start a session from an issue, pull request, or prompt. Run parallel sessions across repositories, each on its own branch and worktree. Review the diff, validate in the integrated terminal and browser, and open a pull request that uses your team’s existing checks and merge requirements.</p>",
                 "hasContent": true
             }
         }
