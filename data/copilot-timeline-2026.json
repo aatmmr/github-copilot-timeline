@@ -1,15 +1,63 @@
 {
   "metadata": {
-    "scraped_at": "2026-06-18T05:51:21.241Z",
-    "total_entries": 176,
+    "scraped_at": "2026-06-19T06:11:31.396Z",
+    "total_entries": 180,
     "year_filter": 2026,
     "keyword_filter": "Copilot",
     "date_range": {
       "earliest": "2026-01-13",
-      "latest": "2026-06-17"
+      "latest": "2026-06-18"
     }
   },
   "entries": [
+    {
+      "date": "2026-06-18",
+      "title": "MAI-Code-1-Flash available on more Copilot surfaces",
+      "url": "https://github.blog/changelog/2026-06-18-mai-code-1-flash-available-on-more-copilot-surfaces",
+      "source": "Month 6",
+      "year": 2026,
+      "preview": {
+        "excerpt": "MAI‑Code‑1‑Flash, Microsoft’s purpose‑built small coding model, is now available across additional GitHub Copilot surfaces. MAI‑Code‑1‑Flash can now be used in: Copilot CLI GitHub Copilot app Copilot Chat on GitHub Visual…",
+        "html": "<p>MAI‑Code‑1‑Flash, Microsoft’s purpose‑built small coding model, is now available across additional GitHub Copilot surfaces. MAI‑Code‑1‑Flash can now be used in:</p><p>MAI‑Code‑1‑Flash delivers best‑in‑class quality for its size, outperforming other small models in early testing. It’s also designed and tuned specifically for GitHub Copilot.</p><p>MAI‑Code‑1‑Flash is available in Copilot Free, Student, Pro, Pro+, and Max plans. Availability will start with a limited set of users and expand gradually over the coming weeks. Access for Copilot Business and Enterprise is coming soon.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-06-18",
+      "title": "Copilot code review: AGENTS.md support and UI improvements",
+      "url": "https://github.blog/changelog/2026-06-18-copilot-code-review-agents-md-support-and-ui-improvements",
+      "source": "Month 6",
+      "year": 2026,
+      "preview": {
+        "excerpt": "Copilot code review now supports repository-level AGENTS.md files, and it’s easier to request a review from Copilot on draft pull requests with the Request button. These changes are all generally…",
+        "html": "<p>Copilot code review now supports repository-level AGENTS.md files, and it’s easier to request a review from Copilot on draft pull requests with the Request button. These changes are all generally available.</p><p>You can now add an AGENTS.md file at the root of your repository to help shape Copilot code review feedback. If your repository already has an AGENTS.md file, Copilot code review will now utilize that context automatically as part of its workflow. This makes it easier to get reviews that better reflect your repository’s conventions and expectations.</p><p>You can already request Copilot code review on draft pull requests to get a first pass on your draft before even publishing your pull request. Now, the Request button shows up next to Copilot on draft pull requests. This makes that workflow easier by letting you request Copilot directly from the reviewer picker without needing to search for Copilot first.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-06-18",
+      "title": "Copilot-authored pull requests now included in author searches",
+      "url": "https://github.blog/changelog/2026-06-18-copilot-authored-pull-requests-now-included-in-author-searches",
+      "source": "Month 6",
+      "year": 2026,
+      "preview": {
+        "excerpt": "Searching for pull requests using author: now shows pull requests opened by Copilot cloud agent on the user’s behalf. For example, searching with author:@me on github.com/pulls will return your own…",
+        "html": "<p>Searching for pull requests using author: now shows pull requests opened by Copilot cloud agent on the user’s behalf. For example, searching with author:@me on github.com/pulls will return your own pull requests and any pull requests Copilot opened at your direction. With a single query, you can easily view and manage all the pull requests you authored, whether you authored them directly or with Copilot cloud agent.</p><p>Currently, this change applies to the github.com UI and GitHub Mobile. On July 16, we will also roll out this change to the REST API and GraphQL API.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-06-18",
+      "title": "Generated release notes credit you for Copilot pull requests",
+      "url": "https://github.blog/changelog/2026-06-18-generated-release-notes-credit-you-for-copilot-pull-requests",
+      "source": "Month 6",
+      "year": 2026,
+      "preview": {
+        "excerpt": "When you generate release notes for a new release, the generated notes include a list of pull requests merged since the last release. For more information about automatically generating release…",
+        "html": "<p>When you generate release notes for a new release, the generated notes include a list of pull requests merged since the last release. For more information about automatically generating release notes, see our docs.</p><p>Now, if a pull request created with Copilot cloud agent has been merged, the developer who asked Copilot to open the pull request gets credit alongside @copilot:</p><p>This means you get recognition for the work you do with Copilot cloud agent, even when the agent opens the pull request on your behalf.</p>",
+        "hasContent": true
+      }
+    },
     {
       "date": "2026-06-17",
       "title": "Auto mode in Copilot Chat available for all users",
