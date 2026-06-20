@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 543,
+        "totalEntries": 545,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-06-18"
+                "latest": "2026-06-19"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-06-19T06:11:31.396Z",
-            "total_entries": 180,
+            "scraped_at": "2026-06-20T05:07:59.449Z",
+            "total_entries": 182,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-06-18"
+                "latest": "2026-06-19"
             }
         }
     },
@@ -6532,6 +6532,18 @@ const embeddedTimelineData = {
         },
         {
             "date": "2026-06-17",
+            "title": "Copilot CLI supports enterprise bring your own key (BYOK) models",
+            "url": "https://github.blog/changelog/2026-06-17-copilot-cli-supports-enterprise-bring-your-own-key-byok-models",
+            "source": "Month 6",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Models from external providers configured by enterprise admins are now available in the /model picker in Copilot CLI, giving enterprise developers more flexibility and allowing enterprise admins to more easily…",
+                "html": "<p>Models from external providers configured by enterprise admins are now available in the /model picker in Copilot CLI, giving enterprise developers more flexibility and allowing enterprise admins to more easily deploy custom models to developers. To learn more about how enterprise admins can configure models from external providers for use in GitHub Copilot, see Using your LLM provider API keys with Copilot.</p><p>Separately, Copilot CLI also supports end users configuring local models and models from external providers of their choice at the client-side. To learn more, see Using your own LLM models in GitHub Copilot CLI.</p><p>Share feedback with the /feedback command in a CLI session, or open an issue in our public repository.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-06-17",
             "title": "Copilot individual plan sign-ups are reopening",
             "url": "https://github.blog/changelog/2026-06-17-copilot-individual-plan-sign-ups-are-reopening",
             "source": "Month 6",
@@ -6599,6 +6611,18 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "MAI‑Code‑1‑Flash, Microsoft’s purpose‑built small coding model, is now available across additional GitHub Copilot surfaces. MAI‑Code‑1‑Flash can now be used in: Copilot CLI GitHub Copilot app Copilot Chat on GitHub Visual…",
                 "html": "<p>MAI‑Code‑1‑Flash, Microsoft’s purpose‑built small coding model, is now available across additional GitHub Copilot surfaces. MAI‑Code‑1‑Flash can now be used in:</p><p>MAI‑Code‑1‑Flash delivers best‑in‑class quality for its size, outperforming other small models in early testing. It’s also designed and tuned specifically for GitHub Copilot.</p><p>MAI‑Code‑1‑Flash is available in Copilot Free, Student, Pro, Pro+, and Max plans. Availability will start with a limited set of users and expand gradually over the coming weeks. Access for Copilot Business and Enterprise is coming soon.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-06-19",
+            "title": "AI credits consumed per user now in the Copilot usage metrics API",
+            "url": "https://github.blog/changelog/2026-06-19-ai-credits-consumed-per-user-now-in-the-copilot-usage-metrics-api",
+            "source": "Month 6",
+            "year": 2026,
+            "preview": {
+                "excerpt": "The Copilot usage metrics API now reports how many AI credits each user consumed per day, derived from the same AI credits consumption data used in the usage-based billing API.…",
+                "html": "<p>The Copilot usage metrics API now reports how many AI credits each user consumed per day, derived from the same AI credits consumption data used in the usage-based billing API.</p><p>A new ai_credits_used field is now included for each user in the user-level reports and indicates the total AI credits a user consumed. This is an overall per-user total across all of that user’s Copilot activity.</p><p>The field is available in both the single-day (users-1-day) and 28-day (users-28-day) user-level reports at the enterprise and organization levels.</p>",
                 "hasContent": true
             }
         }
