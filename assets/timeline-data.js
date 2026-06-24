@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 545,
+        "totalEntries": 547,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-06-19"
+                "latest": "2026-06-23"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-06-23T04:56:49.227Z",
-            "total_entries": 182,
+            "scraped_at": "2026-06-24T05:00:08.187Z",
+            "total_entries": 184,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-06-19"
+                "latest": "2026-06-23"
             }
         }
     },
@@ -6623,6 +6623,30 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "The Copilot usage metrics API now reports how many AI credits each user consumed per day, derived from the same AI credits consumption data used in the usage-based billing API.…",
                 "html": "<p>The Copilot usage metrics API now reports how many AI credits each user consumed per day, derived from the same AI credits consumption data used in the usage-based billing API.</p><p>A new ai_credits_used field is now included for each user in the user-level reports and indicates the total AI credits a user consumed. This is an overall per-user total across all of that user’s Copilot activity.</p><p>The field is available in both the single-day (users-1-day) and 28-day (users-28-day) user-level reports at the enterprise and organization levels.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-06-23",
+            "title": "Copilot CLI: New terminal interface is generally available",
+            "url": "https://github.blog/changelog/2026-06-23-copilot-cli-new-terminal-interface-is-generally-available",
+            "source": "Month 6",
+            "year": 2026,
+            "preview": {
+                "excerpt": "The redesigned terminal interface for GitHub Copilot CLI that we previewed at Microsoft Build 2026 is now generally available. You get a tabbed layout for working with GitHub directly from…",
+                "html": "<p>The redesigned terminal interface for GitHub Copilot CLI that we previewed at Microsoft Build 2026 is now generally available. You get a tabbed layout for working with GitHub directly from your terminal, a new experience for configuring your tools, and a cleaner, more accessible interface throughout.</p><p>An interactive Copilot CLI session now has tabs at the top of the screen. Press Tab to move between the default Session tab and a Gists tab for your personal gists. When you run the CLI inside a GitHub repository, you also get Issues and Pull requests tabs for that repository.</p><p>This lets you find the work you care about without leaving the terminal. Highlight an issue or pull request and press c to drop a reference to it into your prompt, then ask Copilot to investigate, fix, comment on, or review it. Press o to open the highlighted item on GitHub in your browser, or press / on the Issues or Pull requests tab to search GitHub with your own query.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-06-23",
+            "title": "GitHub Copilot app support for BYOK",
+            "url": "https://github.blog/changelog/2026-06-23-github-copilot-app-support-for-byok",
+            "source": "Month 6",
+            "year": 2026,
+            "preview": {
+                "excerpt": "The GitHub Copilot app now supports bring your own key (BYOK), so you can run agent sessions against your own model providers, including OpenAI, Azure OpenAI, Microsoft Foundry, Anthropic, LM Studio, Ollama, and any OpenAI-compatible endpoint.",
+                "html": "<p>The GitHub Copilot app now supports bring your own key (BYOK), so you can run agent sessions against your own model providers, including OpenAI, Azure OpenAI, Microsoft Foundry, Anthropic, LM Studio, Ollama, and any OpenAI-compatible endpoint.</p><p>Add a provider in Settings → Model Providers with your endpoint and API key, or just a host for LM Studio or Ollama. Once added, your provider’s models appear in the model picker alongside Copilot-hosted models, and you choose which one to use each session. Keys are stored in the local OS keychain and are never read back by the UI.</p><p>Download the GitHub Copilot app to start your first session.</p>",
                 "hasContent": true
             }
         }
