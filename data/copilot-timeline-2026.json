@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "scraped_at": "2026-06-24T05:00:08.187Z",
+    "scraped_at": "2026-06-25T04:59:47.117Z",
     "total_entries": 184,
     "year_filter": 2026,
     "keyword_filter": "Copilot",
@@ -53,8 +53,8 @@
       "source": "Month 6",
       "year": 2026,
       "preview": {
-        "excerpt": "MAI‑Code‑1‑Flash, Microsoft’s purpose‑built small coding model, is now available across additional GitHub Copilot surfaces. MAI‑Code‑1‑Flash can now be used in: Copilot CLI GitHub Copilot app Copilot Chat on GitHub Visual…",
-        "html": "<p>MAI‑Code‑1‑Flash, Microsoft’s purpose‑built small coding model, is now available across additional GitHub Copilot surfaces. MAI‑Code‑1‑Flash can now be used in:</p><p>MAI‑Code‑1‑Flash delivers best‑in‑class quality for its size, outperforming other small models in early testing. It’s also designed and tuned specifically for GitHub Copilot.</p><p>MAI‑Code‑1‑Flash is available in Copilot Free, Student, Pro, Pro+, and Max plans. Availability will start with a limited set of users and expand gradually over the coming weeks. Access for Copilot Business and Enterprise is coming soon.</p>",
+        "excerpt": "MAI‑Code‑1‑Flash, Microsoft’s purpose‑built small coding model, is now available across additional GitHub Copilot surfaces. MAI‑Code‑1‑Flash can now be used in: Copilot CLI Copilot cloud agent GitHub Copilot app Copilot Chat…",
+        "html": "<p>MAI‑Code‑1‑Flash, Microsoft’s purpose‑built small coding model, is now available across additional GitHub Copilot surfaces. MAI‑Code‑1‑Flash can now be used in:</p><p>Editor’s note: The above list was updated on June 24, 2026, to include Copilot cloud agent.</p><p>MAI‑Code‑1‑Flash delivers best‑in‑class quality for its size, outperforming other small models in early testing. It’s also designed and tuned specifically for GitHub Copilot.</p>",
         "hasContent": true
       }
     },
