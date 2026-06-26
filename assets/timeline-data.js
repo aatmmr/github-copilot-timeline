@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 547,
+        "totalEntries": 550,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-06-23"
+                "latest": "2026-06-25"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-06-25T04:59:47.117Z",
-            "total_entries": 184,
+            "scraped_at": "2026-06-26T05:05:56.675Z",
+            "total_entries": 187,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-06-23"
+                "latest": "2026-06-25"
             }
         }
     },
@@ -6647,6 +6647,42 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "The GitHub Copilot app now supports bring your own key (BYOK), so you can run agent sessions against your own model providers, including OpenAI, Azure OpenAI, Microsoft Foundry, Anthropic, LM Studio, Ollama, and any OpenAI-compatible endpoint.",
                 "html": "<p>The GitHub Copilot app now supports bring your own key (BYOK), so you can run agent sessions against your own model providers, including OpenAI, Azure OpenAI, Microsoft Foundry, Anthropic, LM Studio, Ollama, and any OpenAI-compatible endpoint.</p><p>Add a provider in Settings → Model Providers with your endpoint and API key, or just a host for LM Studio or Ollama. Once added, your provider’s models appear in the model picker alongside Copilot-hosted models, and you choose which one to use each session. Keys are stored in the local OS keychain and are never read back by the UI.</p><p>Download the GitHub Copilot app to start your first session.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-06-25",
+            "title": "Copilot code review: Analysis depth and efficiency updates",
+            "url": "https://github.blog/changelog/2026-06-25-copilot-code-review-analysis-depth-and-efficiency-updates",
+            "source": "Month 6",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Copilot code review now uses the built-in file exploration tools available in the Copilot CLI and SDK, significantly improving review cost efficiency with no change to your existing workflow. If…",
+                "html": "<p>Copilot code review now uses the built-in file exploration tools available in the Copilot CLI and SDK, significantly improving review cost efficiency with no change to your existing workflow. If you’re in the Medium analysis depth public preview, you’ll also see some new updates centered around configurability and visibility of review depth.</p><p>If you’re opted into the Medium review effort level public preview, you now get two updates:</p><p>Organization-level default level setting: Organizations can now set a default review level for unconfigured repositories. Repositories under an organization that has configured the default review level will continue to be able to override that default setting if desired.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-06-25",
+            "title": "Enterprise-managed settings now support strictKnownMarketplaces in VS Code and GitHub Copilot CLI",
+            "url": "https://github.blog/changelog/2026-06-25-enterprise-managed-settings-now-support-strictknownmarketplaces-in-vs-code-and-the-cli",
+            "source": "Month 6",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Enterprises can now control which plugins their users can install in GitHub Copilot CLI and VS Code. This setting is now available in public preview. Add strictKnownMarketplaces to your enterprise-managed…",
+                "html": "<p>Enterprises can now control which plugins their users can install in GitHub Copilot CLI and VS Code. This setting is now available in public preview.</p><p>Add strictKnownMarketplaces to your enterprise-managed settings.json, and Copilot will only allow plugins to be installed from the marketplaces you’ve explicitly defined. GitHub Copilot automatically pulls and applies these settings for users licensed through your Copilot Business or Copilot Enterprise account. This is a direct way to enforce your client governance strategy prior to tool execution by removing the risk of users installing untrusted plugins.</p><p>This update builds on the enterprise-managed plugins for Copilot CLI and VS Code capabilities we launched earlier.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-06-25",
+            "title": "GitHub Copilot for Jira is now generally available",
+            "url": "https://github.blog/changelog/2026-06-25-github-copilot-for-jira-is-now-generally-available",
+            "source": "Month 6",
+            "year": 2026,
+            "preview": {
+                "excerpt": "GitHub Copilot for Jira is now generally available. Since launching the public preview in March 2026, we have shipped a series of enhancements based on your feedback, including model selection,…",
+                "html": "<p>GitHub Copilot for Jira is now generally available. Since launching the public preview in March 2026, we have shipped a series of enhancements based on your feedback, including model selection, Confluence context via MCP, custom agents, custom fields, space-level guidance, and review request notifications in Jira.</p><p>Today’s release to general availability builds on that foundation with new capabilities designed to give you greater visibility and control over agent sessions.</p><p>You can now monitor the coding agent’s progress directly within your Jira issue in real time. As the agent works, status updates stream back to the Jira ticket so you can follow along without switching to GitHub.</p>",
                 "hasContent": true
             }
         }
