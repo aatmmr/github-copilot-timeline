@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 550,
+        "totalEntries": 552,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-06-25"
+                "latest": "2026-06-26"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-06-26T05:05:56.675Z",
-            "total_entries": 187,
+            "scraped_at": "2026-06-27T04:47:06.286Z",
+            "total_entries": 189,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-06-25"
+                "latest": "2026-06-26"
             }
         }
     },
@@ -6683,6 +6683,30 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "GitHub Copilot for Jira is now generally available. Since launching the public preview in March 2026, we have shipped a series of enhancements based on your feedback, including model selection,…",
                 "html": "<p>GitHub Copilot for Jira is now generally available. Since launching the public preview in March 2026, we have shipped a series of enhancements based on your feedback, including model selection, Confluence context via MCP, custom agents, custom fields, space-level guidance, and review request notifications in Jira.</p><p>Today’s release to general availability builds on that foundation with new capabilities designed to give you greater visibility and control over agent sessions.</p><p>You can now monitor the coding agent’s progress directly within your Jira issue in real time. As the agent works, status updates stream back to the Jira ticket so you can follow along without switching to GitHub.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-06-26",
+            "title": "GitHub Desktop 3.6: Worktrees and deeper Copilot integration",
+            "url": "https://github.blog/changelog/2026-06-26-github-desktop-3-6-worktrees-and-deeper-copilot-integration",
+            "source": "Month 6",
+            "year": 2026,
+            "preview": {
+                "excerpt": "GitHub Desktop 3.6 brings more of your day-to-day Git flow into one place with GitHub Copilot now powering commit authoring and merge conflict resolution, plus new Git worktree support. The…",
+                "html": "<p>GitHub Desktop 3.6 brings more of your day-to-day Git flow into one place with GitHub Copilot now powering commit authoring and merge conflict resolution, plus new Git worktree support.</p><p>More and more development happens with the help of AI and coding agents, which raises the bar for the everyday Git moments in between. A few of those moments still pull you away from your flow: commit authoring needs more control and better alignment with repository standards, merge conflicts remain one of the most intimidating Git workflows, and working across multiple branches at once often means stashing changes, switching branches repeatedly, or creating extra clones.</p><p>Copilot in GitHub Desktop now runs on the Copilot SDK, the shared foundation behind both the enhanced commit message experience and the new merge conflict workflow.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-06-26",
+            "title": "MAI-Code-1-Flash for Copilot Business and Copilot Enterprise",
+            "url": "https://github.blog/changelog/2026-06-26-mai-code-1-flash-for-copilot-business-and-copilot-enterprise",
+            "source": "Month 6",
+            "year": 2026,
+            "preview": {
+                "excerpt": "MAI-Code-1-Flash, Microsoft AI’s in-house coding model, is now generally available for GitHub Copilot Business and Copilot Enterprise, building on its recent expansion across Copilot surfaces. Purpose-built for coding and optimized…",
+                "html": "<p>MAI-Code-1-Flash, Microsoft AI’s in-house coding model, is now generally available for GitHub Copilot Business and Copilot Enterprise, building on its recent expansion across Copilot surfaces. Purpose-built for coding and optimized for GitHub Copilot, MAI-Code-1-Flash delivers fast, low-latency responses that make it well-suited for high-volume, iterative agentic coding workflows where speed and efficiency matter most.</p><p>This model is billed at provider list pricing under usage-based billing. See Copilot’s pricing for models and requests for details.</p><p>Copilot Enterprise and Copilot Business plan administrators must enable the MAI-Code-1-Flash policy in Copilot settings before users can access it. See Managing policies and features for Copilot in your enterprise.</p>",
                 "hasContent": true
             }
         }
