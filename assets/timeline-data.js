@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 552,
+        "totalEntries": 553,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-06-26"
+                "latest": "2026-06-29"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-06-29T05:27:14.700Z",
-            "total_entries": 189,
+            "scraped_at": "2026-06-30T04:59:20.853Z",
+            "total_entries": 190,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-06-26"
+                "latest": "2026-06-29"
             }
         }
     },
@@ -6707,6 +6707,18 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "MAI-Code-1-Flash, Microsoft AI’s in-house coding model, is now generally available for GitHub Copilot Business and Copilot Enterprise, building on its recent expansion across Copilot surfaces. Purpose-built for coding and optimized…",
                 "html": "<p>MAI-Code-1-Flash, Microsoft AI’s in-house coding model, is now generally available for GitHub Copilot Business and Copilot Enterprise, building on its recent expansion across Copilot surfaces. Purpose-built for coding and optimized for GitHub Copilot, MAI-Code-1-Flash delivers fast, low-latency responses that make it well-suited for high-volume, iterative agentic coding workflows where speed and efficiency matter most.</p><p>This model is billed at provider list pricing under usage-based billing. See Copilot’s pricing for models and requests for details.</p><p>Copilot Enterprise and Copilot Business plan administrators must enable the MAI-Code-1-Flash policy in Copilot settings before users can access it. See Managing policies and features for Copilot in your enterprise.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-06-29",
+            "title": "Claude Opus 4.8 (fast mode) is now in preview for GitHub Copilot",
+            "url": "https://github.blog/changelog/2026-06-29-claude-opus-4-8-fast-mode-is-now-in-preview-for-github-copilot",
+            "source": "Month 6",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Claude Opus 4.8 (fast mode) is now rolling out in preview on GitHub Copilot. Fast mode delivers significantly faster output token speeds while maintaining the same intelligence as Claude Opus…",
+                "html": "<p>Claude Opus 4.8 (fast mode) is now rolling out in preview on GitHub Copilot. Fast mode delivers significantly faster output token speeds while maintaining the same intelligence as Claude Opus 4.8, making it well suited for interactive coding and agentic workflows where responsiveness matters.</p><p>This model is billed at provider list pricing under Usage Based Billing. Fast mode for Claude Opus 4.8 is offered at a reduced cost compared to previous fast modes, though it still costs more than standard Claude Opus 4.8. See GitHub Copilot’s pricing for models and requests for details.</p><p>Claude Opus 4.8 (fast mode) will be available to Copilot Pro+, Max, Business, and Enterprise users. You’ll be able to select the model in the model picker in:</p>",
                 "hasContent": true
             }
         }
