@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 553,
+        "totalEntries": 555,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-06-29"
+                "latest": "2026-06-30"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-06-30T04:59:20.853Z",
-            "total_entries": 190,
+            "scraped_at": "2026-07-01T05:18:21.918Z",
+            "total_entries": 192,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-06-29"
+                "latest": "2026-06-30"
             }
         }
     },
@@ -6719,6 +6719,30 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "Claude Opus 4.8 (fast mode) is now rolling out in preview on GitHub Copilot. Fast mode delivers significantly faster output token speeds while maintaining the same intelligence as Claude Opus…",
                 "html": "<p>Claude Opus 4.8 (fast mode) is now rolling out in preview on GitHub Copilot. Fast mode delivers significantly faster output token speeds while maintaining the same intelligence as Claude Opus 4.8, making it well suited for interactive coding and agentic workflows where responsiveness matters.</p><p>This model is billed at provider list pricing under Usage Based Billing. Fast mode for Claude Opus 4.8 is offered at a reduced cost compared to previous fast modes, though it still costs more than standard Claude Opus 4.8. See GitHub Copilot’s pricing for models and requests for details.</p><p>Claude Opus 4.8 (fast mode) will be available to Copilot Pro+, Max, Business, and Enterprise users. You’ll be able to select the model in the model picker in:</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-06-30",
+            "title": "Claude Sonnet 5 is generally available for GitHub Copilot",
+            "url": "https://github.blog/changelog/2026-06-30-claude-sonnet-5-is-generally-available-for-github-copilot",
+            "source": "Month 6",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Claude Sonnet 5 is Anthropic’s latest Sonnet-class model, now available in GitHub Copilot. It brings strong coding performance to everyday development and agentic workflows, giving developers a new Sonnet-class option…",
+                "html": "<p>Claude Sonnet 5 is Anthropic’s latest Sonnet-class model, now available in GitHub Copilot. It brings strong coding performance to everyday development and agentic workflows, giving developers a new Sonnet-class option for tasks across the IDE and CLI.</p><p>In our internal testing, Claude Sonnet 5 showed strong results across a range of coding scenarios, including particularly strong performance on CLI-style tasks. It also demonstrated excellent prompt-cache utilization and competitive latency at lower effort levels, making it a strong choice for developers who want fast, capable Sonnet-class performance in Copilot.</p><p>This model is billed at provider list pricing under Usage Based Billing. See GitHub Copilot’s pricing for models and requests for details.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-06-30",
+            "title": "Copilot Agent is now available in JetBrains AI Assistant",
+            "url": "https://github.blog/changelog/2026-06-30-copilot-agent-is-now-available-in-jetbrains-ai-assistant",
+            "source": "Month 6",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Today, JetBrains and GitHub are announcing a deeper integration between JetBrains AI Assistant and GitHub Copilot. Millions of developers already rely on the GitHub Copilot plugin as their AI pair…",
+                "html": "<p>Today, JetBrains and GitHub are announcing a deeper integration between JetBrains AI Assistant and GitHub Copilot. Millions of developers already rely on the GitHub Copilot plugin as their AI pair programmer in JetBrains IDEs, and Copilot has also been available inside JetBrains AI Assistant through the Agent Client Protocol (ACP). Now we are taking the next step: GitHub Copilot is a first-class option in the AI Assistant agent picker, so you can choose the entry point that best fits your workflow.</p><p>GitHub Copilot as a native agent picker: Open the agent picker in the AI chat and select GitHub Copilot to make it the active agent for the conversation. Pick your Copilot model: Choose between supported Copilot models and tune reasoning depth right in the AI chat to balance speed, depth, and cost. Real coding tasks: Hand off multistep work and Copilot will reason through your project, propose changes, run commands, and iterate with you.</p><p>JetBrains and GitHub will continue working closely to make this integration even better. In the coming releases, we’ll focus on key next steps including:</p>",
                 "hasContent": true
             }
         }
