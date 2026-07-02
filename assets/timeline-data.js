@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 555,
+        "totalEntries": 561,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-06-30"
+                "latest": "2026-07-01"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-07-01T05:18:21.918Z",
-            "total_entries": 192,
+            "scraped_at": "2026-07-02T04:55:33.243Z",
+            "total_entries": 198,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-06-30"
+                "latest": "2026-07-01"
             }
         }
     },
@@ -6441,8 +6441,8 @@ const embeddedTimelineData = {
             "source": "Month 6",
             "year": 2026,
             "preview": {
-                "excerpt": "Editor’s Note (June 12, 2026): Following Anthropic’s announcement, effective today, access to Claude Fable 5 has been suspended across all GitHub Copilot experiences. All other Claude models including Claude Opus…",
-                "html": "<p>Editor’s Note (June 12, 2026): Following Anthropic’s announcement, effective today, access to Claude Fable 5 has been suspended across all GitHub Copilot experiences. All other Claude models including Claude Opus 4.8, Sonnet 4.6, and Haiku 4.5 remain available and unaffected. We apologize for the disruption. You can read more about Anthropic’s position in their statement.</p><p>Claude Fable 5 from Anthropic is now available in GitHub Copilot, the first model in Anthropic’s Mythos class, designed for long-horizon, autonomous coding and knowledge-work tasks. Unlike other Claude models in GitHub Copilot, Claude Fable 5 requires data retention to operate Anthropic’s safety classifiers. Continue reading for more details. In our internal benchmarks on autonomous coding workflows, Fable 5 completed equivalent work with fewer tool calls and lower token consumption than previous Opus-tier models.</p><p>This model is billed at provider list pricing under Usage Based Billing. See GitHub Copilot’s pricing for models and requests for details.</p>",
+                "excerpt": "Editor’s Note (July 1, 2026): Effective today, Anthropic’s Claude Fable 5 is now re-enabled and generally available in GitHub Copilot. Editor’s Note (June 12, 2026): Following Anthropic’s announcement, effective today,…",
+                "html": "<p>Editor’s Note (July 1, 2026): Effective today, Anthropic’s Claude Fable 5 is now re-enabled and generally available in GitHub Copilot.</p><p>Editor’s Note (June 12, 2026): Following Anthropic’s announcement, effective today, access to Claude Fable 5 has been suspended across all GitHub Copilot experiences. All other Claude models including Claude Opus 4.8, Sonnet 4.6, and Haiku 4.5 remain available and unaffected. We apologize for the disruption. You can read more about Anthropic’s position in their statement.</p><p>Claude Fable 5 from Anthropic is now available in GitHub Copilot, the first model in Anthropic’s Mythos class, designed for long-horizon, autonomous coding and knowledge-work tasks. Unlike other Claude models in GitHub Copilot, Claude Fable 5 requires data retention to operate Anthropic’s safety classifiers. Continue reading for more details. In our internal benchmarks on autonomous coding workflows, Fable 5 completed equivalent work with fewer tool calls and lower token consumption than previous Opus-tier models.</p>",
                 "hasContent": true
             }
         },
@@ -6743,6 +6743,78 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "Today, JetBrains and GitHub are announcing a deeper integration between JetBrains AI Assistant and GitHub Copilot. Millions of developers already rely on the GitHub Copilot plugin as their AI pair…",
                 "html": "<p>Today, JetBrains and GitHub are announcing a deeper integration between JetBrains AI Assistant and GitHub Copilot. Millions of developers already rely on the GitHub Copilot plugin as their AI pair programmer in JetBrains IDEs, and Copilot has also been available inside JetBrains AI Assistant through the Agent Client Protocol (ACP). Now we are taking the next step: GitHub Copilot is a first-class option in the AI Assistant agent picker, so you can choose the entry point that best fits your workflow.</p><p>GitHub Copilot as a native agent picker: Open the agent picker in the AI chat and select GitHub Copilot to make it the active agent for the conversation. Pick your Copilot model: Choose between supported Copilot models and tune reasoning depth right in the AI chat to balance speed, depth, and cost. Real coding tasks: Hand off multistep work and Copilot will reason through your project, propose changes, run commands, and iterate with you.</p><p>JetBrains and GitHub will continue working closely to make this integration even better. In the coming releases, we’ll focus on key next steps including:</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-07-01",
+            "title": "Browser tools for GitHub Copilot in VS Code are generally available",
+            "url": "https://github.blog/changelog/2026-07-01-browser-tools-for-github-copilot-in-vs-code-are-generally-available",
+            "source": "Month 7",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Browser tools in VS Code are now generally available. Agents can now drive a real browser, navigate web apps, and feed findings back into the chat.",
+                "html": "<p>Editor’s note (July 1, 2026): Added more detail about which permissions stay under your control and the existing network domain controls.</p><p>Browser tools for GitHub Copilot in VS Code are now generally available. Agents can now drive a real browser, navigate live web apps, and feed what they find back into the chat. Browser tools are on by default with general availability, shaped by feedback from preview users.</p><p>Under the hood, agents get the same browser actions a developer would use. They can:</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-07-01",
+            "title": "Copilot CLI auto model selection routes based on task",
+            "url": "https://github.blog/changelog/2026-07-01-copilot-cli-auto-model-selection-routes-based-on-task",
+            "source": "Month 7",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Editor’s note (July 1, 2026): Updated the premium request costs to reference AI credits. GitHub Copilot auto model selection now routes to the best model for your task in Copilot…",
+                "html": "<p>Editor’s note (July 1, 2026): Updated the premium request costs to reference AI credits.</p><p>GitHub Copilot auto model selection now routes to the best model for your task in Copilot CLI, using utilization and model health metrics for a high quality, reliable, and token-efficient experience.</p><p>Auto weighs real-time model availability and reliability signals, then evaluates your task across several dimensions like reasoning, code generation complexity, bug diagnosis difficulty, and tool orchestration needs to select the optimal model.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-07-01",
+            "title": "Copilot vision is generally available",
+            "url": "https://github.blog/changelog/2026-07-01-copilot-vision-is-generally-available",
+            "source": "Month 7",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Copilot vision is now generally available. You can attach images and PDFs directly to your chat prompts so Copilot can reason about what it sees alongside your code. Supported file…",
+                "html": "<p>Copilot vision is now generally available. You can attach images and PDFs directly to your chat prompts so Copilot can reason about what it sees alongside your code.</p><p>Copilot vision is available across the following surfaces:</p><p>Copilot vision is now available to all Copilot subscribers: Free, Pro, Pro+, Business, and Enterprise. No policy changes or admin actions are required to turn it on.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-07-01",
+            "title": "Kimi K2.7 Code is generally available in GitHub Copilot",
+            "url": "https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot",
+            "source": "Month 7",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Kimi K2.7 Code, an open-weight model, is now generally available in GitHub Copilot. This is the first open-weight model offered as a selectable option in the Copilot model picker, giving…",
+                "html": "<p>Kimi K2.7 Code, an open-weight model, is now generally available in GitHub Copilot. This is the first open-weight model offered as a selectable option in the Copilot model picker, giving you more choice and a lower-cost option for your coding workflows.</p><p>Kimi K2.7 Code is hosted by GitHub on Microsoft Azure.</p><p>This model is billed at provider list pricing under usage-based billing. See GitHub Copilot’s pricing for models and requests for details.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-07-01",
+            "title": "New C++ language server config skill for Copilot CLI",
+            "url": "https://github.blog/changelog/2026-07-01-new-c-language-server-config-skill-for-copilot-cli",
+            "source": "Month 7",
+            "year": 2026,
+            "preview": {
+                "excerpt": "The Microsoft C++ Language Server is now available as a plugin on the Copilot Plugins marketplace. It includes a new built-in setup skill that helps automate project setup, making it…",
+                "html": "<p>The Microsoft C++ Language Server is now available as a plugin on the Copilot Plugins marketplace. It includes a new built-in setup skill that helps automate project setup, making it easier to generate and maintain the compile_commands.json file the language server needs to understand your code.</p><p>The C++ language server relies on a compile_commands.json file to provide precise semantic intelligence (i.e., symbol navigation, diagnostics, and code changes that reflect how your compiler actually sees the code). Previously, creating this file required manual steps that varied by build system. The new setup skills handle this automatically for CMake and MSBuild projects, and they provide a repeatable pattern for custom build systems.</p><p>The C++ language server can now be installed directly as a Copilot CLI plugin:</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-07-01",
+            "title": "Set AI credit session limits in Copilot CLI and SDK",
+            "url": "https://github.blog/changelog/2026-07-01-set-ai-credit-session-limits-in-copilot-cli-and-sdk",
+            "source": "Month 7",
+            "year": 2026,
+            "preview": {
+                "excerpt": "You can now set AI credit session limits in Copilot CLI and the GitHub Copilot SDK to cap the amount an agent spends in a session. This is especially useful…",
+                "html": "<p>You can now set AI credit session limits in Copilot CLI and the GitHub Copilot SDK to cap the amount an agent spends in a session. This is especially useful for automation, where no one is actively monitoring the agent’s work.</p><p>Set a limit before you start work or kick off jobs, and Copilot tracks AI credit usage across the entire session, including model calls, subagents, and background work like compaction. When the limit is reached, the agent wraps up and lets you know instead of running until the task is finished or until you manually stop it.</p><p>Session limits are a soft cap. Since usage is only known after a response returns, a response that’s already underway finishes before Copilot stops, so actual usage may slightly exceed the number you set. A session limit controls spend for one session—it complements, but doesn’t replace, your overall budgets and spending limits.</p>",
                 "hasContent": true
             }
         }
