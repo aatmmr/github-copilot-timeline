@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 561,
+        "totalEntries": 564,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-07-01"
+                "latest": "2026-07-02"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-07-02T04:55:33.243Z",
-            "total_entries": 198,
+            "scraped_at": "2026-07-03T04:38:42.063Z",
+            "total_entries": 201,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-07-01"
+                "latest": "2026-07-02"
             }
         }
     },
@@ -6815,6 +6815,42 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "You can now set AI credit session limits in Copilot CLI and the GitHub Copilot SDK to cap the amount an agent spends in a session. This is especially useful…",
                 "html": "<p>You can now set AI credit session limits in Copilot CLI and the GitHub Copilot SDK to cap the amount an agent spends in a session. This is especially useful for automation, where no one is actively monitoring the agent’s work.</p><p>Set a limit before you start work or kick off jobs, and Copilot tracks AI credit usage across the entire session, including model calls, subagents, and background work like compaction. When the limit is reached, the agent wraps up and lets you know instead of running until the task is finished or until you manually stop it.</p><p>Session limits are a soft cap. Since usage is only known after a response returns, a response that’s already underway finishes before Copilot stops, so actual usage may slightly exceed the number you set. A session limit controls spend for one session—it complements, but doesn’t replace, your overall budgets and spending limits.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-07-02",
+            "title": "Copilot agent session streaming is now in public preview",
+            "url": "https://github.blog/changelog/2026-07-02-copilot-agent-session-streaming-is-now-in-public-preview",
+            "source": "Month 7",
+            "year": 2026,
+            "preview": {
+                "excerpt": "GitHub Enterprise Cloud customers with enterprise managed users can now access GitHub Copilot agent session data across all Copilot clients, including: Cloud agents operating on github.com and data resident deployments…",
+                "html": "<p>GitHub Enterprise Cloud customers with enterprise managed users can now access GitHub Copilot agent session data across all Copilot clients, including:</p><p>This gives you direct visibility into agent session activity (e.g., prompts, responses, and tool calls) so you can manage AI usage across your enterprise. You can choose to access this data via a streaming endpoint or the REST API. To enable this, go to the Copilot subpage in AI Controls and select Enable everywhere for both “Copilot Usage Records Streaming” and “Copilot Usage Records API”.</p><p>You can initiate a streaming connection to an event collector or SIEM tool of your choice from your audit log settings. Once configured, GitHub automatically streams all session data for your enterprise to that endpoint. Microsoft Purview is also available as a supported streaming endpoint in public preview, giving customers in the Microsoft ecosystem a direct pathway to send auditability data from all GitHub Copilot clients. For more information, see our documentation on setting up audit log streaming.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-07-02",
+            "title": "Copilot CLI no longer needs a personal access token in GitHub Actions",
+            "url": "https://github.blog/changelog/2026-07-02-copilot-cli-no-longer-needs-a-personal-access-token-in-github-actions",
+            "source": "Month 7",
+            "year": 2026,
+            "preview": {
+                "excerpt": "You can now run GitHub Copilot CLI in GitHub Actions using the built-in GITHUB_TOKEN. This means that you no longer need to create and store a personal access token (PAT),…",
+                "html": "<p>You can now run GitHub Copilot CLI in GitHub Actions using the built-in GITHUB_TOKEN.</p><p>This means that you no longer need to create and store a personal access token (PAT), eliminating the operational and security risks of managing long-lived PATs for automations at scale.</p><p>When you run Copilot CLI with the Actions token in an organization-owned repository, AI credits consumed by the CLI are billed directly to the organization.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-07-02",
+            "title": "Improved accuracy and coverage in Copilot usage metrics reports",
+            "url": "https://github.blog/changelog/2026-07-02-improved-accuracy-and-coverage-in-copilot-usage-metrics-reports",
+            "source": "Month 7",
+            "year": 2026,
+            "preview": {
+                "excerpt": "We’ve made three improvements to the Copilot usage metrics API that make its reports more complete and accurate: GitHub Copilot CLI now reports suggested lines of code, users seen only…",
+                "html": "<p>We’ve made three improvements to the Copilot usage metrics API that make its reports more complete and accurate: GitHub Copilot CLI now reports suggested lines of code, users seen only through server-side telemetry now have their IDE identified, and AI credit consumption is now attributed more completely.</p><p>Visit the Copilot usage metrics API documentation to learn more.</p>",
                 "hasContent": true
             }
         }
