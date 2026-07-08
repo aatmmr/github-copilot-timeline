@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 564,
+        "totalEntries": 566,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-07-02"
+                "latest": "2026-07-07"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-07-07T04:45:52.513Z",
-            "total_entries": 201,
+            "scraped_at": "2026-07-08T04:11:34.139Z",
+            "total_entries": 203,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-07-02"
+                "latest": "2026-07-07"
             }
         }
     },
@@ -6851,6 +6851,30 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "We’ve made three improvements to the Copilot usage metrics API that make its reports more complete and accurate: GitHub Copilot CLI now reports suggested lines of code, users seen only…",
                 "html": "<p>We’ve made three improvements to the Copilot usage metrics API that make its reports more complete and accurate: GitHub Copilot CLI now reports suggested lines of code, users seen only through server-side telemetry now have their IDE identified, and AI credit consumption is now attributed more completely.</p><p>Visit the Copilot usage metrics API documentation to learn more.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-07-07",
+            "title": "Copilot Billing Preview app will be retired on August 3",
+            "url": "https://github.blog/changelog/2026-07-07-copilot-billing-preview-app-will-be-retired-on-august-3",
+            "source": "Month 7",
+            "year": 2026,
+            "preview": {
+                "excerpt": "The Copilot Billing Preview app will be retired on August 3, 2026. If you use it to review your GitHub Copilot spend, you can get even greater visibility directly in…",
+                "html": "<p>The Copilot Billing Preview app will be retired on August 3, 2026. If you use it to review your GitHub Copilot spend, you can get even greater visibility directly in your GitHub billing settings.</p><p>The app was built to help you understand your bill as Copilot moved to usage-based billing. Since then, your billing settings have grown to cover details the app’s underlying reports can’t show (e.g., user-level budgets, cost centers, and how usage pools are allocated). Rather than leave you with an incomplete picture, GitHub is retiring the app in favor of the built-in experience.</p><p>You can review and manage your Copilot spend without the app:</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-07-07",
+            "title": "GitHub Copilot app available to all",
+            "url": "https://github.blog/changelog/2026-07-07-github-copilot-app-available-to-all",
+            "source": "Month 7",
+            "year": 2026,
+            "preview": {
+                "excerpt": "The GitHub Copilot app is now available on every Copilot plan. Sign in with your GitHub account to start agent-driven development from your desktop. Available on macOS, Windows, and Linux…",
+                "html": "<p>The GitHub Copilot app is now available on every Copilot plan. Sign in with your GitHub account to start agent-driven development from your desktop. Available on macOS, Windows, and Linux platforms.</p><p>Ready to try it? Download the GitHub Copilot app to start your first session.</p><p>Want to learn more? Check out our docs about getting started with the GitHub Copilot app.</p>",
                 "hasContent": true
             }
         }
