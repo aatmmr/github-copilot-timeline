@@ -1,15 +1,75 @@
 {
   "metadata": {
-    "scraped_at": "2026-07-08T04:11:34.139Z",
-    "total_entries": 203,
+    "scraped_at": "2026-07-09T04:46:16.758Z",
+    "total_entries": 208,
     "year_filter": 2026,
     "keyword_filter": "Copilot",
     "date_range": {
       "earliest": "2026-01-13",
-      "latest": "2026-07-07"
+      "latest": "2026-07-08"
     }
   },
   "entries": [
+    {
+      "date": "2026-07-08",
+      "title": "Deploy managed Copilot settings via MDM in VS Code and CLI",
+      "url": "https://github.blog/changelog/2026-07-08-deploy-managed-copilot-settings-via-mdm-in-vs-code-and-cli",
+      "source": "Month 7",
+      "year": 2026,
+      "preview": {
+        "excerpt": "Enterprise administrators can now deliver managed GitHub Copilot settings directly to devices through native mobile device management (MDM) and file-based configuration, in addition to the existing server-managed channel. This is…",
+        "html": "<p>Enterprise administrators can now deliver managed GitHub Copilot settings directly to devices through native mobile device management (MDM) and file-based configuration, in addition to the existing server-managed channel. This is generally available for GitHub Copilot CLI and VS Code.</p><p>Device-level deployment lets you enforce Copilot governance using the same tools you already use to manage endpoints. You can push settings through Microsoft Intune, Jamf, or Group Policy, or deploy a configuration file with Chef, Puppet, or Ansible. Because settings are read from the device, they apply consistently across VS Code and Copilot CLI, regardless of how a developer signs in.</p><p>You can deliver managed settings through any of three channels, all of which use the same keys and values.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-07-08",
+      "title": "GitHub Copilot in Visual Studio Code, June 2026 releases",
+      "url": "https://github.blog/changelog/2026-07-08-github-copilot-in-visual-studio-code-june-2026-releases",
+      "source": "Month 7",
+      "year": 2026,
+      "preview": {
+        "excerpt": "This changelog covers VS Code v1.123 through v1.127, shipped throughout June and early July 2026. The latest VS Code releases build on the Copilot experience developers use every day, making…",
+        "html": "<p>This changelog covers VS Code v1.123 through v1.127, shipped throughout June and early July 2026.</p><p>The latest VS Code releases build on the Copilot experience developers use every day, making it easier to manage agent work, understand usage, choose the right models, and stay in the flow. From a smarter integrated browser to parallel sessions, clearer cost visibility, Marketplace model discovery, and sharper Autopilot behavior, these updates help developers move faster while staying in control.</p><p>The integrated browser brings more of your web workflow into VS Code, including search, screenshots, remote browsing, and agent-driven validation.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-07-08",
+      "title": "GitHub Mobile: Fix merge conflicts with Copilot cloud agent",
+      "url": "https://github.blog/changelog/2026-07-08-github-mobile-fix-merge-conflicts-with-copilot-cloud-agent",
+      "source": "Month 7",
+      "year": 2026,
+      "preview": {
+        "excerpt": "GitHub Mobile now supports fixing pull request merge conflicts with Copilot cloud agent, making it easier to unblock pull requests while you’re on the go. When a pull request has…",
+        "html": "<p>GitHub Mobile now supports fixing pull request merge conflicts with Copilot cloud agent, making it easier to unblock pull requests while you’re on the go.</p><p>When a pull request has merge conflicts, you can now start the Copilot workflow directly from the pull request merge box on mobile. Tap Fix with Copilot to prepopulate a comment asking Copilot to resolve the conflicts, then submit it to launch Copilot cloud agent.</p><p>This brings the streamlined “fix merge conflicts” experience to GitHub Mobile, so you can:</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-07-08",
+      "title": "GitHub Mobile: Live notifications for Copilot CLI sessions",
+      "url": "https://github.blog/changelog/2026-07-08-github-mobile-live-notifications-for-copilot-cli-sessions",
+      "source": "Month 7",
+      "year": 2026,
+      "preview": {
+        "excerpt": "Live coding agent notifications on GitHub Mobile now support remote Copilot CLI sessions, making it easier to stay connected to agent work that starts outside of GitHub Mobile. When a…",
+        "html": "<p>Live coding agent notifications on GitHub Mobile now support remote Copilot CLI sessions, making it easier to stay connected to agent work that starts outside of GitHub Mobile.</p><p>When a Copilot CLI session is running remotely, GitHub Mobile can surface real-time updates directly on your phone so you can track progress, know when the agent needs your input, and jump back into the session when needed.</p><p>Using live activities on iOS and live update notifications on Android, you’ll see key session details and the current session status. Tap the notification to open the corresponding session logs view in GitHub Mobile.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-07-07",
+      "title": "Kimi K2.7 now available for Copilot Business and Enterprise",
+      "url": "https://github.blog/changelog/2026-07-07-kimi-k2-7-now-available-for-copilot-business-and-enterprise",
+      "source": "Month 7",
+      "year": 2026,
+      "preview": {
+        "excerpt": "On July 1, 2026, we announced Kimi K2.7 would be available to Copilot Pro, Pro+, and Max plans. The model is now additionally available on Copilot Business and Copilot Enterprise…",
+        "html": "<p>On July 1, 2026, we announced Kimi K2.7 would be available to Copilot Pro, Pro+, and Max plans.</p><p>The model is now additionally available on Copilot Business and Copilot Enterprise plans.</p><p>Kimi K2.7 Code, an open-weight model, is now generally available in GitHub Copilot. This is the first open-weight model offered as a selectable option in the Copilot model picker, giving you more choice and a lower-cost option for your coding workflows.</p>",
+        "hasContent": true
+      }
+    },
     {
       "date": "2026-07-07",
       "title": "GitHub Copilot app available to all",
