@@ -1,15 +1,27 @@
 {
   "metadata": {
-    "scraped_at": "2026-07-10T04:45:58.230Z",
-    "total_entries": 210,
+    "scraped_at": "2026-07-11T04:09:50.120Z",
+    "total_entries": 211,
     "year_filter": 2026,
     "keyword_filter": "Copilot",
     "date_range": {
       "earliest": "2026-01-13",
-      "latest": "2026-07-09"
+      "latest": "2026-07-10"
     }
   },
   "entries": [
+    {
+      "date": "2026-07-10",
+      "title": "GitHub Mobile: Improved filters and sorting for Copilot sessions",
+      "url": "https://github.blog/changelog/2026-07-10-github-mobile-improved-filters-and-sorting-for-copilot-sessions",
+      "source": "Month 7",
+      "year": 2026,
+      "preview": {
+        "excerpt": "GitHub Mobile now includes improved filters and sorting for Copilot sessions, making it easier to find the right session as your session list grows. You can now narrow your session…",
+        "html": "<p>GitHub Mobile now includes improved filters and sorting for Copilot sessions, making it easier to find the right session as your session list grows.</p><p>You can now narrow your session list using lightweight filters designed for mobile, including:</p><p>These controls help you quickly find sessions that are active, completed, need your attention, or are associated with a specific repository or session type.</p>",
+        "hasContent": true
+      }
+    },
     {
       "date": "2026-07-09",
       "title": "OpenAI’s GPT-5.6 Sol, Terra, and Luna are now available in GitHub Copilot",

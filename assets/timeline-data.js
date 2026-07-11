@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 573,
+        "totalEntries": 574,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-07-09"
+                "latest": "2026-07-10"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-07-10T04:45:58.230Z",
-            "total_entries": 210,
+            "scraped_at": "2026-07-11T04:09:50.120Z",
+            "total_entries": 211,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-07-09"
+                "latest": "2026-07-10"
             }
         }
     },
@@ -6959,6 +6959,18 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "OpenAI’s GPT-5.6 family is now rolling out in GitHub Copilot. GPT-5.6 comes in three variants, Sol, Terra, and Luna, so you can match the model to the job, whether that’s…",
                 "html": "<p>OpenAI’s GPT-5.6 family is now rolling out in GitHub Copilot. GPT-5.6 comes in three variants, Sol, Terra, and Luna, so you can match the model to the job, whether that’s reasoning over a large codebase, everyday agentic coding, or fast, cost-efficient assistance.</p><p>These models are billed at provider list pricing under Usage Based Billing. See GitHub Copilot’s pricing for models and requests for details.</p><p>GPT-5.6 Sol will be available to Copilot Pro+, Max, Business, and Enterprise SKUs. GPT-5.6 Terra and GPT-5.6 Luna will be available to Pro, Pro+, Max, Business and Enterprise SKUs.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-07-10",
+            "title": "GitHub Mobile: Improved filters and sorting for Copilot sessions",
+            "url": "https://github.blog/changelog/2026-07-10-github-mobile-improved-filters-and-sorting-for-copilot-sessions",
+            "source": "Month 7",
+            "year": 2026,
+            "preview": {
+                "excerpt": "GitHub Mobile now includes improved filters and sorting for Copilot sessions, making it easier to find the right session as your session list grows. You can now narrow your session…",
+                "html": "<p>GitHub Mobile now includes improved filters and sorting for Copilot sessions, making it easier to find the right session as your session list grows.</p><p>You can now narrow your session list using lightweight filters designed for mobile, including:</p><p>These controls help you quickly find sessions that are active, completed, need your attention, or are associated with a specific repository or session type.</p>",
                 "hasContent": true
             }
         }
