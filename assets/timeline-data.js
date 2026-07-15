@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 574,
+        "totalEntries": 577,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-07-10"
+                "latest": "2026-07-14"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-07-14T03:54:30.206Z",
-            "total_entries": 211,
+            "scraped_at": "2026-07-15T03:55:34.462Z",
+            "total_entries": 214,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-07-10"
+                "latest": "2026-07-14"
             }
         }
     },
@@ -6971,6 +6971,42 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "GitHub Mobile now includes improved filters and sorting for Copilot sessions, making it easier to find the right session as your session list grows. You can now narrow your session…",
                 "html": "<p>GitHub Mobile now includes improved filters and sorting for Copilot sessions, making it easier to find the right session as your session list grows.</p><p>You can now narrow your session list using lightweight filters designed for mobile, including:</p><p>These controls help you quickly find sessions that are active, completed, need your attention, or are associated with a specific repository or session type.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-07-14",
+            "title": "GitHub Copilot for JetBrains expands BYOK capabilities",
+            "url": "https://github.blog/changelog/2026-07-14-github-copilot-for-jetbrains-expands-byok-capabilities",
+            "source": "Month 7",
+            "year": 2026,
+            "preview": {
+                "excerpt": "This update brings major advances in customization and model provider flexibility to all tiers of GitHub Copilot for JetBrains IDEs. With richer plugin and provider experiences, improved conversational interactions, and…",
+                "html": "<p>This update brings major advances in customization and model provider flexibility to all tiers of GitHub Copilot for JetBrains IDEs. With richer plugin and provider experiences, improved conversational interactions, and stronger reliability, teams can more confidently tailor Copilot to how they build software.</p><p>We’ve expanded bring your own key support with custom endpoints. You can now configure OpenAI-compatible custom endpoints with API keys to use your own models.</p><p>GitHub Copilot for JetBrains now includes a more complete plugin management experience in customizations. You can browse and install plugins through the marketplace or from the source repository.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-07-14",
+            "title": "GitHub Copilot in Visual Studio — June update",
+            "url": "https://github.blog/changelog/2026-07-14-github-copilot-in-visual-studio-june-update",
+            "source": "Month 7",
+            "year": 2026,
+            "preview": {
+                "excerpt": "June 2026 is about visibility and trust with a clearer view of your GitHub Copilot usage, a new trust layer for MCP servers, and the first C++ scenarios for the…",
+                "html": "<p>June 2026 is about visibility and trust with a clearer view of your GitHub Copilot usage, a new trust layer for MCP servers, and the first C++ scenarios for the modernization agent reaching general availability.</p><p>Here’s what’s new with GitHub Copilot in Visual Studio 2026. Check the Insiders channel for the latest:</p><p>This update is available to users on all GitHub Copilot plans, including Copilot Free, Student, Pro, Pro+, Max, Business, and Enterprise.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-07-14",
+            "title": "Security reviews now available in the GitHub Copilot app",
+            "url": "https://github.blog/changelog/2026-07-14-security-reviews-now-available-in-the-github-copilot-app",
+            "source": "Month 7",
+            "year": 2026,
+            "preview": {
+                "excerpt": "You can now run a security review on your in-flight code changes directly from the GitHub Copilot app. The /security-review slash command is shipping in public preview, bringing the same…",
+                "html": "<p>You can now run a security review on your in-flight code changes directly from the GitHub Copilot app. The /security-review slash command is shipping in public preview, bringing the same AI-driven vulnerability scanning already available in Copilot CLI into your everyday coding workflow.</p><p>/security-review analyses your current workstream changes and returns:</p><p>The scan is tuned to catch common, high-impact vulnerability classes such as injection flaws, cross-site scripting, insecure data handling, path traversal and weak cryptography.</p>",
                 "hasContent": true
             }
         }
