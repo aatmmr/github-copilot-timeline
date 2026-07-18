@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 577,
+        "totalEntries": 581,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-07-14"
+                "latest": "2026-07-17"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-07-17T03:57:21.992Z",
-            "total_entries": 214,
+            "scraped_at": "2026-07-18T03:51:23.980Z",
+            "total_entries": 218,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-07-14"
+                "latest": "2026-07-17"
             }
         }
     },
@@ -7007,6 +7007,54 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "You can now run a security review on your in-flight code changes directly from the GitHub Copilot app. The /security-review slash command is shipping in public preview, bringing the same…",
                 "html": "<p>You can now run a security review on your in-flight code changes directly from the GitHub Copilot app. The /security-review slash command is shipping in public preview, bringing the same AI-driven vulnerability scanning already available in Copilot CLI into your everyday coding workflow.</p><p>/security-review analyses your current workstream changes and returns:</p><p>The scan is tuned to catch common, high-impact vulnerability classes such as injection flaws, cross-site scripting, insecure data handling, path traversal and weak cryptography.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-07-17",
+            "title": "Copilot code review: Customization and configurability improvements",
+            "url": "https://github.blog/changelog/2026-07-17-copilot-code-review-customization-and-configurability-improvements",
+            "source": "Month 7",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Copilot code review now utilizes a firewall, custom setup steps, and independent runner configurations. It now reads custom instructions from the head branch to allow for easy testing and validation…",
+                "html": "<p>Copilot code review now utilizes a firewall, custom setup steps, and independent runner configurations. It now reads custom instructions from the head branch to allow for easy testing and validation of custom instructions. These changes give administrators and developers more control over how Copilot code review runs in their environment.</p><p>Custom instructions are now read from the head branch of the pull request instead of the base branch. This includes copilot-instructions.md, *.instructions.md, agent skills, and AGENTS.md. This means you can iterate on and test custom instructions in a feature branch without needing to merge them first.</p><p>Copilot code review now reads REVIEW.md, GEMINI.md, and CLAUDE.md files from your repository, so your customizations are understood regardless of where they live. If your team already maintains review guidelines or model-specific instructions in these files, Copilot code review will automatically pick them up and incorporate them into its review process.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-07-17",
+            "title": "GitHub Copilot app now available in the usage metrics API",
+            "url": "https://github.blog/changelog/2026-07-17-github-copilot-app-now-available-in-the-usage-metrics-api",
+            "source": "Month 7",
+            "year": 2026,
+            "preview": {
+                "excerpt": "The Copilot usage metrics API now reports the GitHub Copilot app usage in the enterprise and organization 1-day and 28-day reports. This gives enterprise and organization admins visibility into the…",
+                "html": "<p>The Copilot usage metrics API now reports the GitHub Copilot app usage in the enterprise and organization 1-day and 28-day reports. This gives enterprise and organization admins visibility into the app’s activity alongside the IDE, chat, code review, and coding agent metrics they already retrieve.</p><p>The enterprise and organization reports now include two new fields:</p><p>The GitHub Copilot app activity was not previously represented in usage reporting. With these fields, enterprise and organization admins can see how broadly the app is being adopted (e.g., distinct active users, session and request volume, and token consumption) in the same API they already use for the rest of their Copilot usage metrics.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-07-17",
+            "title": "GitHub Mobile: Fix pull request comments with Copilot cloud agent",
+            "url": "https://github.blog/changelog/2026-07-17-github-mobile-fix-pull-request-comments-with-copilot-cloud-agent",
+            "source": "Month 7",
+            "year": 2026,
+            "preview": {
+                "excerpt": "You can now select Fix with Copilot directly from Copilot code review pull request comments in GitHub Mobile. The button is available both on the pull request’s main view and…",
+                "html": "<p>You can now select Fix with Copilot directly from Copilot code review pull request comments in GitHub Mobile. The button is available both on the pull request’s main view and on individual review comments, giving you multilpe ways to start a Copilot-assisted fix.</p><p>Copilot cloud agent helps you respond to review feedback without requiring you to manually compose a prompt, making it easier to get started in one tap. Whether you’re away from your desk or reviewing changes on the go, this new entry point helps you address comments more quickly and keep pull requests moving forward.</p><p>This is now available on the latest production build of GitHub Mobile on iOS and Android.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-07-17",
+            "title": "Repository-level GitHub Copilot usage metrics generally available",
+            "url": "https://github.blog/changelog/2026-07-17-repository-level-github-copilot-usage-metrics-generally-available",
+            "source": "Month 7",
+            "year": 2026,
+            "preview": {
+                "excerpt": "The Copilot usage metrics REST API now reports repository-level activity. Two new endpoints return a daily, per-repository breakdown of pull request activity for Copilot coding agent and Copilot code review.…",
+                "html": "<p>The Copilot usage metrics REST API now reports repository-level activity. Two new endpoints return a daily, per-repository breakdown of pull request activity for Copilot coding agent and Copilot code review. They do this for both enterprise and organization reports.</p><p>Two new endpoints return a per-repository report for a single day:</p><p>Each response returns the following activity:</p>",
                 "hasContent": true
             }
         }
