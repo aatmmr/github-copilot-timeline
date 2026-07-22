@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 581,
+        "totalEntries": 583,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-07-17"
+                "latest": "2026-07-21"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-07-21T04:12:24.906Z",
-            "total_entries": 218,
+            "scraped_at": "2026-07-22T04:14:07.141Z",
+            "total_entries": 220,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-07-17"
+                "latest": "2026-07-21"
             }
         }
     },
@@ -7055,6 +7055,30 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "The Copilot usage metrics REST API now reports repository-level activity. Two new endpoints return a daily, per-repository breakdown of pull request activity for Copilot coding agent and Copilot code review.…",
                 "html": "<p>The Copilot usage metrics REST API now reports repository-level activity. Two new endpoints return a daily, per-repository breakdown of pull request activity for Copilot coding agent and Copilot code review. They do this for both enterprise and organization reports.</p><p>Two new endpoints return a per-repository report for a single day:</p><p>Each response returns the following activity:</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-07-20",
+            "title": "Copilot users can now see AI credits used per billing cycle",
+            "url": "https://github.blog/changelog/2026-07-20-copilot-users-can-now-see-ai-credits-used-per-billing-cycle",
+            "source": "Month 7",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Copilot Business and Copilot Enterprise users can now see how many AI credits they’ve used this billing cycle, even without an individual budget. Find this on your GitHub Copilot usage…",
+                "html": "<p>Copilot Business and Copilot Enterprise users can now see how many AI credits they’ve used this billing cycle, even without an individual budget. Find this on your GitHub Copilot usage page in your GitHub settings.</p><p>Previously, the page showed usage only as a percentage of a budget. Many users don’t have an individual budget, so that percentage gave them no view of their monthly usage and no way to contextualize their token usage.</p><p>Now the page reflects your actual usage:</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-07-21",
+            "title": "Gemini 3.6 Flash is now available in GitHub Copilot",
+            "url": "https://github.blog/changelog/2026-07-21-gemini-3-6-flash-is-now-available-in-github-copilot",
+            "source": "Month 7",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Gemini 3.6 Flash, Google’s latest Flash model, is now rolling out in GitHub Copilot. It is designed for web and app development, coding, and longer-horizon agentic tasks. It has configurable…",
+                "html": "<p>Gemini 3.6 Flash, Google’s latest Flash model, is now rolling out in GitHub Copilot. It is designed for web and app development, coding, and longer-horizon agentic tasks. It has configurable reasoning effort and support for parallel tool use across complex workflows. In early testing, Gemini 3.6 Flash demonstrated higher task-completion rates and better token efficiency than Gemini 3.5 Flash across coding and agentic workflows.</p><p>This model is billed at provider list pricing under usage-based billing. See GitHub Copilot’s pricing for models and requests for details.</p><p>Gemini 3.6 Flash will be available to Copilot Pro, Pro+, Max, Business, and Enterprise users.</p>",
                 "hasContent": true
             }
         }
