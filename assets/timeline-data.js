@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 583,
+        "totalEntries": 584,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-07-21"
+                "latest": "2026-07-22"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-07-22T04:14:07.141Z",
-            "total_entries": 220,
+            "scraped_at": "2026-07-23T04:12:16.634Z",
+            "total_entries": 221,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-07-21"
+                "latest": "2026-07-22"
             }
         }
     },
@@ -7079,6 +7079,18 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "Gemini 3.6 Flash, Google’s latest Flash model, is now rolling out in GitHub Copilot. It is designed for web and app development, coding, and longer-horizon agentic tasks. It has configurable…",
                 "html": "<p>Gemini 3.6 Flash, Google’s latest Flash model, is now rolling out in GitHub Copilot. It is designed for web and app development, coding, and longer-horizon agentic tasks. It has configurable reasoning effort and support for parallel tool use across complex workflows. In early testing, Gemini 3.6 Flash demonstrated higher task-completion rates and better token efficiency than Gemini 3.5 Flash across coding and agentic workflows.</p><p>This model is billed at provider list pricing under usage-based billing. See GitHub Copilot’s pricing for models and requests for details.</p><p>Gemini 3.6 Flash will be available to Copilot Pro, Pro+, Max, Business, and Enterprise users.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-07-22",
+            "title": "New Copilot usage metrics impact dashboard",
+            "url": "https://github.blog/changelog/2026-07-22-new-copilot-usage-metrics-impact-dashboard",
+            "source": "Month 7",
+            "year": 2026,
+            "preview": {
+                "excerpt": "We’ve released a new Copilot metrics impact dashboard for enterprise administrators and organization owners. This dashboard helps you tell a deeper Copilot impact story by sharing not just who is…",
+                "html": "<p>We’ve released a new Copilot metrics impact dashboard for enterprise administrators and organization owners. This dashboard helps you tell a deeper Copilot impact story by sharing not just who is active, but how they’re using Copilot. The dashboard builds on the AI adoption phase cohorts in the Copilot usage metrics API, turning the per-phase data into a visual view of adoption depth, impact, and the next steps that move developers into deeper-adoption cohorts.</p><p>The dashboard groups your engaged users by AI adoption phase and surfaces the metrics that matter for each cohort:</p><p>Join the discussion within GitHub Community.</p>",
                 "hasContent": true
             }
         }
