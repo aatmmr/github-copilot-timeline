@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 584,
+        "totalEntries": 586,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-07-22"
+                "latest": "2026-07-23"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-07-23T04:12:16.634Z",
-            "total_entries": 221,
+            "scraped_at": "2026-07-24T04:11:27.116Z",
+            "total_entries": 223,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-07-22"
+                "latest": "2026-07-23"
             }
         }
     },
@@ -7091,6 +7091,30 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "We’ve released a new Copilot metrics impact dashboard for enterprise administrators and organization owners. This dashboard helps you tell a deeper Copilot impact story by sharing not just who is…",
                 "html": "<p>We’ve released a new Copilot metrics impact dashboard for enterprise administrators and organization owners. This dashboard helps you tell a deeper Copilot impact story by sharing not just who is active, but how they’re using Copilot. The dashboard builds on the AI adoption phase cohorts in the Copilot usage metrics API, turning the per-phase data into a visual view of adoption depth, impact, and the next steps that move developers into deeper-adoption cohorts.</p><p>The dashboard groups your engaged users by AI adoption phase and surfaces the metrics that matter for each cohort:</p><p>Join the discussion within GitHub Community.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-07-23",
+            "title": "Copilot cloud agent for Linear is now generally available",
+            "url": "https://github.blog/changelog/2026-07-23-copilot-cloud-agent-for-linear-is-now-generally-available",
+            "source": "Month 7",
+            "year": 2026,
+            "preview": {
+                "excerpt": "You can now assign issues in Linear to Copilot cloud agent, our asynchronous, autonomous background agent. When you assign a Linear issue to Copilot, it will: Analyze the issue contents…",
+                "html": "<p>You can now assign issues in Linear to Copilot cloud agent, our asynchronous, autonomous background agent.</p><p>When you assign a Linear issue to Copilot, it will:</p><p>You now have more control over how the agent runs, right from your Linear workspace:</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-07-23",
+            "title": "GitHub Mobile: Fix failing Actions checks with Copilot cloud agent",
+            "url": "https://github.blog/changelog/2026-07-23-github-mobile-fix-failing-actions-checks-with-copilot-cloud-agent",
+            "source": "Month 7",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Now when a GitHub Actions check fails on your pull request, you can ask Copilot coding agent to investigate and directly fix the problem from GitHub Mobile. From the failed…",
+                "html": "<p>Now when a GitHub Actions check fails on your pull request, you can ask Copilot coding agent to investigate and directly fix the problem from GitHub Mobile. From the failed check, select Fix with Copilot to start the process.</p><p>Copilot opens a new pull request on top of your existing pull request, analyzes the failing check, and attempts to implement a fix. Once the changes are ready, Copilot tags you for review so you can inspect the proposed solution, run any additional checks, and decide whether to merge it.</p><p>This one-tap workflow makes it easier to respond to CI failures while you’re on the go, helping you keep pull requests moving forward.</p>",
                 "hasContent": true
             }
         }
