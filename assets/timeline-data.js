@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 586,
+        "totalEntries": 587,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-07-23"
+                "latest": "2026-07-24"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-07-24T04:11:27.116Z",
-            "total_entries": 223,
+            "scraped_at": "2026-07-25T04:01:12.824Z",
+            "total_entries": 224,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-07-23"
+                "latest": "2026-07-24"
             }
         }
     },
@@ -7115,6 +7115,18 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "Now when a GitHub Actions check fails on your pull request, you can ask Copilot coding agent to investigate and directly fix the problem from GitHub Mobile. From the failed…",
                 "html": "<p>Now when a GitHub Actions check fails on your pull request, you can ask Copilot coding agent to investigate and directly fix the problem from GitHub Mobile. From the failed check, select Fix with Copilot to start the process.</p><p>Copilot opens a new pull request on top of your existing pull request, analyzes the failing check, and attempts to implement a fix. Once the changes are ready, Copilot tags you for review so you can inspect the proposed solution, run any additional checks, and decide whether to merge it.</p><p>This one-tap workflow makes it easier to respond to CI failures while you’re on the go, helping you keep pull requests moving forward.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-07-24",
+            "title": "Claude Opus 5 is now available in GitHub Copilot",
+            "url": "https://github.blog/changelog/2026-07-24-claude-opus-5-is-now-available-in-github-copilot",
+            "source": "Month 7",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Claude Opus 5, Anthropic’s newest Opus model, is now available in GitHub Copilot. It is designed for complex, long-running coding tasks that require careful reasoning, effective tool use, and reliable…",
+                "html": "<p>Claude Opus 5, Anthropic’s newest Opus model, is now available in GitHub Copilot. It is designed for complex, long-running coding tasks that require careful reasoning, effective tool use, and reliable execution across multiple steps.</p><p>In our early testing, Opus 5 showed strong performance on agentic coding workflows, including autonomous code changes, regression verification, and tasks that require coordinating multiple tools. The model was especially effective at making targeted changes, validating its work, and reducing unnecessary execution overhead on complex tasks.</p><p>The model includes enhanced safeguards for high-harm cyber content. These safeguards may block some cyber-related or security-adjacent requests. If a request is blocked, try rephrasing it with additional benign context or select another available model.</p>",
                 "hasContent": true
             }
         }
