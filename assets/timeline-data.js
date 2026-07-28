@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 587,
+        "totalEntries": 590,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-07-24"
+                "latest": "2026-07-27"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-07-27T04:33:47.964Z",
-            "total_entries": 224,
+            "scraped_at": "2026-07-28T03:57:25.211Z",
+            "total_entries": 227,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-07-24"
+                "latest": "2026-07-27"
             }
         }
     },
@@ -7127,6 +7127,42 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "Claude Opus 5, Anthropic’s newest Opus model, is now available in GitHub Copilot. It is designed for complex, long-running coding tasks that require careful reasoning, effective tool use, and reliable…",
                 "html": "<p>Claude Opus 5, Anthropic’s newest Opus model, is now available in GitHub Copilot. It is designed for complex, long-running coding tasks that require careful reasoning, effective tool use, and reliable execution across multiple steps.</p><p>In our early testing, Opus 5 showed strong performance on agentic coding workflows, including autonomous code changes, regression verification, and tasks that require coordinating multiple tools. The model was especially effective at making targeted changes, validating its work, and reducing unnecessary execution overhead on complex tasks.</p><p>The model includes enhanced safeguards for high-harm cyber content. These safeguards may block some cyber-related or security-adjacent requests. If a request is blocked, try rephrasing it with additional benign context or select another available model.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-07-27",
+            "title": "Enterprise managed settings in the GitHub Copilot app and Copilot cloud agent",
+            "url": "https://github.blog/changelog/2026-07-27-enterprise-managed-settings-now-apply-to-the-github-copilot-app",
+            "source": "Month 7",
+            "year": 2026,
+            "preview": {
+                "excerpt": "You can now govern the GitHub Copilot app and Copilot cloud agent with enterprise managed settings, the same centrally managed policies you use to control Copilot across your enterprise. With…",
+                "html": "<p>You can now govern the GitHub Copilot app and Copilot cloud agent with enterprise managed settings, the same centrally managed policies you use to control Copilot across your enterprise. With a managed-settings.json file, enterprise owners define one set of guardrails, such as which plugins and marketplaces developers can use and whether they can bypass approval prompts. Copilot clients automatically enforce these settings for everyone on your enterprise’s Copilot plan.</p><p>As your developers adopt Copilot across more surfaces, you’re accountable for applying the same governance everywhere they work. Any client that sits outside your policy is a gap, a place where someone could install a plugin you haven’t vetted or run a command you’d normally gate. Your governance is only as strong as its least-covered surface.</p><p>The Copilot app and cloud agent now join Copilot CLI and VS Code as supported clients for enterprise managed settings, so your guardrails follow your developers into the app and cloud agent tasks. You define your policy once, and it’s enforced consistently wherever your teams build. That’s the cross-client consistency and high-trust teams need to adopt Copilot with confidence.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-07-27",
+            "title": "GitHub Copilot for JetBrains adds improved OpenTelemetry configuration and model management",
+            "url": "https://github.blog/changelog/2026-07-27-github-copilot-for-jetbrains-adds-improvved-opentelemetry-configuration-and-model-management",
+            "source": "Month 7",
+            "year": 2026,
+            "preview": {
+                "excerpt": "This update brings more control and clarity to your GitHub Copilot for JetBrains workflows. You can now connect MCP servers and custom agents in Claude agent flows, tune telemetry and…",
+                "html": "<p>This update brings more control and clarity to your GitHub Copilot for JetBrains workflows. You can now connect MCP servers and custom agents in Claude agent flows, tune telemetry and token settings for advanced scenarios, and work with a cleaner chat and model-selection experience.</p><p>You can now configure OpenTelemetry export settings for agent workflows. This makes it easier to align plugin behavior with your organization’s requirements for observability. You can configure this under Settings &gt; Tools &gt; GitHub Copilot &gt; Chat.</p><p>You can now set default token limits, including maxInputToken and maxOutputToken, for BYOK and custom endpoints. You can also disable or enable all built-in Copilot models from model-management controls.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-07-27",
+            "title": "Manage GitHub Copilot app access with a dedicated policy",
+            "url": "https://github.blog/changelog/2026-07-27-manage-github-copilot-app-access-with-a-dedicated-policy",
+            "source": "Month 7",
+            "year": 2026,
+            "preview": {
+                "excerpt": "The GitHub Copilot app now has its own policy, so you can control who has access to it at the enterprise and organization levels. Until now, access to the Copilot…",
+                "html": "<p>The GitHub Copilot app now has its own policy, so you can control who has access to it at the enterprise and organization levels.</p><p>Until now, access to the Copilot app depended on your GitHub Copilot CLI policy being enabled. From several conversations with customers, we understand that many of you want to manage each client independently. Now the Copilot app and the Copilot CLI each have their own policy, giving you the flexibility and control to enable the right clients for your teams.</p><p>This new policy keeps your developers’ work within the guardrails you already rely on. When using this app, developers drive agent sessions in isolated workspaces and land changes through pull requests. This means the same reviews, checks, and audit history apply as they would to any other contribution. The Copilot app also joins Copilot CLI and VS Code as a supported client for enterprise-managed settings, so the guardrails you define once (e.g., which plugins developers can use) are consistently enforced in the Copilot app as well.</p>",
                 "hasContent": true
             }
         }
