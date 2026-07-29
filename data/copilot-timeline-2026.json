@@ -1,15 +1,39 @@
 {
   "metadata": {
-    "scraped_at": "2026-07-28T03:57:25.211Z",
-    "total_entries": 227,
+    "scraped_at": "2026-07-29T04:01:16.344Z",
+    "total_entries": 229,
     "year_filter": 2026,
     "keyword_filter": "Copilot",
     "date_range": {
       "earliest": "2026-01-13",
-      "latest": "2026-07-27"
+      "latest": "2026-07-28"
     }
   },
   "entries": [
+    {
+      "date": "2026-07-28",
+      "title": "GitHub Copilot app usage metrics now expand across report rollups",
+      "url": "https://github.blog/changelog/2026-07-28-github-copilot-app-usage-metrics-now-expand-across-report-rollups",
+      "source": "Month 7",
+      "year": 2026,
+      "preview": {
+        "excerpt": "Copilot app usage is now reported across much more of the Copilot usage metrics API. Individual Copilot app activity is now attributed to users in the enterprise-user and organization-user reports.…",
+        "html": "<p>Copilot app usage is now reported across much more of the Copilot usage metrics API.</p><p>Individual Copilot app activity is now attributed to users in the enterprise-user and organization-user reports. In addition, Copilot app coding activity is now broken out in the feature, model, and language rollups alongside every other Copilot surface.</p><p>This builds on the earlier release that brought the Copilot app into the usage metrics API with enterprise-level Copilot app totals.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-07-28",
+      "title": "Grok 4.5 is now available in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-07-28-grok-4-5-is-now-available-in-github-copilot",
+      "source": "Month 7",
+      "year": 2026,
+      "preview": {
+        "excerpt": "Grok 4.5, xAI’s latest reasoning model, is now rolling out in GitHub Copilot. It is designed for fast, agentic coding and complex multi-step workflows, with a context window of up…",
+        "html": "<p>Grok 4.5, xAI’s latest reasoning model, is now rolling out in GitHub Copilot. It is designed for fast, agentic coding and complex multi-step workflows, with a context window of up to 500,000 tokens, support for text and image inputs, as well as low, medium, and high reasoning effort.</p><p>In our internal testing, Grok 4.5 showed strong results across terminal-based coding tasks in Visual Studio Code and Copilot CLI. It performed especially well when dispatching tools in parallel and taking direct action, making it a strong fit for exploration, unblocking complex tasks, and time-sensitive coding workflows.</p><p>This model is billed at provider list pricing under usage-based billing. See GitHub Copilot’s pricing for models and requests for details.</p>",
+        "hasContent": true
+      }
+    },
     {
       "date": "2026-07-27",
       "title": "GitHub Copilot for JetBrains adds improved OpenTelemetry configuration and model management",

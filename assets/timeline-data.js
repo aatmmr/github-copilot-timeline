@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 590,
+        "totalEntries": 592,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-07-27"
+                "latest": "2026-07-28"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-07-28T03:57:25.211Z",
-            "total_entries": 227,
+            "scraped_at": "2026-07-29T04:01:16.344Z",
+            "total_entries": 229,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-07-27"
+                "latest": "2026-07-28"
             }
         }
     },
@@ -7163,6 +7163,30 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "The GitHub Copilot app now has its own policy, so you can control who has access to it at the enterprise and organization levels. Until now, access to the Copilot…",
                 "html": "<p>The GitHub Copilot app now has its own policy, so you can control who has access to it at the enterprise and organization levels.</p><p>Until now, access to the Copilot app depended on your GitHub Copilot CLI policy being enabled. From several conversations with customers, we understand that many of you want to manage each client independently. Now the Copilot app and the Copilot CLI each have their own policy, giving you the flexibility and control to enable the right clients for your teams.</p><p>This new policy keeps your developers’ work within the guardrails you already rely on. When using this app, developers drive agent sessions in isolated workspaces and land changes through pull requests. This means the same reviews, checks, and audit history apply as they would to any other contribution. The Copilot app also joins Copilot CLI and VS Code as a supported client for enterprise-managed settings, so the guardrails you define once (e.g., which plugins developers can use) are consistently enforced in the Copilot app as well.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-07-28",
+            "title": "GitHub Copilot app usage metrics now expand across report rollups",
+            "url": "https://github.blog/changelog/2026-07-28-github-copilot-app-usage-metrics-now-expand-across-report-rollups",
+            "source": "Month 7",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Copilot app usage is now reported across much more of the Copilot usage metrics API. Individual Copilot app activity is now attributed to users in the enterprise-user and organization-user reports.…",
+                "html": "<p>Copilot app usage is now reported across much more of the Copilot usage metrics API.</p><p>Individual Copilot app activity is now attributed to users in the enterprise-user and organization-user reports. In addition, Copilot app coding activity is now broken out in the feature, model, and language rollups alongside every other Copilot surface.</p><p>This builds on the earlier release that brought the Copilot app into the usage metrics API with enterprise-level Copilot app totals.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-07-28",
+            "title": "Grok 4.5 is now available in GitHub Copilot",
+            "url": "https://github.blog/changelog/2026-07-28-grok-4-5-is-now-available-in-github-copilot",
+            "source": "Month 7",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Grok 4.5, xAI’s latest reasoning model, is now rolling out in GitHub Copilot. It is designed for fast, agentic coding and complex multi-step workflows, with a context window of up…",
+                "html": "<p>Grok 4.5, xAI’s latest reasoning model, is now rolling out in GitHub Copilot. It is designed for fast, agentic coding and complex multi-step workflows, with a context window of up to 500,000 tokens, support for text and image inputs, as well as low, medium, and high reasoning effort.</p><p>In our internal testing, Grok 4.5 showed strong results across terminal-based coding tasks in Visual Studio Code and Copilot CLI. It performed especially well when dispatching tools in parallel and taking direct action, making it a strong fit for exploration, unblocking complex tasks, and time-sensitive coding workflows.</p><p>This model is billed at provider list pricing under usage-based billing. See GitHub Copilot’s pricing for models and requests for details.</p>",
                 "hasContent": true
             }
         }
