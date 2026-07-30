@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 592,
+        "totalEntries": 594,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-07-28"
+                "latest": "2026-07-29"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-07-29T04:01:16.344Z",
-            "total_entries": 229,
+            "scraped_at": "2026-07-30T03:53:19.464Z",
+            "total_entries": 231,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-07-28"
+                "latest": "2026-07-29"
             }
         }
     },
@@ -7187,6 +7187,30 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "Grok 4.5, xAI’s latest reasoning model, is now rolling out in GitHub Copilot. It is designed for fast, agentic coding and complex multi-step workflows, with a context window of up…",
                 "html": "<p>Grok 4.5, xAI’s latest reasoning model, is now rolling out in GitHub Copilot. It is designed for fast, agentic coding and complex multi-step workflows, with a context window of up to 500,000 tokens, support for text and image inputs, as well as low, medium, and high reasoning effort.</p><p>In our internal testing, Grok 4.5 showed strong results across terminal-based coding tasks in Visual Studio Code and Copilot CLI. It performed especially well when dispatching tools in parallel and taking direct action, making it a strong fit for exploration, unblocking complex tasks, and time-sensitive coding workflows.</p><p>This model is billed at provider list pricing under usage-based billing. See GitHub Copilot’s pricing for models and requests for details.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-07-29",
+            "title": "Copilot code review: Agent skills and MCP now generally available",
+            "url": "https://github.blog/changelog/2026-07-29-copilot-code-review-agent-skills-and-mcp-now-generally-available",
+            "source": "Month 7",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Copilot code review support for agent skills and MCP servers is now generally available for all Copilot Pro, Pro+, Business, and Enterprise users. Previously announced in public preview, these capabilities…",
+                "html": "<p>Copilot code review support for agent skills and MCP servers is now generally available for all Copilot Pro, Pro+, Business, and Enterprise users. Previously announced in public preview, these capabilities let you bring your team’s tools, standards, and external context directly into every code review.</p><p>If you configured agent skills or MCP servers during the public preview, no changes are needed. Your existing setup continues to work now that these features are generally available.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-07-29",
+            "title": "Default model enablement for Copilot Business and Enterprise",
+            "url": "https://github.blog/changelog/2026-07-29-default-model-enablement-for-copilot-business-and-enterprise",
+            "source": "Month 7",
+            "year": 2026,
+            "preview": {
+                "excerpt": "We’re introducing a global default enablement policy for generally available Copilot models on Copilot Business and Copilot Enterprise plans. Instead of requiring admins to manually turn on each new model…",
+                "html": "<p>We’re introducing a global default enablement policy for generally available Copilot models on Copilot Business and Copilot Enterprise plans. Instead of requiring admins to manually turn on each new model as it ships, models that become generally available will now be on by default. We’re adding a single opt-out control for organizations and enterprises that need stricter governance.</p><p>Today, a new default availability for released models policy is available in your enterprise and organization model settings. For the next 28 days, this policy is configurable but has no effect on model availability — nothing changes for your users yet.</p><p>Use the next 28 days to review your model settings. If you’re happy with models being available by default, no action is needed. If you’d rather manually approve each model, set the policy to disabled before August 26.</p>",
                 "hasContent": true
             }
         }
