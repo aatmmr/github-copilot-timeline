@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 594,
+        "totalEntries": 596,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-07-29"
+                "latest": "2026-07-30"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-07-30T03:53:19.464Z",
-            "total_entries": 231,
+            "scraped_at": "2026-07-31T04:19:42.517Z",
+            "total_entries": 233,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-07-29"
+                "latest": "2026-07-30"
             }
         }
     },
@@ -7211,6 +7211,30 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "We’re introducing a global default enablement policy for generally available Copilot models on Copilot Business and Copilot Enterprise plans. Instead of requiring admins to manually turn on each new model…",
                 "html": "<p>We’re introducing a global default enablement policy for generally available Copilot models on Copilot Business and Copilot Enterprise plans. Instead of requiring admins to manually turn on each new model as it ships, models that become generally available will now be on by default. We’re adding a single opt-out control for organizations and enterprises that need stricter governance.</p><p>Today, a new default availability for released models policy is available in your enterprise and organization model settings. For the next 28 days, this policy is configurable but has no effect on model availability — nothing changes for your users yet.</p><p>Use the next 28 days to review your model settings. If you’re happy with models being available by default, no action is needed. If you’d rather manually approve each model, set the policy to disabled before August 26.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-07-30",
+            "title": "GitHub Copilot in Visual Studio — July update",
+            "url": "https://github.blog/changelog/2026-07-30-github-copilot-in-visual-studio-july-update",
+            "source": "Month 7",
+            "year": 2026,
+            "preview": {
+                "excerpt": "July 2026 brought a new agent based on the Copilot SDK, built-in expertise from the .NET and Azure teams, and more ways to tailor GitHub Copilot to how you and…",
+                "html": "<p>July 2026 brought a new agent based on the Copilot SDK, built-in expertise from the .NET and Azure teams, and more ways to tailor GitHub Copilot to how you and your team work.</p><p>Here’s what’s new with GitHub Copilot in Visual Studio 2026. Check the Insiders channel for the latest:</p><p>Availability varies by feature. Organization-level custom instructions require GitHub Copilot Business or GitHub Copilot Enterprise. The new agent, built-in skills, and selected-code review features are available in all plans. See GitHub Copilot plans for details.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-07-30",
+            "title": "GitHub Copilot in Visual Studio Code, July 2026 releases",
+            "url": "https://github.blog/changelog/2026-07-30-github-copilot-in-visual-studio-code-july-2026-releases",
+            "source": "Month 7",
+            "year": 2026,
+            "preview": {
+                "excerpt": "This changelog covers VS Code v1.127 through v1.131, shipped throughout July 2026. These releases improve how you work with agents, review changes, use chat, and navigate VS Code. They also…",
+                "html": "<p>This changelog covers VS Code v1.127 through v1.131, shipped throughout July 2026.</p><p>These releases improve how you work with agents, review changes, use chat, and navigate VS Code. They also add new browser, accessibility, and dictation features.</p><p>The Agents window, currently in public preview, adds a redesigned layout, faster review workflows, and improvements for managing multiple sessions.</p>",
                 "hasContent": true
             }
         }
