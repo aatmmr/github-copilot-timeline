@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 596,
+        "totalEntries": 599,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-07-30"
+                "latest": "2026-08-03"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-08-03T04:27:31.307Z",
-            "total_entries": 233,
+            "scraped_at": "2026-08-04T04:01:00.553Z",
+            "total_entries": 236,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-07-30"
+                "latest": "2026-08-03"
             }
         }
     },
@@ -7235,6 +7235,42 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "This changelog covers VS Code v1.127 through v1.131, shipped throughout July 2026. These releases improve how you work with agents, review changes, use chat, and navigate VS Code. They also…",
                 "html": "<p>This changelog covers VS Code v1.127 through v1.131, shipped throughout July 2026.</p><p>These releases improve how you work with agents, review changes, use chat, and navigate VS Code. They also add new browser, accessibility, and dictation features.</p><p>The Agents window, currently in public preview, adds a redesigned layout, faster review workflows, and improvements for managing multiple sessions.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-07-31",
+            "title": "Upcoming August 2026 model deprecations in GitHub Copilot",
+            "url": "https://github.blog/changelog/2026-07-31-upcoming-august-2026-model-deprecations-in-github-copilot",
+            "source": "Month 7",
+            "year": 2026,
+            "preview": {
+                "excerpt": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions), on September 1st, 2026: Model Deprecation date…",
+                "html": "<p>We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions), on September 1st, 2026:</p><p>Claude Sonnet 4.6 will remain available to individual GitHub Copilot subscribers on annual plans so they retain a Sonnet offering. The deprecation of Claude Sonnet 4.6 does not apply to these customers.</p><p>Please update your workflows and integrations to use the supported model before these dates. Copilot Enterprise administrators may need to enable access to the alternative model through their model policies in Copilot settings. As an administrator, you can verify availability by checking your individual Copilot settings and confirming that the policy is enabled for the specific model. Once enabled, you’ll see the model in the Copilot Chat model selector in VS Code and on github.com. No action is required to remove the models once they have been deprecated.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-08-03",
+            "title": "Customize the reasoning level for Copilot cloud agent",
+            "url": "https://github.blog/changelog/2026-08-03-customize-the-reasoning-level-for-copilot-cloud-agent",
+            "source": "Month 8",
+            "year": 2026,
+            "preview": {
+                "excerpt": "When you delegate a task to GitHub Copilot cloud agent, you can now set the reasoning level for models that support it. This allows you to control how much the…",
+                "html": "<p>When you delegate a task to GitHub Copilot cloud agent, you can now set the reasoning level for models that support it.</p><p>This allows you to control how much the model reasons before it responds. A higher level can improve answers to complex problems, but it consumes more tokens, and therefore more credits.</p><p>Pick a reasoning level alongside the model when you start a task, and Copilot cloud agent will use it for the run.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-08-03",
+            "title": "Trigger Copilot automations with comments",
+            "url": "https://github.blog/changelog/2026-08-03-trigger-copilot-automations-with-comments",
+            "source": "Month 8",
+            "year": 2026,
+            "preview": {
+                "excerpt": "You can now create Copilot cloud agent automations that run when an issue comment or pull request comment is created. Common use cases include: Generate documentation: Comment on a pull…",
+                "html": "<p>You can now create Copilot cloud agent automations that run when an issue comment or pull request comment is created.</p><p>When configuring an automation, specify the comment text that should trigger it. To get started, click through to the Agents tab in your repository, then pick Automations in the sidebar.</p><p>Automations are available for existing Copilot Pro, Pro+, Max, Business, and Enterprise users. Copilot Business and Copilot Enterprise users need the Copilot cloud agent policy enabled by an administrator.</p>",
                 "hasContent": true
             }
         }
