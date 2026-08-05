@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 599,
+        "totalEntries": 600,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-08-03"
+                "latest": "2026-08-04"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-08-04T04:01:00.553Z",
-            "total_entries": 236,
+            "scraped_at": "2026-08-05T03:56:32.779Z",
+            "total_entries": 237,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-08-03"
+                "latest": "2026-08-04"
             }
         }
     },
@@ -7271,6 +7271,18 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "You can now create Copilot cloud agent automations that run when an issue comment or pull request comment is created. Common use cases include: Generate documentation: Comment on a pull…",
                 "html": "<p>You can now create Copilot cloud agent automations that run when an issue comment or pull request comment is created.</p><p>When configuring an automation, specify the comment text that should trigger it. To get started, click through to the Agents tab in your repository, then pick Automations in the sidebar.</p><p>Automations are available for existing Copilot Pro, Pro+, Max, Business, and Enterprise users. Copilot Business and Copilot Enterprise users need the Copilot cloud agent policy enabled by an administrator.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-08-04",
+            "title": "Retiring the Copilot Billing Preview app",
+            "url": "https://github.blog/changelog/2026-08-04-retiring-the-copilot-billing-preview-app",
+            "source": "Month 8",
+            "year": 2026,
+            "preview": {
+                "excerpt": "We’ve retired the GitHub Copilot Billing Preview app, and it’s no longer available. You can review and manage your Copilot spend directly in your GitHub billing settings. The app helped…",
+                "html": "<p>We’ve retired the GitHub Copilot Billing Preview app, and it’s no longer available. You can review and manage your Copilot spend directly in your GitHub billing settings.</p><p>The app helped you understand your bill during the move to usage-based billing. Your billing settings now give you a more complete view that the app’s underlying reports couldn’t show, including user-level budgets, cost centers, and usage pool allocation.</p><p>You can review and manage your Copilot spend in your billing settings:</p>",
                 "hasContent": true
             }
         }
