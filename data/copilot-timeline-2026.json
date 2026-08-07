@@ -1,15 +1,27 @@
 {
   "metadata": {
-    "scraped_at": "2026-08-06T04:01:06.577Z",
-    "total_entries": 237,
+    "scraped_at": "2026-08-07T03:46:17.908Z",
+    "total_entries": 238,
     "year_filter": 2026,
     "keyword_filter": "Copilot",
     "date_range": {
       "earliest": "2026-01-13",
-      "latest": "2026-08-04"
+      "latest": "2026-08-06"
     }
   },
   "entries": [
+    {
+      "date": "2026-08-06",
+      "title": "Kimi K3 is now available in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-08-06-kimi-k3-is-now-available-in-github-copilot",
+      "source": "Month 8",
+      "year": 2026,
+      "preview": {
+        "excerpt": "Editor’s note (August 6, 2026): We have resumed rolling out Kimi K3 in GitHub Copilot. This model is billed at provider list pricing under usage-based billing. See GitHub Copilot’s pricing…",
+        "html": "<p>Editor’s note (August 6, 2026): We have resumed rolling out Kimi K3 in GitHub Copilot. This model is billed at provider list pricing under usage-based billing. See GitHub Copilot’s pricing for models and requests for details.</p><p>Editor’s note (August 6, 2026): We have temporarily paused the roll-out of Kimi K3 while we mitigate an incident with GitHub Actions. We will resume the roll-out as soon as possible and update docs with Kimi K3 pricing, which will be $3 per 1M input tokens, $15 per 1M output tokens, and $0.30 per 1M cached input tokens.</p><p>Kimi K3, an open-weight model, is now generally available in GitHub Copilot. The model shows frontier-level abilities on agentic coding with highly cost-effective pricing.</p>",
+        "hasContent": true
+      }
+    },
     {
       "date": "2026-08-04",
       "title": "Retiring the Copilot Billing Preview app",

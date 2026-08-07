@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 600,
+        "totalEntries": 601,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-08-04"
+                "latest": "2026-08-06"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-08-06T04:01:06.577Z",
-            "total_entries": 237,
+            "scraped_at": "2026-08-07T03:46:17.908Z",
+            "total_entries": 238,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-08-04"
+                "latest": "2026-08-06"
             }
         }
     },
@@ -7283,6 +7283,18 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "We’ve retired the GitHub Copilot Billing Preview app, and it’s no longer available. You can review and manage your Copilot spend directly in your GitHub billing settings. The app helped…",
                 "html": "<p>We’ve retired the GitHub Copilot Billing Preview app, and it’s no longer available. You can review and manage your Copilot spend directly in your GitHub billing settings.</p><p>The app helped you understand your bill during the move to usage-based billing. Your billing settings now give you a more complete view that the app’s underlying reports couldn’t show, including user-level budgets, cost centers, and usage pool allocation.</p><p>You can review and manage your Copilot spend in your billing settings:</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-08-06",
+            "title": "Kimi K3 is now available in GitHub Copilot",
+            "url": "https://github.blog/changelog/2026-08-06-kimi-k3-is-now-available-in-github-copilot",
+            "source": "Month 8",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Editor’s note (August 6, 2026): We have resumed rolling out Kimi K3 in GitHub Copilot. This model is billed at provider list pricing under usage-based billing. See GitHub Copilot’s pricing…",
+                "html": "<p>Editor’s note (August 6, 2026): We have resumed rolling out Kimi K3 in GitHub Copilot. This model is billed at provider list pricing under usage-based billing. See GitHub Copilot’s pricing for models and requests for details.</p><p>Editor’s note (August 6, 2026): We have temporarily paused the roll-out of Kimi K3 while we mitigate an incident with GitHub Actions. We will resume the roll-out as soon as possible and update docs with Kimi K3 pricing, which will be $3 per 1M input tokens, $15 per 1M output tokens, and $0.30 per 1M cached input tokens.</p><p>Kimi K3, an open-weight model, is now generally available in GitHub Copilot. The model shows frontier-level abilities on agentic coding with highly cost-effective pricing.</p>",
                 "hasContent": true
             }
         }
