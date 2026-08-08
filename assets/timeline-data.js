@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 601,
+        "totalEntries": 606,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-08-06"
+                "latest": "2026-08-07"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-08-07T03:46:17.908Z",
-            "total_entries": 238,
+            "scraped_at": "2026-08-08T02:53:48.422Z",
+            "total_entries": 243,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-08-06"
+                "latest": "2026-08-07"
             }
         }
     },
@@ -7295,6 +7295,66 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "Editor’s note (August 6, 2026): We have resumed rolling out Kimi K3 in GitHub Copilot. This model is billed at provider list pricing under usage-based billing. See GitHub Copilot’s pricing…",
                 "html": "<p>Editor’s note (August 6, 2026): We have resumed rolling out Kimi K3 in GitHub Copilot. This model is billed at provider list pricing under usage-based billing. See GitHub Copilot’s pricing for models and requests for details.</p><p>Editor’s note (August 6, 2026): We have temporarily paused the roll-out of Kimi K3 while we mitigate an incident with GitHub Actions. We will resume the roll-out as soon as possible and update docs with Kimi K3 pricing, which will be $3 per 1M input tokens, $15 per 1M output tokens, and $0.30 per 1M cached input tokens.</p><p>Kimi K3, an open-weight model, is now generally available in GitHub Copilot. The model shows frontier-level abilities on agentic coding with highly cost-effective pricing.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-08-07",
+            "title": "Copilot code review effort levels are generally available",
+            "url": "https://github.blog/changelog/2026-08-07-copilot-code-review-effort-levels-are-generally-available",
+            "source": "Month 8",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Lite and Balanced effort levels for GitHub Copilot code review are now generally available. They let you match the depth of a review to the complexity and risk of a…",
+                "html": "<p>Lite and Balanced effort levels for GitHub Copilot code review are now generally available. They let you match the depth of a review to the complexity and risk of a pull request.</p><p>Not every pull request needs the same scrutiny. Documentation updates and small fixes may only need focused feedback, while complex logic, security-sensitive code, and cross-service changes benefit from deeper analysis. You can now:</p><p>Lite and Balanced are available with Copilot Pro, Pro+, Max, Business, and Enterprise plans.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-08-07",
+            "title": "Copilot impact dashboard adds a return on investment section",
+            "url": "https://github.blog/changelog/2026-08-07-copilot-impact-dashboard-adds-a-return-on-investment-section",
+            "source": "Month 8",
+            "year": 2026,
+            "preview": {
+                "excerpt": "The Copilot impact dashboard now includes a “Potential return on investment” section that connects what you spend on Copilot to the pull request output you get back. What’s new Two…",
+                "html": "<p>The Copilot impact dashboard now includes a “Potential return on investment” section that connects what you spend on Copilot to the pull request output you get back.</p><p>Two cards compare developers by how deeply they have adopted Copilot: those working primarily in chat and code completions (i.e., “Passive users” and “Phase 1”) against agent-first developers (i.e., “Phase 2” and “Phase 3”). Each card shows:</p><p>A salary selector lets you pick a compensation band, and the cost-derived metrics recalculate instantly. This lets you model a potential return on investment against your own payroll assumptions.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-08-07",
+            "title": "Copilot usage metrics API adds agent app activity",
+            "url": "https://github.blog/changelog/2026-08-07-copilot-usage-metrics-api-adds-agent-app-activity",
+            "source": "Month 8",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Since agent apps arrived on GitHub, teams have been able to run agents from partners like Claude and Codex directly in their GitHub workflows. The Copilot usage metrics API now…",
+                "html": "<p>Since agent apps arrived on GitHub, teams have been able to run agents from partners like Claude and Codex directly in their GitHub workflows. The Copilot usage metrics API now reports that activity, broken out by individual agent. The usage metrics API does this in the enterprise, organization, enterprise-user, and organization-user 1-day and 28-day reports.</p><p>A new optional totals_by_3rd_party_agent array contains one entry per recognized agent app. Each entry includes:</p><p>Until now, agent activity in your usage metrics was effectively a single bucket, so there was no way to tell Copilot coding agent work apart from work done through other agents. As teams adopt more than one agent, that made it hard to answer basic questions: which agents are actually being used, by how many people, and how does adoption of a newly rolled-out agent compare to the one it was meant to supplement.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-08-07",
+            "title": "GitHub Code Quality no longer adds Copilot as a reviewer",
+            "url": "https://github.blog/changelog/2026-08-07-github-code-quality-no-longer-adds-copilot-as-a-reviewer",
+            "source": "Month 8",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Enabling GitHub Code Quality on a repository no longer creates a ruleset that automatically requests a code review from GitHub Copilot on your pull requests. In repositories that already have…",
+                "html": "<p>Enabling GitHub Code Quality on a repository no longer creates a ruleset that automatically requests a code review from GitHub Copilot on your pull requests. In repositories that already have that ruleset, we’ve turned off the settings we enabled.</p><p>When Code Quality became generally available on July 20, 2026, enabling it created a repository ruleset named Code Quality Copilot review for default branch that targeted your default branch. You told us that adding a reviewer should be your choice, so we’ve reversed that.</p><p>We’ve disabled the three settings we enabled in that ruleset:</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-08-07",
+            "title": "GitHub Copilot weekly releases — August 3",
+            "url": "https://github.blog/changelog/2026-08-07-github-copilot-weekly-releases-august-3",
+            "source": "Month 8",
+            "year": 2026,
+            "preview": {
+                "excerpt": "This week's updates across GitHub Copilot in the desktop app, CLI, and VS Code help you resume and organize work, review changes, and ask questions without losing context.",
+                "html": "<p>This week’s updates across GitHub Copilot in the desktop app, CLI, and VS Code help you resume and organize work, review changes, and ask questions without losing context.</p><p>Explore everything that’s new in the full release notes</p>",
                 "hasContent": true
             }
         }
