@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 606,
+        "totalEntries": 607,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-08-07"
+                "latest": "2026-08-10"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-08-10T03:10:13.282Z",
-            "total_entries": 243,
+            "scraped_at": "2026-08-11T03:02:42.408Z",
+            "total_entries": 244,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-08-07"
+                "latest": "2026-08-10"
             }
         }
     },
@@ -7355,6 +7355,18 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "This week's updates across GitHub Copilot in the desktop app, CLI, and VS Code help you resume and organize work, review changes, and ask questions without losing context.",
                 "html": "<p>This week’s updates across GitHub Copilot in the desktop app, CLI, and VS Code help you resume and organize work, review changes, and ask questions without losing context.</p><p>Explore everything that’s new in the full release notes</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-08-10",
+            "title": "Copilot on web expands conversation controls",
+            "url": "https://github.blog/changelog/2026-08-10-copilot-on-web-expands-conversation-controls",
+            "source": "Month 8",
+            "year": 2026,
+            "preview": {
+                "excerpt": "We’ve made improvements to Copilot Chat on github.com that make it easier to use. These include easier access to your recent conversations in chat, the ability to minimize the chat…",
+                "html": "<p>We’ve made improvements to Copilot Chat on github.com that make it easier to use. These include easier access to your recent conversations in chat, the ability to minimize the chat window and return to an in-progress conversation, and indicators that help you track your Copilot token spend.</p><p>We’ve improved the chat overlay experience by adding two new features.</p><p>The first is the ability to minimize the screen during a conversation. This allows you to browse GitHub while waiting for a Copilot response.</p>",
                 "hasContent": true
             }
         }
