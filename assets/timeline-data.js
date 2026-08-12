@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 607,
+        "totalEntries": 609,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-08-10"
+                "latest": "2026-08-11"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-08-11T03:02:42.408Z",
-            "total_entries": 244,
+            "scraped_at": "2026-08-12T03:21:51.606Z",
+            "total_entries": 246,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-08-10"
+                "latest": "2026-08-11"
             }
         }
     },
@@ -7367,6 +7367,30 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "We’ve made improvements to Copilot Chat on github.com that make it easier to use. These include easier access to your recent conversations in chat, the ability to minimize the chat…",
                 "html": "<p>We’ve made improvements to Copilot Chat on github.com that make it easier to use. These include easier access to your recent conversations in chat, the ability to minimize the chat window and return to an in-progress conversation, and indicators that help you track your Copilot token spend.</p><p>We’ve improved the chat overlay experience by adding two new features.</p><p>The first is the ability to minimize the screen during a conversation. This allows you to browse GitHub while waiting for a Copilot response.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-08-11",
+            "title": "Copilot memory and Ollama in GitHub Copilot for JetBrains",
+            "url": "https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains",
+            "source": "Month 8",
+            "year": 2026,
+            "preview": {
+                "excerpt": "This update brings persistent memory, local model access, and more enterprise controls to GitHub Copilot for JetBrains. It also improves everyday chat workflows and resolves reliability issues across MCP servers,…",
+                "html": "<p>This update brings persistent memory, local model access, and more enterprise controls to GitHub Copilot for JetBrains. It also improves everyday chat workflows and resolves reliability issues across MCP servers, terminals, customizations, and cloud agents.</p><p>Administrators have more server-based controls for managing GitHub Copilot across their organizations. These enterprise managed settings cover plugin availability, MCP server access, permission bypass behavior, and OpenTelemetry settings.</p><p>Read more about enterprise managed settings.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-08-11",
+            "title": "MAI-Code-1.1-Flash available in GitHub Copilot",
+            "url": "https://github.blog/changelog/2026-08-11-mai-code-1-1-flash-available-in-github-copilot",
+            "source": "Month 8",
+            "year": 2026,
+            "preview": {
+                "excerpt": "MAI-Code-1.1-Flash, Microsoft’s latest small-tier coding model, is now rolling out in GitHub Copilot. Building on MAI-Code-1-Flash, it adds native vision support for image understanding and delivers improvements across coding quality,…",
+                "html": "<p>MAI-Code-1.1-Flash, Microsoft’s latest small-tier coding model, is now rolling out in GitHub Copilot. Building on MAI-Code-1-Flash, it adds native vision support for image understanding and delivers improvements across coding quality, instruction following, tool use, and performance.</p><p>Alongside these model enhancements, continued advances in model and serving efficiency have enabled a 73% lower list price than MAI-Code-1-Flash, making it a cost-effective option for lightweight coding workflows that require a balance of capability and cost efficiency. For annual GitHub Copilot subscribers, the model is charged at a 0.25× premium request multiplier.</p><p>Read the MAI-Code-1.1-Flash announcement for a deeper look at the model’s vision support, coding performance improvements, and efficiency gains.</p>",
                 "hasContent": true
             }
         }
