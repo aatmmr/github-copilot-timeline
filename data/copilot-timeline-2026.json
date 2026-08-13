@@ -1,15 +1,27 @@
 {
   "metadata": {
-    "scraped_at": "2026-08-12T03:21:51.606Z",
-    "total_entries": 246,
+    "scraped_at": "2026-08-13T03:25:57.867Z",
+    "total_entries": 247,
     "year_filter": 2026,
     "keyword_filter": "Copilot",
     "date_range": {
       "earliest": "2026-01-13",
-      "latest": "2026-08-11"
+      "latest": "2026-08-12"
     }
   },
   "entries": [
+    {
+      "date": "2026-08-12",
+      "title": "Agent Plugins 1.0 in VS Code, Copilot CLI, and the Copilot app",
+      "url": "https://github.blog/changelog/2026-08-12-agent-plugins-1-0-in-vs-code-copilot-cli-and-the-copilot-app",
+      "source": "Month 8",
+      "year": 2026,
+      "preview": {
+        "excerpt": "You can now build a plugin once and use it across all compatible agent clients. We published Agent Plugins 1.0 on August 6 with AWS, Anysphere, Microsoft, OpenAI, and Vercel.…",
+        "html": "<p>You can now build a plugin once and use it across all compatible agent clients. We published Agent Plugins 1.0 on August 6 with AWS, Anysphere, Microsoft, OpenAI, and Vercel. Google also joined as a core maintainer on the same day. Agent Plugins 1.0 is an open standard that packages agent skills and MCP servers into one installable plugin that is governed independently of any single vendor.</p><p>Publishing a plugin for several agents was already possible, but it cost you duplication. A plugin can bundle a skill with an MCP server, such as a deployment runbook and its tool integration. While the skill and the server underneath were the same for every client, the packaging around them wasn’t, so you maintained a separate manifest and directory layout for each one.</p><p>Support is generally available in VS Code, Copilot CLI, the GitHub Copilot SDK, and the GitHub Copilot app, on all Copilot plans.</p>",
+        "hasContent": true
+      }
+    },
     {
       "date": "2026-08-11",
       "title": "Copilot memory and Ollama in GitHub Copilot for JetBrains",

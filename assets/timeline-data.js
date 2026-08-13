@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 609,
+        "totalEntries": 610,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-08-11"
+                "latest": "2026-08-12"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-08-12T03:21:51.606Z",
-            "total_entries": 246,
+            "scraped_at": "2026-08-13T03:25:57.867Z",
+            "total_entries": 247,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-08-11"
+                "latest": "2026-08-12"
             }
         }
     },
@@ -7391,6 +7391,18 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "MAI-Code-1.1-Flash, Microsoft’s latest small-tier coding model, is now rolling out in GitHub Copilot. Building on MAI-Code-1-Flash, it adds native vision support for image understanding and delivers improvements across coding quality,…",
                 "html": "<p>MAI-Code-1.1-Flash, Microsoft’s latest small-tier coding model, is now rolling out in GitHub Copilot. Building on MAI-Code-1-Flash, it adds native vision support for image understanding and delivers improvements across coding quality, instruction following, tool use, and performance.</p><p>Alongside these model enhancements, continued advances in model and serving efficiency have enabled a 73% lower list price than MAI-Code-1-Flash, making it a cost-effective option for lightweight coding workflows that require a balance of capability and cost efficiency. For annual GitHub Copilot subscribers, the model is charged at a 0.25× premium request multiplier.</p><p>Read the MAI-Code-1.1-Flash announcement for a deeper look at the model’s vision support, coding performance improvements, and efficiency gains.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-08-12",
+            "title": "Agent Plugins 1.0 in VS Code, Copilot CLI, and the Copilot app",
+            "url": "https://github.blog/changelog/2026-08-12-agent-plugins-1-0-in-vs-code-copilot-cli-and-the-copilot-app",
+            "source": "Month 8",
+            "year": 2026,
+            "preview": {
+                "excerpt": "You can now build a plugin once and use it across all compatible agent clients. We published Agent Plugins 1.0 on August 6 with AWS, Anysphere, Microsoft, OpenAI, and Vercel.…",
+                "html": "<p>You can now build a plugin once and use it across all compatible agent clients. We published Agent Plugins 1.0 on August 6 with AWS, Anysphere, Microsoft, OpenAI, and Vercel. Google also joined as a core maintainer on the same day. Agent Plugins 1.0 is an open standard that packages agent skills and MCP servers into one installable plugin that is governed independently of any single vendor.</p><p>Publishing a plugin for several agents was already possible, but it cost you duplication. A plugin can bundle a skill with an MCP server, such as a deployment runbook and its tool integration. While the skill and the server underneath were the same for every client, the packaging around them wasn’t, so you maintained a separate manifest and directory layout for each one.</p><p>Support is generally available in VS Code, Copilot CLI, the GitHub Copilot SDK, and the GitHub Copilot app, on all Copilot plans.</p>",
                 "hasContent": true
             }
         }
