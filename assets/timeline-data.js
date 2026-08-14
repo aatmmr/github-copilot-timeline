@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 610,
+        "totalEntries": 611,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-08-12"
+                "latest": "2026-08-13"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-08-13T03:25:57.867Z",
-            "total_entries": 247,
+            "scraped_at": "2026-08-14T03:23:05.666Z",
+            "total_entries": 248,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-08-12"
+                "latest": "2026-08-13"
             }
         }
     },
@@ -7403,6 +7403,18 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "You can now build a plugin once and use it across all compatible agent clients. We published Agent Plugins 1.0 on August 6 with AWS, Anysphere, Microsoft, OpenAI, and Vercel.…",
                 "html": "<p>You can now build a plugin once and use it across all compatible agent clients. We published Agent Plugins 1.0 on August 6 with AWS, Anysphere, Microsoft, OpenAI, and Vercel. Google also joined as a core maintainer on the same day. Agent Plugins 1.0 is an open standard that packages agent skills and MCP servers into one installable plugin that is governed independently of any single vendor.</p><p>Publishing a plugin for several agents was already possible, but it cost you duplication. A plugin can bundle a skill with an MCP server, such as a deployment runbook and its tool integration. While the skill and the server underneath were the same for every client, the packaging around them wasn’t, so you maintained a separate manifest and directory layout for each one.</p><p>Support is generally available in VS Code, Copilot CLI, the GitHub Copilot SDK, and the GitHub Copilot app, on all Copilot plans.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-08-13",
+            "title": "Gemini 3.7 Flash is now available in GitHub Copilot",
+            "url": "https://github.blog/changelog/2026-08-13-gemini-3-7-flash-is-now-available-in-github-copilot",
+            "source": "Month 8",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Gemini 3.7 Flash, Google’s latest Flash model, is now rolling out in GitHub Copilot. From our early testing, the model has made improvements in web and app development and agentic…",
+                "html": "<p>Gemini 3.7 Flash, Google’s latest Flash model, is now rolling out in GitHub Copilot. From our early testing, the model has made improvements in web and app development and agentic coding workflows over it’s previous version. The model also delivers improvements in code quality, final-output presentation, codebase research, and verification during complex coding tasks.</p><p>This model is billed at provider list pricing under usage-based billing. See GitHub Copilot’s pricing for models and requests for details.</p><p>Gemini 3.7 Flash will be available to Copilot Pro, Pro+, Max, Business, and Enterprise users.</p>",
                 "hasContent": true
             }
         }

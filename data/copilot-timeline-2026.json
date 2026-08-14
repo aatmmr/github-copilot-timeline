@@ -1,15 +1,27 @@
 {
   "metadata": {
-    "scraped_at": "2026-08-13T03:25:57.867Z",
-    "total_entries": 247,
+    "scraped_at": "2026-08-14T03:23:05.666Z",
+    "total_entries": 248,
     "year_filter": 2026,
     "keyword_filter": "Copilot",
     "date_range": {
       "earliest": "2026-01-13",
-      "latest": "2026-08-12"
+      "latest": "2026-08-13"
     }
   },
   "entries": [
+    {
+      "date": "2026-08-13",
+      "title": "Gemini 3.7 Flash is now available in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-08-13-gemini-3-7-flash-is-now-available-in-github-copilot",
+      "source": "Month 8",
+      "year": 2026,
+      "preview": {
+        "excerpt": "Gemini 3.7 Flash, Google’s latest Flash model, is now rolling out in GitHub Copilot. From our early testing, the model has made improvements in web and app development and agentic…",
+        "html": "<p>Gemini 3.7 Flash, Google’s latest Flash model, is now rolling out in GitHub Copilot. From our early testing, the model has made improvements in web and app development and agentic coding workflows over it’s previous version. The model also delivers improvements in code quality, final-output presentation, codebase research, and verification during complex coding tasks.</p><p>This model is billed at provider list pricing under usage-based billing. See GitHub Copilot’s pricing for models and requests for details.</p><p>Gemini 3.7 Flash will be available to Copilot Pro, Pro+, Max, Business, and Enterprise users.</p>",
+        "hasContent": true
+      }
+    },
     {
       "date": "2026-08-12",
       "title": "Agent Plugins 1.0 in VS Code, Copilot CLI, and the Copilot app",
