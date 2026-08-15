@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 611,
+        "totalEntries": 613,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-08-13"
+                "latest": "2026-08-14"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-08-14T03:23:05.666Z",
-            "total_entries": 248,
+            "scraped_at": "2026-08-15T02:12:14.890Z",
+            "total_entries": 250,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-08-13"
+                "latest": "2026-08-14"
             }
         }
     },
@@ -7415,6 +7415,30 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "Gemini 3.7 Flash, Google’s latest Flash model, is now rolling out in GitHub Copilot. From our early testing, the model has made improvements in web and app development and agentic…",
                 "html": "<p>Gemini 3.7 Flash, Google’s latest Flash model, is now rolling out in GitHub Copilot. From our early testing, the model has made improvements in web and app development and agentic coding workflows over it’s previous version. The model also delivers improvements in code quality, final-output presentation, codebase research, and verification during complex coding tasks.</p><p>This model is billed at provider list pricing under usage-based billing. See GitHub Copilot’s pricing for models and requests for details.</p><p>Gemini 3.7 Flash will be available to Copilot Pro, Pro+, Max, Business, and Enterprise users.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-08-13",
+            "title": "GitHub Copilot weekly releases — August 10",
+            "url": "https://github.blog/changelog/2026-08-13-github-copilot-weekly-releases-august-10",
+            "source": "Month 8",
+            "year": 2026,
+            "preview": {
+                "excerpt": "From new models and portable plugins to smoother agent workflows, this week’s updates make GitHub Copilot more flexible across editors, the command line, and the Copilot app.",
+                "html": "<p>From new models and portable plugins to smoother agent workflows, this week’s updates make GitHub Copilot more flexible across editors, the command line, and the Copilot app.</p><p>Explore everything that’s new in the full release notes.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-08-14",
+            "title": "Grok 4.6 is now available in GitHub Copilot",
+            "url": "https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot",
+            "source": "Month 8",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Grok 4.6, xAI’s latest reasoning model, is now rolling out in GitHub Copilot. It is designed for agentic coding and complex multi-step workflows. In our internal testing, Grok 4.6 showed…",
+                "html": "<p>Grok 4.6, xAI’s latest reasoning model, is now rolling out in GitHub Copilot. It is designed for agentic coding and complex multi-step workflows.</p><p>In our internal testing, Grok 4.6 showed strong results across terminal-based coding tasks in Visual Studio Code and Copilot CLI. It performed especially well on longer-horizon tasks requiring sustained reasoning and tool use, making it a strong fit for complex coding workflows.</p><p>This model is billed at provider list pricing under usage-based billing. See GitHub Copilot’s pricing for models and requests for details.</p>",
                 "hasContent": true
             }
         }
