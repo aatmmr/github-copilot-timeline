@@ -9,6 +9,7 @@ const state = {
     month: 0,
     customStart: '',
     customEnd: '',
+    category: '',
     searchTerm: '',
     selectedDate: null,
     selectedEntryUrl: null
@@ -25,6 +26,7 @@ const elements = {
     customEndField: document.getElementById('custom-end-field'),
     customStart: document.getElementById('custom-start'),
     customEnd: document.getElementById('custom-end'),
+    categorySelect: document.getElementById('category-select'),
     searchInput: document.getElementById('search-input'),
     timelineTitle: document.getElementById('timeline-title'),
     timelineSubtitle: document.getElementById('timeline-subtitle'),
@@ -117,6 +119,18 @@ function getEntries() {
     return embeddedTimelineData.entries || [];
 }
 
+function getEntryCategories(entry) {
+    const categories = entry.categories || entry.category || entry.type || [];
+    return (Array.isArray(categories) ? categories : [categories])
+        .map((category) => String(category).trim())
+        .filter(Boolean);
+}
+
+function getAvailableCategories() {
+    return [...new Set(getEntries().flatMap(getEntryCategories))]
+        .sort((left, right) => left.localeCompare(right));
+}
+
 function getDefaultYear() {
     const availableYears = getAvailableYears();
     const currentYear = new Date().getUTCFullYear();
@@ -188,6 +202,9 @@ function filterEntries(range) {
         if (entry.date < range.start || entry.date > range.end) {
             return false;
         }
+        if (state.category && !getEntryCategories(entry).includes(state.category)) {
+            return false;
+        }
         if (!term) {
             return true;
         }
@@ -195,7 +212,8 @@ function filterEntries(range) {
             entry.title || '',
             entry.preview?.excerpt || '',
             entry.source || '',
-            entry.url || ''
+            entry.url || '',
+            ...getEntryCategories(entry)
         ].join(' ').toLowerCase();
         return searchable.includes(term);
     });
@@ -277,12 +295,19 @@ function renderControls() {
     elements.monthSelect.innerHTML = MONTH_NAMES
         .map((month, index) => `<option value="${index}">${month}</option>`)
         .join('');
+    elements.categorySelect.innerHTML = [
+        '<option value="">All categories</option>',
+        ...getAvailableCategories().map((category) => (
+            `<option value="${escapeHtml(category)}">${escapeHtml(category)}</option>`
+        ))
+    ].join('');
 
     elements.viewMode.value = state.mode;
     elements.yearSelect.value = String(state.year);
     elements.monthSelect.value = String(state.month);
     elements.customStart.value = state.customStart;
     elements.customEnd.value = state.customEnd;
+    elements.categorySelect.value = state.category;
     elements.searchInput.value = state.searchTerm;
     updateControlsVisibility();
     updateNavButtons();
@@ -382,9 +407,13 @@ function renderDayModalContent(dateString, dayEntries) {
         const item = document.createElement('button');
         item.type = 'button';
         item.className = `entry-item${entry.url === selectedEntry.url ? ' active' : ''}`;
+        const categoryBadges = getEntryCategories(entry)
+            .map((category) => `<span class="category-badge">${escapeHtml(category)}</span>`)
+            .join('');
         item.innerHTML = `
-            <span class="entry-item-title">${entry.title}</span>
-            <span class="entry-item-meta">${entry.source || 'Unknown source'} · ${entry.url}</span>
+            <span class="entry-item-title">${escapeHtml(entry.title)}</span>
+            ${categoryBadges ? `<span class="entry-item-categories">${categoryBadges}</span>` : ''}
+            <span class="entry-item-meta">${escapeHtml(entry.source || 'Unknown source')} · ${escapeHtml(entry.url)}</span>
         `;
         item.addEventListener('click', () => {
             document.querySelectorAll('.entry-item').forEach((entryItem) => entryItem.classList.remove('active'));
@@ -537,6 +566,10 @@ function attachEvents() {
     });
     elements.customEnd.addEventListener('change', (event) => {
         state.customEnd = event.target.value;
+        render();
+    });
+    elements.categorySelect.addEventListener('change', (event) => {
+        state.category = event.target.value;
         render();
     });
     elements.searchInput.addEventListener('input', (event) => {
