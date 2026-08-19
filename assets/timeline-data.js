@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 613,
+        "totalEntries": 614,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-08-14"
+                "latest": "2026-08-18"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-08-18T02:13:54.416Z",
-            "total_entries": 250,
+            "scraped_at": "2026-08-19T02:16:07.291Z",
+            "total_entries": 251,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-08-14"
+                "latest": "2026-08-18"
             }
         }
     },
@@ -7439,6 +7439,18 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "Grok 4.6, xAI’s latest reasoning model, is now rolling out in GitHub Copilot. It is designed for agentic coding and complex multi-step workflows. In our internal testing, Grok 4.6 showed…",
                 "html": "<p>Grok 4.6, xAI’s latest reasoning model, is now rolling out in GitHub Copilot. It is designed for agentic coding and complex multi-step workflows.</p><p>In our internal testing, Grok 4.6 showed strong results across terminal-based coding tasks in Visual Studio Code and Copilot CLI. It performed especially well on longer-horizon tasks requiring sustained reasoning and tool use, making it a strong fit for complex coding workflows.</p><p>This model is billed at provider list pricing under usage-based billing. See GitHub Copilot’s pricing for models and requests for details.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-08-18",
+            "title": "Enterprise managed settings in GitHub Copilot for JetBrains",
+            "url": "https://github.blog/changelog/2026-08-18-enterprise-managed-settings-in-github-copilot-for-jetbrains",
+            "source": "Month 8",
+            "year": 2026,
+            "preview": {
+                "excerpt": "GitHub Copilot for JetBrains now supports enterprise managed settings for plugin governance, MCP server access, OpenTelemetry, and permission modes. Administrators can now apply consistent controls for everyone on your enterprise’s…",
+                "html": "<p>GitHub Copilot for JetBrains now supports enterprise managed settings for plugin governance, MCP server access, OpenTelemetry, and permission modes. Administrators can now apply consistent controls for everyone on your enterprise’s Copilot plan.</p><p>Administrators can manage Copilot plugins and their marketplaces in JetBrains IDEs. The supported settings provide three controls:</p><p>Administrators can use allowedMcpServers and deniedMcpServers to centrally control which MCP servers developers can connect to from GitHub Copilot for JetBrains. This brings centrally managed MCP governance into JetBrains IDEs and prevents connections to servers outside the enterprise allowlist.</p>",
                 "hasContent": true
             }
         }

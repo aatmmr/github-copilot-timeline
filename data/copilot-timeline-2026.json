@@ -1,15 +1,27 @@
 {
   "metadata": {
-    "scraped_at": "2026-08-18T02:13:54.416Z",
-    "total_entries": 250,
+    "scraped_at": "2026-08-19T02:16:07.291Z",
+    "total_entries": 251,
     "year_filter": 2026,
     "keyword_filter": "Copilot",
     "date_range": {
       "earliest": "2026-01-13",
-      "latest": "2026-08-14"
+      "latest": "2026-08-18"
     }
   },
   "entries": [
+    {
+      "date": "2026-08-18",
+      "title": "Enterprise managed settings in GitHub Copilot for JetBrains",
+      "url": "https://github.blog/changelog/2026-08-18-enterprise-managed-settings-in-github-copilot-for-jetbrains",
+      "source": "Month 8",
+      "year": 2026,
+      "preview": {
+        "excerpt": "GitHub Copilot for JetBrains now supports enterprise managed settings for plugin governance, MCP server access, OpenTelemetry, and permission modes. Administrators can now apply consistent controls for everyone on your enterprise’s…",
+        "html": "<p>GitHub Copilot for JetBrains now supports enterprise managed settings for plugin governance, MCP server access, OpenTelemetry, and permission modes. Administrators can now apply consistent controls for everyone on your enterprise’s Copilot plan.</p><p>Administrators can manage Copilot plugins and their marketplaces in JetBrains IDEs. The supported settings provide three controls:</p><p>Administrators can use allowedMcpServers and deniedMcpServers to centrally control which MCP servers developers can connect to from GitHub Copilot for JetBrains. This brings centrally managed MCP governance into JetBrains IDEs and prevents connections to servers outside the enterprise allowlist.</p>",
+        "hasContent": true
+      }
+    },
     {
       "date": "2026-08-14",
       "title": "Grok 4.6 is now available in GitHub Copilot",
