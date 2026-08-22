@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 614,
+        "totalEntries": 616,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-08-18"
+                "latest": "2026-08-21"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-08-21T02:21:40.284Z",
-            "total_entries": 251,
+            "scraped_at": "2026-08-22T02:14:33.398Z",
+            "total_entries": 253,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-08-18"
+                "latest": "2026-08-21"
             }
         }
     },
@@ -7451,6 +7451,30 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "GitHub Copilot for JetBrains now supports enterprise managed settings for plugin governance, MCP server access, OpenTelemetry, and permission modes. Administrators can now apply consistent controls for everyone on your enterprise’s…",
                 "html": "<p>GitHub Copilot for JetBrains now supports enterprise managed settings for plugin governance, MCP server access, OpenTelemetry, and permission modes. Administrators can now apply consistent controls for everyone on your enterprise’s Copilot plan.</p><p>Administrators can manage Copilot plugins and their marketplaces in JetBrains IDEs. The supported settings provide three controls:</p><p>Administrators can use allowedMcpServers and deniedMcpServers to centrally control which MCP servers developers can connect to from GitHub Copilot for JetBrains. This brings centrally managed MCP governance into JetBrains IDEs and prevents connections to servers outside the enterprise allowlist.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-08-21",
+            "title": "Shared agentic work with GitHub Copilot in Microsoft Teams",
+            "url": "https://github.blog/changelog/2026-08-21-shared-agentic-work-with-github-copilot-in-microsoft-teams",
+            "source": "Month 8",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Turn a Microsoft Teams discussion into a collaborative agent session everyone can see and help direct. Mention @GitHub in a channel, thread, or direct message to start a GitHub Copilot…",
+                "html": "<p>Turn a Microsoft Teams discussion into a collaborative agent session everyone can see and help direct. Mention @GitHub in a channel, thread, or direct message to start a GitHub Copilot cloud agent session. Anyone in the conversation can ask questions, add context, and help plan or steer the work. Participants with write access to the repository can trigger Copilot to make changes.</p><p>When a meeting produces an action item, hand it to Copilot during a discussion or before it ends in the meeting chat. For example, ask Copilot to investigate a problem while you discuss it in your team’s standup and start resolving it before the meeting ends. Everyone sees the agents investigation together and can direct it further if needed.</p><p>Start a task from Teams and let Copilot work asynchronously in a secure cloud sandbox. Follow progress in the channel thread, then continue working with the agent-generated artifacts from your terminal, the GitHub Copilot app, or your preferred IDE. For more information, see our documentation about cloud sandboxing.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-08-21",
+            "title": "The new GitHub Copilot experience in Slack",
+            "url": "https://github.blog/changelog/2026-08-21-the-new-github-copilot-experience-in-slack",
+            "source": "Month 8",
+            "year": 2026,
+            "preview": {
+                "excerpt": "The GitHub integration in Slack now brings the agentic capabilities of GitHub Copilot CLI and the GitHub Copilot app into Slack in public preview. You can work with @GitHub to…",
+                "html": "<p>The GitHub integration in Slack now brings the agentic capabilities of GitHub Copilot CLI and the GitHub Copilot app into Slack in public preview. You can work with @GitHub to plan changes, investigate problems, and hand off coding tasks from the conversations where your team coordinates work. GitHub is also a launch partner for Slack Code, a new type of channel designed for agents.</p><p>Bringing Copilot into the flow of conversation helps your team turn shared intent into shippable work.</p><p>Mention @GitHub in a direct message, channel, or thread to start an agent session. Copilot can use the conversation and permitted GitHub context to:</p>",
                 "hasContent": true
             }
         }
