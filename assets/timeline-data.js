@@ -75,7 +75,7 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-08-24T02:20:43.729Z",
+            "scraped_at": "2026-08-25T02:16:28.874Z",
             "total_entries": 253,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
@@ -7462,7 +7462,7 @@ const embeddedTimelineData = {
             "year": 2026,
             "preview": {
                 "excerpt": "Turn a Microsoft Teams discussion into a collaborative agent session everyone can see and help direct. Mention @GitHub in a channel, thread, or direct message to start a GitHub Copilot…",
-                "html": "<p>Turn a Microsoft Teams discussion into a collaborative agent session everyone can see and help direct. Mention @GitHub in a channel, thread, or direct message to start a GitHub Copilot cloud agent session. Anyone in the conversation can ask questions, add context, and help plan or steer the work. Participants with write access to the repository can trigger Copilot to make changes.</p><p>When a meeting produces an action item, hand it to Copilot during a discussion or before it ends in the meeting chat. For example, ask Copilot to investigate a problem while you discuss it in your team’s standup and start resolving it before the meeting ends. Everyone sees the agents investigation together and can direct it further if needed.</p><p>Start a task from Teams and let Copilot work asynchronously in a secure cloud sandbox. Follow progress in the channel thread, then continue working with the agent-generated artifacts from your terminal, the GitHub Copilot app, or your preferred IDE. For more information, see our documentation about cloud sandboxing.</p>",
+                "html": "<p>Turn a Microsoft Teams discussion into a collaborative agent session everyone can see and help direct. Mention @GitHub in a channel, thread, or direct message to start a GitHub Copilot cloud agent session. Anyone in the conversation can ask questions, add context, and help plan or steer the work. Participants with write access to the repository can trigger Copilot to make changes.</p><p>When a meeting produces an action item, hand it to Copilot during a discussion or in the meeting chat before it ends. For example, ask Copilot to investigate a problem while you discuss it in your team’s standup and start resolving it before the meeting ends. Everyone can see the agent’s investigation and direct it further if needed.</p><p>Editor’s note (August 21, 2026): Updated the language to align with Teams terminology.</p>",
                 "hasContent": true
             }
         },
