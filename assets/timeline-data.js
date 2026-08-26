@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 616,
+        "totalEntries": 617,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-08-21"
+                "latest": "2026-08-25"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-08-25T02:16:28.874Z",
-            "total_entries": 253,
+            "scraped_at": "2026-08-26T02:23:08.044Z",
+            "total_entries": 254,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-08-21"
+                "latest": "2026-08-25"
             }
         }
     },
@@ -7475,6 +7475,18 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "The GitHub integration in Slack now brings the agentic capabilities of GitHub Copilot CLI and the GitHub Copilot app into Slack in public preview. You can work with @GitHub to…",
                 "html": "<p>The GitHub integration in Slack now brings the agentic capabilities of GitHub Copilot CLI and the GitHub Copilot app into Slack in public preview. You can work with @GitHub to plan changes, investigate problems, and hand off coding tasks from the conversations where your team coordinates work. GitHub is also a launch partner for Slack Code, a new type of channel designed for agents.</p><p>Bringing Copilot into the flow of conversation helps your team turn shared intent into shippable work.</p><p>Mention @GitHub in a direct message, channel, or thread to start an agent session. Copilot can use the conversation and permitted GitHub context to:</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-08-25",
+            "title": "GitHub Copilot app Customize tab is generally available",
+            "url": "https://github.blog/changelog/2026-08-25-github-copilot-app-customize-tab-is-generally-available",
+            "source": "Month 8",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Customize tab in the GitHub Copilot app brings MCP servers, plugins, skills, and canvases together in one place.",
+                "html": "<p>GitHub Copilot is more useful when it works with the tools, knowledge, and workflows your team already relies on.</p><p>The new Customize tab in the GitHub Copilot app brings MCP servers, plugins, skills, and canvases together in one place. Explore featured customizations, browse by type, and find new ways to tailor Copilot to how you and your team work.</p><p>Featured canvases help you move from understanding work to acting on it while keeping the relevant context visible.</p>",
                 "hasContent": true
             }
         }

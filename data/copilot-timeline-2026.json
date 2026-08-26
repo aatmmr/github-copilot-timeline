@@ -1,15 +1,27 @@
 {
   "metadata": {
-    "scraped_at": "2026-08-25T02:16:28.874Z",
-    "total_entries": 253,
+    "scraped_at": "2026-08-26T02:23:08.044Z",
+    "total_entries": 254,
     "year_filter": 2026,
     "keyword_filter": "Copilot",
     "date_range": {
       "earliest": "2026-01-13",
-      "latest": "2026-08-21"
+      "latest": "2026-08-25"
     }
   },
   "entries": [
+    {
+      "date": "2026-08-25",
+      "title": "GitHub Copilot app Customize tab is generally available",
+      "url": "https://github.blog/changelog/2026-08-25-github-copilot-app-customize-tab-is-generally-available",
+      "source": "Month 8",
+      "year": 2026,
+      "preview": {
+        "excerpt": "Customize tab in the GitHub Copilot app brings MCP servers, plugins, skills, and canvases together in one place.",
+        "html": "<p>GitHub Copilot is more useful when it works with the tools, knowledge, and workflows your team already relies on.</p><p>The new Customize tab in the GitHub Copilot app brings MCP servers, plugins, skills, and canvases together in one place. Explore featured customizations, browse by type, and find new ways to tailor Copilot to how you and your team work.</p><p>Featured canvases help you move from understanding work to acting on it while keeping the relevant context visible.</p>",
+        "hasContent": true
+      }
+    },
     {
       "date": "2026-08-21",
       "title": "The new GitHub Copilot experience in Slack",
