@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 617,
+        "totalEntries": 619,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-08-25"
+                "latest": "2026-08-28"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-08-27T10:51:45.596Z",
-            "total_entries": 254,
+            "scraped_at": "2026-08-28T12:27:06.721Z",
+            "total_entries": 256,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-08-25"
+                "latest": "2026-08-28"
             }
         }
     },
@@ -7487,6 +7487,30 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "Customize tab in the GitHub Copilot app brings MCP servers, plugins, skills, and canvases together in one place.",
                 "html": "<p>GitHub Copilot is more useful when it works with the tools, knowledge, and workflows your team already relies on.</p><p>The new Customize tab in the GitHub Copilot app brings MCP servers, plugins, skills, and canvases together in one place. Explore featured customizations, browse by type, and find new ways to tailor Copilot to how you and your team work.</p><p>Featured canvases help you move from understanding work to acting on it while keeping the relevant context visible.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-08-27",
+            "title": "Copilot code review: Resolution reasons and expanded capabilities",
+            "url": "https://github.blog/changelog/2026-08-27-copilot-code-review-resolution-reasons-and-expanded-capabilities",
+            "source": "Month 8",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Copilot code review can now review two types of pull requests it didn’t cover before: Reviews requested automatically on pull requests authored by bots, including Copilot cloud agent Very large…",
+                "html": "<p>Copilot code review can now review two types of pull requests it didn’t cover before:</p><p>Additionally, you can now submit the reason for why you’re resolving a particular Copilot code review comment.</p><p>When a pull request is authored by a bot and requested automatically, there’s no Copilot-licensed account to attribute the review to. With the “Allow members without a Copilot license to use Copilot code review in GitHub.com” policy enabled, Copilot code review can now review these pull requests and bill the usage directly to your organization. To learn more, see Copilot code review without a Copilot license.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-08-28",
+            "title": "Upcoming changes to GitHub Copilot policies and billing",
+            "url": "https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing",
+            "source": "Month 8",
+            "year": 2026,
+            "preview": {
+                "excerpt": "To provide a strong, consistent Copilot experience, we’re making three separate, upcoming changes to Copilot policies and billing. Please review the upcoming updates to understand what may impact you. Reopening…",
+                "html": "<p>To provide a strong, consistent Copilot experience, we’re making three separate, upcoming changes to Copilot policies and billing. Please review the upcoming updates to understand what may impact you.</p><p>Starting September 1, 2026, GitHub will start reenabling sign-ups for new Copilot Business and Copilot Enterprise customers paying by credit card or PayPal. To improve availability and reliability of Copilot services, we’re strengthening account vetting and updating billing experiences for customers who pay by credit card or PayPal.</p><p>Existing Copilot Business and Copilot Enterprise customers can expect these billing updates to take effect starting October 1, 2026.</p>",
                 "hasContent": true
             }
         }
