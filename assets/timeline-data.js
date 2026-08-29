@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 619,
+        "totalEntries": 622,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -75,8 +75,8 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-08-28T12:27:06.721Z",
-            "total_entries": 256,
+            "scraped_at": "2026-08-29T07:36:26.273Z",
+            "total_entries": 259,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
@@ -7479,6 +7479,18 @@ const embeddedTimelineData = {
             }
         },
         {
+            "date": "2026-08-24",
+            "title": "Copilot harness generally available in Copilot for JetBrains",
+            "url": "https://github.blog/changelog/2026-08-24-copilot-harness-generally-available-in-copilot-for-jetbrains",
+            "source": "Month 8",
+            "year": 2026,
+            "preview": {
+                "excerpt": "This update brings Copilot harness to generally availability. You also get more stable account, model, and MCP experiences. What’s new Copilot harness generally available Copilot harness is now generally available,…",
+                "html": "<p>This update brings Copilot harness to generally availability. You also get more stable account, model, and MCP experiences.</p><p>Copilot harness is now generally available, providing faster feature delivery and better code quality.</p><p>The built-in JetBrains MCP server support is now in public preview. This makes it easier to expose IDE capabilities through MCP-driven agent workflows without relying only on external server setup.</p>",
+                "hasContent": true
+            }
+        },
+        {
             "date": "2026-08-25",
             "title": "GitHub Copilot app Customize tab is generally available",
             "url": "https://github.blog/changelog/2026-08-25-github-copilot-app-customize-tab-is-generally-available",
@@ -7499,6 +7511,30 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "Copilot code review can now review two types of pull requests it didn’t cover before: Reviews requested automatically on pull requests authored by bots, including Copilot cloud agent Very large…",
                 "html": "<p>Copilot code review can now review two types of pull requests it didn’t cover before:</p><p>Additionally, you can now submit the reason for why you’re resolving a particular Copilot code review comment.</p><p>When a pull request is authored by a bot and requested automatically, there’s no Copilot-licensed account to attribute the review to. With the “Allow members without a Copilot license to use Copilot code review in GitHub.com” policy enabled, Copilot code review can now review these pull requests and bill the usage directly to your organization. To learn more, see Copilot code review without a Copilot license.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-08-28",
+            "title": "GitHub Copilot in Visual Studio — August update",
+            "url": "https://github.blog/changelog/2026-08-28-github-copilot-in-visual-studio-august-update-2",
+            "source": "Month 8",
+            "year": 2026,
+            "preview": {
+                "excerpt": "August 2026 brought more control over how GitHub Copilot reasons, which models you use, how teams share specialized agents, and when you ask for a code review. Highlights Here’s what’s…",
+                "html": "<p>August 2026 brought more control over how GitHub Copilot reasons, which models you use, how teams share specialized agents, and when you ask for a code review.</p><p>Here’s what’s new with GitHub Copilot in Visual Studio 2026. Check the Insiders channel for the latest:</p><p>This update is available to users on all GitHub Copilot plans, including Copilot Free, Student, Pro, Pro+, Max, Business, and Enterprise.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-08-28",
+            "title": "GitHub Copilot weekly releases — August 24",
+            "url": "https://github.blog/changelog/2026-08-28-github-copilot-weekly-releases-august-24",
+            "source": "Month 8",
+            "year": 2026,
+            "preview": {
+                "excerpt": "This week's updates give you more control over how Copilot runs, from team sessions in Slack and Teams to customization across the app, CLI, and your IDE.",
+                "html": "<p>This week’s updates give you more control over how Copilot runs, from team sessions in Slack and Teams to customization across the app, CLI, and your IDE.</p><p>Explore everything that’s new with VS Code 1.135 in the full release notes.</p><p>Install the latest version of Visual Studio with GitHub Copilot.</p>",
                 "hasContent": true
             }
         },
