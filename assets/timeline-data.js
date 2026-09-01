@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 622,
+        "totalEntries": 623,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-08-28"
+                "latest": "2026-08-31"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-08-31T06:32:06.605Z",
-            "total_entries": 259,
+            "scraped_at": "2026-09-01T05:59:29.403Z",
+            "total_entries": 260,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-08-28"
+                "latest": "2026-08-31"
             }
         }
     },
@@ -7547,6 +7547,18 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "To provide a strong, consistent Copilot experience, we’re making three separate, upcoming changes to Copilot policies and billing. Please review the upcoming updates to understand what may impact you. Reopening…",
                 "html": "<p>To provide a strong, consistent Copilot experience, we’re making three separate, upcoming changes to Copilot policies and billing. Please review the upcoming updates to understand what may impact you.</p><p>Starting September 1, 2026, GitHub will start reenabling sign-ups for new Copilot Business and Copilot Enterprise customers paying by credit card or PayPal. To improve availability and reliability of Copilot services, we’re strengthening account vetting and updating billing experiences for customers who pay by credit card or PayPal.</p><p>Existing Copilot Business and Copilot Enterprise customers can expect these billing updates to take effect starting October 1, 2026.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-08-31",
+            "title": "GitHub Copilot in VS Code, August 2026 releases",
+            "url": "https://github.blog/changelog/2026-08-31-github-copilot-in-vs-code-august-2026-releases",
+            "source": "Month 8",
+            "year": 2026,
+            "preview": {
+                "excerpt": "This changelog covers VS Code v1.132 through v1.135, shipped throughout August 2026. These releases make it easier to organize agent sessions, review changes, and navigate long conversations. Agent Host, the…",
+                "html": "<p>This changelog covers VS Code v1.132 through v1.135, shipped throughout August 2026.</p><p>These releases make it easier to organize agent sessions, review changes, and navigate long conversations. Agent Host, the integrated browser, and dictation also get updates to support more ways of working in VS Code.</p><p>The Agents window adds more ways to organize related chats, follow agent activity, and move between prompts and their file changes.</p>",
                 "hasContent": true
             }
         }
