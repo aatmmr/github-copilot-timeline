@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 623,
+        "totalEntries": 626,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-08-31"
+                "latest": "2026-09-01"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-09-01T05:59:29.403Z",
-            "total_entries": 260,
+            "scraped_at": "2026-09-02T05:20:47.835Z",
+            "total_entries": 263,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-08-31"
+                "latest": "2026-09-01"
             }
         }
     },
@@ -7552,6 +7552,18 @@ const embeddedTimelineData = {
         },
         {
             "date": "2026-08-31",
+            "title": "Copilot model access update for GitHub Team plans",
+            "url": "https://github.blog/changelog/2026-08-31-copilot-model-access-update-for-github-team-plans",
+            "source": "Month 8",
+            "year": 2026,
+            "preview": {
+                "excerpt": "We have updated how model access is determined for Copilot users who hold seats in more than one organization. To keep billing and governance in sync, your model access is…",
+                "html": "<p>We have updated how model access is determined for Copilot users who hold seats in more than one organization. To keep billing and governance in sync, your model access is now determined only by the organization paying for your usage.</p><p>Before this change, if you had Copilot seats in more than one organization, you could use a model as long as any of your organizations enabled it. With this update, your billing organization decides model access. You can find this organization under “Usage billed to” in the Copilot features page. For more information about how policies apply, read the GitHub Copilot policy documentation.</p><p>If your Copilot access comes entirely through an enterprise or its organizations, your model access will not be impacted by this update.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-08-31",
             "title": "GitHub Copilot in VS Code, August 2026 releases",
             "url": "https://github.blog/changelog/2026-08-31-github-copilot-in-vs-code-august-2026-releases",
             "source": "Month 8",
@@ -7559,6 +7571,30 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "This changelog covers VS Code v1.132 through v1.135, shipped throughout August 2026. These releases make it easier to organize agent sessions, review changes, and navigate long conversations. Agent Host, the…",
                 "html": "<p>This changelog covers VS Code v1.132 through v1.135, shipped throughout August 2026.</p><p>These releases make it easier to organize agent sessions, review changes, and navigate long conversations. Agent Host, the integrated browser, and dictation also get updates to support more ways of working in VS Code.</p><p>The Agents window adds more ways to organize related chats, follow agent activity, and move between prompts and their file changes.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-09-01",
+            "title": "Claude Fable 5.1 is generally available in GitHub Copilot",
+            "url": "https://github.blog/changelog/2026-09-01-claude-fable-5-1-generally-available-in-github-copilot",
+            "source": "Month 9",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Claude Fable 5.1 from Anthropic is now available in GitHub Copilot. The latest model in Anthropic’s Mythos class, Claude Fable 5.1 is designed for long-horizon, autonomous coding and knowledge-work tasks.…",
+                "html": "<p>Claude Fable 5.1 from Anthropic is now available in GitHub Copilot. The latest model in Anthropic’s Mythos class, Claude Fable 5.1 is designed for long-horizon, autonomous coding and knowledge-work tasks.</p><p>In our internal testing, Claude Fable 5.1 demonstrated strong performance on substantial, long-running coding tasks, including deep codebase research, feature development, and complex agentic workflows.</p><p>Unlike other Claude models in GitHub Copilot, Claude Fable 5.1 requires data retention by default to operate Anthropic’s safety classifiers. Zero data retention access is available for certain eligible enterprise customers. Continue reading for more details.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-09-01",
+            "title": "Copilot code review can now approve pull requests",
+            "url": "https://github.blog/changelog/2026-09-01-copilot-code-review-can-now-approve-pull-requests",
+            "source": "Month 9",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Copilot now tells you when a pull request is ready to approve, and admins can authorize it to sign off on approval. The ability for Copilot to approve is off…",
+                "html": "<p>Copilot now tells you when a pull request is ready to approve, and admins can authorize it to sign off on approval. The ability for Copilot to approve is off by default and configurable at the enterprise, organization, and repository level. The approval assessments will now appear as a part of the overview comment in every Copilot review. This feature is available in public preview to GitHub Copilot Pro, Pro+, Max, Business, and Enterprise plans.</p><p>Every Copilot code review now includes an approval assessment in the overview comment. The assessment signals whether Copilot considers the pull request ready to approve, giving you an at-a-glance read on its judgment alongside its detailed comments.</p><p>An approval assessment alone does not count toward merge requirements. Copilot’s determination is surfaced so you can decide how to act on it.</p>",
                 "hasContent": true
             }
         }
