@@ -1,15 +1,27 @@
 {
   "metadata": {
-    "scraped_at": "2026-09-02T05:20:47.835Z",
-    "total_entries": 263,
+    "scraped_at": "2026-09-03T05:26:04.116Z",
+    "total_entries": 265,
     "year_filter": 2026,
     "keyword_filter": "Copilot",
     "date_range": {
       "earliest": "2026-01-13",
-      "latest": "2026-09-01"
+      "latest": "2026-09-02"
     }
   },
   "entries": [
+    {
+      "date": "2026-09-02",
+      "title": "Content exclusions generally available in Copilot app and CLI",
+      "url": "https://github.blog/changelog/2026-09-02-content-exclusions-generally-available-in-copilot-app-and-cli",
+      "source": "Month 9",
+      "year": 2026,
+      "preview": {
+        "excerpt": "The GitHub Copilot app and Copilot CLI now respect content exclusion policies configured by enterprise, organization, and repository administrators.",
+        "html": "<p>The GitHub Copilot app and Copilot CLI now respect content exclusion policies configured by enterprise, organization, and repository administrators. Copilot won’t use excluded files as context, helping you protect sensitive code across agentic workflows.</p><p>This is available for Copilot Business and Copilot Enterprise customers.</p><p>To learn more, see our docs about content exclusion.</p>",
+        "hasContent": true
+      }
+    },
     {
       "date": "2026-09-01",
       "title": "Copilot code review can now approve pull requests",
@@ -43,6 +55,18 @@
       "preview": {
         "excerpt": "We have updated how model access is determined for Copilot users who hold seats in more than one organization. To keep billing and governance in sync, your model access is…",
         "html": "<p>We have updated how model access is determined for Copilot users who hold seats in more than one organization. To keep billing and governance in sync, your model access is now determined only by the organization paying for your usage.</p><p>Before this change, if you had Copilot seats in more than one organization, you could use a model as long as any of your organizations enabled it. With this update, your billing organization decides model access. You can find this organization under “Usage billed to” in the Copilot features page. For more information about how policies apply, read the GitHub Copilot policy documentation.</p><p>If your Copilot access comes entirely through an enterprise or its organizations, your model access will not be impacted by this update.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Selected GitHub Copilot models deprecated",
+      "url": "https://github.blog/changelog/2026-08-31-selected-github-copilot-models-deprecated",
+      "source": "Month 8",
+      "year": 2026,
+      "preview": {
+        "excerpt": "As of today, September 1, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Note…",
+        "html": "<p>As of today, September 1, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Note that Claude Sonnet 4.6 is still available to individual GitHub Copilot subscribers on annual plans.</p><p>Please update your workflows and integrations to use supported models. Copilot Enterprise administrators may need to enable access to alternative models through their model policies in Copilot settings. As an administrator, you can verify availability by checking your individual Copilot settings and confirming that the policy is enabled for the specific model. Once enabled, you’ll see the model in the Copilot Chat model selector in VS Code and on github.com. No action is required to remove the deprecated models.</p><p>GitHub Enterprise customers with questions or concerns are encouraged to reach out to their account manager for further assistance.</p>",
         "hasContent": true
       }
     },

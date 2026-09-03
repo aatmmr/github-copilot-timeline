@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 626,
+        "totalEntries": 628,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-09-01"
+                "latest": "2026-09-02"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-09-02T05:20:47.835Z",
-            "total_entries": 263,
+            "scraped_at": "2026-09-03T05:26:04.116Z",
+            "total_entries": 265,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-09-01"
+                "latest": "2026-09-02"
             }
         }
     },
@@ -7575,6 +7575,18 @@ const embeddedTimelineData = {
             }
         },
         {
+            "date": "2026-08-31",
+            "title": "Selected GitHub Copilot models deprecated",
+            "url": "https://github.blog/changelog/2026-08-31-selected-github-copilot-models-deprecated",
+            "source": "Month 8",
+            "year": 2026,
+            "preview": {
+                "excerpt": "As of today, September 1, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Note…",
+                "html": "<p>As of today, September 1, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Note that Claude Sonnet 4.6 is still available to individual GitHub Copilot subscribers on annual plans.</p><p>Please update your workflows and integrations to use supported models. Copilot Enterprise administrators may need to enable access to alternative models through their model policies in Copilot settings. As an administrator, you can verify availability by checking your individual Copilot settings and confirming that the policy is enabled for the specific model. Once enabled, you’ll see the model in the Copilot Chat model selector in VS Code and on github.com. No action is required to remove the deprecated models.</p><p>GitHub Enterprise customers with questions or concerns are encouraged to reach out to their account manager for further assistance.</p>",
+                "hasContent": true
+            }
+        },
+        {
             "date": "2026-09-01",
             "title": "Claude Fable 5.1 is generally available in GitHub Copilot",
             "url": "https://github.blog/changelog/2026-09-01-claude-fable-5-1-generally-available-in-github-copilot",
@@ -7595,6 +7607,18 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "Copilot now tells you when a pull request is ready to approve, and admins can authorize it to sign off on approval. The ability for Copilot to approve is off…",
                 "html": "<p>Copilot now tells you when a pull request is ready to approve, and admins can authorize it to sign off on approval. The ability for Copilot to approve is off by default and configurable at the enterprise, organization, and repository level. The approval assessments will now appear as a part of the overview comment in every Copilot review. This feature is available in public preview to GitHub Copilot Pro, Pro+, Max, Business, and Enterprise plans.</p><p>Every Copilot code review now includes an approval assessment in the overview comment. The assessment signals whether Copilot considers the pull request ready to approve, giving you an at-a-glance read on its judgment alongside its detailed comments.</p><p>An approval assessment alone does not count toward merge requirements. Copilot’s determination is surfaced so you can decide how to act on it.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-09-02",
+            "title": "Content exclusions generally available in Copilot app and CLI",
+            "url": "https://github.blog/changelog/2026-09-02-content-exclusions-generally-available-in-copilot-app-and-cli",
+            "source": "Month 9",
+            "year": 2026,
+            "preview": {
+                "excerpt": "The GitHub Copilot app and Copilot CLI now respect content exclusion policies configured by enterprise, organization, and repository administrators.",
+                "html": "<p>The GitHub Copilot app and Copilot CLI now respect content exclusion policies configured by enterprise, organization, and repository administrators. Copilot won’t use excluded files as context, helping you protect sensitive code across agentic workflows.</p><p>This is available for Copilot Business and Copilot Enterprise customers.</p><p>To learn more, see our docs about content exclusion.</p>",
                 "hasContent": true
             }
         }
