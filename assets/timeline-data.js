@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 628,
+        "totalEntries": 631,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-09-02"
+                "latest": "2026-09-03"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-09-03T05:26:04.116Z",
-            "total_entries": 265,
+            "scraped_at": "2026-09-04T05:23:06.605Z",
+            "total_entries": 268,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-09-02"
+                "latest": "2026-09-03"
             }
         }
     },
@@ -7619,6 +7619,42 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "The GitHub Copilot app and Copilot CLI now respect content exclusion policies configured by enterprise, organization, and repository administrators.",
                 "html": "<p>The GitHub Copilot app and Copilot CLI now respect content exclusion policies configured by enterprise, organization, and repository administrators. Copilot won’t use excluded files as context, helping you protect sensitive code across agentic workflows.</p><p>This is available for Copilot Business and Copilot Enterprise customers.</p><p>To learn more, see our docs about content exclusion.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-09-03",
+            "title": "Gemini 3.8 Flash is now available in GitHub Copilot",
+            "url": "https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot",
+            "source": "Month 9",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Gemini 3.8 Flash, Google’s latest Flash model, is now available in GitHub Copilot. In our early testing, Gemini 3.8 Flash performed strongly on complex terminal-based coding tasks and demonstrated rigorous…",
+                "html": "<p>Gemini 3.8 Flash, Google’s latest Flash model, is now available in GitHub Copilot.</p><p>In our early testing, Gemini 3.8 Flash performed strongly on complex terminal-based coding tasks and demonstrated rigorous validation and persistent recovery from actionable failures.</p><p>This model is billed at introductory provider pricing under usage-based billing through December 31, 2026. See pricing for GitHub Copilot models and requests for details.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-09-03",
+            "title": "Reopening Copilot Business and Enterprise signups",
+            "url": "https://github.blog/changelog/2026-09-03-reopening-copilot-business-and-enterprise-signups",
+            "source": "Month 9",
+            "year": 2026,
+            "preview": {
+                "excerpt": "We’re gradually reopening sign-ups for Copilot Business and Copilot Enterprise customers paying by credit card or PayPal over the next couple of weeks. If you’ve been waiting to get started…",
+                "html": "<p>We’re gradually reopening sign-ups for Copilot Business and Copilot Enterprise customers paying by credit card or PayPal over the next couple of weeks. If you’ve been waiting to get started with Copilot, select the plan that fits your needs. If your preferred option isn’t available yet, check back soon.</p><p>To improve availability and reliability of Copilot services, we’re also strengthening account vetting and updating billing experiences for customers who pay by credit card or PayPal.</p><p>The following changes will apply to Copilot Business and Copilot Enterprise customers paying via credit card or PayPal:</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-09-03",
+            "title": "Upcoming deprecation of selected GitHub Copilot models",
+            "url": "https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models",
+            "source": "Month 9",
+            "year": 2026,
+            "preview": {
+                "excerpt": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on October 2nd, 2026: Model Deprecation date…",
+                "html": "<p>We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on October 2nd, 2026:</p><p>Please update your workflows and integrations to use the supported models before this date. Copilot Enterprise and Copilot Business administrators may need to enable access to the alternative models through their model policies in Copilot settings.</p><p>As an administrator, you can verify availability in your organization or enterprise Copilot model settings and confirm that the policy is enabled for the specific model. Once enabled, users will see the model in the Copilot Chat model selector in supported GitHub Copilot experiences.</p>",
                 "hasContent": true
             }
         }
