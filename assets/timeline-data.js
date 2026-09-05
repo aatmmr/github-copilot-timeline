@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 631,
+        "totalEntries": 633,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-09-03"
+                "latest": "2026-09-04"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-09-04T05:23:06.605Z",
-            "total_entries": 268,
+            "scraped_at": "2026-09-05T05:10:51.261Z",
+            "total_entries": 270,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-09-03"
+                "latest": "2026-09-04"
             }
         }
     },
@@ -7655,6 +7655,30 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on October 2nd, 2026: Model Deprecation date…",
                 "html": "<p>We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on October 2nd, 2026:</p><p>Please update your workflows and integrations to use the supported models before this date. Copilot Enterprise and Copilot Business administrators may need to enable access to the alternative models through their model policies in Copilot settings.</p><p>As an administrator, you can verify availability in your organization or enterprise Copilot model settings and confirm that the policy is enabled for the specific model. Once enabled, users will see the model in the Copilot Chat model selector in supported GitHub Copilot experiences.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-09-04",
+            "title": "GitHub Copilot weekly releases — August 31",
+            "url": "https://github.blog/changelog/2026-09-04-github-copilot-weekly-releases-august-31",
+            "source": "Month 9",
+            "year": 2026,
+            "preview": {
+                "excerpt": "This week, GitHub Copilot expands model choice while VS Code adds new ways to manage agent sessions and get pull requests merge-ready.",
+                "html": "<p>This week, GitHub Copilot expands model choice and content protections, while VS Code adds new ways to manage agent sessions and get pull requests merge-ready.</p><p>For more information, see our list of all supported models.</p><p>The GitHub Copilot harness is now generally available in Copilot for JetBrains, providing faster feature delivery and better code quality.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-09-04",
+            "title": "GPT-6 Astra is generally available in GitHub Copilot",
+            "url": "https://github.blog/changelog/2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot",
+            "source": "Month 9",
+            "year": 2026,
+            "preview": {
+                "excerpt": "GPT-6 Astra from OpenAI is now available in GitHub Copilot. OpenAI’s latest general-purpose model, GPT-6 Astra, is designed for long-horizon, autonomous coding and agentic tasks. In our internal testing, GPT-6…",
+                "html": "<p>GPT-6 Astra from OpenAI is now available in GitHub Copilot. OpenAI’s latest general-purpose model, GPT-6 Astra, is designed for long-horizon, autonomous coding and agentic tasks.</p><p>In our internal testing, GPT-6 Astra stood out for how it works, not just what it produces: it plans and validates as it goes, batches diagnosis with verification, and independently confirms its results before declaring a task done. That translated into stronger performance on long-horizon coding tasks with fewer steps than prior OpenAI models.</p><p>This model is billed at provider list pricing under usage-based billing. See pricing for GitHub Copilot models and requests for details.</p>",
                 "hasContent": true
             }
         }
