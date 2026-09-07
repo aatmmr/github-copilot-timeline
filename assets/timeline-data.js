@@ -75,7 +75,7 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-09-06T05:24:29.686Z",
+            "scraped_at": "2026-09-07T05:35:02.586Z",
             "total_entries": 270,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
