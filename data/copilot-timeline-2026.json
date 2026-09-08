@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "scraped_at": "2026-09-07T05:35:02.586Z",
+    "scraped_at": "2026-09-08T05:33:40.223Z",
     "total_entries": 270,
     "year_filter": 2026,
     "keyword_filter": "Copilot",
@@ -41,9 +41,9 @@
       "source": "Month 9",
       "year": 2026,
       "preview": {
-        "excerpt": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on October 2nd, 2026: Model Deprecation date…",
-        "html": "<p>We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on October 2nd, 2026:</p><p>Please update your workflows and integrations to use the supported models before this date. Copilot Enterprise and Copilot Business administrators may need to enable access to the alternative models through their model policies in Copilot settings.</p><p>As an administrator, you can verify availability in your organization or enterprise Copilot model settings and confirm that the policy is enabled for the specific model. Once enabled, users will see the model in the Copilot Chat model selector in supported GitHub Copilot experiences.</p>",
-        "hasContent": true
+        "excerpt": "",
+        "html": "",
+        "hasContent": false
       }
     },
     {
@@ -101,9 +101,9 @@
       "source": "Month 9",
       "year": 2026,
       "preview": {
-        "excerpt": "Claude Fable 5.1 from Anthropic is now available in GitHub Copilot. The latest model in Anthropic’s Mythos class, Claude Fable 5.1 is designed for long-horizon, autonomous coding and knowledge-work tasks.…",
-        "html": "<p>Claude Fable 5.1 from Anthropic is now available in GitHub Copilot. The latest model in Anthropic’s Mythos class, Claude Fable 5.1 is designed for long-horizon, autonomous coding and knowledge-work tasks.</p><p>In our internal testing, Claude Fable 5.1 demonstrated strong performance on substantial, long-running coding tasks, including deep codebase research, feature development, and complex agentic workflows.</p><p>Unlike other Claude models in GitHub Copilot, Claude Fable 5.1 requires data retention by default to operate Anthropic’s safety classifiers. Zero data retention access is available for certain eligible enterprise customers. Continue reading for more details.</p>",
-        "hasContent": true
+        "excerpt": "",
+        "html": "",
+        "hasContent": false
       }
     },
     {
@@ -665,9 +665,9 @@
       "source": "Month 7",
       "year": 2026,
       "preview": {
-        "excerpt": "Copilot code review now utilizes a firewall, custom setup steps, and independent runner configurations. It now reads custom instructions from the head branch to allow for easy testing and validation…",
-        "html": "<p>Copilot code review now utilizes a firewall, custom setup steps, and independent runner configurations. It now reads custom instructions from the head branch to allow for easy testing and validation of custom instructions. These changes give administrators and developers more control over how Copilot code review runs in their environment.</p><p>Custom instructions are now read from the head branch of the pull request instead of the base branch. This includes copilot-instructions.md, *.instructions.md, agent skills, and AGENTS.md. This means you can iterate on and test custom instructions in a feature branch without needing to merge them first.</p><p>Copilot code review now reads REVIEW.md, GEMINI.md, and CLAUDE.md files from your repository, so your customizations are understood regardless of where they live. If your team already maintains review guidelines or model-specific instructions in these files, Copilot code review will automatically pick them up and incorporate them into its review process.</p>",
-        "hasContent": true
+        "excerpt": "",
+        "html": "",
+        "hasContent": false
       }
     },
     {
@@ -941,9 +941,9 @@
       "source": "Month 7",
       "year": 2026,
       "preview": {
-        "excerpt": "Editor’s note (July 1, 2026): Updated the premium request costs to reference AI credits. GitHub Copilot auto model selection now routes to the best model for your task in Copilot…",
-        "html": "<p>Editor’s note (July 1, 2026): Updated the premium request costs to reference AI credits.</p><p>GitHub Copilot auto model selection now routes to the best model for your task in Copilot CLI, using utilization and model health metrics for a high quality, reliable, and token-efficient experience.</p><p>Auto weighs real-time model availability and reliability signals, then evaluates your task across several dimensions like reasoning, code generation complexity, bug diagnosis difficulty, and tool orchestration needs to select the optimal model.</p>",
-        "hasContent": true
+        "excerpt": "",
+        "html": "",
+        "hasContent": false
       }
     },
     {
@@ -1301,9 +1301,9 @@
       "source": "Month 6",
       "year": 2026,
       "preview": {
-        "excerpt": "May 2026 brought sharper tooling for planning, reviewing, and managing your work with GitHub Copilot in Visual Studio 2026. Highlights Here’s what’s new for all GitHub Copilot users in Visual…",
-        "html": "<p>May 2026 brought sharper tooling for planning, reviewing, and managing your work with GitHub Copilot in Visual Studio 2026.</p><p>Here’s what’s new for all GitHub Copilot users in Visual Studio 2026. Check the Insiders channel for the latest:</p><p>Download Visual Studio 2026 to experience all the new Copilot features today. To learn more about what’s new, check out the Visual Studio blog and release notes.</p>",
-        "hasContent": true
+        "excerpt": "",
+        "html": "",
+        "hasContent": false
       }
     },
     {
@@ -1433,9 +1433,9 @@
       "source": "Month 6",
       "year": 2026,
       "preview": {
-        "excerpt": "With the new automations feature, Copilot cloud agent can now run automatically, on a schedule or in response to repository events. Automations let you hand off repetitive tasks to the…",
-        "html": "<p>With the new automations feature, Copilot cloud agent can now run automatically, on a schedule or in response to repository events.</p><p>Automations let you hand off repetitive tasks to the agent without any manual input. For example:</p><p>Automations are supported in private and internal repositories, with support for public repositories coming soon.</p>",
-        "hasContent": true
+        "excerpt": "",
+        "html": "",
+        "hasContent": false
       }
     },
     {
@@ -1685,9 +1685,9 @@
       "source": "Month 5",
       "year": 2026,
       "preview": {
-        "excerpt": "As announced on March 18, 2026, GPT-5.3-Codex is now the base model for all Copilot Business and Copilot Enterprise organizations, replacing GPT-4.1. The base model is used when your organization…",
-        "html": "<p>As announced on March 18, 2026, GPT-5.3-Codex is now the base model for all Copilot Business and Copilot Enterprise organizations, replacing GPT-4.1. The base model is used when your organization hasn’t yet approved other models through its internal review process.</p><p>GPT-5.3-Codex is also our first long-term support (LTS) model, in partnership with OpenAI. LTS models are guaranteed to be available for a full 12 months from the model’s launch date, giving enterprises the stability they need for internal security and safety reviews. GPT-5.3-Codex launched on February 5, 2026 and will remain available through February 4, 2027 for Copilot Business and Copilot Enterprise users.</p><p>GitHub Copilot data has shown that GPT-5.3-Codex has a significantly high code survival rate among enterprise customers.</p>",
-        "hasContent": true
+        "excerpt": "",
+        "html": "",
+        "hasContent": false
       }
     },
     {
@@ -1997,9 +1997,9 @@
       "source": "Month 4",
       "year": 2026,
       "preview": {
-        "excerpt": "The Microsoft C++ Language Server is now available in public preview for the Copilot CLI. Powered by the same IntelliSense engine used in Visual Studio and VS Code, it extends…",
-        "html": "<p>The Microsoft C++ Language Server is now available in public preview for the Copilot CLI. Powered by the same IntelliSense engine used in Visual Studio and VS Code, it extends precise, semantic C++ code intelligence beyond the IDE to the command line.</p><p>C++ is uniquely difficult for tools to reason about. Complex include hierarchies, macros, templates, and build-system-dependent configurations mean text search alone gives incomplete results. The C++ Language Server provides Copilot with precise semantic data (i.e., symbol definitions, references, call hierarchies, and type information) to complement grep-style search.</p><p>For example, with the language server, Copilot uses workspace symbol search and go-to-definition to find and understand relevant code directly. Without it, Copilot falls back to iterative grep searches, which can return irrelevant results across the codebase.</p>",
-        "hasContent": true
+        "excerpt": "",
+        "html": "",
+        "hasContent": false
       }
     },
     {
@@ -2033,9 +2033,9 @@
       "source": "Month 4",
       "year": 2026,
       "preview": {
-        "excerpt": "Enterprise and organization administrators can now bring their own MCP registry and enforce allowlist policies in Copilot CLI. This feature is in public preview and brings MCP governance controls to…",
-        "html": "<p>Enterprise and organization administrators can now bring their own MCP registry and enforce allowlist policies in Copilot CLI. This feature is in public preview and brings MCP governance controls to developers working directly from the CLI.</p><p>Bring your own registry (BYOR) lets GitHub administrators use the URL of an internally managed MCP registry to their enterprise or organization’s Copilot policies page. Once configured, it prevents any usage of MCP servers (at runtime) that are not defined in your registry.</p><p>This feature is available for Copilot Business and Copilot Enterprise customers. With bring your own registry support in Copilot CLI, you can now extend MCP governance controls to your terminal-based developer workflows.</p>",
-        "hasContent": true
+        "excerpt": "",
+        "html": "",
+        "hasContent": false
       }
     },
     {
@@ -2177,9 +2177,9 @@
       "source": "Month 4",
       "year": 2026,
       "preview": {
-        "excerpt": "Copilot cloud agent now supports more than pull request workflows on GitHub Mobile, so you can keep work moving even when you’re away from your desk. Ask Copilot to research…",
-        "html": "<p>Copilot cloud agent now supports more than pull request workflows on GitHub Mobile, so you can keep work moving even when you’re away from your desk. Ask Copilot to research your codebase, generate an implementation plan before writing code, and make code changes on a branch without immediately opening a pull request. Review the diff, iterate until you’re ready, and create a pull request when the time is right, all from your mobile device.</p><p>If you already know you want to open a pull request, just say so in your prompt, and Copilot will create one automatically when the session completes.</p><p>Download or update GitHub Mobile today from the Apple App Store or Google Play Store to get started.</p>",
-        "hasContent": true
+        "excerpt": "",
+        "html": "",
+        "hasContent": false
       }
     },
     {
@@ -2249,9 +2249,9 @@
       "source": "Month 4",
       "year": 2026,
       "preview": {
-        "excerpt": "Copilot cloud agent now signs every commit it makes. Signed commits appear as Verified on GitHub, giving you confidence that the commit was genuinely made by the agent and hasn’t…",
-        "html": "<p>Copilot cloud agent now signs every commit it makes. Signed commits appear as Verified on GitHub, giving you confidence that the commit was genuinely made by the agent and hasn’t been tampered with.</p><p>This means that Copilot cloud agent now works in repositories with the “Require signed commits” branch protection rule or ruleset enabled. Previously, this was one of the rules that the agent couldn’t comply with, which blocked it entirely from being used in those repositories.</p><p>To learn more about Copilot cloud agent, head to “About Copilot cloud agent” in the documentation.</p>",
-        "hasContent": true
+        "excerpt": "",
+        "html": "",
+        "hasContent": false
       }
     },
     {
@@ -2429,9 +2429,9 @@
       "source": "Month 3",
       "year": 2026,
       "preview": {
-        "excerpt": "Copilot usage metrics now provides full clarity into model usage when auto model selection is enabled. Activity that previously appeared under a generic “Auto” label now resolves to the actual…",
-        "html": "<p>Copilot usage metrics now provides full clarity into model usage when auto model selection is enabled. Activity that previously appeared under a generic “Auto” label now resolves to the actual model name, giving admins a complete and accurate view of which models their teams are using.</p><p>This applies to model breakdowns across the Copilot usage metrics REST API and dashboard, including totals_by_model_feature in the enterprise, org, and user level reports, as well as the “Model usage per chat mode” charts.</p><p>Note that auto usage is rolled into the resolved model totals. A separate breakdown of auto vs. manually selected model usage is not yet available but is being considered for a future update.</p>",
-        "hasContent": true
+        "excerpt": "",
+        "html": "",
+        "hasContent": false
       }
     },
     {
@@ -2825,9 +2825,9 @@
       "source": "Month 2",
       "year": 2026,
       "preview": {
-        "excerpt": "You can now use GitHub Copilot to generate titles for your pull requests (PRs) on github.com. How it works When you open a new PR or edit an existing PR…",
-        "html": "<p>You can now use GitHub Copilot to generate titles for your pull requests (PRs) on github.com.</p><p>When you open a new PR or edit an existing PR title, you’ll see a GitHub Copilot button in the PR title field. Select this button to have GitHub Copilot suggest a concise, descriptive title based on the commit messages in your PR.</p><p>Because GitHub Copilot generates titles from your commit messages, the quality of the suggestions depends on how you write those messages.</p>",
-        "hasContent": true
+        "excerpt": "",
+        "html": "",
+        "hasContent": false
       }
     },
     {
@@ -3077,9 +3077,9 @@
       "source": "Month 2",
       "year": 2026,
       "preview": {
-        "excerpt": "This January 2026 release brings significant improvements to GitHub Copilot in Visual Studio Code with agent-driven workflows, improvements to agent session management, and the introduction of agent support for Claude…",
-        "html": "<p>This January 2026 release brings significant improvements to GitHub Copilot in Visual Studio Code with agent-driven workflows, improvements to agent session management, and the introduction of agent support for Claude by Anthropic – right in your IDE.</p><p>Join the discussion within GitHub Community.</p>",
-        "hasContent": true
+        "excerpt": "",
+        "html": "",
+        "hasContent": false
       }
     },
     {
@@ -3185,9 +3185,9 @@
       "source": "Month 1",
       "year": 2026,
       "preview": {
-        "excerpt": "Copilot memory is now available in public preview for all paid GitHub Copilot plans. Copilot memory enables Copilot to learn and retain useful details about your repositories. As you work…",
-        "html": "<p>Copilot memory is now available in public preview for all paid GitHub Copilot plans.</p><p>Copilot memory enables Copilot to learn and retain useful details about your repositories. As you work with Copilot coding agent, Copilot code review, or Copilot CLI, it builds a repository-specific understanding that improves the quality of its assistance over time.</p><p>Copilot automatically captures tightly scoped insights called “memories” as it works in your repositories. These memories are:</p>",
-        "hasContent": true
+        "excerpt": "",
+        "html": "",
+        "hasContent": false
       }
     },
     {
@@ -3209,9 +3209,9 @@
       "source": "Month 1",
       "year": 2026,
       "preview": {
-        "excerpt": "The Copilot SDK is now available in technical preview, providing language-specific SDKs for programmatic access to the GitHub Copilot CLI. Available SDKs The Copilot SDK is available in four languages:…",
-        "html": "<p>The Copilot SDK is now available in technical preview, providing language-specific SDKs for programmatic access to the GitHub Copilot CLI.</p><p>The Copilot SDK is available in four languages:</p><p>Join the GitHub Community to share your feedback.</p>",
-        "hasContent": true
+        "excerpt": "",
+        "html": "",
+        "hasContent": false
       }
     },
     {
