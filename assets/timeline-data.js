@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 634,
+        "totalEntries": 635,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-09-08"
+                "latest": "2026-09-09"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-09-09T05:41:20.083Z",
-            "total_entries": 271,
+            "scraped_at": "2026-09-10T05:30:27.257Z",
+            "total_entries": 272,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-09-08"
+                "latest": "2026-09-09"
             }
         }
     },
@@ -7691,6 +7691,18 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "This update brings support for enterprise-managed sandbox policies, cross-file cursor jumps for next edit suggestions, global project context in chat, enterprise policy diagnostics, and a new connection between terminal Copilot…",
                 "html": "<p>This update brings support for enterprise-managed sandbox policies, cross-file cursor jumps for next edit suggestions, global project context in chat, enterprise policy diagnostics, and a new connection between terminal Copilot CLI sessions and JetBrains IDEs. It also improves model selection, the chat experience, and reliability across MCP servers and agent sessions.</p><p>Enterprise administrators can now centrally configure sandbox behavior for GitHub Copilot in JetBrains IDEs. Managed policies can control sandbox enablement, filesystem and network access, proxy settings, developer-tool access, macOS Keychain access, and more.</p><p>Managed restrictions take precedence over user settings. Copilot locks affected controls in the IDE and identifies settings managed by your organization, helping administrators enforce consistent development environment boundaries.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-09-09",
+            "title": "Enterprise managed permissions for GitHub Copilot agent operations",
+            "url": "https://github.blog/changelog/2026-09-09-enterprise-managed-permissions-for-github-copilot-agent-operations",
+            "source": "Month 9",
+            "year": 2026,
+            "preview": {
+                "excerpt": "If you administer GitHub Copilot Business or GitHub Copilot Enterprise, you can now centrally control which agent operations are blocked, require human approval, or can proceed without a prompt. Managed…",
+                "html": "<p>If you administer GitHub Copilot Business or GitHub Copilot Enterprise, you can now centrally control which agent operations are blocked, require human approval, or can proceed without a prompt.</p><p>Managed permissions cover shell commands, file reads and edits, and network domains. This gives you fine-grained guardrails for sensitive operations without disabling agent workflows. Managed restrictions can’t be weakened by user or workspace settings, auto-approval, or previously saved approvals. You can also provide specialized policies for different enterprise teams.</p><p>These controls are generally available in the GitHub Copilot app, GitHub Copilot CLI, and Visual Studio Code sessions that use Agent Host.</p>",
                 "hasContent": true
             }
         }
