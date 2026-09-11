@@ -490,6 +490,24 @@ input {
     color: var(--muted);
 }
 
+.entry-item-categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.category-badge {
+    width: fit-content;
+    padding: 3px 8px;
+    border: 1px solid rgba(57, 211, 83, 0.35);
+    border-radius: 999px;
+    background: rgba(14, 68, 41, 0.75);
+    color: #7ee787;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
 .empty-state {
     padding: 24px 18px;
     color: var(--muted);
