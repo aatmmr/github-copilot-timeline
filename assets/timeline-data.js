@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 635,
+        "totalEntries": 638,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-09-09"
+                "latest": "2026-09-11"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-09-11T05:33:05.665Z",
-            "total_entries": 272,
+            "scraped_at": "2026-09-12T05:21:26.701Z",
+            "total_entries": 275,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-09-09"
+                "latest": "2026-09-11"
             }
         }
     },
@@ -7703,6 +7703,42 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "If you administer GitHub Copilot Business or GitHub Copilot Enterprise, you can now centrally control which agent operations are blocked, require human approval, or can proceed without a prompt. Managed…",
                 "html": "<p>If you administer GitHub Copilot Business or GitHub Copilot Enterprise, you can now centrally control which agent operations are blocked, require human approval, or can proceed without a prompt.</p><p>Managed permissions cover shell commands, file reads and edits, and network domains. This gives you fine-grained guardrails for sensitive operations without disabling agent workflows. Managed restrictions can’t be weakened by user or workspace settings, auto-approval, or previously saved approvals. You can also provide specialized policies for different enterprise teams.</p><p>These controls are generally available in the GitHub Copilot app, GitHub Copilot CLI, and Visual Studio Code sessions that use Agent Host.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-09-10",
+            "title": "GitHub Copilot weekly releases — September 7",
+            "url": "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7",
+            "source": "Month 9",
+            "year": 2026,
+            "preview": {
+                "excerpt": "This week, GitHub Copilot introduces Jira integration in Copilot app and adaptive model orchestration with Project HydraFusion in Copilot CLI. We also introduced new agent automation in Visual Studio Code…",
+                "html": "<p>This week, GitHub Copilot introduces Jira integration in Copilot app and adaptive model orchestration with Project HydraFusion in Copilot CLI. We also introduced new agent automation in Visual Studio Code and expanded enterprise controls for Copilot in JetBrains.</p><p>Turn Jira issues into action. Bring Jira issues into a shared canvas, choose what moves forward, and let Copilot carry the context into investigation, implementation, and pull request preparation.</p><p>Project HydraFusion is now in /experimental. HydraFusion delivers automated semantic routing between local, cloud, and compound models. You select HydraFusion like any other model, and it chooses a workflow that balances performance, cost, and latency for each task.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-09-11",
+            "title": "Add VS Code Agents to Copilot usage metrics",
+            "url": "https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics",
+            "source": "Month 9",
+            "year": 2026,
+            "preview": {
+                "excerpt": "GitHub Copilot usage metrics reports now include generally available metrics for activity in the dedicated VS Code Agents window, helping you measure adoption and engagement across enterprises and organizations. What’s…",
+                "html": "<p>GitHub Copilot usage metrics reports now include generally available metrics for activity in the dedicated VS Code Agents window, helping you measure adoption and engagement across enterprises and organizations.</p><p>Aggregate enterprise and organization reports for both 1-day and 28-day periods now include:</p><p>Enterprise-user and organization-user reports for both 1-day and 28-day periods now include:</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-09-11",
+            "title": "Auto-resolution and analysis updates in Copilot code review",
+            "url": "https://github.blog/changelog/2026-09-11-auto-resolution-and-analysis-updates-in-copilot-code-review",
+            "source": "Month 9",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Copilot code review now resolves its own comments once you address them and writes smart commit messages for you when you apply its code suggestions. Behind the scenes, Copilot now…",
+                "html": "<p>Copilot code review now resolves its own comments once you address them and writes smart commit messages for you when you apply its code suggestions. Behind the scenes, Copilot now uses a broader set of shell tools to validate the code it reviews, and an ensemble of agents produce a more thorough review within the Lite effort level. Together, these updates make it easier to focus on the feedback that still matters and give Copilot more ways to check its work.</p><p>When you push a commit that addresses a Copilot code review comment, Copilot now resolves that comment during its rereview. Instead of manually resolving threads that are no longer relevant, you can now rely on the open comments to reflect only the feedback that still needs your attention.</p><p>When you apply a suggestion provided by a Copilot code review comment, instead of auto-filling the standard commit message, Copilot now generates a smart suggestion based on what it’s changing.</p>",
                 "hasContent": true
             }
         }
