@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 638,
+        "totalEntries": 639,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-09-11"
+                "latest": "2026-09-14"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-09-14T05:39:54.114Z",
-            "total_entries": 275,
+            "scraped_at": "2026-09-15T05:40:06.510Z",
+            "total_entries": 276,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-09-11"
+                "latest": "2026-09-14"
             }
         }
     },
@@ -7739,6 +7739,18 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "Copilot code review now resolves its own comments once you address them and writes smart commit messages for you when you apply its code suggestions. Behind the scenes, Copilot now…",
                 "html": "<p>Copilot code review now resolves its own comments once you address them and writes smart commit messages for you when you apply its code suggestions. Behind the scenes, Copilot now uses a broader set of shell tools to validate the code it reviews, and an ensemble of agents produce a more thorough review within the Lite effort level. Together, these updates make it easier to focus on the feedback that still matters and give Copilot more ways to check its work.</p><p>When you push a commit that addresses a Copilot code review comment, Copilot now resolves that comment during its rereview. Instead of manually resolving threads that are no longer relevant, you can now rely on the open comments to reflect only the feedback that still needs your attention.</p><p>When you apply a suggestion provided by a Copilot code review comment, instead of auto-filling the standard commit message, Copilot now generates a smart suggestion based on what it’s changing.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-09-14",
+            "title": "Configure cost and quality in Copilot auto model selection",
+            "url": "https://github.blog/changelog/2026-09-14-configure-cost-and-quality-in-copilot-auto-model-selection",
+            "source": "Month 9",
+            "year": 2026,
+            "preview": {
+                "excerpt": "GitHub Copilot auto model selection now offers three tiers: efficiency, balance, and intelligence. Choose the tier that reflects how you want auto to weigh cost, quality, and response time for…",
+                "html": "<p>GitHub Copilot auto model selection now offers three tiers: efficiency, balance, and intelligence. Choose the tier that reflects how you want auto to weigh cost, quality, and response time for each prompt. Copilot will then optimize accordingly.</p><p>All three tiers use the same set of available models. Auto individually evaluates each prompt to select a best-suited model. For example, a simple task like adding a docstring to an existing function may use a small, efficient model even when auto is optimizing for intelligence.</p><p>This feature is currently rolling out in Visual Studio Code, Copilot CLI, and GitHub Copilot app. Usage is charged based on the model auto selects, regardless of tier. Paid subscribers continue to receive a 10% discount on usage billed through auto.</p>",
                 "hasContent": true
             }
         }
