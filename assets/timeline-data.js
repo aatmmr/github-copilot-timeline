@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 639,
+        "totalEntries": 640,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-09-14"
+                "latest": "2026-09-15"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-09-15T05:40:06.510Z",
-            "total_entries": 276,
+            "scraped_at": "2026-09-16T05:35:31.864Z",
+            "total_entries": 277,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-09-14"
+                "latest": "2026-09-15"
             }
         }
     },
@@ -7751,6 +7751,18 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "GitHub Copilot auto model selection now offers three tiers: efficiency, balance, and intelligence. Choose the tier that reflects how you want auto to weigh cost, quality, and response time for…",
                 "html": "<p>GitHub Copilot auto model selection now offers three tiers: efficiency, balance, and intelligence. Choose the tier that reflects how you want auto to weigh cost, quality, and response time for each prompt. Copilot will then optimize accordingly.</p><p>All three tiers use the same set of available models. Auto individually evaluates each prompt to select a best-suited model. For example, a simple task like adding a docstring to an existing function may use a small, efficient model even when auto is optimizing for intelligence.</p><p>This feature is currently rolling out in Visual Studio Code, Copilot CLI, and GitHub Copilot app. Usage is charged based on the model auto selects, regardless of tier. Paid subscribers continue to receive a 10% discount on usage billed through auto.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-09-15",
+            "title": "GitHub Copilot suggests custom properties definitions",
+            "url": "https://github.blog/changelog/2026-09-15-github-copilot-suggests-custom-properties-definitions",
+            "source": "Month 9",
+            "year": 2026,
+            "preview": {
+                "excerpt": "GitHub Copilot can now suggest allowed values when you create a custom property for repositories in your organization. This feature is in public preview for GitHub Copilot Business and Copilot…",
+                "html": "<p>GitHub Copilot can now suggest allowed values when you create a custom property for repositories in your organization. This feature is in public preview for GitHub Copilot Business and Copilot Enterprise plans.</p><p>Custom properties let enterprise and organization admins attach governance metadata to repositories, which you can then use to target repositories with rulesets. Custom properties are one of the most popular ways to scope rulesets, but getting started has been a challenge. Admins often aren’t sure which properties to define or what allowed values to use, and inconsistent metadata makes it harder to apply governance consistently across a large fleet of repositories.</p><p>With this release, when you create a new custom property definition at the enterprise or organization level, Copilot will suggest relevant allowed values based on the property you’re defining. For example:</p>",
                 "hasContent": true
             }
         }
