@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 640,
+        "totalEntries": 641,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-09-15"
+                "latest": "2026-09-16"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-09-16T05:35:31.864Z",
-            "total_entries": 277,
+            "scraped_at": "2026-09-17T05:41:18.155Z",
+            "total_entries": 278,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-09-15"
+                "latest": "2026-09-16"
             }
         }
     },
@@ -7763,6 +7763,18 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "GitHub Copilot can now suggest allowed values when you create a custom property for repositories in your organization. This feature is in public preview for GitHub Copilot Business and Copilot…",
                 "html": "<p>GitHub Copilot can now suggest allowed values when you create a custom property for repositories in your organization. This feature is in public preview for GitHub Copilot Business and Copilot Enterprise plans.</p><p>Custom properties let enterprise and organization admins attach governance metadata to repositories, which you can then use to target repositories with rulesets. Custom properties are one of the most popular ways to scope rulesets, but getting started has been a challenge. Admins often aren’t sure which properties to define or what allowed values to use, and inconsistent metadata makes it harder to apply governance consistently across a large fleet of repositories.</p><p>With this release, when you create a new custom property definition at the enterprise or organization level, Copilot will suggest relevant allowed values based on the property you’re defining. For example:</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-09-16",
+            "title": "Copilot budget increase requests are generally available",
+            "url": "https://github.blog/changelog/2026-09-16-copilot-budget-increase-requests-are-generally-available",
+            "source": "Month 9",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Previously, when a member used all the Copilot AI credits available to them, they were blocked from Copilot features that consume credits. This release adds a flow for them to…",
+                "html": "<p>Previously, when a member used all the Copilot AI credits available to them, they were blocked from Copilot features that consume credits. This release adds a flow for them to request more budget the moment they hit the limit. You can approve, adjust, or deny that request without leaving your settings.</p><p>Requests automatically route to whichever account pays for the budget. Requests against an organization-owned budget appear in your organization’s settings, and requests against an enterprise-owned budget appear in your enterprise’s settings.</p><p>As an organization owner, enterprise owner, or billing manager, you can review pending requests under “Requests from members”, set a new amount for each one, and select Approve and increase. Approving a request updates the member’s budget to the amount you set and immediately restores their access to AI credits.</p>",
                 "hasContent": true
             }
         }

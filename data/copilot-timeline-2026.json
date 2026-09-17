@@ -1,15 +1,27 @@
 {
   "metadata": {
-    "scraped_at": "2026-09-16T05:35:31.864Z",
-    "total_entries": 277,
+    "scraped_at": "2026-09-17T05:41:18.155Z",
+    "total_entries": 278,
     "year_filter": 2026,
     "keyword_filter": "Copilot",
     "date_range": {
       "earliest": "2026-01-13",
-      "latest": "2026-09-15"
+      "latest": "2026-09-16"
     }
   },
   "entries": [
+    {
+      "date": "2026-09-16",
+      "title": "Copilot budget increase requests are generally available",
+      "url": "https://github.blog/changelog/2026-09-16-copilot-budget-increase-requests-are-generally-available",
+      "source": "Month 9",
+      "year": 2026,
+      "preview": {
+        "excerpt": "Previously, when a member used all the Copilot AI credits available to them, they were blocked from Copilot features that consume credits. This release adds a flow for them to…",
+        "html": "<p>Previously, when a member used all the Copilot AI credits available to them, they were blocked from Copilot features that consume credits. This release adds a flow for them to request more budget the moment they hit the limit. You can approve, adjust, or deny that request without leaving your settings.</p><p>Requests automatically route to whichever account pays for the budget. Requests against an organization-owned budget appear in your organization’s settings, and requests against an enterprise-owned budget appear in your enterprise’s settings.</p><p>As an organization owner, enterprise owner, or billing manager, you can review pending requests under “Requests from members”, set a new amount for each one, and select Approve and increase. Approving a request updates the member’s budget to the amount you set and immediately restores their access to AI credits.</p>",
+        "hasContent": true
+      }
+    },
     {
       "date": "2026-09-15",
       "title": "GitHub Copilot suggests custom properties definitions",
