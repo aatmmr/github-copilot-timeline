@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 641,
+        "totalEntries": 642,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-09-16"
+                "latest": "2026-09-17"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-09-17T05:41:18.155Z",
-            "total_entries": 278,
+            "scraped_at": "2026-09-18T05:29:04.746Z",
+            "total_entries": 279,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-09-16"
+                "latest": "2026-09-17"
             }
         }
     },
@@ -7775,6 +7775,18 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "Previously, when a member used all the Copilot AI credits available to them, they were blocked from Copilot features that consume credits. This release adds a flow for them to…",
                 "html": "<p>Previously, when a member used all the Copilot AI credits available to them, they were blocked from Copilot features that consume credits. This release adds a flow for them to request more budget the moment they hit the limit. You can approve, adjust, or deny that request without leaving your settings.</p><p>Requests automatically route to whichever account pays for the budget. Requests against an organization-owned budget appear in your organization’s settings, and requests against an enterprise-owned budget appear in your enterprise’s settings.</p><p>As an organization owner, enterprise owner, or billing manager, you can review pending requests under “Requests from members”, set a new amount for each one, and select Approve and increase. Approving a request updates the member’s budget to the amount you set and immediately restores their access to AI credits.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-09-17",
+            "title": "Copilot impact dashboard now shows feature engagement",
+            "url": "https://github.blog/changelog/2026-09-17-copilot-impact-dashboard-now-shows-feature-engagement",
+            "source": "Month 9",
+            "year": 2026,
+            "preview": {
+                "excerpt": "The Copilot impact dashboard now shows how many active users regularly use key Copilot features. Enterprise administrators can quickly see which experiences are widely adopted and which may need more…",
+                "html": "<p>The Copilot impact dashboard now shows how many active users regularly use key Copilot features. Enterprise administrators can quickly see which experiences are widely adopted and which may need more enablement. Enterprise and organization report APIs now include the same 28-day feature engagement breakdown, along with an AI adoption phase reporting improvement that adds each phase’s full rolling 28-day population as of each report day.</p><p>Enterprise leaders can see which Copilot features are becoming part of developers’ regular workflows and focus training or configuration changes where adoption is lower.</p><p>Previously, AI adoption phase breakdowns only showed the number of users in each phase who were active on a given day. They now also include the full rolling 28-day phase population as of that day.</p>",
                 "hasContent": true
             }
         }

@@ -1,15 +1,27 @@
 {
   "metadata": {
-    "scraped_at": "2026-09-17T05:41:18.155Z",
-    "total_entries": 278,
+    "scraped_at": "2026-09-18T05:29:04.746Z",
+    "total_entries": 279,
     "year_filter": 2026,
     "keyword_filter": "Copilot",
     "date_range": {
       "earliest": "2026-01-13",
-      "latest": "2026-09-16"
+      "latest": "2026-09-17"
     }
   },
   "entries": [
+    {
+      "date": "2026-09-17",
+      "title": "Copilot impact dashboard now shows feature engagement",
+      "url": "https://github.blog/changelog/2026-09-17-copilot-impact-dashboard-now-shows-feature-engagement",
+      "source": "Month 9",
+      "year": 2026,
+      "preview": {
+        "excerpt": "The Copilot impact dashboard now shows how many active users regularly use key Copilot features. Enterprise administrators can quickly see which experiences are widely adopted and which may need more…",
+        "html": "<p>The Copilot impact dashboard now shows how many active users regularly use key Copilot features. Enterprise administrators can quickly see which experiences are widely adopted and which may need more enablement. Enterprise and organization report APIs now include the same 28-day feature engagement breakdown, along with an AI adoption phase reporting improvement that adds each phase’s full rolling 28-day population as of each report day.</p><p>Enterprise leaders can see which Copilot features are becoming part of developers’ regular workflows and focus training or configuration changes where adoption is lower.</p><p>Previously, AI adoption phase breakdowns only showed the number of users in each phase who were active on a given day. They now also include the full rolling 28-day phase population as of that day.</p>",
+        "hasContent": true
+      }
+    },
     {
       "date": "2026-09-16",
       "title": "Copilot budget increase requests are generally available",
