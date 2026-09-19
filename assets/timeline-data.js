@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 642,
+        "totalEntries": 645,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-09-17"
+                "latest": "2026-09-18"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-09-18T05:29:04.746Z",
-            "total_entries": 279,
+            "scraped_at": "2026-09-19T05:25:35.772Z",
+            "total_entries": 282,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-09-17"
+                "latest": "2026-09-18"
             }
         }
     },
@@ -7787,6 +7787,42 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "The Copilot impact dashboard now shows how many active users regularly use key Copilot features. Enterprise administrators can quickly see which experiences are widely adopted and which may need more…",
                 "html": "<p>The Copilot impact dashboard now shows how many active users regularly use key Copilot features. Enterprise administrators can quickly see which experiences are widely adopted and which may need more enablement. Enterprise and organization report APIs now include the same 28-day feature engagement breakdown, along with an AI adoption phase reporting improvement that adds each phase’s full rolling 28-day population as of each report day.</p><p>Enterprise leaders can see which Copilot features are becoming part of developers’ regular workflows and focus training or configuration changes where adoption is lower.</p><p>Previously, AI adoption phase breakdowns only showed the number of users in each phase who were active on a given day. They now also include the full rolling 28-day phase population as of that day.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-09-18",
+            "title": "Copilot code review: An improved review experience",
+            "url": "https://github.blog/changelog/2026-09-18-copilot-code-review-an-improved-review-experience",
+            "source": "Month 9",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Copilot code review now gives you a clearer view of how a review changes over time, more intelligently auto-resolves its own suggestions, and generates useful commit messages when you accept…",
+                "html": "<p>Copilot code review now gives you a clearer view of how a review changes over time, more intelligently auto-resolves its own suggestions, and generates useful commit messages when you accept eligible suggestions in a batch. These updates help you focus on findings that still need attention and make the resulting commits easier to understand. These updates are now generally available.</p><p>The refreshed overview comment shows Copilot’s current assessment of your pull request, the review effort level it used, and lists a summary of the findings it identified in its review. Findings are now grouped into:</p><p>As you push additional commits and request another review, the overview preserves your progress and logs Copilot’s findings. The prior pull request summary and per-file summaries also remain available.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-09-18",
+            "title": "GitHub Copilot weekly releases — September 14",
+            "url": "https://github.blog/changelog/2026-09-18-github-copilot-weekly-releases-september-14",
+            "source": "Month 9",
+            "year": 2026,
+            "preview": {
+                "excerpt": "This week, GitHub Copilot adds new model selection options, code review updates, and Sentry integration in the Copilot app.",
+                "html": "<p>This week, GitHub Copilot adds new model selection options, code review updates, and Sentry integration in the Copilot app. There are also updates for admins, plus new agent features in VS Code.</p><p>Fix production crashes from Sentry reports. Move from crash report to code fix with the new Sentry canvas in the GitHub Copilot app. Review errors, stack traces, and related context, then work with Copilot to investigate the cause, validate a fix, and prepare a pull request.</p><p>Explore everything that’s new in the full release notes.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-09-18",
+            "title": "Upcoming deprecation of selected GitHub Copilot models in mid-October",
+            "url": "https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october",
+            "source": "Month 9",
+            "year": 2026,
+            "preview": {
+                "excerpt": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on October 19th, 2026: Model Deprecation date…",
+                "html": "<p>We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on October 19th, 2026:</p><p>Please update your workflows and integrations to use the supported models before this date. Under default model enablement, the suggested alternatives are automatically enabled for Copilot Enterprise and Copilot Business customers unless an administrator has turned off the global default or explicitly disabled the model. If you’ve turned off the global default, you can enable access to the alternative models through their model policies in Copilot settings.</p><p>Once enabled, users will see the model in the Copilot Chat model selector in supported GitHub Copilot experiences. No action is required to remove the models after they have been deprecated.</p>",
                 "hasContent": true
             }
         }
