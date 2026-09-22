@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 645,
+        "totalEntries": 646,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-09-18"
+                "latest": "2026-09-21"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-09-21T05:47:29.264Z",
-            "total_entries": 282,
+            "scraped_at": "2026-09-22T05:44:17.179Z",
+            "total_entries": 283,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-09-18"
+                "latest": "2026-09-21"
             }
         }
     },
@@ -7823,6 +7823,18 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on October 19th, 2026: Model Deprecation date…",
                 "html": "<p>We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on October 19th, 2026:</p><p>Please update your workflows and integrations to use the supported models before this date. Under default model enablement, the suggested alternatives are automatically enabled for Copilot Enterprise and Copilot Business customers unless an administrator has turned off the global default or explicitly disabled the model. If you’ve turned off the global default, you can enable access to the alternative models through their model policies in Copilot settings.</p><p>Once enabled, users will see the model in the Copilot Chat model selector in supported GitHub Copilot experiences. No action is required to remove the models after they have been deprecated.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-09-21",
+            "title": "Grok 4.7 is now available in GitHub Copilot",
+            "url": "https://github.blog/changelog/2026-09-21-grok-4-7-is-now-available-in-github-copilot",
+            "source": "Month 9",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Grok 4.7, xAI’s latest reasoning model, is now rolling out in GitHub Copilot. Building on Grok 4.6, it is designed for agentic coding and complex, multistep workflows. This model is…",
+                "html": "<p>Grok 4.7, xAI’s latest reasoning model, is now rolling out in GitHub Copilot. Building on Grok 4.6, it is designed for agentic coding and complex, multistep workflows.</p><p>This model is billed at provider list pricing under usage-based billing. See Models and pricing for GitHub Copilot for details.</p><p>Grok 4.7 will be available to Copilot Pro, Pro+, Max, Business, and Enterprise SKUs.</p>",
                 "hasContent": true
             }
         }
