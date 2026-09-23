@@ -1,15 +1,51 @@
 {
   "metadata": {
-    "scraped_at": "2026-09-22T05:44:17.179Z",
-    "total_entries": 283,
+    "scraped_at": "2026-09-23T05:27:23.389Z",
+    "total_entries": 286,
     "year_filter": 2026,
     "keyword_filter": "Copilot",
     "date_range": {
       "earliest": "2026-01-13",
-      "latest": "2026-09-21"
+      "latest": "2026-09-22"
     }
   },
   "entries": [
+    {
+      "date": "2026-09-22",
+      "title": "OpenTelemetry in the GitHub Copilot app",
+      "url": "https://github.blog/changelog/2026-09-22-opentelemetry-in-the-github-copilot-app",
+      "source": "Month 9",
+      "year": 2026,
+      "preview": {
+        "excerpt": "Understand how agents perform and interact with models and tools. The GitHub Copilot app now supports OpenTelemetry (OTel) configuration through enterprise-managed settings.",
+        "html": "<p>Understand how Copilot agents perform and interact with models and tools. The GitHub Copilot app now supports OpenTelemetry (OTel) configuration through enterprise-managed settings. OTel is an open source observability framework. Administrators can use it to send agent activity data to their organization’s compatible monitoring tools. This helps teams:</p><p>Configure the telemetry property in your enterprise’s managed-settings.json file to enable export and specify the endpoint that will receive the data. Prompt and response content is excluded by default—review your content-capture settings before enabling it.</p><p>Learn more about OpenTelemetry for agent monitoring and configuring enterprise-managed settings.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "title": "New features and improvements in Copilot for JetBrains",
+      "url": "https://github.blog/changelog/2026-09-22-new-features-and-improvements-in-copilot-for-jetbrains",
+      "source": "Month 9",
+      "year": 2026,
+      "preview": {
+        "excerpt": "GitHub Copilot for JetBrains 1.18.0 brings AI-assisted tool approvals, more control over agent conversations, and shared skills and instructions for your organization. You can also review plans with the Codex…",
+        "html": "<p>GitHub Copilot for JetBrains 1.18.0 brings AI-assisted tool approvals, more control over agent conversations, and shared skills and instructions for your organization. You can also review plans with the Codex agent and manage MCP tools with persistent controls.</p><p>AI-assisted tool approvals, called assisted approvals, are now in public preview for Copilot agent sessions. Low-risk tool calls receive automatic approval, while higher-risk actions continue to prompt you for a decision.</p><p>This gives you fewer approval interruptions for low-risk actions while keeping higher-risk decisions in your hands.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "title": "Claude Opus 5.5 is now available in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-09-22-claude-opus-5-5-is-now-available-in-github-copilot",
+      "source": "Month 9",
+      "year": 2026,
+      "preview": {
+        "excerpt": "Claude Opus 5.5, Anthropic’s newest Opus model, is now available in GitHub Copilot. You can use it for agentic coding, long-running agentic tasks, and knowledge work. In early testing, Opus…",
+        "html": "<p>Claude Opus 5.5, Anthropic’s newest Opus model, is now available in GitHub Copilot. You can use it for agentic coding, long-running agentic tasks, and knowledge work. In early testing, Opus 5.5 resolved tasks comparably to Claude Opus 5 while using significantly fewer steps and tokens. It also quickly recovered from errors in multistep tasks.</p><p>Claude Opus 5.5 watermarks its text outputs. The watermark doesn’t change the meaning, quality, or readability of outputs, nor does it add any tokens or cost. To learn more visit Anthropics’s How Claude’s text watermark works.</p><p>This model is billed at provider list pricing under usage-based billing. See Models and pricing for GitHub Copilot for details.</p>",
+        "hasContent": true
+      }
+    },
     {
       "date": "2026-09-21",
       "title": "Grok 4.7 is now available in GitHub Copilot",
