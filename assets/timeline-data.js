@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 649,
+        "totalEntries": 651,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-09-22"
+                "latest": "2026-09-23"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-09-23T05:27:23.389Z",
-            "total_entries": 286,
+            "scraped_at": "2026-09-24T05:45:31.039Z",
+            "total_entries": 288,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-09-22"
+                "latest": "2026-09-23"
             }
         }
     },
@@ -7871,6 +7871,30 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "Understand how agents perform and interact with models and tools. The GitHub Copilot app now supports OpenTelemetry (OTel) configuration through enterprise-managed settings.",
                 "html": "<p>Understand how Copilot agents perform and interact with models and tools. The GitHub Copilot app now supports OpenTelemetry (OTel) configuration through enterprise-managed settings. OTel is an open source observability framework. Administrators can use it to send agent activity data to their organization’s compatible monitoring tools. This helps teams:</p><p>Configure the telemetry property in your enterprise’s managed-settings.json file to enable export and specify the endpoint that will receive the data. Prompt and response content is excluded by default—review your content-capture settings before enabling it.</p><p>Learn more about OpenTelemetry for agent monitoring and configuring enterprise-managed settings.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-09-23",
+            "title": "Local sandboxing in the GitHub Copilot app",
+            "url": "https://github.blog/changelog/2026-09-23-local-sandboxing-in-the-github-copilot-app",
+            "source": "Month 9",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Local sandboxing helps reduce the potential impact of unintended commands by limiting access to files, network resources, and credentials on your machine. In the GitHub Copilot app, you configure it per project for local repository and working tree sessions.",
+                "html": "<p>Local sandboxing helps reduce the potential impact of unintended commands by limiting access to files, network resources, and credentials on your machine. In the GitHub Copilot app, you configure it per project for local repository and working tree sessions.</p><p>These project settings describe the policy that the app requests when a sandboxed session starts. The effective policy can be more restrictive when enterprise-managed settings apply.</p><p>If your operating system cannot enforce the requested policy, the sandboxed shell fails with an error rather than running without a sandbox.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-09-23",
+            "title": "More ways to request and configure Copilot code reviews",
+            "url": "https://github.blog/changelog/2026-09-23-copilot-code-review-more-ways-to-request-and-configure-reviews",
+            "source": "Month 9",
+            "year": 2026,
+            "preview": {
+                "excerpt": "GitHub Copilot code review now offers additional personal configurations to an expanded set of Copilot plans and an enterprise-level default setting. These improvements are now generally available: A dedicated personal…",
+                "html": "<p>GitHub Copilot code review now offers additional personal configurations to an expanded set of Copilot plans and an enterprise-level default setting. These improvements are now generally available:</p><p>Previously, personal Copilot code review settings were available only with Copilot Pro, Pro+, and Max on the “Copilot features” page. They covered a single automatic review setting without separate controls for draft pull requests or new pushes.</p><p>Under your profile → Copilot settings, a dedicated “code review” page under Copilot is now available on every Copilot plan, including Copilot Business and Copilot Enterprise. From this page you can:</p>",
                 "hasContent": true
             }
         }
