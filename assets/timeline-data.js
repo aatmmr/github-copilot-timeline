@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 651,
+        "totalEntries": 652,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-09-23"
+                "latest": "2026-09-24"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-09-24T05:45:31.039Z",
-            "total_entries": 288,
+            "scraped_at": "2026-09-25T05:43:45.918Z",
+            "total_entries": 289,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-09-23"
+                "latest": "2026-09-24"
             }
         }
     },
@@ -7895,6 +7895,18 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "GitHub Copilot code review now offers additional personal configurations to an expanded set of Copilot plans and an enterprise-level default setting. These improvements are now generally available: A dedicated personal…",
                 "html": "<p>GitHub Copilot code review now offers additional personal configurations to an expanded set of Copilot plans and an enterprise-level default setting. These improvements are now generally available:</p><p>Previously, personal Copilot code review settings were available only with Copilot Pro, Pro+, and Max on the “Copilot features” page. They covered a single automatic review setting without separate controls for draft pull requests or new pushes.</p><p>Under your profile → Copilot settings, a dedicated “code review” page under Copilot is now available on every Copilot plan, including Copilot Business and Copilot Enterprise. From this page you can:</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-09-24",
+            "title": "Default Enablement of Copilot Features for Copilot Business and Enterprise",
+            "url": "https://github.blog/changelog/2026-09-24-default-enablement-of-copilot-features-for-copilot-business-and-enterprise",
+            "source": "Month 9",
+            "year": 2026,
+            "preview": {
+                "excerpt": "We’re introducing a new global default policy for generally available GitHub Copilot features and supported client capabilities in enterprise and organization Copilot settings. For the next 28 days, you can…",
+                "html": "<p>We’re introducing a new global default policy for generally available GitHub Copilot features and supported client capabilities in enterprise and organization Copilot settings. For the next 28 days, you can configure this policy, but it won’t affect feature access for your users yet.</p><p>Today, you can configure the new policy by going to the “AI Controls” page, opening the “Copilot” subpage, and selecting an option under “Default policy for new features”. This policy applies to eligible features managed on your enterprise’s “Features &amp; clients” page (i.e., https://github.com/enterprises/YOUR-ENTERPRISE-SLUG/ai-controls/copilot/features), as well as the Copilot Code Review policy on the “Agents” page and the MCP servers in Copilot policy. For feature eligibility and exceptions, see our docs on default availability.</p><p>You can choose from the following settings:</p>",
                 "hasContent": true
             }
         }
