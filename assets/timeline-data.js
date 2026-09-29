@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 656,
+        "totalEntries": 657,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-09-25"
+                "latest": "2026-09-28"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-09-28T06:14:31.859Z",
-            "total_entries": 293,
+            "scraped_at": "2026-09-29T06:31:34.554Z",
+            "total_entries": 294,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-09-25"
+                "latest": "2026-09-28"
             }
         }
     },
@@ -7955,6 +7955,18 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "GitHub Copilot in Slack and Microsoft Teams now gives you more context, more control, and a clearer path from conversation to GitHub work. Whether you’re sharing files in Slack or…",
                 "html": "<p>GitHub Copilot in Slack and Microsoft Teams now gives you more context, more control, and a clearer path from conversation to GitHub work.</p><p>Whether you’re sharing files in Slack or images and forwarded messages in Teams, Copilot can use more of the context already in your conversation. We’ve also improved how Copilot creates GitHub work and connects it back to the source discussion, so teams can more quickly see the context behind a decision.</p><p>You can now use supported Slack files, attachments, and message links as context. In Teams, Copilot can work with inline images, forwarded-message context, and channel and thread history. Copilot also checks for similar issues before creating a new one, includes direct links to the resulting work, and keeps a link back to the originating conversation so the context remains easy to trace.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-09-28",
+            "title": "Claude Sonnet 5.5 in GitHub Copilot",
+            "url": "https://github.blog/changelog/2026-09-28-claude-sonnet-5-5-in-github-copilot",
+            "source": "Month 9",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Claude Sonnet 5.5, Anthropic’s newest Sonnet model, is now generally available in GitHub Copilot. It is designed for well-scoped everyday work like building features and fixing bugs. In our early…",
+                "html": "<p>Claude Sonnet 5.5, Anthropic’s newest Sonnet model, is now generally available in GitHub Copilot. It is designed for well-scoped everyday work like building features and fixing bugs. In our early testing, Sonnet 5.5 stood out for its efficiency, matching Claude Sonnet 5 on coding tasks while using significantly fewer steps, tokens, and tool calls. It also finished tasks noticeably faster.</p><p>This model is billed at provider list pricing under usage-based billing. See Models and pricing for GitHub Copilot for details.</p><p>Claude Sonnet 5.5 is available to Copilot Pro, Pro+, Max, Business, and Enterprise users. You can select the model in the model picker in:</p>",
                 "hasContent": true
             }
         }

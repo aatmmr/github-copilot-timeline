@@ -1,15 +1,27 @@
 {
   "metadata": {
-    "scraped_at": "2026-09-28T06:14:31.859Z",
-    "total_entries": 293,
+    "scraped_at": "2026-09-29T06:31:34.554Z",
+    "total_entries": 294,
     "year_filter": 2026,
     "keyword_filter": "Copilot",
     "date_range": {
       "earliest": "2026-01-13",
-      "latest": "2026-09-25"
+      "latest": "2026-09-28"
     }
   },
   "entries": [
+    {
+      "date": "2026-09-28",
+      "title": "Claude Sonnet 5.5 in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-09-28-claude-sonnet-5-5-in-github-copilot",
+      "source": "Month 9",
+      "year": 2026,
+      "preview": {
+        "excerpt": "Claude Sonnet 5.5, Anthropic’s newest Sonnet model, is now generally available in GitHub Copilot. It is designed for well-scoped everyday work like building features and fixing bugs. In our early…",
+        "html": "<p>Claude Sonnet 5.5, Anthropic’s newest Sonnet model, is now generally available in GitHub Copilot. It is designed for well-scoped everyday work like building features and fixing bugs. In our early testing, Sonnet 5.5 stood out for its efficiency, matching Claude Sonnet 5 on coding tasks while using significantly fewer steps, tokens, and tool calls. It also finished tasks noticeably faster.</p><p>This model is billed at provider list pricing under usage-based billing. See Models and pricing for GitHub Copilot for details.</p><p>Claude Sonnet 5.5 is available to Copilot Pro, Pro+, Max, Business, and Enterprise users. You can select the model in the model picker in:</p>",
+        "hasContent": true
+      }
+    },
     {
       "date": "2026-09-25",
       "title": "Agentic autofix now uses Copilot Memory",
