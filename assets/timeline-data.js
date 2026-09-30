@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 657,
+        "totalEntries": 658,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-09-28"
+                "latest": "2026-09-29"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-09-29T06:31:34.554Z",
-            "total_entries": 294,
+            "scraped_at": "2026-09-30T06:16:59.824Z",
+            "total_entries": 295,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-09-28"
+                "latest": "2026-09-29"
             }
         }
     },
@@ -7967,6 +7967,18 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "Claude Sonnet 5.5, Anthropic’s newest Sonnet model, is now generally available in GitHub Copilot. It is designed for well-scoped everyday work like building features and fixing bugs. In our early…",
                 "html": "<p>Claude Sonnet 5.5, Anthropic’s newest Sonnet model, is now generally available in GitHub Copilot. It is designed for well-scoped everyday work like building features and fixing bugs. In our early testing, Sonnet 5.5 stood out for its efficiency, matching Claude Sonnet 5 on coding tasks while using significantly fewer steps, tokens, and tool calls. It also finished tasks noticeably faster.</p><p>This model is billed at provider list pricing under usage-based billing. See Models and pricing for GitHub Copilot for details.</p><p>Claude Sonnet 5.5 is available to Copilot Pro, Pro+, Max, Business, and Enterprise users. You can select the model in the model picker in:</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-09-29",
+            "title": "GPT-6.1 Sol in GitHub Copilot",
+            "url": "https://github.blog/changelog/2026-09-29-gpt-6-1-sol-in-github-copilot",
+            "source": "Month 9",
+            "year": 2026,
+            "preview": {
+                "excerpt": "GPT-6.1 Sol, the latest model from OpenAI, is now generally available and rolling out in GitHub Copilot. You can use it for agentic coding and terminal workflows with strong multistep…",
+                "html": "<p>GPT-6.1 Sol, the latest model from OpenAI, is now generally available and rolling out in GitHub Copilot. You can use it for agentic coding and terminal workflows with strong multistep coding performance and efficient token use. In early testing, it reliably completed tasks while using noticeably fewer tokens and steps than earlier models in the GPT-6 and GPT-5.6 families.</p><p>This model is billed at provider list pricing under usage-based billing. See Models and pricing for GitHub Copilot for details.</p><p>GPT-6.1 Sol is available to Copilot Pro+, Max, Business, and Enterprise users. You can select it in the model picker in:</p>",
                 "hasContent": true
             }
         }
