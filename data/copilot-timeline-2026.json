@@ -1,15 +1,27 @@
 {
   "metadata": {
-    "scraped_at": "2026-09-30T06:16:59.824Z",
-    "total_entries": 295,
+    "scraped_at": "2026-10-01T06:47:42.129Z",
+    "total_entries": 296,
     "year_filter": 2026,
     "keyword_filter": "Copilot",
     "date_range": {
       "earliest": "2026-01-13",
-      "latest": "2026-09-29"
+      "latest": "2026-09-30"
     }
   },
   "entries": [
+    {
+      "date": "2026-09-30",
+      "title": "HydraFusion in VS Code and the GitHub Copilot app",
+      "url": "https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app",
+      "source": "Month 9",
+      "year": 2026,
+      "preview": {
+        "excerpt": "The HydraFusion research preview is now available in Visual Studio Code and the GitHub Copilot app, expanding beyond Copilot CLI. HydraFusion appears in the model picker, but rather than being…",
+        "html": "<p>The HydraFusion research preview is now available in Visual Studio Code and the GitHub Copilot app, expanding beyond Copilot CLI.</p><p>HydraFusion appears in the model picker, but rather than being a single model, it orchestrates multiple models. HydraFusion treats workflow selection as an optimization problem. It uses capability signals for reasoning, code generation, debugging, and tool use to select the most efficient execution pattern to meet the quality bar. HydraFusion uses one of three workflows:</p><p>In VS Code (version 1.140 or later, or VS Code Insiders):</p>",
+        "hasContent": true
+      }
+    },
     {
       "date": "2026-09-29",
       "title": "GPT-6.1 Sol in GitHub Copilot",

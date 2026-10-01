@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 658,
+        "totalEntries": 659,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-09-29"
+                "latest": "2026-09-30"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-09-30T06:16:59.824Z",
-            "total_entries": 295,
+            "scraped_at": "2026-10-01T06:47:42.129Z",
+            "total_entries": 296,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-09-29"
+                "latest": "2026-09-30"
             }
         }
     },
@@ -7979,6 +7979,18 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "GPT-6.1 Sol, the latest model from OpenAI, is now generally available and rolling out in GitHub Copilot. You can use it for agentic coding and terminal workflows with strong multistep…",
                 "html": "<p>GPT-6.1 Sol, the latest model from OpenAI, is now generally available and rolling out in GitHub Copilot. You can use it for agentic coding and terminal workflows with strong multistep coding performance and efficient token use. In early testing, it reliably completed tasks while using noticeably fewer tokens and steps than earlier models in the GPT-6 and GPT-5.6 families.</p><p>This model is billed at provider list pricing under usage-based billing. See Models and pricing for GitHub Copilot for details.</p><p>GPT-6.1 Sol is available to Copilot Pro+, Max, Business, and Enterprise users. You can select it in the model picker in:</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-09-30",
+            "title": "HydraFusion in VS Code and the GitHub Copilot app",
+            "url": "https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app",
+            "source": "Month 9",
+            "year": 2026,
+            "preview": {
+                "excerpt": "The HydraFusion research preview is now available in Visual Studio Code and the GitHub Copilot app, expanding beyond Copilot CLI. HydraFusion appears in the model picker, but rather than being…",
+                "html": "<p>The HydraFusion research preview is now available in Visual Studio Code and the GitHub Copilot app, expanding beyond Copilot CLI.</p><p>HydraFusion appears in the model picker, but rather than being a single model, it orchestrates multiple models. HydraFusion treats workflow selection as an optimization problem. It uses capability signals for reasoning, code generation, debugging, and tool use to select the most efficient execution pattern to meet the quality bar. HydraFusion uses one of three workflows:</p><p>In VS Code (version 1.140 or later, or VS Code Insiders):</p>",
                 "hasContent": true
             }
         }
