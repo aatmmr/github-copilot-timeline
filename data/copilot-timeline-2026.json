@@ -1,15 +1,51 @@
 {
   "metadata": {
-    "scraped_at": "2026-10-01T06:47:42.129Z",
-    "total_entries": 296,
+    "scraped_at": "2026-10-02T06:33:31.606Z",
+    "total_entries": 299,
     "year_filter": 2026,
     "keyword_filter": "Copilot",
     "date_range": {
       "earliest": "2026-01-13",
-      "latest": "2026-09-30"
+      "latest": "2026-10-01"
     }
   },
   "entries": [
+    {
+      "date": "2026-10-01",
+      "title": "GitHub Copilot can now interact with desktop apps with computer use",
+      "url": "https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps",
+      "source": "Month 10",
+      "year": 2026,
+      "preview": {
+        "excerpt": "Computer use is now available in public preview in GitHub Copilot CLI and the GitHub Copilot app on macOS and Windows. Copilot can interact with desktop applications on your behalf…",
+        "html": "<p>Computer use is now available in public preview in GitHub Copilot CLI and the GitHub Copilot app on macOS and Windows.</p><p>Copilot can interact with desktop applications on your behalf (e.g., reading accessible app content and visual context, clicking controls, entering and editing text, pressing keys, scrolling, dragging, and navigating workflows across applications). This expands the tasks Copilot can help automate, including workflows in legacy and GUI-only software that do not provide an API, command-line interface, or MCP integration.</p><p>Copilot uses computer-use tools to navigate an expense-report workflow in Safari.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-10-01",
+      "title": "GitHub Copilot in VS Code, September 2026 releases",
+      "url": "https://github.blog/changelog/2026-10-01-github-copilot-in-vs-code-september-2026-releases",
+      "source": "Month 10",
+      "year": 2026,
+      "preview": {
+        "excerpt": "This changelog covers VS Code v1.136 through v1.140, shipped throughout September 2026. September’s releases streamline agent-driven development from implementation through pull request merge. Automations handle repeatable tasks, agent merge helps…",
+        "html": "<p>This changelog covers VS Code v1.136 through v1.140, shipped throughout September 2026.</p><p>September’s releases streamline agent-driven development from implementation through pull request merge. Automations handle repeatable tasks, agent merge helps land changes, and improved session management keeps work organized.</p><p>Agents are also more flexible across workspaces, Dev Containers, and apps, while GitHub context helps you collaborate without breaking your flow.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-10-01",
+      "title": "Dynamic workflows in Copilot CLI and the Copilot app",
+      "url": "https://github.blog/changelog/2026-10-01-dynamic-workflows-in-copilot-cli-and-the-copilot-app",
+      "source": "Month 10",
+      "year": 2026,
+      "preview": {
+        "excerpt": "Dynamic workflows are now available in Copilot CLI, the GitHub Copilot app, and the GitHub Copilot SDK. These let you define an orchestration in code to get the reliability and…",
+        "html": "<p>Dynamic workflows are now available in Copilot CLI, the GitHub Copilot app, and the GitHub Copilot SDK. These let you define an orchestration in code to get the reliability and observability that complex, multi-agent work demands.</p><p>A dynamic workflow is a program that defines how a task is carried out. It combines automated steps with the work of one or more agents, and those steps can run one after another, in parallel, or both. The steps, when to involve agents, and how to use their results are all defined in code, while agents handle the parts that need analysis or judgment. The program itself lives inside a GitHub Copilot extension, which means it has access to Copilot’s powerful extensibility APIs.</p><p>For example, you could use a dynamic workflow to investigate a service incident: collect logs and telemetry, assign independent agents to analyze different systems, and combine their structured findings into a timeline and root-cause report. The same steps run every time.</p>",
+        "hasContent": true
+      }
+    },
     {
       "date": "2026-09-30",
       "title": "HydraFusion in VS Code and the GitHub Copilot app",
