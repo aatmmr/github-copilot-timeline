@@ -1,15 +1,39 @@
 {
   "metadata": {
-    "scraped_at": "2026-10-02T06:33:31.606Z",
-    "total_entries": 299,
+    "scraped_at": "2026-10-03T05:59:36.972Z",
+    "total_entries": 301,
     "year_filter": 2026,
     "keyword_filter": "Copilot",
     "date_range": {
       "earliest": "2026-01-13",
-      "latest": "2026-10-01"
+      "latest": "2026-10-02"
     }
   },
   "entries": [
+    {
+      "date": "2026-10-02",
+      "title": "Copilot code review: API support and new default effort level",
+      "url": "https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level",
+      "source": "Month 10",
+      "year": 2026,
+      "preview": {
+        "excerpt": "You can now request a GitHub Copilot code review through the REST and GraphQL APIs and set the review effort level for each request. Balanced is also now the default…",
+        "html": "<p>You can now request a GitHub Copilot code review through the REST and GraphQL APIs and set the review effort level for each request. Balanced is also now the default review effort level. These changes are generally available to Copilot Pro, Pro+, Max, Business, and Enterprise plans.</p><p>You can now request a review from Copilot using the supported REST and GraphQL APIs. When you make a request, you can optionally set the review effort level for that review.</p><p>This lets you bring Copilot code review into your own scripts, workflows, and internal tools, so reviews can start from the systems your team already uses.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "title": "Selected models in GitHub Copilot deprecated",
+      "url": "https://github.blog/changelog/2026-10-02-selected-models-in-github-copilot-deprecated",
+      "source": "Month 10",
+      "year": 2026,
+      "preview": {
+        "excerpt": "As of today, October 2, 2026, we have deprecated the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Model…",
+        "html": "<p>As of today, October 2, 2026, we have deprecated the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions).</p><p>Please update your workflows and integrations to use supported models. Copilot Enterprise administrators may need to enable access to alternative models through their model policies in Copilot settings. As an administrator, you can verify availability by checking your individual Copilot settings and confirming that the policy is enabled for the specific model. Once enabled, you’ll see the model in the Copilot Chat model selector in VS Code and on github.com. No action is required to remove the deprecated models.</p><p>GitHub Enterprise customers with questions or concerns are encouraged to reach out to their account manager for further assistance.</p>",
+        "hasContent": true
+      }
+    },
     {
       "date": "2026-10-01",
       "title": "GitHub Copilot can now interact with desktop apps with computer use",
