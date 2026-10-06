@@ -46,6 +46,34 @@ function buildPreviewHtml(paragraphs) {
     .join('');
 }
 
+function normalizeCategory(category) {
+  const value = normalizeWhitespace(category);
+  const aliases = {
+    feature: 'Feature',
+    features: 'Feature',
+    release: 'New release',
+    releases: 'New release',
+    'new release': 'New release',
+    improvement: 'Improvement',
+    improvements: 'Improvement',
+    retired: 'Retired',
+    deprecation: 'Retired',
+    deprecations: 'Retired'
+  };
+  return aliases[value.toLowerCase()] || value;
+}
+
+function extractCategory($, $scope) {
+  const typeLink = $scope.find('a[href*="/changelog/type/"]').first();
+  if (!typeLink.length) {
+    return '';
+  }
+
+  const href = typeLink.attr('href') || '';
+  const slug = href.match(/\/changelog\/type\/([^/?#]+)/)?.[1]?.replace(/-/g, ' ') || '';
+  return normalizeCategory(typeLink.text() || slug);
+}
+
 async function fetchEntryPreview(url) {
   if (previewCache.has(url)) {
     return previewCache.get(url);
@@ -61,6 +89,7 @@ async function fetchEntryPreview(url) {
 
     const $ = cheerio.load(data);
     $('script, style, noscript').remove();
+    const category = extractCategory($, $.root());
 
     const metaDescription = normalizeWhitespace(
       $('meta[property="og:description"]').attr('content') ||
@@ -94,6 +123,7 @@ async function fetchEntryPreview(url) {
     }
 
     const preview = {
+      category,
       excerpt,
       html: buildPreviewHtml(selectedParagraphs),
       hasContent: Boolean(excerpt || selectedParagraphs.length > 0)
@@ -103,6 +133,7 @@ async function fetchEntryPreview(url) {
     return preview;
   } catch (error) {
     const fallback = {
+      category: '',
       excerpt: '',
       html: '',
       hasContent: false,
@@ -150,6 +181,7 @@ async function tryUrl(url, context = '') {
                   
       const link = $el.find('.changelog-post-title a, h1 a, h2 a, h3 a, h4 a, .entry-title a, .post-title a').attr('href') ||
                   $el.find('a').first().attr('href');
+      const category = extractCategory($, $el);
       
       if (title && date && link) {
         const entryKey = `${date}-${title}`;
@@ -173,6 +205,7 @@ async function tryUrl(url, context = '') {
               url: fullLink,
               source: context,
               year: entryYear,
+              category: preview.category || category || undefined,
               preview: {
                 excerpt: preview.excerpt,
                 html: preview.html,
