@@ -1,15 +1,51 @@
 {
   "metadata": {
-    "scraped_at": "2026-10-07T06:49:18.762Z",
-    "total_entries": 302,
+    "scraped_at": "2026-10-08T06:57:09.456Z",
+    "total_entries": 306,
     "year_filter": 2026,
     "keyword_filter": "Copilot",
     "date_range": {
       "earliest": "2026-01-13",
-      "latest": "2026-10-06"
+      "latest": "2026-10-07"
     }
   },
   "entries": [
+    {
+      "date": "2026-10-07",
+      "title": "Claude Haiku 5.5 in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot",
+      "source": "Month 10",
+      "year": 2026,
+      "preview": {
+        "excerpt": "Claude Haiku 5.5, Anthropic’s newest lightweight model, is now generally available in GitHub Copilot. It is designed for fast, high-volume work like subagents, quick edits, and terminal tasks. In early…",
+        "html": "<p>Claude Haiku 5.5, Anthropic’s newest lightweight model, is now generally available in GitHub Copilot. It is designed for fast, high-volume work like subagents, quick edits, and terminal tasks. In early testing, Haiku 5.5 matched Claude Sonnet 5 on many coding tasks while using significantly fewer tokens and steps.</p><p>This model is billed at provider list pricing under usage-based billing. See Models and pricing for GitHub Copilot for details.</p><p>Claude Haiku 5.5 is available to Copilot Pro, Pro+, Max, Business, and Enterprise users. You can select the model in the model picker in:</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-10-07",
+      "title": "Local sandboxing for GitHub Copilot now generally available",
+      "url": "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available",
+      "source": "Month 10",
+      "year": 2026,
+      "preview": {
+        "excerpt": "Local sandboxing for GitHub Copilot is now generally available in GitHub Copilot CLI, the GitHub Copilot app, and VS Code sessions using Agent Host. Local sandboxes give developers a secure…",
+        "html": "<p>Local sandboxing for GitHub Copilot is now generally available in GitHub Copilot CLI, the GitHub Copilot app, and VS Code sessions using Agent Host.</p><p>Local sandboxes give developers a secure execution boundary for agentic workflows on their own machines. Tools and commands initiated by Copilot run with restricted access to the filesystem, network, credentials, and other system capabilities, based on policies defined by the developer or their organization.</p><p>Local sandboxing is powered by Microsoft eXecution Container (MXC), which translates a common sandbox policy into native operating-system controls across Windows, macOS, and Linux.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-10-07",
+      "title": "Discover local models in GitHub Copilot CLI",
+      "url": "https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli",
+      "source": "Month 10",
+      "year": 2026,
+      "preview": {
+        "excerpt": "GitHub Copilot CLI makes it easier to choose a local model without leaving your existing workflow. Starting in CLI version 1.0.94-0, use /model to discover supported models from a running…",
+        "html": "<p>GitHub Copilot CLI makes it easier to choose a local model without leaving your existing workflow. Starting in CLI version 1.0.94-0, use /model to discover supported models from a running local Ollama instance, alongside your configured models and cloud models provided by GitHub Copilot.</p><p>Discovery doesn’t automatically add models. Choose a discovered model, review its provider and endpoint, then confirm Add and use for this session or Add without switching. You can use the model in your current session without restarting the CLI. Ollama and the model must already be installed—this flow doesn’t install a runtime or download models. Models must support tool calling and streaming.</p><p>Provider connection failures appear in the picker with an explanation, helping you identify what needs attention.</p>",
+        "hasContent": true
+      }
+    },
     {
       "date": "2026-10-06",
       "title": "Update your IDE to restore agent activity in Copilot usage metrics",
@@ -43,6 +79,18 @@
       "preview": {
         "excerpt": "As of today, October 2, 2026, we have deprecated the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Model…",
         "html": "<p>As of today, October 2, 2026, we have deprecated the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions).</p><p>Please update your workflows and integrations to use supported models. Copilot Enterprise administrators may need to enable access to alternative models through their model policies in Copilot settings. As an administrator, you can verify availability by checking your individual Copilot settings and confirming that the policy is enabled for the specific model. Once enabled, you’ll see the model in the Copilot Chat model selector in VS Code and on github.com. No action is required to remove the deprecated models.</p><p>GitHub Enterprise customers with questions or concerns are encouraged to reach out to their account manager for further assistance.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "title": "GitHub Copilot weekly releases — September 28",
+      "url": "https://github.blog/changelog/2026-10-02-github-copilot-weekly-releases-september-28",
+      "source": "Month 10",
+      "year": 2026,
+      "preview": {
+        "excerpt": "This week, put Copilot to work with new models, reusable workflows and desktop app automation, plus Azure canvases and VS Code improvements.",
+        "html": "<p>This week, put Copilot to work with new models, reusable workflows and desktop app automation, plus Azure canvases and VS Code improvements.</p><p>Explore Azure resources, understand costs, and build automated workflows alongside Copilot. Three new Azure canvases bring resource queries, cost health checks, and Azure Functions hosted skills into interactive workspaces in the Copilot app. Install them from the Awesome Copilot marketplace under Customize &gt; Plugins.</p><p>Explore everything that’s new in the full release notes.</p>",
         "hasContent": true
       }
     },
