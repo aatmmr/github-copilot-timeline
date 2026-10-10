@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 669,
+        "totalEntries": 671,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-10-07"
+                "latest": "2026-10-09"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-10-09T07:05:51.430Z",
-            "total_entries": 306,
+            "scraped_at": "2026-10-10T06:37:05.456Z",
+            "total_entries": 308,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-10-07"
+                "latest": "2026-10-09"
             }
         }
     },
@@ -8111,6 +8111,30 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "Local sandboxing for GitHub Copilot is now generally available in GitHub Copilot CLI, the GitHub Copilot app, and VS Code sessions using Agent Host. Local sandboxes give developers a secure…",
                 "html": "<p>Local sandboxing for GitHub Copilot is now generally available in GitHub Copilot CLI, the GitHub Copilot app, and VS Code sessions using Agent Host.</p><p>Local sandboxes give developers a secure execution boundary for agentic workflows on their own machines. Tools and commands initiated by Copilot run with restricted access to the filesystem, network, credentials, and other system capabilities, based on policies defined by the developer or their organization.</p><p>Local sandboxing is powered by Microsoft eXecution Container (MXC), which translates a common sandbox policy into native operating-system controls across Windows, macOS, and Linux.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-10-08",
+            "title": "Copilot code review: New organization billing options and controls",
+            "url": "https://github.blog/changelog/2026-10-08-copilot-code-review-new-organization-billing-options-and-controls",
+            "source": "Month 10",
+            "year": 2026,
+            "preview": {
+                "excerpt": "This release adds new billing and license controls for Copilot code review admins: Billing: Organization owners can bill Copilot code reviews from members with a Copilot license to the organization’s…",
+                "html": "<p>This release adds new billing and license controls for Copilot code review admins:</p><p>By default, Copilot code review bills requests associated with members who have a Copilot license to that member’s own Copilot entitlement. Organization owners can now choose to bill the organization that owns the repository instead in order to avoid consuming or exhausting member quotas.</p><p>The Choose how members with a Copilot license are billed setting has two options:</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-10-09",
+            "title": "GitHub Copilot weekly releases — October 5",
+            "url": "https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5",
+            "source": "Month 10",
+            "year": 2026,
+            "preview": {
+                "excerpt": "This week’s updates make Copilot easier to use across accounts and environments, with more control over what agents can access and how you manage work.",
+                "html": "<p>This week’s updates make Copilot easier to use across accounts and environments, with more control over what agents can access and how you manage their work.</p><p>The Copilot app now lets you use separate GitHub accounts for your Copilot license and your repositories. For example, use an enterprise-provided Copilot license while accessing repositories through another account.</p><p>GitHub Copilot CLI makes it easier to choose a local model without leaving your existing workflow. Use /model to discover supported models from a running local Ollama instance, alongside your configured models and cloud models provided by GitHub Copilot. Discover local models in GitHub Copilot CLI.</p>",
                 "hasContent": true
             }
         }
