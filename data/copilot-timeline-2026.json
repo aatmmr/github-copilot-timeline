@@ -1,15 +1,27 @@
 {
   "metadata": {
-    "scraped_at": "2026-10-10T06:37:05.456Z",
-    "total_entries": 308,
+    "scraped_at": "2026-10-11T06:46:06.055Z",
+    "total_entries": 309,
     "year_filter": 2026,
     "keyword_filter": "Copilot",
     "date_range": {
       "earliest": "2026-01-13",
-      "latest": "2026-10-09"
+      "latest": "2026-10-10"
     }
   },
   "entries": [
+    {
+      "date": "2026-10-10",
+      "title": "New controls and chat improvements in Copilot for JetBrains",
+      "url": "https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains",
+      "source": "Month 10",
+      "year": 2026,
+      "preview": {
+        "excerpt": "This update brings more control over default models and MCP server in GitHub Copilot for JetBrains. It also makes diagnostics easier to address, improves chat navigation and account controls, and…",
+        "html": "<p>This update brings more control over default models and MCP server in GitHub Copilot for JetBrains. It also makes diagnostics easier to address, improves chat navigation and account controls, and strengthens reliability across agent sessions, customizations, and worktrees.</p><p>Enterprise administrators can now use managed settings to choose any available Copilot agent model as the default for new conversations. This gives organizations more control over the starting model while still preserving an explicit model picker choice.</p><p>Diagnostic intention menus now include a Fix action that opens inline chat and asks Copilot to repair the issue. The action uses agent mode when it is available and ask mode otherwise, helping you move from a reported problem to a proposed fix with fewer steps.</p>",
+        "hasContent": true
+      }
+    },
     {
       "date": "2026-10-09",
       "title": "GitHub Copilot weekly releases — October 5",

@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 671,
+        "totalEntries": 672,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-10-09"
+                "latest": "2026-10-10"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-10-10T06:37:05.456Z",
-            "total_entries": 308,
+            "scraped_at": "2026-10-11T06:46:06.055Z",
+            "total_entries": 309,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-10-09"
+                "latest": "2026-10-10"
             }
         }
     },
@@ -8135,6 +8135,18 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "This week’s updates make Copilot easier to use across accounts and environments, with more control over what agents can access and how you manage work.",
                 "html": "<p>This week’s updates make Copilot easier to use across accounts and environments, with more control over what agents can access and how you manage their work.</p><p>The Copilot app now lets you use separate GitHub accounts for your Copilot license and your repositories. For example, use an enterprise-provided Copilot license while accessing repositories through another account.</p><p>GitHub Copilot CLI makes it easier to choose a local model without leaving your existing workflow. Use /model to discover supported models from a running local Ollama instance, alongside your configured models and cloud models provided by GitHub Copilot. Discover local models in GitHub Copilot CLI.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-10-10",
+            "title": "New controls and chat improvements in Copilot for JetBrains",
+            "url": "https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains",
+            "source": "Month 10",
+            "year": 2026,
+            "preview": {
+                "excerpt": "This update brings more control over default models and MCP server in GitHub Copilot for JetBrains. It also makes diagnostics easier to address, improves chat navigation and account controls, and…",
+                "html": "<p>This update brings more control over default models and MCP server in GitHub Copilot for JetBrains. It also makes diagnostics easier to address, improves chat navigation and account controls, and strengthens reliability across agent sessions, customizations, and worktrees.</p><p>Enterprise administrators can now use managed settings to choose any available Copilot agent model as the default for new conversations. This gives organizations more control over the starting model while still preserving an explicit model picker choice.</p><p>Diagnostic intention menus now include a Fix action that opens inline chat and asks Copilot to repair the issue. The action uses agent mode when it is available and ask mode otherwise, helping you move from a reported problem to a proposed fix with fewer steps.</p>",
                 "hasContent": true
             }
         }
