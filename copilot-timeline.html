@@ -97,6 +97,7 @@
         <section class="timeline-panel">
             <div class="timeline-panel-header">
                 <p id="timeline-hint">Hover for counts. Click a day to inspect entries and preview the source post.</p>
+                <button class="nav-btn summary-toggle" id="summary-toggle" aria-expanded="false" aria-controls="summary-panel">Show summary</button>
             </div>
             <div class="heatmap-scroll">
                 <div class="heatmap-shell">
@@ -116,6 +117,8 @@
                 </div>
             </div>
         </section>
+
+        <section class="summary-panel" id="summary-panel" aria-label="Period summary" hidden></section>
 
         <footer class="site-footer" aria-label="Project credits">
             <a class="creator" href="https://github.com/aatmmr" target="_blank" rel="noreferrer noopener">

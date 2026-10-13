@@ -11,7 +11,8 @@ const state = {
     customEnd: '',
     searchTerm: '',
     selectedDate: null,
-    selectedEntryUrl: null
+    selectedEntryUrl: null,
+    showSummary: false
 };
 
 const elements = {
@@ -45,7 +46,9 @@ const elements = {
     previewMeta: document.getElementById('preview-meta'),
     previewStatus: document.getElementById('preview-status'),
     previewOpenLink: document.getElementById('preview-open-link'),
-    previewContent: document.getElementById('preview-content')
+    previewContent: document.getElementById('preview-content'),
+    summaryToggle: document.getElementById('summary-toggle'),
+    summaryPanel: document.getElementById('summary-panel')
 };
 
 // --- Utilities ---
@@ -493,6 +496,98 @@ function renderHeatmap(range, entries) {
     }
 }
 
+// --- Summary grouping helpers ---
+
+function getWeekLabel(date) {
+    const monday = startOfWeekMonday(date);
+    const sunday = endOfWeekSunday(date);
+    const fmt = (d) => d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
+    return `Week of ${fmt(monday)} – ${fmt(sunday)}`;
+}
+
+function groupEntriesForSummary(range, entries) {
+    const spanDays = daysBetweenInclusive(range.start, range.end);
+    const sorted = [...entries].sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));
+
+    if (spanDays <= 14) {
+        // Group by day
+        const groups = new Map();
+        sorted.forEach((entry) => {
+            if (!groups.has(entry.date)) {
+                groups.set(entry.date, { label: formatLongDate(entry.date), entries: [] });
+            }
+            groups.get(entry.date).entries.push(entry);
+        });
+        return [...groups.values()];
+    }
+
+    if (spanDays <= 93) {
+        // Group by week
+        const groups = new Map();
+        sorted.forEach((entry) => {
+            const monday = startOfWeekMonday(parseUtcDate(entry.date));
+            const key = formatIsoDate(monday);
+            if (!groups.has(key)) {
+                groups.set(key, { label: getWeekLabel(monday), entries: [] });
+            }
+            groups.get(key).entries.push(entry);
+        });
+        return [...groups.values()];
+    }
+
+    // Group by month
+    const groups = new Map();
+    sorted.forEach((entry) => {
+        const d = parseUtcDate(entry.date);
+        const key = `${d.getUTCFullYear()}-${String(d.getUTCMonth() + 1).padStart(2, '0')}`;
+        if (!groups.has(key)) {
+            groups.set(key, { label: `${MONTH_NAMES[d.getUTCMonth()]} ${d.getUTCFullYear()}`, entries: [] });
+        }
+        groups.get(key).entries.push(entry);
+    });
+    return [...groups.values()];
+}
+
+// --- Rendering: summary ---
+
+function renderSummary(range, entries) {
+    const panel = elements.summaryPanel;
+
+    if (!state.showSummary) {
+        panel.hidden = true;
+        elements.summaryToggle.textContent = 'Show summary';
+        elements.summaryToggle.setAttribute('aria-expanded', 'false');
+        return;
+    }
+
+    panel.hidden = false;
+    elements.summaryToggle.textContent = 'Hide summary';
+    elements.summaryToggle.setAttribute('aria-expanded', 'true');
+
+    if (entries.length === 0) {
+        panel.innerHTML = '<p class="summary-empty">No changelog entries found for this period.</p>';
+        return;
+    }
+
+    const groups = groupEntriesForSummary(range, entries);
+    panel.innerHTML = groups.map((group) => `
+        <div class="summary-group">
+            <h3 class="summary-group-label">${escapeHtml(group.label)}</h3>
+            <div class="summary-cards">
+                ${group.entries.map((entry) => `
+                    <article class="summary-card">
+                        <div class="summary-card-header">
+                            <a class="summary-card-title" href="${escapeHtml(entry.url || '#')}" target="_blank" rel="noreferrer noopener">${escapeHtml(entry.title || 'Untitled')}</a>
+                            <span class="summary-card-meta">${escapeHtml(formatLongDate(entry.date))}${entry.source ? ` · ${escapeHtml(entry.source)}` : ''}</span>
+                        </div>
+                        ${entry.preview?.excerpt ? `<p class="summary-card-excerpt">${escapeHtml(entry.preview.excerpt)}</p>` : ''}
+                    </article>
+                `).join('')}
+            </div>
+        </div>
+    `).join('');
+}
+
 // --- Main render loop ---
 
 function render() {
@@ -501,6 +596,7 @@ function render() {
     renderControls();
     renderStats(range, filteredEntries);
     renderHeatmap(range, filteredEntries);
+    renderSummary(range, filteredEntries);
     if (elements.modal.classList.contains('open') && state.selectedDate) {
         const entriesByDate = buildEntriesByDate(filteredEntries);
         renderDayModalContent(state.selectedDate, entriesByDate[state.selectedDate] || []);
@@ -545,6 +641,10 @@ function attachEvents() {
     });
     elements.navPrev.addEventListener('click', () => navigate(-1));
     elements.navNext.addEventListener('click', () => navigate(1));
+    elements.summaryToggle.addEventListener('click', () => {
+        state.showSummary = !state.showSummary;
+        render();
+    });
     elements.modalClose.addEventListener('click', closeModal);
     elements.modal.addEventListener('click', (event) => {
         if (event.target instanceof HTMLElement && event.target.dataset.closeModal === 'true') {
