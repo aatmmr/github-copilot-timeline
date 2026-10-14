@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 672,
+        "totalEntries": 673,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-10-10"
+                "latest": "2026-10-13"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-10-13T07:19:24.366Z",
-            "total_entries": 309,
+            "scraped_at": "2026-10-14T05:44:57.539Z",
+            "total_entries": 310,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-10-10"
+                "latest": "2026-10-13"
             }
         }
     },
@@ -8147,6 +8147,18 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "This update brings more control over default models and MCP server in GitHub Copilot for JetBrains. It also makes diagnostics easier to address, improves chat navigation and account controls, and…",
                 "html": "<p>This update brings more control over default models and MCP server in GitHub Copilot for JetBrains. It also makes diagnostics easier to address, improves chat navigation and account controls, and strengthens reliability across agent sessions, customizations, and worktrees.</p><p>Enterprise administrators can now use managed settings to choose any available Copilot agent model as the default for new conversations. This gives organizations more control over the starting model while still preserving an explicit model picker choice.</p><p>Diagnostic intention menus now include a Fix action that opens inline chat and asks Copilot to repair the issue. The action uses agent mode when it is available and ask mode otherwise, helping you move from a reported problem to a proposed fix with fewer steps.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-10-13",
+            "title": "Gemini 4 Argon in GitHub Copilot",
+            "url": "https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot",
+            "source": "Month 10",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Gemini 4 Argon, Google’s newest frontier model, is now generally available in GitHub Copilot. It is designed for complex coding, agentic, and reasoning tasks. In early testing, Gemini 4 Argon…",
+                "html": "<p>Gemini 4 Argon, Google’s newest frontier model, is now generally available in GitHub Copilot. It is designed for complex coding, agentic, and reasoning tasks. In early testing, Gemini 4 Argon solved more tasks than previous Gemini models on every coding benchmark, with its largest gains in Copilot CLI. It also thoroughly checks its work, testing edge cases before it finishes.</p><p>This model is billed at provider list pricing under usage-based billing. See Models and pricing for GitHub Copilot for details.</p><p>Gemini 4 Argon is available to Copilot Pro+, Max, Business, and Enterprise users. You can select the model in the model picker in:</p>",
                 "hasContent": true
             }
         }

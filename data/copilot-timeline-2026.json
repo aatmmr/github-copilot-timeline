@@ -1,15 +1,27 @@
 {
   "metadata": {
-    "scraped_at": "2026-10-13T07:19:24.366Z",
-    "total_entries": 309,
+    "scraped_at": "2026-10-14T05:44:57.539Z",
+    "total_entries": 310,
     "year_filter": 2026,
     "keyword_filter": "Copilot",
     "date_range": {
       "earliest": "2026-01-13",
-      "latest": "2026-10-10"
+      "latest": "2026-10-13"
     }
   },
   "entries": [
+    {
+      "date": "2026-10-13",
+      "title": "Gemini 4 Argon in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot",
+      "source": "Month 10",
+      "year": 2026,
+      "preview": {
+        "excerpt": "Gemini 4 Argon, Google’s newest frontier model, is now generally available in GitHub Copilot. It is designed for complex coding, agentic, and reasoning tasks. In early testing, Gemini 4 Argon…",
+        "html": "<p>Gemini 4 Argon, Google’s newest frontier model, is now generally available in GitHub Copilot. It is designed for complex coding, agentic, and reasoning tasks. In early testing, Gemini 4 Argon solved more tasks than previous Gemini models on every coding benchmark, with its largest gains in Copilot CLI. It also thoroughly checks its work, testing edge cases before it finishes.</p><p>This model is billed at provider list pricing under usage-based billing. See Models and pricing for GitHub Copilot for details.</p><p>Gemini 4 Argon is available to Copilot Pro+, Max, Business, and Enterprise users. You can select the model in the model picker in:</p>",
+        "hasContent": true
+      }
+    },
     {
       "date": "2026-10-10",
       "title": "New controls and chat improvements in Copilot for JetBrains",
