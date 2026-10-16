@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 673,
+        "totalEntries": 675,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-10-13"
+                "latest": "2026-10-15"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-10-15T05:30:48.785Z",
-            "total_entries": 310,
+            "scraped_at": "2026-10-16T05:22:17.335Z",
+            "total_entries": 312,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-10-13"
+                "latest": "2026-10-15"
             }
         }
     },
@@ -8159,6 +8159,30 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "Gemini 4 Argon, Google’s newest frontier model, is now generally available in GitHub Copilot. It is designed for complex coding, agentic, and reasoning tasks. In early testing, Gemini 4 Argon…",
                 "html": "<p>Gemini 4 Argon, Google’s newest frontier model, is now generally available in GitHub Copilot. It is designed for complex coding, agentic, and reasoning tasks. In early testing, Gemini 4 Argon solved more tasks than previous Gemini models on every coding benchmark, with its largest gains in Copilot CLI. It also thoroughly checks its work, testing edge cases before it finishes.</p><p>This model is billed at provider list pricing under usage-based billing. See Models and pricing for GitHub Copilot for details.</p><p>Gemini 4 Argon is available to Copilot Pro+, Max, Business, and Enterprise users. You can select the model in the model picker in:</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-10-15",
+            "title": "Multi-repo support and other improvements for GitHub Copilot in Slack and Microsoft Teams",
+            "url": "https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates",
+            "source": "Month 10",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Multi-repo support in Slack and Microsoft Teams GitHub Copilot in Slack and Microsoft Teams now supports working across multiple repositories in a single conversation. Whether you’re tracking pull requests, investigating…",
+                "html": "<p>GitHub Copilot in Slack and Microsoft Teams now supports working across multiple repositories in a single conversation. Whether you’re tracking pull requests, investigating issues, or catching up on project activity, you can get the information you need across repositories without switching between conversations.</p><p>Track your work: “@GitHub Show me all my open pull requests across repositories and highlight which ones need my attention.” Get updates: “@GitHub What pull requests were merged this week across my repositories?” Investigate issues: “@GitHub Help me investigate an issue that spans our frontend and backend repositories.” Review progress: “@GitHub Summarize recent activity across our repositories.”</p><p>You can ask these questions directly in Slack or Microsoft Teams, making it easier to stay on top of work across projects without leaving the conversation.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-10-15",
+            "title": "Upcoming deprecation of selected GitHub Copilot models in mid-November",
+            "url": "https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november",
+            "source": "Month 10",
+            "year": 2026,
+            "preview": {
+                "excerpt": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on November 16th, 2026: Model Deprecation date…",
+                "html": "<p>We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on November 16th, 2026:</p><p>*Claude Opus 4.8 will remain available to individual GitHub Copilot subscribers on annual plans so they retain an Opus offering. The deprecation of Claude Opus 4.8 does not apply to these customers.</p><p>Please update your workflows and integrations to use the supported models before this date. Under default model enablement, the suggested alternatives are automatically enabled for Copilot Enterprise and Copilot Business customers unless an administrator has turned off the global default or explicitly disabled the model. If you’ve turned off the global default, you can enable access to the alternative models through their model policies in Copilot settings.</p>",
                 "hasContent": true
             }
         }
