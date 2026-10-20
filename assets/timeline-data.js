@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 675,
+        "totalEntries": 677,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-10-15"
+                "latest": "2026-10-19"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-10-19T05:36:22.587Z",
-            "total_entries": 312,
+            "scraped_at": "2026-10-20T05:39:27.102Z",
+            "total_entries": 314,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-10-15"
+                "latest": "2026-10-19"
             }
         }
     },
@@ -8183,6 +8183,30 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on November 16th, 2026: Model Deprecation date…",
                 "html": "<p>We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on November 16th, 2026:</p><p>*Claude Opus 4.8 will remain available to individual GitHub Copilot subscribers on annual plans so they retain an Opus offering. The deprecation of Claude Opus 4.8 does not apply to these customers.</p><p>Please update your workflows and integrations to use the supported models before this date. Under default model enablement, the suggested alternatives are automatically enabled for Copilot Enterprise and Copilot Business customers unless an administrator has turned off the global default or explicitly disabled the model. If you’ve turned off the global default, you can enable access to the alternative models through their model policies in Copilot settings.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-10-19",
+            "title": "Copilot model policy API for enterprise, orgs, and teams",
+            "url": "https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams",
+            "source": "Month 10",
+            "year": 2026,
+            "preview": {
+                "excerpt": "You can now use the REST API to retrieve and update Copilot model policies for enterprises, enterprise teams, enterprise apps, and organizations. What’s new GET and PATCH endpoints are now…",
+                "html": "<p>You can now use the REST API to retrieve and update Copilot model policies for enterprises, enterprise teams, enterprise apps, and organizations.</p><p>GET and PATCH endpoints are now generally available for model policies at four levels:</p><p>Together, these endpoints make it easier to manage Copilot model availability across your enterprise. Enterprise policies can delegate model control to organizations in organization mode, or to teams and apps in enterprise teams mode. Reference our documentation on managing availability of models in your enterprise and our REST API documentation to get started.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-10-19",
+            "title": "GitHub Copilot models deprecated on October 19, 2026",
+            "url": "https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026",
+            "source": "Month 10",
+            "year": 2026,
+            "preview": {
+                "excerpt": "As of today, October 19, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). These…",
+                "html": "<p>As of today, October 19, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions).</p><p>These deprecations were announced on September 18, 2026.</p><p>Please update your workflows and integrations to use supported models. Copilot Enterprise administrators may need to enable access to alternative models through their model policies in Copilot settings. As an administrator, you can verify availability by checking your individual Copilot settings and confirming that the policy is enabled for the specific model. Once enabled, you’ll see the model in the Copilot Chat model selector in VS Code and on github.com. No action is required to remove the deprecated models.</p>",
                 "hasContent": true
             }
         }
