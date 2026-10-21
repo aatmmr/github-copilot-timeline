@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "scraped_at": "2026-10-20T05:39:27.102Z",
+    "scraped_at": "2026-10-21T05:39:29.316Z",
     "total_entries": 314,
     "year_filter": 2026,
     "keyword_filter": "Copilot",
@@ -17,8 +17,8 @@
       "source": "Month 10",
       "year": 2026,
       "preview": {
-        "excerpt": "You can now use the REST API to retrieve and update Copilot model policies for enterprises, enterprise teams, enterprise apps, and organizations. What’s new GET and PATCH endpoints are now…",
-        "html": "<p>You can now use the REST API to retrieve and update Copilot model policies for enterprises, enterprise teams, enterprise apps, and organizations.</p><p>GET and PATCH endpoints are now generally available for model policies at four levels:</p><p>Together, these endpoints make it easier to manage Copilot model availability across your enterprise. Enterprise policies can delegate model control to organizations in organization mode, or to teams and apps in enterprise teams mode. Reference our documentation on managing availability of models in your enterprise and our REST API documentation to get started.</p>",
+        "excerpt": "You can now use the REST API to retrieve and update Copilot model policies for enterprises, enterprise teams, agent apps, and organizations. What’s new GET and PATCH endpoints are now…",
+        "html": "<p>You can now use the REST API to retrieve and update Copilot model policies for enterprises, enterprise teams, agent apps, and organizations.</p><p>GET and PATCH endpoints are now generally available for model policies at four levels:</p><p>Together, these endpoints make it easier to manage Copilot model availability across your enterprise. Enterprise policies can delegate model control to organizations in organization mode, or to teams and apps in enterprise teams mode. Reference our documentation on managing availability of models in your enterprise and our REST API documentation to get started.</p>",
         "hasContent": true
       }
     },
