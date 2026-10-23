@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 677,
+        "totalEntries": 680,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-10-19"
+                "latest": "2026-10-22"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-10-22T05:43:23.197Z",
-            "total_entries": 314,
+            "scraped_at": "2026-10-23T05:40:49.249Z",
+            "total_entries": 317,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-10-19"
+                "latest": "2026-10-22"
             }
         }
     },
@@ -8207,6 +8207,42 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "As of today, October 19, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). These…",
                 "html": "<p>As of today, October 19, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions).</p><p>These deprecations were announced on September 18, 2026.</p><p>Please update your workflows and integrations to use supported models. Copilot Enterprise administrators may need to enable access to alternative models through their model policies in Copilot settings. As an administrator, you can verify availability by checking your individual Copilot settings and confirming that the policy is enabled for the specific model. Once enabled, you’ll see the model in the Copilot Chat model selector in VS Code and on github.com. No action is required to remove the deprecated models.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-10-22",
+            "title": "GitHub Copilot in Visual Studio — September update",
+            "url": "https://github.blog/changelog/2026-10-22-github-copilot-in-visual-studio-september-update-2",
+            "source": "Month 10",
+            "year": 2026,
+            "preview": {
+                "excerpt": "September 2026 brought deeper visibility into your work: explore pull requests without leaving chat, bring the AI model your team trusts, and fix vulnerable packages the moment Visual Studio flags…",
+                "html": "<p>September 2026 brought deeper visibility into your work: explore pull requests without leaving chat, bring the AI model your team trusts, and fix vulnerable packages the moment Visual Studio flags them.</p><p>Here’s what’s new with GitHub Copilot in Visual Studio 2026. Check the Insiders channel for the latest:</p><p>This update is available to users on all GitHub Copilot plans, including Copilot Free, Student, Pro, Pro+, Max, Business, and Enterprise.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-10-22",
+            "title": "Global default for Copilot features generally available",
+            "url": "https://github.blog/changelog/2026-10-22-global-default-for-copilot-features-generally-available",
+            "source": "Month 10",
+            "year": 2026,
+            "preview": {
+                "excerpt": "In September, we announced a global default policy for generally available GitHub Copilot features and supported client capabilities on Copilot Business and Copilot Enterprise plans. Starting today, we’re gradually rolling…",
+                "html": "<p>In September, we announced a global default policy for generally available GitHub Copilot features and supported client capabilities on Copilot Business and Copilot Enterprise plans. Starting today, we’re gradually rolling out enforcement of the policy through October 26, so it may take effect at different times for different enterprises and organizations. Eligible features left unconfigured will be set according to the global policy. Administrators can still make explicit choices for individual features at any time.</p><p>The policy applies to eligible settings on “Features &amp; clients” and “MCP servers in Copilot”. You can review your setting under AI Controls → Copilot → Default policy for new features. For eligibility and exceptions, see the documentation on default availability.</p><p>Once the policy takes effect for your enterprise or organization:</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-10-22",
+            "title": "Industry comparisons in the Copilot impact dashboard",
+            "url": "https://github.blog/changelog/2026-10-22-industry-comparisons-in-the-copilot-impact-dashboard",
+            "source": "Month 10",
+            "year": 2026,
+            "preview": {
+                "excerpt": "The Copilot impact dashboard now includes an “Industry comparison” section. Enterprises, and organizations that aren’t owned by an enterprise, can compare their Copilot agentic adoption and leverage with aggregated benchmarks…",
+                "html": "<p>The Copilot impact dashboard now includes an “Industry comparison” section. Enterprises, and organizations that aren’t owned by an enterprise, can compare their Copilot agentic adoption and leverage with aggregated benchmarks from participating peers. Participation is opt-in and disabled by default.</p><p>Enterprise leaders can measure their own Copilot adoption, but until now they couldn’t tell whether it was leading or lagging comparable businesses. Industry comparisons add the peer context needed to set realistic goals, identify adoption gaps, and communicate progress.</p><p>Visit the Copilot impact dashboard documentation to get started.</p>",
                 "hasContent": true
             }
         }
