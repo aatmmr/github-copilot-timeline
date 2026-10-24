@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 680,
+        "totalEntries": 681,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-10-22"
+                "latest": "2026-10-23"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-10-23T05:40:49.249Z",
-            "total_entries": 317,
+            "scraped_at": "2026-10-24T05:20:06.906Z",
+            "total_entries": 318,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-10-22"
+                "latest": "2026-10-23"
             }
         }
     },
@@ -8243,6 +8243,18 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "The Copilot impact dashboard now includes an “Industry comparison” section. Enterprises, and organizations that aren’t owned by an enterprise, can compare their Copilot agentic adoption and leverage with aggregated benchmarks…",
                 "html": "<p>The Copilot impact dashboard now includes an “Industry comparison” section. Enterprises, and organizations that aren’t owned by an enterprise, can compare their Copilot agentic adoption and leverage with aggregated benchmarks from participating peers. Participation is opt-in and disabled by default.</p><p>Enterprise leaders can measure their own Copilot adoption, but until now they couldn’t tell whether it was leading or lagging comparable businesses. Industry comparisons add the peer context needed to set realistic goals, identify adoption gaps, and communicate progress.</p><p>Visit the Copilot impact dashboard documentation to get started.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-10-23",
+            "title": "Turn notifications into code with GitHub Copilot in Teams",
+            "url": "https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams",
+            "source": "Month 10",
+            "year": 2026,
+            "preview": {
+                "excerpt": "The new GitHub app in Teams brings notifications and Copilot together, helping teams turn issues into fixes and ship code faster without leaving the conversation. Get notified in channels, group…",
+                "html": "<p>The new GitHub app in Teams brings notifications and Copilot together, helping teams turn issues into fixes and ship code faster without leaving the conversation.</p><p>Get notified in channels, group chats, or private chats, then @mention GitHub to turn updates into action.</p><p>Explore the new GitHub app in Microsoft Teams, previously called GitHub notifications. If you already have GitHub notifications installed, update the app to the latest version. Your existing notification capabilities will continue to work.</p>",
                 "hasContent": true
             }
         }
