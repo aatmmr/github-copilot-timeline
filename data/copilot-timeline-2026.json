@@ -1,15 +1,39 @@
 {
   "metadata": {
-    "scraped_at": "2026-10-26T05:43:46.585Z",
-    "total_entries": 318,
+    "scraped_at": "2026-10-27T05:53:48.071Z",
+    "total_entries": 320,
     "year_filter": 2026,
     "keyword_filter": "Copilot",
     "date_range": {
       "earliest": "2026-01-13",
-      "latest": "2026-10-23"
+      "latest": "2026-10-26"
     }
   },
   "entries": [
+    {
+      "date": "2026-10-26",
+      "title": "GitHub Copilot assisted permissions generally available",
+      "url": "https://github.blog/changelog/2026-10-26-github-copilot-assisted-permissions-generally-available",
+      "source": "Month 10",
+      "year": 2026,
+      "preview": {
+        "excerpt": "Assisted permissions are now generally available in GitHub Copilot CLI, GitHub Copilot app, and Visual Studio Code. When Copilot requests permission to run a command, access a file system path,…",
+        "html": "<p>Assisted permissions are now generally available in GitHub Copilot CLI, GitHub Copilot app, and Visual Studio Code.</p><p>When Copilot requests permission to run a command, access a file system path, or open a URL, a large language model evaluates the request. Requests classified as clearly safe automatically proceed. Other requests require your approval.</p><p>Open the mode picker, click Tool permissions, then select Assisted.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-10-26",
+      "title": "GPT-6.1 Terra in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-10-26-gpt-6-1-terra-in-github-copilot",
+      "source": "Month 10",
+      "year": 2026,
+      "preview": {
+        "excerpt": "GPT-6.1 Terra, OpenAI’s newest model, is now generally available in GitHub Copilot. It is designed for everyday agentic coding and terminal work at a lower cost than GPT-6.1 Sol. In…",
+        "html": "<p>GPT-6.1 Terra, OpenAI’s newest model, is now generally available in GitHub Copilot. It is designed for everyday agentic coding and terminal work at a lower cost than GPT-6.1 Sol. In early testing, GPT-6.1 Terra solved noticeably more terminal and C# coding tasks than GPT-5.6 Terra. It works in focused, consolidated steps on well-scoped tasks.</p><p>This model is billed at provider list pricing under usage-based billing. See Models and pricing for GitHub Copilot for details.</p><p>GPT-6.1 Terra is available to Copilot Pro, Pro+, Max, Business, and Enterprise users. You can select the model in the model picker in:</p>",
+        "hasContent": true
+      }
+    },
     {
       "date": "2026-10-23",
       "title": "Turn notifications into code with GitHub Copilot in Teams",

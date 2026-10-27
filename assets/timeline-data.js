@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 681,
+        "totalEntries": 683,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-10-23"
+                "latest": "2026-10-26"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-10-26T05:43:46.585Z",
-            "total_entries": 318,
+            "scraped_at": "2026-10-27T05:53:48.071Z",
+            "total_entries": 320,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-10-23"
+                "latest": "2026-10-26"
             }
         }
     },
@@ -8255,6 +8255,30 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "The new GitHub app in Teams brings notifications and Copilot together, helping teams turn issues into fixes and ship code faster without leaving the conversation. Get notified in channels, group…",
                 "html": "<p>The new GitHub app in Teams brings notifications and Copilot together, helping teams turn issues into fixes and ship code faster without leaving the conversation.</p><p>Get notified in channels, group chats, or private chats, then @mention GitHub to turn updates into action.</p><p>Explore the new GitHub app in Microsoft Teams, previously called GitHub notifications. If you already have GitHub notifications installed, update the app to the latest version. Your existing notification capabilities will continue to work.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-10-26",
+            "title": "GitHub Copilot assisted permissions generally available",
+            "url": "https://github.blog/changelog/2026-10-26-github-copilot-assisted-permissions-generally-available",
+            "source": "Month 10",
+            "year": 2026,
+            "preview": {
+                "excerpt": "Assisted permissions are now generally available in GitHub Copilot CLI, GitHub Copilot app, and Visual Studio Code. When Copilot requests permission to run a command, access a file system path,…",
+                "html": "<p>Assisted permissions are now generally available in GitHub Copilot CLI, GitHub Copilot app, and Visual Studio Code.</p><p>When Copilot requests permission to run a command, access a file system path, or open a URL, a large language model evaluates the request. Requests classified as clearly safe automatically proceed. Other requests require your approval.</p><p>Open the mode picker, click Tool permissions, then select Assisted.</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-10-26",
+            "title": "GPT-6.1 Terra in GitHub Copilot",
+            "url": "https://github.blog/changelog/2026-10-26-gpt-6-1-terra-in-github-copilot",
+            "source": "Month 10",
+            "year": 2026,
+            "preview": {
+                "excerpt": "GPT-6.1 Terra, OpenAI’s newest model, is now generally available in GitHub Copilot. It is designed for everyday agentic coding and terminal work at a lower cost than GPT-6.1 Sol. In…",
+                "html": "<p>GPT-6.1 Terra, OpenAI’s newest model, is now generally available in GitHub Copilot. It is designed for everyday agentic coding and terminal work at a lower cost than GPT-6.1 Sol. In early testing, GPT-6.1 Terra solved noticeably more terminal and C# coding tasks than GPT-5.6 Terra. It works in focused, consolidated steps on well-scoped tasks.</p><p>This model is billed at provider list pricing under usage-based billing. See Models and pricing for GitHub Copilot for details.</p><p>GPT-6.1 Terra is available to Copilot Pro, Pro+, Max, Business, and Enterprise users. You can select the model in the model picker in:</p>",
                 "hasContent": true
             }
         }
