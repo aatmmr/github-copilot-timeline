@@ -9,7 +9,7 @@ const embeddedTimelineData = {
             2025,
             2026
         ],
-        "totalEntries": 683,
+        "totalEntries": 684,
         "ranges": {
             "2022": {
                 "earliest": "2022-06-21",
@@ -29,7 +29,7 @@ const embeddedTimelineData = {
             },
             "2026": {
                 "earliest": "2026-01-13",
-                "latest": "2026-10-26"
+                "latest": "2026-10-27"
             }
         }
     },
@@ -75,13 +75,13 @@ const embeddedTimelineData = {
             }
         },
         "2026": {
-            "scraped_at": "2026-10-27T05:53:48.071Z",
-            "total_entries": 320,
+            "scraped_at": "2026-10-28T06:31:57.708Z",
+            "total_entries": 321,
             "year_filter": 2026,
             "keyword_filter": "Copilot",
             "date_range": {
                 "earliest": "2026-01-13",
-                "latest": "2026-10-26"
+                "latest": "2026-10-27"
             }
         }
     },
@@ -8279,6 +8279,18 @@ const embeddedTimelineData = {
             "preview": {
                 "excerpt": "GPT-6.1 Terra, OpenAI’s newest model, is now generally available in GitHub Copilot. It is designed for everyday agentic coding and terminal work at a lower cost than GPT-6.1 Sol. In…",
                 "html": "<p>GPT-6.1 Terra, OpenAI’s newest model, is now generally available in GitHub Copilot. It is designed for everyday agentic coding and terminal work at a lower cost than GPT-6.1 Sol. In early testing, GPT-6.1 Terra solved noticeably more terminal and C# coding tasks than GPT-5.6 Terra. It works in focused, consolidated steps on well-scoped tasks.</p><p>This model is billed at provider list pricing under usage-based billing. See Models and pricing for GitHub Copilot for details.</p><p>GPT-6.1 Terra is available to Copilot Pro, Pro+, Max, Business, and Enterprise users. You can select the model in the model picker in:</p>",
+                "hasContent": true
+            }
+        },
+        {
+            "date": "2026-10-27",
+            "title": "GitHub Copilot supports server-to-server authentication",
+            "url": "https://github.blog/changelog/2026-10-27-github-copilot-supports-server-to-server-authentication",
+            "source": "Month 10",
+            "year": 2026,
+            "preview": {
+                "excerpt": "GitHub Copilot now supports server-to-server authentication for GitHub Apps installed on organizations, available in public preview. Services and agents built with the GitHub Copilot SDK can now make requests on…",
+                "html": "<p>GitHub Copilot now supports server-to-server authentication for GitHub Apps installed on organizations, available in public preview. Services and agents built with the GitHub Copilot SDK can now make requests on behalf of an organization without relying on a signed-in user’s credentials. This workload-owned identity helps agents and automated services operate reliably at larger scale without tying their authentication or usage to individual users.</p><p>Developers can give a GitHub App the read-only Copilot Requests organization permission, install the app on an organization, and pass a short-lived installation access token to the Copilot SDK. Usage is attributed and billed to the organization that owns the installation. The organization’s model policies, budgets, and spending controls apply.</p><p>Organization owners can review which apps have access, identify app-attributed usage in AI usage CSV reports using the app_client_id field, and stop an app’s access by suspending or uninstalling it.</p>",
                 "hasContent": true
             }
         }

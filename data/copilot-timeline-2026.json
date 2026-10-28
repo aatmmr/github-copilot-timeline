@@ -1,15 +1,27 @@
 {
   "metadata": {
-    "scraped_at": "2026-10-27T05:53:48.071Z",
-    "total_entries": 320,
+    "scraped_at": "2026-10-28T06:31:57.708Z",
+    "total_entries": 321,
     "year_filter": 2026,
     "keyword_filter": "Copilot",
     "date_range": {
       "earliest": "2026-01-13",
-      "latest": "2026-10-26"
+      "latest": "2026-10-27"
     }
   },
   "entries": [
+    {
+      "date": "2026-10-27",
+      "title": "GitHub Copilot supports server-to-server authentication",
+      "url": "https://github.blog/changelog/2026-10-27-github-copilot-supports-server-to-server-authentication",
+      "source": "Month 10",
+      "year": 2026,
+      "preview": {
+        "excerpt": "GitHub Copilot now supports server-to-server authentication for GitHub Apps installed on organizations, available in public preview. Services and agents built with the GitHub Copilot SDK can now make requests on…",
+        "html": "<p>GitHub Copilot now supports server-to-server authentication for GitHub Apps installed on organizations, available in public preview. Services and agents built with the GitHub Copilot SDK can now make requests on behalf of an organization without relying on a signed-in user’s credentials. This workload-owned identity helps agents and automated services operate reliably at larger scale without tying their authentication or usage to individual users.</p><p>Developers can give a GitHub App the read-only Copilot Requests organization permission, install the app on an organization, and pass a short-lived installation access token to the Copilot SDK. Usage is attributed and billed to the organization that owns the installation. The organization’s model policies, budgets, and spending controls apply.</p><p>Organization owners can review which apps have access, identify app-attributed usage in AI usage CSV reports using the app_client_id field, and stop an app’s access by suspending or uninstalling it.</p>",
+        "hasContent": true
+      }
+    },
     {
       "date": "2026-10-26",
       "title": "GitHub Copilot assisted permissions generally available",
