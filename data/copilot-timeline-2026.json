@@ -1,15 +1,207 @@
 {
   "metadata": {
-    "scraped_at": "2026-10-28T06:31:57.708Z",
-    "total_entries": 321,
+    "scraped_at": "2026-10-29T06:43:31.977Z",
+    "total_entries": 337,
     "year_filter": 2026,
     "keyword_filter": "Copilot",
     "date_range": {
       "earliest": "2026-01-13",
-      "latest": "2026-10-27"
+      "latest": "2026-10-28"
     }
   },
   "entries": [
+    {
+      "date": "2026-10-28",
+      "title": "Route and orchestrate models with GitHub Copilot Fusion",
+      "url": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion",
+      "source": "Month 10",
+      "year": 2026,
+      "preview": {
+        "excerpt": "GitHub Copilot Fusion is generally available. Instead of picking a model for each task, choose Copilot Fusion and let Copilot intelligently route and orchestrate which models it uses for you.…",
+        "html": "<p>GitHub Copilot Fusion is generally available. Instead of picking a model for each task, choose Copilot Fusion and let Copilot intelligently route and orchestrate which models it uses for you.</p><p>Copilot Fusion brings together Project HydraFusion’s multi-model orchestration and Copilot auto model selection’s fine-tuned model selection, leveraging the benefits of both to balance performance and cost efficiency.</p><p>Since Project HydraFusion launched, we’ve improved its performance. In the Artificial Analysis Coding Agent Index, Copilot Fusion Max scored 60, within two points of Claude Code with Opus 5.5 Max. It delivered that result at about half the average API cost per task, using about half as many tokens and taking about 40% less time per task.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "title": "GitHub Copilot app, Universe releases",
+      "url": "https://github.blog/changelog/2026-10-28-github-copilot-app-universe-releases",
+      "source": "Month 10",
+      "year": 2026,
+      "preview": {
+        "excerpt": "Work doesn’t always fit in a single repository or session. A feature can span several repositories. A launch plan can pull in specs, designs, and assets without touching a repository…",
+        "html": "<p>Work doesn’t always fit in a single repository or session. A feature can span several repositories. A launch plan can pull in specs, designs, and assets without touching a repository at all. Projects in the GitHub Copilot app give that work one home, with its context, agents, and results together. Copilot coordinates the work in the background and checks in when it needs you.</p><p>Start a project, describe what you want to get done, and add the context Copilot needs (e.g., repositories, design mocks, Slack threads, or notes from a design meeting). Choose the models and tools for the job. Copilot runs as many agents as the work needs and brings back results (e.g., pull requests) for your review.</p><p>Use project automations for repeatable tasks, such as creating a new promo video whenever a feature lands.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "title": "GitHub Enterprise now includes access to GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-10-28-github-enterprise-now-includes-access-to-github-copilot",
+      "source": "Month 10",
+      "year": 2026,
+      "preview": {
+        "excerpt": "Enterprises working with a GitHub or Microsoft account team can now get Copilot included with GitHub Enterprise for every licensed user. Previously, you had to manage two things: how many…",
+        "html": "<p>Enterprises working with a GitHub or Microsoft account team can now get Copilot included with GitHub Enterprise for every licensed user. Previously, you had to manage two things: how many Copilot seats you were paying for and how much AI usage those users consumed. With Copilot included in the platform, usage against your enterprise budget is the primary thing to manage.</p><p>Self-serve availability is coming in stages, and current self-serve subscriptions are unaffected. Copilot Business and Copilot Enterprise remain available.</p><p>Users in your enterprise account who do not hold a GitHub Enterprise license get the same Copilot access through Copilot Standalone, at $10 per user per month.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "title": "Security extension for the GitHub Copilot app",
+      "url": "https://github.blog/changelog/2026-10-28-security-extension-for-the-github-copilot-app",
+      "source": "Month 10",
+      "year": 2026,
+      "preview": {
+        "excerpt": "You can now work through your repository’s GitHub code scanning alerts without leaving the GitHub Copilot app. The new GitHub security extension, now in public preview, lets you find the…",
+        "html": "<p>You can now work through your repository’s GitHub code scanning alerts without leaving the GitHub Copilot app. The new GitHub security extension, now in public preview, lets you find the alerts that matter most and ask Copilot to explain or help fix them.</p><p>Until now, fixing a code scanning alert meant switching between the alert on github.com and the code in your editor. With the security extension, you can move from finding an alert to fixing it in one place.</p><p>If you already run code scanning on your repository, the security extension shows its open code scanning alerts:</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "title": "Build shared workflows for your team with Copilot Automations",
+      "url": "https://github.blog/changelog/2026-10-28-build-shared-workflows-for-your-team-with-copilot-automations",
+      "source": "Month 10",
+      "year": 2026,
+      "preview": {
+        "excerpt": "Shared Copilot Automations are rolling out, enabling teams to build and maintain AI-powered workflows together. With Copilot Automations, you can combine prompts, triggers, and tools to design workflows around the…",
+        "html": "<p>Shared Copilot Automations are rolling out, enabling teams to build and maintain AI-powered workflows together.</p><p>With Copilot Automations, you can combine prompts, triggers, and tools to design workflows around the way your team works. Copilot runs autonomously in the cloud, using only the tools you’ve allowed. For example, you could create automations to:</p><p>Until now, automations have been personal, meaning only you could see and edit them, and they used your identity and AI credits. That works well for automating your own work, like drafting your standup updates, but not for workflows your whole team relies on. Shared automations let your team build and maintain those workflows together.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "title": "GitHub Copilot in VS Code, Universe releases",
+      "url": "https://github.blog/changelog/2026-10-28-github-copilot-in-vs-code-universe-releases",
+      "source": "Month 10",
+      "year": 2026,
+      "preview": {
+        "excerpt": "This year, we focused on giving you more choice in how you work with GitHub Copilot in Visual Studio Code: which models you use, where your agents run, and how…",
+        "html": "<p>This year, we focused on giving you more choice in how you work with GitHub Copilot in Visual Studio Code: which models you use, where your agents run, and how you stay involved.</p><p>Keep work moving without staying at your desk or in one tool. With GitHub Copilot in Visual Studio Code, start a cloud agent session from your phone at standup, steer it from VS Code at your desk, and check on it from github.com at lunch. Session continuity lets you pick up the same session across these clients while your agent keeps working in the cloud.</p><p>Hand off work without keeping your computer on. Start a cloud agent session from the Agents window in VS Code. The work runs on GitHub’s infrastructure, so closing your laptop doesn’t stop it.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "title": "Generate and edit images directly in Copilot",
+      "url": "https://github.blog/changelog/2026-10-28-generate-and-edit-images-directly-in-copilot",
+      "source": "Month 10",
+      "year": 2026,
+      "preview": {
+        "excerpt": "You can now generate and edit images using natural language in GitHub Copilot. When you ask for an image, your selected reasoning model calls a dedicated image-generation tool powered by…",
+        "html": "<p>You can now generate and edit images using natural language in GitHub Copilot. When you ask for an image, your selected reasoning model calls a dedicated image-generation tool powered by GPT Image 2.5 Flare, previews the result inline, and saves it to your project.</p><p>Previously, getting a visual asset while working in Copilot meant stepping away to a separate tool, describing what you needed again, generating it there, and manually bringing it back into your project. This update removes that context switch, so you can go from an idea to a usable image without breaking your flow.</p><p>To try it, open a Copilot chat in VS Code, the GitHub Copilot app, or Copilot CLI and describe the image you want.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "title": "GitHub Copilot Fusion now supports selection of local models",
+      "url": "https://github.blog/changelog/2026-10-28-github-copilot-fusion-now-supports-selection-of-local-models",
+      "source": "Month 10",
+      "year": 2026,
+      "preview": {
+        "excerpt": "Today we are shipping intelligent routing for local models into experimental preview. GitHub Copilot Fusion can now choose between supported on-device models and cloud models, enabling intelligent local model routing…",
+        "html": "<p>Today we are shipping intelligent routing for local models into experimental preview. GitHub Copilot Fusion can now choose between supported on-device models and cloud models, enabling intelligent local model routing in GitHub Copilot CLI, GitHub Copilot app, and Visual Studio Code. This opt-in experimental preview lets you use your device’s compute without switching models manually for each request. For a deeper dive into this feature, see our original announcement on October 7th.</p><p>On supported Windows devices, you can download and configure MAI Code 1.1 Flash through the Windows ML provider.</p><p>Once the model is ready, select Standard in Copilot Fusion to let Copilot choose between local and cloud models. You can also select the local model directly for your session.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "title": "GitHub Copilot SDK is becoming Microsoft Copilot SDK",
+      "url": "https://github.blog/changelog/2026-10-28-github-copilot-sdk-is-becoming-microsoft-copilot-sdk",
+      "source": "Month 10",
+      "year": 2026,
+      "preview": {
+        "excerpt": "We’re transitioning GitHub Copilot SDK to Microsoft Copilot SDK. What began as the SDK for the GitHub Copilot harness is becoming the programmable interface for the Microsoft Copilot harness, the…",
+        "html": "<p>We’re transitioning GitHub Copilot SDK to Microsoft Copilot SDK.</p><p>What began as the SDK for the GitHub Copilot harness is becoming the programmable interface for the Microsoft Copilot harness, the shared agent foundation used across Microsoft and GitHub products. This evolution reflects our broader goal to enable developers to build and customize agent experiences using the same core foundation that powers our own products, while retaining control over their prompts, tools, policies, and application experiences.</p><p>As part of this transition, we have begun updating the SDK repository to reflect the upcoming move to the Microsoft organization and begun updating branding and documentation. The migration will happen in phases, so existing package names, namespaces, and some documentation may continue to reference GitHub Copilot SDK during the transition.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "title": "Copilot code review: Merge with confidence with Max and approvals",
+      "url": "https://github.blog/changelog/2026-10-28-copilot-code-review-merge-with-confidence-with-max-and-approvals",
+      "source": "Month 10",
+      "year": 2026,
+      "preview": {
+        "excerpt": "GitHub Copilot code review now offers its most thorough review and can approve your pull request when it’s ready to merge. The new Max review effort level is now in…",
+        "html": "<p>GitHub Copilot code review now offers its most thorough review and can approve your pull request when it’s ready to merge. The new Max review effort level is now in public preview, and Copilot approvals are generally available. Together, they turn a high-quality review into a high-confidence approval, so you can merge with confidence and spend less time waiting on review.</p><p>These features are available with Copilot Pro, Pro+, Max, Business, and Enterprise plans.</p><p>Some pull requests carry more risk than others, like a change to authentication logic or to a shared library that several services depend on. Max is built for those types of changes. It joins Lite and Balanced as a third review effort level and runs several independent review agents across models from different providers. Each model has its own strengths and blind spots, so combining them helps catch issues a single model might miss. An aggregation agent then reconciles their findings, resolves disagreements, and double-checks accuracy before combining everything into a single review.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "title": "Create and manage Copilot Automations in Visual Studio Code",
+      "url": "https://github.blog/changelog/2026-10-28-create-and-manage-copilot-automations-in-visual-studio-code",
+      "source": "Month 10",
+      "year": 2026,
+      "preview": {
+        "excerpt": "Copilot Automations in Visual Studio Code can now run in the cloud. You can create and manage cloud automations from the Agents window without leaving your editor. With Copilot Automations,…",
+        "html": "<p>Copilot Automations in Visual Studio Code can now run in the cloud. You can create and manage cloud automations from the Agents window without leaving your editor.</p><p>With Copilot Automations, you combine prompts, triggers, and tools to design workflows around the way you work. Pick when an automation should run and what it is allowed to do, then write a prompt telling Copilot how to complete the task.</p><p>Visual Studio Code already supports personal automations that run locally on a schedule. With cloud automations, you can now:</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "title": "Copilot Automations now learn from outcomes and self-improve",
+      "url": "https://github.blog/changelog/2026-10-28-copilot-automations-now-learn-from-outcomes-and-self-improve",
+      "source": "Month 10",
+      "year": 2026,
+      "preview": {
+        "excerpt": "Copilot Automations can now learn from their outcomes and propose improvements to themselves, helping them produce better results over time. It’s easy to create an automation, but harder to build…",
+        "html": "<p>Copilot Automations can now learn from their outcomes and propose improvements to themselves, helping them produce better results over time.</p><p>It’s easy to create an automation, but harder to build one you can trust to consistently produce high-quality results. Reviewing its output and improving its prompt by hand takes time. Self-improvement uses feedback from real outcomes on GitHub to make that process easier.</p><p>Your automations leave a trail of signals on GitHub that show how well they’re working. For example:</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "title": "New tools, triggers, and cost controls for Copilot Automations",
+      "url": "https://github.blog/changelog/2026-10-28-new-tools-triggers-and-cost-controls-for-copilot-automations",
+      "source": "Month 10",
+      "year": 2026,
+      "preview": {
+        "excerpt": "With Copilot Automations, you can combine prompts, triggers, and tools to design workflows around the way your team works. Triggers define when your automation runs (e.g., “every day at 9am”…",
+        "html": "<p>With Copilot Automations, you can combine prompts, triggers, and tools to design workflows around the way your team works. Triggers define when your automation runs (e.g., “every day at 9am” or “when a pull request is opened”). Tools define what your automation can do (e.g., “update issue labels” or “create pull request”).</p><p>You can now trigger automations with the GitHub REST API, allowing you to connect automations to any external system. For example, you could triage incoming Jira tickets, fix new issues in Sentry, or investigate PagerDuty incidents.</p><p>Define your automation with the relevant prompt and tools, then set up a webhook handler to receive events from the external system and call the Trigger an automation API, passing in relevant context.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "title": "Connect your tools to Copilot without all the setup",
+      "url": "https://github.blog/changelog/2026-10-28-connect-your-tools-to-copilot-without-all-the-setup",
+      "source": "Month 10",
+      "year": 2026,
+      "preview": {
+        "excerpt": "The context your agent needs is often outside your repository: a thread in Slack, a design in Figma, an error in Sentry. Until now, giving Copilot that context meant finding…",
+        "html": "<p>The context your agent needs is often outside your repository: a thread in Slack, a design in Figma, an error in Sentry. Until now, giving Copilot that context meant finding a Model Context Protocol (MCP) server, setting up a sign-in, and repeating that in each tool you use. GitHub-verified MCP servers, or connectors, are rolling out in public preview. With them, you only have to connect once.</p><p>Pick a service, sign in, and you’re done. There’s no server to find, nothing to install locally, and no credentials to manage. A service you connect in one place works across the GitHub Copilot app, Copilot CLI, VS Code, Copilot in the cloud, and GitHub Mobile. And it works with no extra setup. Copilot keeps you signed in in the background.</p><p>At launch, you can connect 26 services, including Slack, Figma, Notion, Sentry, Linear, Atlassian Rovo, Cloudflare, Vercel, and Work IQ.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "title": "Work from anywhere with a new, connected Copilot cloud experience",
+      "url": "https://github.blog/changelog/2026-10-28-work-from-anywhere-with-a-new-connected-copilot-cloud-experience",
+      "source": "Month 10",
+      "year": 2026,
+      "preview": {
+        "excerpt": "Copilot is now one connected experience in the cloud. Start a cloud task wherever you are, on github.com, GitHub Mobile, the Copilot CLI, the Copilot app, VS Code, or right…",
+        "html": "<p>Copilot is now one connected experience in the cloud. Start a cloud task wherever you are, on github.com, GitHub Mobile, the Copilot CLI, the Copilot app, VS Code, or right from a conversation in Slack or Microsoft Teams. Then pick it up wherever you work next.</p><p>By default, every session runs in a secure cloud sandbox that starts fast and resumes right where you left off. The compute behind it can now be drawn from your included Actions entitlement, the same one that already runs your builds. That entitlement is now one flexible pool you can use for builds, cloud sandboxes, and, on Team and Enterprise Cloud, larger hosted runners.</p><p>The new Copilot cloud experience across surfaces (e.g., Web, Mobile, App, CLI, VS Code, Slack, and Microsoft Teams) and cloud sandboxes are both generally available on paid Copilot plans.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "title": "GitHub Copilot in JetBrains Universe releases",
+      "url": "https://github.blog/changelog/2026-10-28-github-copilot-in-jetbrains-universe-releases",
+      "source": "Month 10",
+      "year": 2026,
+      "preview": {
+        "excerpt": "Today, we’re making GitHub Copilot in JetBrains more capable, secure, and seamless. From GitHub Copilot Fusion’s smarter model orchestration to local sandboxes and next edit suggestions (NES), this update brings…",
+        "html": "<p>Today, we’re making GitHub Copilot in JetBrains more capable, secure, and seamless. From GitHub Copilot Fusion’s smarter model orchestration to local sandboxes and next edit suggestions (NES), this update brings powerful improvements to how you build, review, and manage work.</p><p>GitHub Copilot Fusion is now available for Copilot users in JetBrains IDEs. Copilot Fusion delivers stronger task-completion results at lower cost without requiring users to choose and coordinate models themselves. Select Standard, High, or Max based on the level of effort a task requires, and Copilot determines whether to use a single model or combine multiple models while balancing quality, speed, and cost.</p><p>Copilot Fusion replaces the current Auto model option and is gradually rolling out to all GitHub Copilot users. Copilot Fusion use is discounted 30% for the first 30 days.</p>",
+        "hasContent": true
+      }
+    },
     {
       "date": "2026-10-27",
       "title": "GitHub Copilot supports server-to-server authentication",
