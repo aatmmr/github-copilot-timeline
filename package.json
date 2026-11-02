@@ -1,9 +1,20 @@
 {
   "scripts": {
+    "dev": "nodemon --watch src --watch assets --watch data --watch copilot-timeline.html --ignore assets/timeline-data.js --ext js,json,html,css --exec \"npm start\"",
+    "start": "npm run build && http-server dist -a 127.0.0.1 -c-1",
+    "build": "npm run verify && node src/create_site.js",
+    "test": "node --test",
     "scrape": "node src/scrape_changelog.js",
     "scrape:year": "node src/scrape_changelog.js",
     "verify": "node src/verify_data.js",
     "embed": "node src/embed_data.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "nodemon": "^3.1.10"
   },
   "dependencies": {
     "axios": "^1.12.2",
