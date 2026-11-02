@@ -1,5 +1,75 @@
 /* Timeline app — references embeddedTimelineData defined inline in copilot-timeline.html */
 
+// --- Theme management ---
+
+const THEME_KEY = 'theme-preference';
+const THEME_CYCLE = ['auto', 'dark', 'light'];
+const THEME_LABELS = { auto: 'Auto', dark: 'Dark', light: 'Light' };
+const THEME_ICONS = { auto: '🖥️', dark: '🌙', light: '☀️' };
+
+function detectSystemTheme() {
+    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+}
+
+function applyTheme(theme) {
+    const resolved = theme === 'auto' ? detectSystemTheme() : theme;
+    if (resolved === 'dark') {
+        delete document.documentElement.dataset.theme;
+    } else {
+        document.documentElement.dataset.theme = 'light';
+    }
+}
+
+function getStoredPreference() {
+    try {
+        return localStorage.getItem(THEME_KEY);
+    } catch {
+        return null;
+    }
+}
+
+function storePreference(preference) {
+    try {
+        localStorage.setItem(THEME_KEY, preference);
+    } catch {
+        /* localStorage unavailable */
+    }
+}
+
+function updateThemeToggleUI(preference) {
+    const icon = document.getElementById('theme-toggle-icon');
+    const label = document.getElementById('theme-toggle-label');
+    if (icon) { icon.textContent = THEME_ICONS[preference] || THEME_ICONS.auto; }
+    if (label) { label.textContent = THEME_LABELS[preference] || THEME_LABELS.auto; }
+}
+
+function initTheme() {
+    const stored = getStoredPreference();
+    const preference = THEME_CYCLE.includes(stored) ? stored : 'auto';
+    applyTheme(preference);
+    updateThemeToggleUI(preference);
+}
+
+function cycleTheme() {
+    const current = getStoredPreference() || 'auto';
+    const index = THEME_CYCLE.indexOf(current);
+    const next = THEME_CYCLE[(index + 1) % THEME_CYCLE.length];
+    storePreference(next);
+    applyTheme(next);
+    updateThemeToggleUI(next);
+}
+
+// Apply theme immediately to avoid flash
+initTheme();
+
+// Listen for system theme changes (applies only when preference is 'auto')
+window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+    const preference = getStoredPreference() || 'auto';
+    if (preference === 'auto') {
+        applyTheme('auto');
+    }
+});
+
 const MONTH_NAMES = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 const MONTH_SHORT = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
@@ -556,6 +626,11 @@ function attachEvents() {
             closeModal();
         }
     });
+
+    const themeToggle = document.getElementById('theme-toggle');
+    if (themeToggle) {
+        themeToggle.addEventListener('click', cycleTheme);
+    }
 }
 
 initializeState();
