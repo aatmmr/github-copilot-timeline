@@ -123,15 +123,26 @@ function getEntries() {
 }
 
 function getEntryCategories(entry) {
-    const categories = entry.categories || entry.category || entry.type || [];
-    return (Array.isArray(categories) ? categories : [categories])
-        .map((category) => String(category).trim())
-        .filter(Boolean);
+    for (const value of [entry.categories, entry.category, entry.type]) {
+        const categories = (Array.isArray(value) ? value : [value])
+            .filter((category) => typeof category === 'string')
+            .map((category) => category.trim())
+            .filter(Boolean);
+        if (categories.length) {
+            return [...new Set(categories)];
+        }
+    }
+    return [];
 }
 
+let availableCategories;
+
 function getAvailableCategories() {
-    return [...new Set(getEntries().flatMap(getEntryCategories))]
-        .sort((left, right) => left.localeCompare(right));
+    if (!availableCategories) {
+        availableCategories = [...new Set(getEntries().flatMap(getEntryCategories))]
+            .sort((left, right) => left.localeCompare(right));
+    }
+    return availableCategories;
 }
 
 function getDefaultYear() {

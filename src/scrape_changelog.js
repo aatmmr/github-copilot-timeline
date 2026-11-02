@@ -71,7 +71,7 @@ function extractCategory($, $scope) {
 
   const href = typeLink.attr('href') || '';
   const slug = href.match(/\/changelog\/type\/([^/?#]+)/)?.[1]?.replace(/-/g, ' ') || '';
-  return normalizeCategory(typeLink.text() || slug);
+  return normalizeCategory(normalizeWhitespace(typeLink.text()) || slug);
 }
 
 async function fetchEntryPreview(url) {
