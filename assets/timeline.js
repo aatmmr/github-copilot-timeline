@@ -135,6 +135,10 @@ function getEntryCategories(entry) {
     return [];
 }
 
+function getCategoryColorIndex(category) {
+    return Array.from(category).reduce((sum, character) => sum + character.codePointAt(0), 0) % 8;
+}
+
 let availableCategories;
 
 function getAvailableCategories() {
@@ -422,7 +426,7 @@ function renderDayModalContent(dateString, dayEntries) {
         item.type = 'button';
         item.className = `entry-item${entry.url === selectedEntry.url ? ' active' : ''}`;
         const categoryBadges = getEntryCategories(entry)
-            .map((category) => `<span class="category-badge">${escapeHtml(category)}</span>`)
+            .map((category) => `<span class="category-badge category-color-${getCategoryColorIndex(category)}">${escapeHtml(category)}</span>`)
             .join('');
         item.innerHTML = `
             <span class="entry-item-title">${escapeHtml(entry.title)}</span>

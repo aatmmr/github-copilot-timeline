@@ -42,6 +42,18 @@ test('available categories are unique, sorted and cached, including an empty lis
     }
 });
 
+test('category badges use stable colors based on category labels', () => {
+    const context = loadTimeline();
+    assert.equal(
+        vm.runInContext("getCategoryColorIndex('Feature')", context),
+        vm.runInContext("getCategoryColorIndex('Feature')", context)
+    );
+    assert.notEqual(
+        vm.runInContext("getCategoryColorIndex('Feature')", context),
+        vm.runInContext("getCategoryColorIndex('Improvement')", context)
+    );
+});
+
 test('category, keyword and date filters combine without excluding historical entries by default', () => {
     const context = loadTimeline([
         { date: '2026-01-02', title: 'Copilot agent', category: 'Feature' },
@@ -91,6 +103,7 @@ test('day details escape category badges and omit them for historical entries', 
     const items = vm.runInContext('elements.dayEntryList.children', context);
     const categorizedHtml = items[0].children[0].innerHTML;
     assert.ok(categorizedHtml.includes('category-badge'));
+    assert.match(categorizedHtml, /category-color-\d/);
     assert.ok(categorizedHtml.includes('&lt;script&gt;alert(1)&lt;/script&gt;'));
     assert.ok(categorizedHtml.includes('&lt;b&gt;Copilot&lt;/b&gt;'));
     assert.ok(!categorizedHtml.includes('<script>'));
