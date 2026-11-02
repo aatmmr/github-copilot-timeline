@@ -7,7 +7,7 @@ Interactive heatmap visualization of GitHub Copilot changelog entries, styled as
 ## Architecture
 
 ```
-GitHub Actions (weekly cron) → Scrapers (Node.js) → JSON data file → HTML visualization → GitHub Pages
+GitHub Actions (nightly cron) → Scraper → Yearly JSON files → Node.js build → dist/ → GitHub Pages
 ```
 
 ### Key Components
@@ -16,12 +16,12 @@ GitHub Actions (weekly cron) → Scrapers (Node.js) → JSON data file → HTML 
 |-------|-------|---------|
 | **Scraping** | `src/scrape_changelog*.js`, `src/fetch_copilot_rss.js` | Fetch entries from GitHub changelog via Puppeteer, Axios+Cheerio, or RSS |
 | **Data** | `data/copilot-timeline-YYYY.json` | Canonical data store — one file per year, entries with metadata |
-| **Processing** | `src/embed_data.js`, `src/create_site.js`, `src/verify_data.js` | Merge + embed JSON into HTML, generate HTML, validate data |
+| **Processing** | `src/embed_data.js`, `src/create_site.js`, `src/verify_data.js` | Validate and merge JSON, build the static site in `dist/` |
 | **Styles** | `assets/timeline.css` | All page styles (dark theme, heatmap, modal, responsive) |
 | **App logic** | `assets/timeline.js` | Client-side filtering, rendering, events, and modal interactions |
-| **Data file** | `assets/timeline-data.js` | Generated JS file containing the merged `embeddedTimelineData` global (built by `npm run embed`) |
-| **Visualization** | `copilot-timeline.html` | Production entry point — HTML structure only; loads CSS, data, and JS externally |
-| **CI/CD** | `.github/workflows/update-timeline.yml` | Weekly scrape via GitHub Actions, deploy to GitHub Pages |
+| **Data file** | `dist/assets/timeline-data.js` | Generated JS file containing the merged `embeddedTimelineData` global (built by `npm run build`) |
+| **Visualization** | `copilot-timeline.html` | HTML source template; copied to `dist/index.html` and `dist/copilot-timeline.html` |
+| **CI/CD** | `.github/workflows/update-timeline.yml`, `.github/workflows/deploy-pages.yml` | Nightly data refresh, Node.js build, GitHub Pages deployment |
 
 ## How to Run
 
@@ -30,26 +30,31 @@ npm install                # Install dependencies (axios, cheerio, puppeteer, rs
 npm run scrape:full        # Full scrape (slowest, most thorough)
 npm run scrape             # Lighter scrape via Axios+Cheerio (CI default)
 npm run verify             # Validate JSON data
-npm run embed              # Embed JSON into HTML
-npm run build              # Generate working HTML with debug panel
+npm run embed              # Generate optional data asset for the source page
+npm run build              # Verify data and generate the complete site in dist/
+npm start                  # Build and serve locally at http://127.0.0.1:8080
+npm run dev                # Rebuild and restart the local server on source changes
+npm test                   # Run build tests with the Node.js test runner
 ```
 
 All scripts live in `src/` and can also be invoked directly, e.g. `node src/verify_data.js`.
 
 ## Deployment
 
-- The site is deployed as a **GitHub Pages** static page directly from the repository
-- The site is served from four files: `copilot-timeline.html` (HTML structure), `assets/timeline.css` (styles), `assets/timeline-data.js` (generated merged data), and `assets/timeline.js` (app logic) — no server-side rendering needed
+- Run `npm ci && npm run build` and deploy only **dist/** to a static host
+- GitHub Pages uses the GitHub Actions artifact, not the repository root
+- The build preserves the existing `copilot-timeline.html` URL and adds `index.html`
+- Node.js is needed for the build, not for the deployed site
 - `assets/timeline.js` reads the `embeddedTimelineData` global defined in `assets/timeline-data.js`
 
 ## CI/CD — GitHub Actions
 
-- The workflow file is `.github/workflows/update-timeline.yml`
-- A **weekly scheduled workflow** (`cron`: Monday 9:00 UTC) scrapes the GitHub changelog, updates the JSON data, re-embeds it into HTML, and commits the result
+- The update workflow is `.github/workflows/update-timeline.yml`
+- A **nightly scheduled workflow** (01:00 UTC) scrapes the GitHub changelog and commits the yearly JSON source data
 - Can also be triggered manually via `workflow_dispatch`
-- Pipeline steps: `npm install` → `npm run scrape` → `npm run verify` → `npm run embed` → commit & push
+- Update steps: `npm ci` → `npm run scrape` → `npm run verify` → commit data & push
 - Uses the lightweight scraper (`src/scrape_changelog_simple.js`) in CI to avoid Puppeteer's heavy browser dependency
-- The workflow commits updated `data/copilot-timeline-2025.json` and `copilot-timeline.html` back to the branch that GitHub Pages serves from
+- The deployment workflow runs `npm test` and `npm run build`, then uploads `dist/` to GitHub Pages
 
 ## Conventions
 
@@ -72,10 +77,10 @@ All scripts live in `src/` and can also be invoked directly, e.g. `node src/veri
 
 - **Hardcoded year filter**: Scripts filter for `2025` — change manually for other years
 - **Hardcoded filename**: All scripts reference `data/copilot-timeline-2025.json` — renaming breaks the pipeline
-- **No backups**: `src/embed_data.js` and `src/create_site.js` overwrite output files in place
-- **Data file is generated**: `assets/timeline-data.js` is built by `npm run embed` from the `data/*.json` files — do not edit it manually
-- **Asset paths are relative**: `assets/timeline.css` and `assets/timeline.js` are referenced with relative paths — serving from a subdirectory without a base tag will break them
+- **Build output is generated**: `npm run build` clears and replaces `dist/`; do not edit or commit it
+- **Data file is generated**: The build creates `dist/assets/timeline-data.js` from `data/*.json`; `npm run embed` creates an optional ignored source-page asset
+- **Asset paths are relative**: Preserve the output folder structure so project subpaths work
 - **Scraping fragility**: GitHub changelog HTML structure can change; selectors may need updating
 - **Puppeteer weight**: `src/scrape_changelog.js` requires a headless browser — avoid in CI; use `npm run scrape` instead
-- **GitHub Pages source**: Ensure the deployed branch/folder matches the GitHub Pages configuration in repo settings
-- **CI commits**: The Actions workflow commits generated files — avoid merge conflicts by not editing JSON/HTML data manually
+- **GitHub Pages source**: Select GitHub Actions in repository settings
+- **CI commits**: The update workflow commits only canonical JSON files; deployment generates the site

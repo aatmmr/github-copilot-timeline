@@ -32,16 +32,11 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Generate timeline data asset
-        run: npm run embed
+      - name: Test build
+        run: npm test
 
-      - name: Prepare Pages artifact
-        run: |
-          mkdir -p dist/assets
-          cp copilot-timeline.html dist/
-          cp copilot-timeline.html dist/index.html
-          cp -R assets/* dist/assets/
-          touch dist/.nojekyll
+      - name: Build site
+        run: npm run build
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
