@@ -1,15 +1,39 @@
 {
   "metadata": {
-    "scraped_at": "2026-11-03T07:29:39.985Z",
-    "total_entries": 337,
+    "scraped_at": "2026-11-04T07:12:34.843Z",
+    "total_entries": 339,
     "year_filter": 2026,
     "keyword_filter": "Copilot",
     "date_range": {
       "earliest": "2026-01-13",
-      "latest": "2026-10-28"
+      "latest": "2026-11-03"
     }
   },
   "entries": [
+    {
+      "date": "2026-11-03",
+      "title": "BYOK and enterprise custom models in the Copilot usage API",
+      "url": "https://github.blog/changelog/2026-11-03-byok-and-enterprise-custom-models-in-the-copilot-usage-api",
+      "source": "Month 11",
+      "year": 2026,
+      "preview": {
+        "excerpt": "The Copilot usage metrics API now shows bring your own key (BYOK) usage across GitHub Copilot, so you can separate it from Copilot-hosted model usage. Reports cover two kinds of…",
+        "html": "<p>The Copilot usage metrics API now shows bring your own key (BYOK) usage across GitHub Copilot, so you can separate it from Copilot-hosted model usage. Reports cover two kinds of BYOK:</p><p>Both appear in enterprise and organization reports, at the user and aggregate level, in 1-day and 28-day reports.</p><p>Local BYOK covers a developer’s own provider key and local models served by tools such as Ollama, Foundry Local, LM Studio, and llama-server.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-11-03",
+      "title": "GitHub Copilot is now available in JetBrains Air",
+      "url": "https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air",
+      "source": "Month 11",
+      "year": 2026,
+      "preview": {
+        "excerpt": "You can now delegate coding tasks, guide execution, and review results with GitHub Copilot in JetBrains Air. The integration uses the Agent Client Protocol (ACP) and supports tasks in your…",
+        "html": "<p>You can now delegate coding tasks, guide execution, and review results with GitHub Copilot in JetBrains Air. The integration uses the Agent Client Protocol (ACP) and supports tasks in your JetBrains IDE or in the cloud.</p><p>Use Copilot in Air alongside the GitHub Copilot plugin and choose the workflow that works best for you. For a comparison and FAQ, see GitHub Copilot in JetBrains Air.</p><p>For local tasks, install Air in your JetBrains IDE, select GitHub Copilot, and connect your GitHub Copilot account.</p>",
+        "hasContent": true
+      }
+    },
     {
       "date": "2026-10-28",
       "title": "Route and orchestrate models with GitHub Copilot Fusion",
