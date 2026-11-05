@@ -1,15 +1,27 @@
 {
   "metadata": {
-    "scraped_at": "2026-11-04T07:12:34.843Z",
-    "total_entries": 339,
+    "scraped_at": "2026-11-05T07:40:22.959Z",
+    "total_entries": 340,
     "year_filter": 2026,
     "keyword_filter": "Copilot",
     "date_range": {
       "earliest": "2026-01-13",
-      "latest": "2026-11-03"
+      "latest": "2026-11-04"
     }
   },
   "entries": [
+    {
+      "date": "2026-11-04",
+      "title": "GitHub Copilot is now available in Xcode’s coding assistant",
+      "url": "https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant",
+      "source": "Month 11",
+      "year": 2026,
+      "preview": {
+        "excerpt": "You can now work with GitHub Copilot directly in Xcode’s built-in coding assistant, bringing Copilot into your native Xcode workflow. The integration is now in public preview, available starting with…",
+        "html": "<p>You can now work with GitHub Copilot directly in Xcode’s built-in coding assistant, bringing Copilot into your native Xcode workflow. The integration is now in public preview, available starting with Xcode 27.3 beta.</p><p>This gives you another way to use Copilot in Xcode. The existing GitHub Copilot for Xcode extension remains a separate option, so you can choose the workflow that works best for you.</p><p>Download Xcode 27.3 beta from Apple Developer Downloads. You’ll need a Mac running macOS Tahoe 26.6 or later.</p>",
+        "hasContent": true
+      }
+    },
     {
       "date": "2026-11-03",
       "title": "BYOK and enterprise custom models in the Copilot usage API",
