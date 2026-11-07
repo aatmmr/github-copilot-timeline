@@ -1,15 +1,51 @@
 {
   "metadata": {
-    "scraped_at": "2026-11-06T07:37:16.227Z",
-    "total_entries": 340,
+    "scraped_at": "2026-11-07T06:52:05.359Z",
+    "total_entries": 343,
     "year_filter": 2026,
     "keyword_filter": "Copilot",
     "date_range": {
       "earliest": "2026-01-13",
-      "latest": "2026-11-04"
+      "latest": "2026-11-06"
     }
   },
   "entries": [
+    {
+      "date": "2026-11-06",
+      "title": "Copilot code review: API management and review overview updates",
+      "url": "https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates",
+      "source": "Month 11",
+      "year": 2026,
+      "preview": {
+        "excerpt": "You can now manage GitHub Copilot code review settings through the REST and GraphQL APIs, from enterprise policy down to individual repositories. Copilot’s review overview comment is now more compact,…",
+        "html": "<p>You can now manage GitHub Copilot code review settings through the REST and GraphQL APIs, from enterprise policy down to individual repositories. Copilot’s review overview comment is now more compact, and this update includes fixes for billing, automatic reviews, and reliability.</p><p>These updates are available to Copilot Pro, Pro+, Max, Business, and Enterprise plans.</p><p>You can already request reviews, choose their effort level, and get information back through the REST API. You can now also:</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-11-06",
+      "title": "Copilot impact dashboard adds chat and VS Code agent usage",
+      "url": "https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage",
+      "source": "Month 11",
+      "year": 2026,
+      "preview": {
+        "excerpt": "The Agent adoption chart in the Copilot impact dashboard now includes Copilot Chat and the VS Code Agents window, so you can see engagement across nine Copilot experiences. The adoption…",
+        "html": "<p>The Agent adoption chart in the Copilot impact dashboard now includes Copilot Chat and the VS Code Agents window, so you can see engagement across nine Copilot experiences. The adoption cohort called “Passive users” is now “Chat-first users”, which better describes who is in it. The enterprise and organization 28-day usage metrics reports include the same two features. This builds on feature engagement in the Copilot impact dashboard.</p><p>Chat is a core Copilot experience, but the dashboard didn’t show it, and users who mainly use chat were labeled passive. Showing Copilot Chat and VS Code Agents window engagement and naming the cohort for what it represents gives a more complete picture of how developers use Copilot.</p><p>Visit the Copilot impact dashboard documentation and the Copilot usage metrics API documentation to get started.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-11-06",
+      "title": "GitHub Copilot weekly releases — November 2",
+      "url": "https://github.blog/changelog/2026-11-06-github-copilot-weekly-releases-november-2",
+      "source": "Month 11",
+      "year": 2026,
+      "preview": {
+        "excerpt": "This week, Copilot comes to JetBrains Air and Xcode’s coding assistant, with updates to help you manage pull requests, settings, and agent sessions. GitHub Copilot app Set up Agent Merge…",
+        "html": "<p>This week, Copilot comes to JetBrains Air and Xcode’s coding assistant, with updates to help you manage pull requests, settings, and agent sessions.</p><p>Manage your whole setup in one place. /settings now opens a unified dashboard for your plugins, MCP servers, and more, and you can search across all of your settings.</p><p>Introducing a new way to use GitHub Copilot in JetBrains IDEs, with Copilot now available in JetBrains Air. Track multiple agent sessions and run tasks locally in your JetBrains IDE or in the cloud through Air Teams, using your existing Copilot subscription.</p>",
+        "hasContent": true
+      }
+    },
     {
       "date": "2026-11-04",
       "title": "GitHub Copilot is now available in Xcode’s coding assistant",
