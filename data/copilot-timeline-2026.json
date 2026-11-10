@@ -1,15 +1,27 @@
 {
   "metadata": {
-    "scraped_at": "2026-11-09T07:35:36.758Z",
-    "total_entries": 343,
+    "scraped_at": "2026-11-10T07:59:41.778Z",
+    "total_entries": 344,
     "year_filter": 2026,
     "keyword_filter": "Copilot",
     "date_range": {
       "earliest": "2026-01-13",
-      "latest": "2026-11-06"
+      "latest": "2026-11-09"
     }
   },
   "entries": [
+    {
+      "date": "2026-11-09",
+      "title": "Claude Fable 5.2 in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot",
+      "source": "Month 11",
+      "year": 2026,
+      "preview": {
+        "excerpt": "Claude Fable 5.2, Anthropic’s newest Fable model, is now generally available in GitHub Copilot. You can use it for complex, multistep coding tasks across large codebases. In early testing, Fable…",
+        "html": "<p>Claude Fable 5.2, Anthropic’s newest Fable model, is now generally available in GitHub Copilot. You can use it for complex, multistep coding tasks across large codebases. In early testing, Fable 5.2 solved more tasks than Claude Fable 5.1 while using fewer steps and tool calls. It also completed hard tasks that earlier models missed.</p><p>Claude Fable 5.2 requires data retention by default to operate Anthropic’s safety classifiers. Zero data retention access is available for certain eligible enterprise customers. Continue reading for more details.</p><p>This model is billed at provider list pricing under usage-based billing. See Models and pricing for GitHub Copilot for details.</p>",
+        "hasContent": true
+      }
+    },
     {
       "date": "2026-11-06",
       "title": "Copilot code review: API management and review overview updates",
