@@ -1,15 +1,39 @@
 {
   "metadata": {
-    "scraped_at": "2026-11-10T07:59:41.778Z",
-    "total_entries": 344,
+    "scraped_at": "2026-11-11T07:29:34.469Z",
+    "total_entries": 346,
     "year_filter": 2026,
     "keyword_filter": "Copilot",
     "date_range": {
       "earliest": "2026-01-13",
-      "latest": "2026-11-09"
+      "latest": "2026-11-10"
     }
   },
   "entries": [
+    {
+      "date": "2026-11-10",
+      "title": "GitHub App support for Enterprise Copilot seat management",
+      "url": "https://github.blog/changelog/2026-11-10-github-app-support-for-enterprise-copilot-seat-management",
+      "source": "Month 11",
+      "year": 2026,
+      "preview": {
+        "excerpt": "Enterprise GitHub Apps can now call the enterprise-level Copilot seat management APIs to control which users and enterprise teams are assigned Copilot seats. The Copilot seat management APIs are accessible…",
+        "html": "<p>Enterprise GitHub Apps can now call the enterprise-level Copilot seat management APIs to control which users and enterprise teams are assigned Copilot seats.</p><p>The Copilot seat management APIs are accessible with a new enterprise fine-grained permission for Apps: Enterprise Copilot license management.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-11-10",
+      "title": "Gemini 4 Carbon in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-11-10-gemini-4-carbon-in-github-copilot",
+      "source": "Month 11",
+      "year": 2026,
+      "preview": {
+        "excerpt": "Gemini 4 Carbon, Google’s latest model, is now generally available in GitHub Copilot. It is designed for complex coding, agentic, and reasoning tasks, with a focus on secure code generation…",
+        "html": "<p>Gemini 4 Carbon, Google’s latest model, is now generally available in GitHub Copilot. It is designed for complex coding, agentic, and reasoning tasks, with a focus on secure code generation and security-focused work.</p><p>This model is billed at provider list pricing under usage-based billing. See Models and pricing for GitHub Copilot for details.</p><p>Gemini 4 Carbon is available to Copilot Pro+, Max, Business, and Enterprise users. You can select the model in the model picker in:</p>",
+        "hasContent": true
+      }
+    },
     {
       "date": "2026-11-09",
       "title": "Claude Fable 5.2 in GitHub Copilot",
