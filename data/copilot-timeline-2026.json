@@ -1,15 +1,51 @@
 {
   "metadata": {
-    "scraped_at": "2026-11-13T07:33:58.592Z",
-    "total_entries": 346,
+    "scraped_at": "2026-11-14T07:18:51.105Z",
+    "total_entries": 349,
     "year_filter": 2026,
     "keyword_filter": "Copilot",
     "date_range": {
       "earliest": "2026-01-13",
-      "latest": "2026-11-10"
+      "latest": "2026-11-13"
     }
   },
   "entries": [
+    {
+      "date": "2026-11-13",
+      "title": "Upcoming deprecation of selected GitHub Copilot models in December",
+      "url": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december",
+      "source": "Month 11",
+      "year": 2026,
+      "preview": {
+        "excerpt": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on December 14, 2026: Model Deprecation date…",
+        "html": "<p>We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on December 14, 2026:</p><p>*Claude Haiku 4.5 will remain available to individual GitHub Copilot subscribers on annual plans. The deprecation of Claude Haiku 4.5 does not apply to these customers.</p><p>Please update your workflows and integrations to use the supported models before this date. Under default model enablement, the suggested alternatives are automatically enabled for Copilot Enterprise and Copilot Business customers unless an administrator has turned off the global default or explicitly disabled the model. If you’ve turned off the global default, you can enable access to the alternative models through their model policies in Copilot settings.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-11-13",
+      "title": "GitHub Enterprise Server support in the GitHub Copilot app",
+      "url": "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app",
+      "source": "Month 11",
+      "year": 2026,
+      "preview": {
+        "excerpt": "You can now bring your work on GitHub Enterprise Server (GHES) into the GitHub Copilot app.",
+        "html": "<p>You can now bring your work on GitHub Enterprise Server (GHES) into the GitHub Copilot app. Add your GHES account to work with remote repositories, issues, and pull requests. This feature was previously an opt-in preview, and is now generally available.</p><p>You’ll need to sign in with a GitHub.com or GHE.com account first. Then, go to Settings &gt; Accounts &gt; Add account and choose GitHub Enterprise Server.</p><p>Available in GitHub Copilot app 1.2.0 and later. Cloud sessions aren’t available for GHES. Learn more in our Copilot GHES documentation.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-11-13",
+      "title": "Gemini 4 Hydrogen in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot",
+      "source": "Month 11",
+      "year": 2026,
+      "preview": {
+        "excerpt": "Gemini 4 Hydrogen, Google’s latest Flash model, is now generally available in GitHub Copilot. It is designed for fast, efficient agentic coding, tool use, and multistep workflows, with improved instruction…",
+        "html": "<p>Gemini 4 Hydrogen, Google’s latest Flash model, is now generally available in GitHub Copilot. It is designed for fast, efficient agentic coding, tool use, and multistep workflows, with improved instruction following over Gemini 3.8 Flash.</p><p>This model is billed at provider list pricing under usage-based billing. See Models and pricing for GitHub Copilot for details.</p><p>Gemini 4 Hydrogen is available to Copilot Pro, Pro+, Max, Business, and Enterprise users. You can select the model in the model picker in:</p>",
+        "hasContent": true
+      }
+    },
     {
       "date": "2026-11-10",
       "title": "GitHub App support for Enterprise Copilot seat management",
