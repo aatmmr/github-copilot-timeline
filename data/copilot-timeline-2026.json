@@ -1,15 +1,51 @@
 {
   "metadata": {
-    "scraped_at": "2026-11-16T07:35:38.834Z",
-    "total_entries": 349,
+    "scraped_at": "2026-11-17T08:46:44.991Z",
+    "total_entries": 352,
     "year_filter": 2026,
     "keyword_filter": "Copilot",
     "date_range": {
       "earliest": "2026-01-13",
-      "latest": "2026-11-13"
+      "latest": "2026-11-16"
     }
   },
   "entries": [
+    {
+      "date": "2026-11-16",
+      "title": "GitHub Copilot weekly releases — November 9",
+      "url": "https://github.blog/changelog/2026-11-16-github-copilot-weekly-releases-november-9",
+      "source": "Month 11",
+      "year": 2026,
+      "preview": {
+        "excerpt": "This week, bring GitHub Enterprise Server repositories into the Copilot app and see which agent sessions need you first in VS Code.",
+        "html": "<p>This week, bring GitHub Enterprise Server repositories into the Copilot app and see which agent sessions need you first in VS Code. You can also try two new models, Claude Fable 5.2 and Gemini 4 Carbon.</p><p>Explore everything that’s new in the full release notes.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-11-16",
+      "title": "GitHub Copilot models deprecated on November 16, 2026",
+      "url": "https://github.blog/changelog/2026-11-16-github-copilot-models-deprecated-on-november-16-2026",
+      "source": "Month 11",
+      "year": 2026,
+      "preview": {
+        "excerpt": "As of today, November 16, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Note…",
+        "html": "<p>As of today, November 16, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Note that Claude Opus 4.8 is still available to individual GitHub Copilot subscribers on annual plans.</p><p>These deprecations were announced on October 15, 2026.</p><p>Claude Opus 5 has been removed from the model picker but remains available for runtime refusal fallback through existing authorized access. Existing enterprise model policies continue to apply.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-11-16",
+      "title": "Control where GitHub Copilot customizations come from",
+      "url": "https://github.blog/changelog/2026-11-16-control-where-github-copilot-customizations-come-from",
+      "source": "Month 11",
+      "year": 2026,
+      "preview": {
+        "excerpt": "As an enterprise administrator, you can now require selected GitHub Copilot customizations to come from plugins or managed settings, rather than standalone user or project configuration. Combined with marketplace restrictions,…",
+        "html": "<p>As an enterprise administrator, you can now require selected GitHub Copilot customizations to come from plugins or managed settings, rather than standalone user or project configuration. Combined with marketplace restrictions, this lets you distribute approved MCP tools and canvases through a shared plugin library without disabling those capabilities entirely.</p><p>The strictPluginOnlyCustomization managed setting blocks standalone customizations from user and project sources. Eligible plugins and managed settings remain allowed, subject to your other policies.</p><p>You can apply the restriction to all five supported categories or select individual ones: skills, custom agents, hooks, MCP servers, and executable Copilot extensions. For example, restrict MCP servers and extensions while leaving skills, agents, and hooks open. Extensions here include executable canvas providers, not VS Code Marketplace extensions.</p>",
+        "hasContent": true
+      }
+    },
     {
       "date": "2026-11-13",
       "title": "Upcoming deprecation of selected GitHub Copilot models in December",
