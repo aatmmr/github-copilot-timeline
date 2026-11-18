@@ -1,15 +1,147 @@
 {
   "metadata": {
-    "scraped_at": "2026-11-17T08:46:44.991Z",
-    "total_entries": 352,
+    "scraped_at": "2026-11-18T08:09:25.818Z",
+    "total_entries": 363,
     "year_filter": 2026,
     "keyword_filter": "Copilot",
     "date_range": {
       "earliest": "2026-01-13",
-      "latest": "2026-11-16"
+      "latest": "2026-11-17"
     }
   },
   "entries": [
+    {
+      "date": "2026-11-17",
+      "title": "GitHub Copilot Fusion updates: more availability, benchmarks, and models",
+      "url": "https://github.blog/changelog/2026-11-17-github-copilot-fusion-updates-more-availability-benchmarks-and-models",
+      "source": "Month 11",
+      "year": 2026,
+      "preview": {
+        "excerpt": "Today, we’re expanding GitHub Copilot Fusion with new models, available on more Copilot surfaces, and results on two public Terminal-Bench leaderboards, giving you more ways to use Fusion and compare…",
+        "html": "<p>Today, we’re expanding GitHub Copilot Fusion with new models, available on more Copilot surfaces, and results on two public Terminal-Bench leaderboards, giving you more ways to use Fusion and compare its performance.</p><p>Copilot Fusion is now listed on Terminal-Bench 4.1 public leaderboards hosted by Stanford, Harbor, and the Laude Institute: Terminal-Bench 4.1 measures how well AI agents complete hard, realistic tasks in a terminal.</p><p>On Terminal-Bench 4.1, Copilot Fusion Max achieved a 71.2% resolution rate, 5.4 percentage points ahead of leading frontier models Opus 5.5 and Fable 5.2, while costing 88% less than Fable 5.2 and 57% less than Opus 5.5.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-11-17",
+      "title": "GitHub Copilot app, Microsoft Ignite releases",
+      "url": "https://github.blog/changelog/2026-11-17-github-copilot-app-microsoft-ignite-releases",
+      "source": "Month 11",
+      "year": 2026,
+      "preview": {
+        "excerpt": "The GitHub Copilot app now supports your Azure DevOps repositories, your GitHub Enterprise Server instance, and the browser you're already signed in to.",
+        "html": "<p>Copilot is most useful when it can work where you do. The GitHub Copilot app now supports your Azure DevOps repositories, your GitHub Enterprise Server instance, and the browser you’re already signed in to.</p><p>Clone an Azure DevOps repository, ask an agent to create a branch, make code changes, and open a pull request, then see it through to completion without leaving the GitHub Copilot app. Track its status in the sidebar, click Fix on a review comment to have an agent address it, or turn on agent merge to let an agent fix CI failures and complete the pull request once your Azure DevOps checks and policies pass.</p><p>Azure DevOps integration is now in public preview. To get started, open Settings &gt; Experimental and turn on Azure DevOps integration, then go to Accounts &gt; Add account and sign in with the Microsoft account you use for Azure DevOps. Cloud sessions aren’t available for Azure DevOps repositories.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-11-17",
+      "title": "Copilot code review: Adaptive effort, secret detection, and more",
+      "url": "https://github.blog/changelog/2026-11-17-copilot-code-review-adaptive-effort-secret-detection-and-more",
+      "source": "Month 11",
+      "year": 2026,
+      "preview": {
+        "excerpt": "GitHub Copilot code review now helps you catch more issues earlier, with less effort. Adaptive matches review depth to each pull request, so routine changes get a quick pass and…",
+        "html": "<p>GitHub Copilot code review now helps you catch more issues earlier, with less effort. Adaptive matches review depth to each pull request, so routine changes get a quick pass and risky changes get a deeper look. Reviews can also draw on related repositories and flag exposed secrets before they reach your main branch. Features in public preview are subject to change.</p><p>Adaptive, cross-repository context, and secret detection are available to Copilot Pro, Pro+, Max, Business, and Enterprise plans.</p><p>Today, someone has to decide in settings or when requesting a review, what review effort level each pull request needs. A documentation update may only need Lite, while a change to authentication logic benefits from Max. Adaptive makes that choice for you. Copilot looks at each pull request’s complexity and risk, then reviews it with Lite, Balanced, or Max. Each review shows which effort level Adaptive picked. Adaptive is now in public preview.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-11-17",
+      "title": "MAI Code 2 and MAI Code 2 Flash in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-11-17-mai-code-2-and-mai-code-2-flash-in-github-copilot",
+      "source": "Month 11",
+      "year": 2026,
+      "preview": {
+        "excerpt": "The next generation of Microsoft AI (MAI) coding models has arrived in GitHub Copilot. Introducing MAI Code 2 and MAI Code 2 Flash, two new models that represent a major…",
+        "html": "<p>The next generation of Microsoft AI (MAI) coding models has arrived in GitHub Copilot. Introducing MAI Code 2 and MAI Code 2 Flash, two new models that represent a major step forward for the MAI-Code family, expanding from lightweight coding assistance to complex, agentic software engineering.</p><p>Both models are designed for agentic coding workflows, giving developers more flexibility to choose the model that best fits their task.</p><p>Read the MAI Code 2 and MAI Code 2 Flash announcement for a deeper look at the model’s vision support, coding performance improvements, and efficiency gains.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-11-17",
+      "title": "Monitor GitHub Copilot activity through Microsoft Agent 365",
+      "url": "https://github.blog/changelog/2026-11-17-monitor-github-copilot-activity-through-microsoft-agent-365",
+      "source": "Month 11",
+      "year": 2026,
+      "preview": {
+        "excerpt": "Enterprises can now stream GitHub Copilot agent activity directly into Microsoft Agent 365. This lets you bring audit data from across GitHub Copilot clients into Microsoft’s agent control plane, where…",
+        "html": "<p>Enterprises can now stream GitHub Copilot agent activity directly into Microsoft Agent 365. This lets you bring audit data from across GitHub Copilot clients into Microsoft’s agent control plane, where you can review Copilot activity alongside other AI workloads.</p><p>This is available for GitHub Enterprise Cloud customers with Enterprise Managed Users. To get started, see Streaming the audit log for your enterprise on GitHub Docs.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-11-17",
+      "title": "GitHub Copilot in JetBrains, Ignite releases",
+      "url": "https://github.blog/changelog/2026-11-17-github-copilot-in-jetbrains-ignite-releases",
+      "source": "Month 11",
+      "year": 2026,
+      "preview": {
+        "excerpt": "This update brings remote access, on-device voice dictation, and browser use controls to GitHub Copilot for JetBrains. Copilot users in JetBrains IDEs also get context usage shortcuts, historical diffs, simpler…",
+        "html": "<p>This update brings remote access, on-device voice dictation, and browser use controls to GitHub Copilot for JetBrains. Copilot users in JetBrains IDEs also get context usage shortcuts, historical diffs, simpler follow-up controls, and improvements to chat reliability.</p><p>Cloud sandbox runs Copilot sessions in an isolated, GitHub-hosted environment instead of on your computer. Copilot can make code changes and run commands and tests there, freeing local resources and allowing parallel sessions. We’re rolling this out in phases.</p><p>You can now opt in to remote access to make Copilot chats available in other Copilot clients, such as VS Code and the Copilot app. Discover shared sessions from remotely accessible computers, or reopen remote sessions from history to continue the conversation. We’re rolling this out in phases.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-11-17",
+      "title": "Track Copilot code review outcomes in Repository insights",
+      "url": "https://github.blog/changelog/2026-11-17-track-copilot-code-review-outcomes-in-repository-insights",
+      "source": "Month 11",
+      "year": 2026,
+      "preview": {
+        "excerpt": "You can now see how Copilot code review feedback lands in each repository. A new “Repository insights” page, the first item in a repository’s Insights tab, brings Copilot code review…",
+        "html": "<p>You can now see how Copilot code review feedback lands in each repository. A new “Repository insights” page, the first item in a repository’s Insights tab, brings Copilot code review outcomes together in one place.</p><p>Repository insights show four summary signals for each repository:</p><p>The same metrics are also available in the enterprise and organization repository 1-day reports (repos-1-day) in the Copilot usage metrics API.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-11-17",
+      "title": "GitHub Copilot CLI adds Microsoft Entra sign-in as a preview",
+      "url": "https://github.blog/changelog/2026-11-17-github-copilot-cli-adds-microsoft-entra-sign-in-as-a-preview",
+      "source": "Month 11",
+      "year": 2026,
+      "preview": {
+        "excerpt": "GitHub Copilot CLI now supports Microsoft Entra authentication in public preview. You can sign in with your Microsoft Entra account to silently authenticate to a linked GitHub Enterprise Managed User…",
+        "html": "<p>GitHub Copilot CLI now supports Microsoft Entra authentication in public preview. You can sign in with your Microsoft Entra account to silently authenticate to a linked GitHub Enterprise Managed User (EMU) account, use your Microsoft 365 Copilot license, or both, depending on your organization’s entitlements.</p><p>Microsoft Entra authentication for both EMUs and Microsoft 365 Copilot is currently supported on Windows and macOS. Linux support will follow.</p><p>For enterprises using EMUs via OIDC, GitHub Copilot CLI now supports silent SSO using Microsoft Entra authentication. You can access GitHub from GitHub Copilot CLI using your Microsoft Entra identity without a separate GitHub sign-in. You must have an assigned Copilot Business or Copilot Enterprise license, and your organization must enable the Copilot CLI policy. In this scenario, GitHub Copilot CLI uses GitHub inference, and usage is governed by the organization’s GitHub Copilot plan.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-11-17",
+      "title": "GitHub Copilot Evals is now in public preview",
+      "url": "https://github.blog/changelog/2026-11-17-github-copilot-evals-is-now-in-public-preview",
+      "source": "Month 11",
+      "year": 2026,
+      "preview": {
+        "excerpt": "You can now use GitHub Copilot Evals to optimize GitHub Copilot for yourself. As your prompts, models, skills, and tools change, are you still getting the most out of Copilot?…",
+        "html": "<p>You can now use GitHub Copilot Evals to optimize GitHub Copilot for yourself. As your prompts, models, skills, and tools change, are you still getting the most out of Copilot? Evals helps you answer that question for the skills, agents, and MCP tools in your setup. Create an eval, inspect how they behave, and use the results to decide what to improve.</p><p>An eval is a repeatable test for AI behavior. You give an agent a realistic task, describe what a good result looks like, and check both the result and how the agent got there.</p><p>AI output can change from one run to the next, so one good answer doesn’t tell you whether a customization works well for you. After changing a skill, agent, or MCP in your Copilot setup, rerun the same eval to check the behavior you care about and catch regressions.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-11-17",
+      "title": "GitHub Copilot benchmarks site adds harness comparisons",
+      "url": "https://github.blog/changelog/2026-11-17-github-copilot-benchmarks-site-adds-harness-comparisons",
+      "source": "Month 11",
+      "year": 2026,
+      "preview": {
+        "excerpt": "GitHub Copilot benchmarks now includes Terminal-Bench-Science 0.1 and adds a new view that compares agent harnesses, both available in public preview. The site compares models in the GitHub Copilot agent…",
+        "html": "<p>GitHub Copilot benchmarks now includes Terminal-Bench-Science 0.1 and adds a new view that compares agent harnesses, both available in public preview. The site compares models in the GitHub Copilot agent harness, or harnesses using the same model, across established software engineering benchmarks, weighing resolution rate, reasoning effort, and cost per task.</p><p>In addition to software engineering benchmarks, the site now includes Terminal-Bench-Science 0.1, which evaluates AI agents on research workflows across scientific domains. This extends coverage beyond writing code to challenging workflows drawn from scientific research. Tasks are authored and reviewed by domain experts across the life, physical, earth, mathematical, and engineering sciences. Results are available via the benchmark picker.</p><p>The new Harnesses view compares GitHub Copilot CLI with Claude Code and Codex CLI using the same model at the same reasoning effort.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-11-17",
+      "title": "Let GitHub Copilot interact with your browser",
+      "url": "https://github.blog/changelog/2026-11-17-let-github-copilot-interact-with-your-browser",
+      "source": "Month 11",
+      "year": 2026,
+      "preview": {
+        "excerpt": "Paired with the GitHub Copilot Chrome extension, browser use is now available in public preview in GitHub Copilot CLI, GitHub Copilot app, VS Code and JetBrains. This is part of…",
+        "html": "<p>Paired with the GitHub Copilot Chrome extension, browser use is now available in public preview in GitHub Copilot CLI, GitHub Copilot app, VS Code and JetBrains. This is part of our ongoing effort to bring computer use into developers’ everyday workflows, making it easier to work with Copilot in the tools they already use. Browser use can be used together with computer use to give Copilot more direct access to workflows in a web browser.</p><p>Bring browser use into your daily workflow. You can ask Copilot to control the browser, debug web apps in real time, automate browser tests, and handle complex web tasks, all alongside the tools you already use.</p><p>Ask Copilot to use your browser to complete a task.</p>",
+        "hasContent": true
+      }
+    },
     {
       "date": "2026-11-16",
       "title": "GitHub Copilot weekly releases — November 9",
