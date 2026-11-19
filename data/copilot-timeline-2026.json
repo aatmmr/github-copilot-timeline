@@ -1,15 +1,51 @@
 {
   "metadata": {
-    "scraped_at": "2026-11-18T08:09:25.818Z",
-    "total_entries": 363,
+    "scraped_at": "2026-11-19T08:18:17.962Z",
+    "total_entries": 366,
     "year_filter": 2026,
     "keyword_filter": "Copilot",
     "date_range": {
       "earliest": "2026-01-13",
-      "latest": "2026-11-17"
+      "latest": "2026-11-18"
     }
   },
   "entries": [
+    {
+      "date": "2026-11-18",
+      "title": "Connect Supabase, Box, Calendly, and more to Copilot",
+      "url": "https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot",
+      "source": "Month 11",
+      "year": 2026,
+      "preview": {
+        "excerpt": "You can now connect eight more services to Copilot using GitHub-verified MCP servers, or connectors, available in public preview. They join more than 25 services you can already connect, like…",
+        "html": "<p>You can now connect eight more services to Copilot using GitHub-verified MCP servers, or connectors, available in public preview. They join more than 25 services you can already connect, like Slack, Figma, and Sentry. To see the full list, open Customize in the Copilot app or browse the Copilot customization page.</p><p>For example, you can ask Copilot why your latest Buildkite build failed and have it fix the code in the same session, or have it check your Supabase schema before it writes a migration.</p><p>Connect these services once, and you can use them across Copilot.</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-11-18",
+      "title": "Gemini 4 Neon in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot",
+      "source": "Month 11",
+      "year": 2026,
+      "preview": {
+        "excerpt": "Gemini 4 Neon is now generally available in GitHub Copilot. It is designed for agentic coding, multistep tool use, and knowledge work. According to Google, Gemini 4 Neon delivers quality…",
+        "html": "<p>Gemini 4 Neon is now generally available in GitHub Copilot. It is designed for agentic coding, multistep tool use, and knowledge work. According to Google, Gemini 4 Neon delivers quality close to Gemini 4 Carbon at a lower token cost per task. Google also reports that, compared with Gemini 4 Carbon, it starts responding faster and makes fewer unrequested changes on coding tasks. It is also less likely to make unsupported claims about code, tool, or test results.</p><p>This model is billed at provider list pricing under usage-based billing. See Models and pricing for GitHub Copilot for details.</p><p>Gemini 4 Neon is available to Copilot Pro+, Max, Business, and Enterprise users. You can select the model in the model picker in:</p>",
+        "hasContent": true
+      }
+    },
+    {
+      "date": "2026-11-18",
+      "title": "Customize GitHub Copilot for your team",
+      "url": "https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team",
+      "source": "Month 11",
+      "year": 2026,
+      "preview": {
+        "excerpt": "You can now share the GitHub Copilot plugins your team relies on without asking every member to repeat the same setup. Team customizations are generally available for organization teams. Team…",
+        "html": "<p>You can now share the GitHub Copilot plugins your team relies on without asking every member to repeat the same setup. Team customizations are generally available for organization teams.</p><p>Team maintainers and organization owners can select approved Agent Plugins as team defaults. This gives your team a shared starting point between individual customization and organization-wide policy.</p><p>If you’re a team maintainer or organization owner, open your organization team on github.com and select the Customize Copilot tab. From there, you can:</p>",
+        "hasContent": true
+      }
+    },
     {
       "date": "2026-11-17",
       "title": "GitHub Copilot Fusion updates: more availability, benchmarks, and models",
