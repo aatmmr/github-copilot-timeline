@@ -1,15 +1,27 @@
 {
   "metadata": {
-    "scraped_at": "2026-11-25T09:30:24.296Z",
-    "total_entries": 366,
+    "scraped_at": "2026-11-26T09:07:29.064Z",
+    "total_entries": 367,
     "year_filter": 2026,
     "keyword_filter": "Copilot",
     "date_range": {
       "earliest": "2026-01-13",
-      "latest": "2026-11-18"
+      "latest": "2026-11-25"
     }
   },
   "entries": [
+    {
+      "date": "2026-11-25",
+      "title": "Copilot code review billing will default to the organization",
+      "url": "https://github.blog/changelog/2026-11-25-copilot-code-review-billing-will-default-to-the-organization",
+      "source": "Month 11",
+      "year": 2026,
+      "preview": {
+        "excerpt": "If you haven’t chosen how to bill Copilot code review for members with a Copilot license, those reviews will be billed to your organization starting December 30, 2026. To keep…",
+        "html": "<p>If you haven’t chosen how to bill Copilot code review for members with a Copilot license, those reviews will be billed to your organization starting December 30, 2026. To keep billing unchanged, select Member before then. This change applies to organizations and enterprises with Copilot Business or Copilot Enterprise.</p><p>Today, when no billing choice is saved, reviews by members who have a paid Copilot license use the member’s Copilot entitlement. Starting December 30, 2026, those reviews will be billed to the organization that owns the repository. Accounts that don’t have AI Credits paid usage enabled, have a billing lock, or have no billable customer will be set to Member instead.</p><p>Until then, unset settings show Default (Member) with a notice about the change. To keep using members’ Copilot entitlements, select Member in your enterprise or organization Copilot policy settings. That choice stays in effect after the default changes.</p>",
+        "hasContent": true
+      }
+    },
     {
       "date": "2026-11-18",
       "title": "Connect Supabase, Box, Calendly, and more to Copilot",
